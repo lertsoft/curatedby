@@ -33,7 +33,7 @@ const Meta = (props: IMetaProps) => {
           content="typescript_next_template"
         />
         <meta name="theme-color" content="#000" />
-        <title>typescript_next_template</title>
+        <title>Curated By</title>
         <link rel="manifest" href="/manifest.json" />
         <link
           rel="icon"
