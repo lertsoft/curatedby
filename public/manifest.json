@@ -4,8 +4,8 @@
   "display": "browser",
   "scope": "/",
   "start_url": "/",
-  "name": "typescript_next_template",
-  "short_name": "typescript_next_template",
+  "name": "Curated By",
+  "short_name": "Curated By",
   "icons": [
     {
       "src": "/icon-192x192.png",
@@ -34,5 +34,5 @@
       "purpose": "maskable"
     }
   ],
-  "description": "typescript_next_template"
+  "description": "This website was created with the purpose of better organizing all my saved places on google maps, and so that I can more easily find the places that i want to go or have been."
 }

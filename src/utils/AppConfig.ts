@@ -1,7 +1,7 @@
 export const AppConfig = {
-  site_name: 'Typescript Template',
-  title: 'Typescript base template to start any project',
+  site_name: 'Curated By',
+  title: 'Curated Places by Ronny Coste - Places I want to go',
   description:
-    'Typescript based template with NextTS, React, TailwindCSS, lint, Metadata, Folder structure, and basic setup time!',
+    'This website was created with the purpose of better organizing all my saved places on google maps, and so that I can more easily find the places that i want to go or have been.',
   locale: 'en',
 };
