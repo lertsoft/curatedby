@@ -27,7 +27,7 @@ const Main = (props: IMainProps) => (
         <Section yPadding="py-1">
           <NavbarTwoColumns logo="Curated By">
             <li className="mt-0">
-              <Link href="/about">
+              <Link href="/locations">
                 <a>List</a>
               </Link>
             </li>

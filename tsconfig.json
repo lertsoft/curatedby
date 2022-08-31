@@ -46,6 +46,9 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "src/components/maps/Maps.jsx"
+    "src/components/maps/Maps.jsx",
+    "src/data/Bars.js",
+    "src/data/Cafes.js",
+    "src/data/Cultural.js"
   ]
 }

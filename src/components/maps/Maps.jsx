@@ -9,6 +9,9 @@ import {
 } from '@react-google-maps/api';
 
 import parks from '@/data/Parks';
+import bars from '@/data/Bars';
+import cafes from '@/data/Cafes';
+import cultural from '@/data/Cultural';
 
 import MapStyle from './MapStyles';
 
@@ -87,7 +90,64 @@ export default function MyMaps() {
               setSelected(locations);
             }}
             icon={{
+              url: `/assets/images/park.png`,
+              origin: new window.google.maps.Point(0, 0),
+              anchor: new window.google.maps.Point(15, 15),
+              scaledSize: new window.google.maps.Size(30, 30),
+            }}
+          />
+        ))}
+
+        {cafes.features.map((locations) => (
+          <Marker
+            key={locations.properties.name}
+            position={{
+              lat: locations.geometry.coordinates[0],
+              lng: locations.geometry.coordinates[1],
+            }}
+            onClick={() => {
+              setSelected(locations);
+            }}
+            icon={{
+              url: `/assets/images/cafe.png`,
+              origin: new window.google.maps.Point(0, 0),
+              anchor: new window.google.maps.Point(15, 15),
+              scaledSize: new window.google.maps.Size(30, 30),
+            }}
+          />
+        ))}
+
+        {bars.features.map((locations) => (
+          <Marker
+            key={locations.properties.name}
+            position={{
+              lat: locations.geometry.coordinates[0],
+              lng: locations.geometry.coordinates[1],
+            }}
+            onClick={() => {
+              setSelected(locations);
+            }}
+            icon={{
               url: `/assets/images/cocktail.png`,
+              origin: new window.google.maps.Point(0, 0),
+              anchor: new window.google.maps.Point(15, 15),
+              scaledSize: new window.google.maps.Size(30, 30),
+            }}
+          />
+        ))}
+
+        {cultural.features.map((locations) => (
+          <Marker
+            key={locations.properties.name}
+            position={{
+              lat: locations.geometry.coordinates[0],
+              lng: locations.geometry.coordinates[1],
+            }}
+            onClick={() => {
+              setSelected(locations);
+            }}
+            icon={{
+              url: `/assets/images/museum.png`,
               origin: new window.google.maps.Point(0, 0),
               anchor: new window.google.maps.Point(15, 15),
               scaledSize: new window.google.maps.Size(30, 30),
