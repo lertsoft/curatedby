@@ -134,7 +134,7 @@ const Parks = {
         description: '22 Mbps',
         kind: 'Hiking',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',
@@ -148,7 +148,7 @@ const Parks = {
         description: '22 Mbps',
         kind: 'Hiking',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',
@@ -190,7 +190,7 @@ const Parks = {
         description: '22 Mbps',
         kind: 'Hiking',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',
@@ -218,7 +218,7 @@ const Parks = {
         description: '22 Mbps',
         kind: 'Park',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',
@@ -232,7 +232,7 @@ const Parks = {
         description: '22 Mbps',
         kind: 'Hiking',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',

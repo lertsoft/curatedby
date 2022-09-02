@@ -54,7 +54,7 @@ const cultural = {
         description: '22 Mbps',
         kind: 'Gallery',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',
@@ -110,7 +110,7 @@ const cultural = {
         description: '22 Mbps',
         kind: 'Gallery',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',
@@ -124,7 +124,7 @@ const cultural = {
         description: '22 Mbps',
         kind: 'Gallery',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',
@@ -138,7 +138,7 @@ const cultural = {
         description: '22 Mbps',
         kind: 'Museum',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',
@@ -152,7 +152,7 @@ const cultural = {
         description: '22 Mbps',
         kind: 'Gallery',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',

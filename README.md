@@ -1,10 +1,8 @@
-# Boilerplate and Starter for Next JS 12+, Tailwind CSS 3 and TypeScript
+# Curated By
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=28ADE7&center=true&lines=Modern+Template;Production+ready;Built+your+next+project)](https://git.io/typing-svg)
 
-🚀 Boilerplate and Starter for Next.js, Tailwind CSS and TypeScript ⚡️ Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, VSCode, Netlify, PostCSS, Tailwind CSS.
-
-Clone this project and use it to create your own [Next.js](https://nextjs.org) project.
+ This website was created with the purpose of better organizing all my saved places on google maps, and so that I can more easily find the places that i want to go or have been.
 
 ### Features
 
@@ -82,6 +80,9 @@ Open http://localhost:3000 with your favorite browser to see your project.
 │   ├── styles               # PostCSS style folder with Tailwind
 │   ├── templates            # Default template
 │   └── utils                # Utility folder
+|   └── components           # Components folder
+|   └── types                # Types interfaces and/or declarations
+|   └── data                 # Data for the maps. GeoJson.
 ├── tailwind.config.js       # Tailwind CSS configuration
 └── tsconfig.json            # TypeScript configuration
 ```

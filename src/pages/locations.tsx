@@ -1,5 +1,6 @@
 import React from 'react';
 
+// import Navbar from '@/components/Navbar';
 import List from '@/components/List';
 import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
@@ -14,6 +15,7 @@ const Locations = () => {
         />
       }
     >
+      {/* <Navbar /> */}
       <List />
     </Main>
   );

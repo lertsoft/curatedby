@@ -26,6 +26,11 @@ const Main = (props: IMainProps) => (
       <div>
         <Section yPadding="py-1">
           <NavbarTwoColumns logo="Curated By">
+            <li className="mr-5">
+              <Link href="/">
+                <a>Map</a>
+              </Link>
+            </li>
             <li className="mt-0">
               <Link href="/locations">
                 <a>List</a>
@@ -34,11 +39,6 @@ const Main = (props: IMainProps) => (
             <li className="mx-5">
               <Link href="/about">
                 <a>About </a>
-              </Link>
-            </li>
-            <li className="mr-5">
-              <Link href="/about">
-                <a>About</a>
               </Link>
             </li>
           </NavbarTwoColumns>

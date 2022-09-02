@@ -34,6 +34,27 @@ const center = {
   lng: -73.9883,
 };
 
+function Locate({ panTo }) {
+  return (
+    <button
+      className=" absolute right-8 top-10 z-10  w-8"
+      onClick={() => {
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            panTo({
+              lat: position.coords.latitude,
+              lng: position.coords.longitude,
+            });
+          },
+          () => null
+        );
+      }}
+    >
+      <img src="/assets/icons/compass.svg" alt="Locate yourself icon" />
+    </button>
+  );
+}
+
 export default function MyMaps() {
   const { isLoaded, loadError } = useLoadScript({
     googleMapsApiKey: 'AIzaSyBL9zPZXbqYtJWC-my7mrTNVfrQLJ4g2Xw',
@@ -54,10 +75,10 @@ export default function MyMaps() {
   }, []);
 
   // Hook to move the maps depending on user input location and zoom to that location
-  // const panTo = React.useCallback(({ lat, lng }) => {
-  //   mapRef.current.panTo({ lat, lng });
-  //   mapRef.current.setZoom(14);
-  // }, []);
+  const panTo = React.useCallback(({ lat, lng }) => {
+    mapRef.current.panTo({ lat, lng });
+    mapRef.current.setZoom(14);
+  }, []);
 
   if (loadError) {
     return <div>Map cannot be loaded right now, sorry.</div>;
@@ -67,8 +88,8 @@ export default function MyMaps() {
   }
 
   return (
-    <div>
-      {/* <Locate panTo={panTo} /> */}
+    <div className=" relative justify-center object-center">
+      <Locate panTo={panTo} />
 
       <GoogleMap
         id="map"
@@ -176,7 +197,7 @@ export default function MyMaps() {
                 </span>
               </h2>
               <p> Description: {selected.properties.description} </p>
-              {/* <p> Have I visited? {selected.properties.visited} </p> */}
+              <p> Have I visited? {String(selected.properties.visited)} </p>
               <p> How many times? {selected.properties.visits}</p>
             </div>
           </InfoWindow>

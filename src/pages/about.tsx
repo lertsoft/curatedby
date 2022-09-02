@@ -18,7 +18,7 @@ const About = () => (
     </div>
     <div className="mx-auto -mt-10 max-w-6xl bg-white pt-20">
       <p
-        className="mx-4 text-2xl font-semibold leading-loose  md:text-4xl"
+        className="mx-4 text-xl font-semibold leading-loose  md:text-2xl"
         style={{ lineHeight: '3rem' }}
       >
         This page / website / webapp was created with the purpuse for me to
@@ -29,7 +29,7 @@ const About = () => (
         all my maps information.
       </p>
       <p
-        className="mx-4 text-2xl font-semibold leading-loose  md:text-4xl"
+        className="mx-4 text-xl font-semibold leading-loose  md:text-2xl"
         style={{ lineHeight: '3rem' }}
       >
         <br></br>
@@ -40,7 +40,7 @@ const About = () => (
         it out!
       </p>
       <p
-        className="mx-4 text-xl font-semibold leading-loose  md:text-2xl"
+        className="mx-4 text-lg font-semibold leading-loose  md:text-lg"
         style={{ lineHeight: '2rem' }}
       >
         <br></br>

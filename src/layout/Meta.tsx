@@ -28,10 +28,7 @@ const Meta = (props: IMetaProps) => {
           href={`${router.basePath}/apple-touch-icon.png`}
           key="apple"
         />
-        <meta
-          name="typescript_next_template"
-          content="typescript_next_template"
-        />
+        <meta name="Curated By" content="Curated By" />
         <meta name="theme-color" content="#000" />
         <title>Curated By</title>
         <link rel="manifest" href="/manifest.json" />

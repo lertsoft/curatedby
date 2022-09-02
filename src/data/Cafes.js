@@ -294,7 +294,7 @@ const cafes = {
         description: '22 Mbps',
         kind: 'Cafe',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',
@@ -322,7 +322,7 @@ const cafes = {
         description: '22 Mbps',
         kind: 'Cafe',
         visits: '0',
-        visited: true,
+        visited: false,
       },
       geometry: {
         type: 'Point',

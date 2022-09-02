@@ -1,12 +1,15 @@
 {
   "name": "curated-by",
-  "description": "A TypeScript starter for Next.js that includes all you need to build amazing projects",
+  "description": "This website was created with the purpose of better organizing all my saved places on google maps, and so that I can more easily find the places that i want to go or have been.",
   "version": "1.0.0",
   "private": true,
   "author": "Ronny Coste <contact@ronnycoste.com> (@costeronny)",
   "keywords": [
     "nextjs",
-    "starter",
+    "google-maps-api",
+    "react",
+    "personal-tools",
+    "pwa",
     "typescript"
   ],
   "scripts": {
