@@ -17,16 +17,21 @@ module.exports = withBundleAnalyzer({
 });
 
 // const withPWA = require('next-pwa');
-// const runtimeCaching = require('next-pwa/cache');
 
-// runtimeCaching[0].handler = 'StaleWhileRevalidate';
+const withPWA = require('next-pwa')({
+  dest: 'public',
+  // disable: process.env.NODE_ENV === 'development',
+  register: true,
+  // scope: '/app',
+  // sw: 'service-worker.js',
+});
 
-// module.exports = withPWA({
-//   // ...before
-//   pwa: {
-//     dest: 'public',
-//     register: true,
-//     skipWaiting: true,
-//     disable: process.env.NODE_ENV === 'development',
-//   },
-// });
+module.exports = withPWA({
+  // ...before
+  // pwa: {
+  //   dest: 'public',
+  //   register: true,
+  //   skipWaiting: true,
+  // disable: process.env.NODE_ENV === 'development',
+  // },
+});

@@ -2,8 +2,7 @@
   "theme_color": "#4a90e2",
   "background_color": "#ffffff",
   "display": "browser",
-  "scope": "/",
-  "start_url": "/",
+  "start_url": "/index",
   "name": "Curated By",
   "short_name": "Curated By",
   "icons": [
@@ -28,7 +27,7 @@
       "type": "image/png"
     },
     {
-      "src": "/apple-touch-icon.png",
+      "src": "/maskable_icon_x192.png",
       "sizes": "192x1192",
       "type": "image/x-icon",
       "purpose": "maskable"
