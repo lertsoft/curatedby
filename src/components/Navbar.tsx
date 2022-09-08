@@ -24,7 +24,7 @@ export default function Navbar() {
         className="flex flex-wrap items-center justify-between text-center "
         id="navbar"
       >
-        <div className="hidden space-x-6 text-2xl font-medium md:block">
+        <div className=" space-x-6 text-2xl font-medium md:block">
           <Link href="/locations/bars">
             <a
               className={`text-base  ${
