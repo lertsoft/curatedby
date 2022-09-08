@@ -19,22 +19,22 @@ export default function Navbar() {
   // }, []);
 
   return (
-    <div className="mx-auto max-w-6xl px-12 py-16 md:py-16 ">
+    <div className="mx-auto max-w-6xl px-12 pt-12 pb-0 md:pt-12 ">
       <div
-        className="flex items-center justify-between  md:flex-row"
+        className="flex items-center justify-between text-center  md:flex-row"
         id="navbar"
       >
         <div className="hidden space-x-8 text-2xl md:block">
-          <Link href="/locations">
+          <Link href="/locations/bars">
             <a
               className={`text-base  ${
-                router.asPath === '/locations'
+                router.asPath === '/locations/bars'
                   ? 'font-bold text-blue-700 dark:text-blue-700'
                   : 'font-normal text-blue-500 dark:text-blue-500 '
               }`}
             >
               Bars{' '}
-              {router.asPath === '/locations' && (
+              {router.asPath === '/locations/bars' && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -51,16 +51,17 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/locations">
+
+          <Link href="/locations/parks">
             <a
               className={`text-base  ${
-                router.asPath === '/locations'
+                router.asPath === '/locations/parks'
                   ? 'font-bold text-blue-700 dark:text-blue-700'
                   : 'font-normal text-blue-600 dark:text-blue-600'
               }`}
             >
               Parks
-              {router.asPath === '/locations' && (
+              {router.asPath === '/locations/parks' && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -77,16 +78,44 @@ export default function Navbar() {
               )}
             </a>
           </Link>
-          <Link href="/locations">
+
+          <Link href="/locations/cafes">
             <a
               className={`text-base  ${
-                router.asPath === '/experience'
+                router.asPath === '/locations/cafes'
+                  ? 'font-bold text-blue-700 dark:text-blue-700'
+                  : 'font-normal text-blue-500 dark:text-blue-500 '
+              }`}
+            >
+              Cafes{' '}
+              {router.asPath === '/locations/cafes' && (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="inline-block h-3 w-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                  />
+                </svg>
+              )}
+            </a>
+          </Link>
+
+          <Link href="/locations/cultural">
+            <a
+              className={`text-base  ${
+                router.asPath === '/locations/cultural'
                   ? 'font-bold text-blue-700 dark:text-blue-700'
                   : 'font-normal text-blue-600 dark:text-blue-600'
               }`}
             >
               Cultural{' '}
-              {router.asPath === '/experience' && (
+              {router.asPath === '/locations/cultural' && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
@@ -104,22 +133,103 @@ export default function Navbar() {
             </a>
           </Link>
 
-          <Link href="/locations">
+          <Link href="/locations/clubs">
             <a
               className={`text-base  ${
-                router.asPath === '/experience'
+                router.asPath === '/locations/clubs'
                   ? 'font-bold text-blue-700 dark:text-blue-700'
                   : 'font-normal text-blue-600 dark:text-blue-600'
               }`}
             >
-              Cafes{' '}
-              {router.asPath === '/experience' && (
+              Clubs{' '}
+              {router.asPath === '/locations/clubs' && (
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
                   fill="currentColor"
                   className=" inline-block h-3 w-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                  />
+                </svg>
+              )}
+            </a>
+          </Link>
+
+          <Link href="/locations/places">
+            <a
+              className={`text-base  ${
+                router.asPath === '/locations/places'
+                  ? 'font-bold text-blue-700 dark:text-blue-700'
+                  : 'font-normal text-blue-500 dark:text-blue-500 '
+              }`}
+            >
+              Travel{' '}
+              {router.asPath === '/locations/places' && (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="inline-block h-3 w-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                  />
+                </svg>
+              )}
+            </a>
+          </Link>
+
+          <Link href="/locations/restaurants">
+            <a
+              className={`text-base  ${
+                router.asPath === '/locations/restaurants'
+                  ? 'font-bold text-blue-700 dark:text-blue-700'
+                  : 'font-normal text-blue-500 dark:text-blue-500 '
+              }`}
+            >
+              Restaurants{' '}
+              {router.asPath === '/locations/restaurants' && (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="inline-block h-3 w-3"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fillRule="evenodd"
+                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"
+                  />
+                </svg>
+              )}
+            </a>
+          </Link>
+
+          <Link href="/locations/japanese-restaurant">
+            <a
+              className={`text-base  ${
+                router.asPath === '/locations/japanese-restaurant'
+                  ? 'font-bold text-blue-700 dark:text-blue-700'
+                  : 'font-normal text-blue-500 dark:text-blue-500 '
+              }`}
+            >
+              Japanese Restaurants{' '}
+              {router.asPath === '/locations/japanese-restaurant' && (
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  className="inline-block h-3 w-3"
                   viewBox="0 0 16 16"
                 >
                   <path

@@ -2,7 +2,7 @@ import React from 'react';
 
 import bars from '@/data/Bars';
 
-import Navbar from './Navbar';
+// import Navbar from './Navbar';
 
 // import cafes from '@/data/Cafes';
 // import cultural from '@/data/Cultural';
@@ -49,7 +49,7 @@ export default function Location() {
       </div>
       <div className="flex">
         <div className="mx-auto h-10 max-w-6xl self-center">
-          <Navbar />
+          {/* <Navbar /> */}
         </div>
       </div>
       <div className="mt-4">

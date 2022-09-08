@@ -1,7 +1,6 @@
 /// ////////////////////////////////////////////////
 /// ///////   Museum & Galleries    ////////////////
 /// ////////////////////////////////////////////////
-
 const cultural = {
   type: 'FeatureCollection',
   features: [
@@ -9,8 +8,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'David Zwirner',
-        description: '22 Mbps',
+        description:
+          'Gallery in Chelsea were some prominent artist has shown their work. Such as, Yayoi Kusama.',
         kind: 'Gallery',
+        area: 'Chelsea, Manhattan',
         visits: '3',
         visited: true,
       },
@@ -23,8 +24,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Hauser & Wirth',
-        description: '22 Mbps',
+        description:
+          'Interesting modern art gallery. Not much of an opinion besides something general.',
         kind: 'Gallery',
+        area: 'Chelsea, Manhattan',
         visits: '1',
         visited: true,
       },
@@ -37,8 +40,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Pace Gallery',
-        description: '22 Mbps',
+        description:
+          'Huge New York gallery. They are the most popular and have the most galleries in the city. They show mostly popular artist, at least when I visited.',
         kind: 'Gallery',
+        area: 'Chelsea, Manhattan',
         visits: '1',
         visited: true,
       },
@@ -51,8 +56,9 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Marian Goodman Gallery',
-        description: '22 Mbps',
+        description: 'I have not been here yet.',
         kind: 'Gallery',
+        area: 'Midtown, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -65,8 +71,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Cooper Hewitt Smithsonian Design Museum',
-        description: '22 Mbps',
+        description:
+          'Pretty cool modern art museum with experimentales and interactive exhibits.',
         kind: 'Musuem',
+        area: 'Upper East Side, Manhattan',
         visits: '1',
         visited: true,
       },
@@ -79,8 +87,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Gagosian',
-        description: '22 Mbps',
+        description:
+          'Another big and popular gallery brand just as pace, this gallery brand has a bunch of galleries all over the city.',
         kind: 'Gallery',
+        area: 'Chelsea, Manhattan',
         visits: '3',
         visited: true,
       },
@@ -93,8 +103,9 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Solomon R. Guggenheim Museum',
-        description: '22 Mbps',
+        description: 'I have never been here... I know, I know.',
         kind: 'Museum',
+        area: 'Upper East Side, Manhattan',
         visits: '0',
         visited: true,
       },
@@ -107,8 +118,9 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Benrubi Gallery',
-        description: '22 Mbps',
+        description: 'I have not been here yet.',
         kind: 'Gallery',
+        area: 'Chelsea, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -121,8 +133,9 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Danziger Gallery',
-        description: '22 Mbps',
+        description: 'I have not been here yet.',
         kind: 'Gallery',
+        area: 'Chelsea, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -135,8 +148,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'International Center of Photography Museum',
-        description: '22 Mbps',
+        description:
+          'I have not been here yet. But it is in my list of must go! Maybe because I am a photographer.',
         kind: 'Museum',
+        area: 'Lower East Side, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -149,8 +164,9 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Yossi Milo Gallery',
-        description: '22 Mbps',
+        description: 'I have not been here yet.',
         kind: 'Gallery',
+        area: 'Chelsea, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -163,8 +179,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'New Museum',
-        description: '22 Mbps',
+        description:
+          'This museum cover contemporary issues and has artist from our day and age... Artist that are alive. It is a must visit for people visiting the city.',
         kind: 'Museum',
+        area: 'Lower East Side, Manhattan',
         visits: '2',
         visited: true,
       },
@@ -177,8 +195,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'The Noguchi Museum',
-        description: '22 Mbps',
+        description:
+          'Cool small museum in Astoria, Queens. It has lots of sculptures and for some reason it gave me interior designs inspirations. I would continue going as I am fairly interested in Japanese design, and culture.',
         kind: 'Museum',
+        area: 'Astoria, Queens',
         visits: '2',
         visited: true,
       },
@@ -191,8 +211,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Museum of the Moving Image',
-        description: '22 Mbps',
+        description:
+          'If you love photography, films, and camera gear this museum is a must go! It has exhibits for a lot of different movies, and shows. They also have a lot of first... ie. First camera, first video camera, first, animated shows, first set, and on and on.',
         kind: 'Museum',
+        area: 'Astoria, Queens',
         visits: '1',
         visited: true,
       },
@@ -205,8 +227,10 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'The Museum of Modern Art',
-        description: '22 Mbps',
+        description:
+          'MoMA is a must go museum on Manhattan, The terrace cafe is also worth going because of the views and on a summer day it is breezy and nice. Exhibits wise MoMA has some of my faves paintings and i try to go there to get inspire for my photography.',
         kind: 'Museum',
+        area: 'Midtown, Manhattan',
         visits: '3',
         visited: true,
       },
@@ -219,14 +243,233 @@ const cultural = {
       type: 'Feature',
       properties: {
         name: 'Fotografiska Museum',
-        description: '22 Mbps',
+        description:
+          'My favorite photography museum in the city, and anywhere honestly! I love fotografiska, I have been there many times and i try to go every three to six months for new exhibits, and see what others photographers photograph.',
         kind: 'Museum',
+        area: 'Grammercy, Manhattan',
         visits: '3',
         visited: true,
       },
       geometry: {
         type: 'Point',
         coordinates: [40.7392209, -73.9867219],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ellis Island Hospital',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Ellis Island, NYC',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6969677, -74.0463896],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Frick Collection',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Upper East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7710857, -73.9673861],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Intrepid Sea, Air & Space Museum',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Hudson Yards, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7645266, -73.9996076],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Jacques Marchais Museum of Tibetan Art',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Staten Island, NY',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.5829185, -74.1393314],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Jewish Museum',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Financial District, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.785334, -73.957351],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'El Museo del Barrio',
+        description:
+          'An awesome museum about latin american heritage. It focuses mostly on upper east side / East harlem.',
+        kind: 'Museum',
+        area: 'East Harlem, Manhattan',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7931183, -73.9514063],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Museum of the City of New York',
+        description:
+          'A must go museum for people that would like to learn more about the history of the city of new york. It goes from the beggining beggining to the future and were it is heading.',
+        kind: 'Museum',
+        area: 'East Harlem, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7924939, -73.9519089],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Whitney Museum of American Art',
+        description:
+          'Really cool museum and pretty popular too in the meatpacking district.',
+        kind: 'Museum',
+        area: 'Meatpacking District, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7395877, -74.0088629],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Magazzino Italian Art',
+        description:
+          'This art center around cold spring looks awesome but I have to see it and experience it with my own eyes.',
+        kind: 'Art Center',
+        area: 'Cold Spring, NY',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.429749, -73.914816],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Storm King Art Center',
+        description:
+          'A stonehenge but for new yorkers. I have not been here yet.',
+        kind: 'Art Center',
+        area: 'Storm King, NY',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.4207619, -74.065351],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Hole',
+        description:
+          'It is a cool and popping gallery in the village with contemporary arts.',
+        kind: 'Gallery',
+        area: 'East Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7251024, -73.992701],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Met Cloisters',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Inwood, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8648628, -73.9317274],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Palais de Tokyo',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Paris, France',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [48.8642031, 2.2970914],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
       },
     },
   ],

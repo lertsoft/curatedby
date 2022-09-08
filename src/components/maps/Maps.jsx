@@ -12,6 +12,10 @@ import parks from '@/data/Parks';
 import bars from '@/data/Bars';
 import cafes from '@/data/Cafes';
 import cultural from '@/data/Cultural';
+import japan from '@/data/JapaneseRestaurant';
+import dancing from '@/data/Dance';
+import restaurants from '@/data/Food';
+import travelLocations from '@/data/Places';
 
 import MapStyle from './MapStyles';
 
@@ -30,8 +34,8 @@ const options = {
 };
 
 const center = {
-  lat: 40.7703,
-  lng: -73.9883,
+  lat: 40.7357909,
+  lng: -73.990212,
 };
 
 function Locate({ panTo }) {
@@ -77,7 +81,7 @@ export default function MyMaps() {
   // Hook to move the maps depending on user input location and zoom to that location
   const panTo = React.useCallback(({ lat, lng }) => {
     mapRef.current.panTo({ lat, lng });
-    mapRef.current.setZoom(14);
+    mapRef.current.setZoom(16);
   }, []);
 
   if (loadError) {
@@ -94,12 +98,88 @@ export default function MyMaps() {
       <GoogleMap
         id="map"
         mapContainerStyle={mapContainerStyle}
-        zoom={10}
+        zoom={14}
         center={center}
         options={options}
         onClick={onMapClick}
         onLoad={onMapLoad}
       >
+        {japan.features.map((locations) => (
+          <Marker
+            key={locations.properties.name}
+            position={{
+              lat: locations.geometry.coordinates[0],
+              lng: locations.geometry.coordinates[1],
+            }}
+            onClick={() => {
+              setSelected(locations);
+            }}
+            icon={{
+              url: `/assets/images/ramen.png`,
+              origin: new window.google.maps.Point(0, 0),
+              anchor: new window.google.maps.Point(15, 15),
+              scaledSize: new window.google.maps.Size(30, 30),
+            }}
+          />
+        ))}
+
+        {restaurants.features.map((locations) => (
+          <Marker
+            key={locations.properties.name}
+            position={{
+              lat: locations.geometry.coordinates[0],
+              lng: locations.geometry.coordinates[1],
+            }}
+            onClick={() => {
+              setSelected(locations);
+            }}
+            icon={{
+              url: `/assets/images/restaurant.png`,
+              origin: new window.google.maps.Point(0, 0),
+              anchor: new window.google.maps.Point(15, 15),
+              scaledSize: new window.google.maps.Size(30, 30),
+            }}
+          />
+        ))}
+
+        {dancing.features.map((locations) => (
+          <Marker
+            key={locations.properties.name}
+            position={{
+              lat: locations.geometry.coordinates[0],
+              lng: locations.geometry.coordinates[1],
+            }}
+            onClick={() => {
+              setSelected(locations);
+            }}
+            icon={{
+              url: `/assets/images/clubs.png`,
+              origin: new window.google.maps.Point(0, 0),
+              anchor: new window.google.maps.Point(15, 15),
+              scaledSize: new window.google.maps.Size(30, 30),
+            }}
+          />
+        ))}
+
+        {travelLocations.features.map((locations) => (
+          <Marker
+            key={locations.properties.name}
+            position={{
+              lat: locations.geometry.coordinates[0],
+              lng: locations.geometry.coordinates[1],
+            }}
+            onClick={() => {
+              setSelected(locations);
+            }}
+            icon={{
+              url: `/assets/images/travel.png`,
+              origin: new window.google.maps.Point(0, 0),
+              anchor: new window.google.maps.Point(15, 15),
+              scaledSize: new window.google.maps.Size(30, 30),
+            }}
+          />
+        ))}
+
         {parks.features.map((locations) => (
           <Marker
             key={locations.properties.name}
@@ -187,18 +267,36 @@ export default function MyMaps() {
             }}
           >
             <div>
-              <h2>
-                <span role="img" aria-label="Park">
-                  ♻️
+              <h2 className=" font-bold text-md">
+                <span role="img" aria-label="Pin">
+                  📍
                 </span>{' '}
                 {selected.properties.name}{' '}
-                <span role="img" aria-label="Park">
-                  ♻️
+                <span role="img" aria-label="Pin">
+                  📍
                 </span>
               </h2>
-              <p> Description: {selected.properties.description} </p>
-              <p> Have I visited? {String(selected.properties.visited)} </p>
-              <p> How many times? {selected.properties.visits}</p>
+              <p>
+                <span className="font-bold"> Description: </span> <br></br>
+                {selected.properties.description}{' '}
+              </p>
+              <p>
+                {' '}
+                <span className="font-bold">Have I visited? </span>
+                <br></br>
+                {String(selected.properties.visited)}{' '}
+              </p>
+              <p>
+                {' '}
+                <span className="font-bold">How many times? </span> <br></br>
+                {selected.properties.visits}
+              </p>
+              <p>
+                {' '}
+                <span className="font-bold">Where is this located? </span>{' '}
+                <br></br>
+                {selected.properties.area}
+              </p>
             </div>
           </InfoWindow>
         ) : null}

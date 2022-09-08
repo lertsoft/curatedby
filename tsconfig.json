@@ -49,6 +49,9 @@
     "src/components/maps/Maps.jsx",
     "src/data/Bars.js",
     "src/data/Cafes.js",
-    "src/data/Cultural.js"
+    "src/data/Cultural.js",
+    "src/data/Food.js",
+    "src/data/Cultural.js",
+    "src/data/JapaneseRestaurant.js"
   ]
 }
