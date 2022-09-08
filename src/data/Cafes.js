@@ -16,6 +16,87 @@ const cafes = {
         coordinates: [40.7722982, -73.954946],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sant Ambroeus',
+        description:
+          'Cool cafe inside Sotheby`s New York building. Cool place to grab coffee, tea, or hot chocolate and then go to the three floors of galleries that Sothebys has in their building free for everyone to see!',
+        kind: 'Cafe',
+        area: 'Upper East Side',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7662678, -73.9538283],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Little Choc Apothecary',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7119047, -73.9571692],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Flitch Coffee',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Austin, Texas',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [30.2577456, -97.7054476],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Nook',
+        description:
+          'Awesome coffee shop big, with places to sit inside or out, good matcha lattes and it is just comfy place. ',
+        kind: 'Cafe',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.705189, -73.924549],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cafe SBG',
+        description:
+          'Okayish cafe / restaurant inside blue mall, because it is inside the mall so if you are going shopping you could do that and then sit and get some coffee. ',
+        kind: 'Cafe',
+        area: 'Piantini',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4726823, -69.9409382],
+      },
+    },
 
     {
       type: 'Feature',

@@ -4,6 +4,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Warajiya',
+        description:
+          'I have not been here yet but this is supposed to be the oldest restaurant and business of the enitre world! It has been in business for at least 1000 years some peeps say it is longer some say it is shorter but the paper trail starts at about 1000 years.',
+        kind: 'Unagi restaurant',
+        area: 'Kyoto, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [34.9893591, 135.7705125],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Cafe R',
         description:
           'Cafe R is supposed to be a cafe but it is more like a collections of restaurant under the same roof. No coffee here at least not the good kind but the food is pretty good. They also have buffet if you feel like having that ( which is good ) This place is in the infamous park of midtown, ie 32st by penn station.',
@@ -2407,6 +2423,435 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Pasquale`s Rigoletto',
+        description: 'I have not been here yet.',
+        kind: 'Italian restaurant',
+        area: 'Forham, Bronx',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8538646, -73.8892456],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Romanian Garden',
+        description: 'I have not been here yet.',
+        kind: 'Romanian Restaurant',
+        area: 'Sunnyside, Queens',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7450162, -73.9207939],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '99 Favor Taste',
+        description: 'I have not been here yet.',
+        kind: 'Chinese Restaurant',
+        area: 'Lower East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.717524, -73.992583],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'ZiZi',
+        description: 'I have not been here yet.',
+        kind: 'Mediterranean restaurant',
+        area: 'Chelsea, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7429063, -73.9999607],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Le French Diner',
+        description: 'I have not been here yet.',
+        kind: 'French Restaurant',
+        area: 'Lower East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7220162, -73.9880246],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Kiki`s',
+        description: 'I have not been here yet.',
+        kind: 'Greek Restaurant',
+        area: 'Dimes Square, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7145335, -73.9919902],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '886',
+        description: 'I have not been here yet.',
+        kind: 'Taiwanese restaurant',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7287968, -73.9887127],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bodega Negra',
+        description: 'I have not been here yet.',
+        kind: 'Casual Dining',
+        area: 'Chelsea, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7420956, -74.0035786],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Milk & Roses',
+        description: 'I have not been here yet.',
+        kind: 'Italian Restaurant',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7374258, -73.9550672],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bocaditos Bistro',
+        description: 'I have not been here yet.',
+        kind: 'Casual Dining',
+        area: 'Inwood, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8668707, -73.9239955],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Grey Dog',
+        description: 'I have not been here yet.',
+        kind: 'American Restaurant',
+        area: 'NoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7337952, -73.993199],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Flatiron Room',
+        description: 'I have not been here yet.',
+        kind: 'American Restaurant',
+        area: 'Flatiron, manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7445183, -73.9904632],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Russ & Daughters Cafe',
+        description: 'I have not been here yet.',
+        kind: 'American restaurant',
+        area: 'Lower East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7196181, -73.9895779],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Pio Pio 8',
+        description: 'I have not been here yet.',
+        kind: 'Peruvian Restaurant',
+        area: 'Hells Kitchen, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7605535, -73.9945268],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Licking Miami Gardens',
+        description: 'I have not been here yet.',
+        kind: 'Soul food restaurant',
+        area: 'Miami Gardens, Florida',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [25.9352887, -80.2447099],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bergen Bagels',
+        description: 'I have not been here yet.',
+        kind: 'Bagel shop',
+        area: 'Boerum Hill, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6809719, -73.9747959],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Belle`s Bagels',
+        description: 'I have not been here yet.',
+        kind: 'Bagel shop',
+        area: 'Los Angeles, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [34.1210887, -118.2061738],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Absolute Bagels',
+        description: 'I have not been here yet.',
+        kind: 'Bagel shop',
+        area: 'Hamilton Heights, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8025065, -73.9674142],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Llama Inn',
+        description: 'I have not been here yet.',
+        kind: 'Peruvian Restaurant',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7166429, -73.9505713],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Han Dynasty',
+        description: 'I have not been here yet.',
+        kind: 'Chinese Restaurant',
+        area: 'NoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7322306, -73.9882516],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Thái Sơn',
+        description: 'I have not been here yet.',
+        kind: 'Vietnamese Restaurant',
+        area: 'Chinatown, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7168378, -73.9996312],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Piso Viejo Bar & Restaurant',
+        description: 'I have not been here yet.',
+        kind: 'Puerto Rican Restaurant',
+        area: 'San Juan, Puerto Rico',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4511885, -66.0562117],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'East Hae',
+        description: 'I have not been here yet.',
+        kind: 'Korean restaurant',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7184793, -73.9606902],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Republica Restaurant & Rooftop',
+        description: 'I have not been here yet.',
+        kind: 'Dominican restaurant',
+        area: 'Inwood, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8643916, -73.9241014],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Adrian Tropical',
+        description:
+          'Great restaurant with views of the Caribeam Sea and freat food, this restaurant is kind of like a starter pack to dominican cusine, it is a must go.',
+        kind: 'Dominican Restaurant',
+        area: 'Santo Domingo, Republica Dominicana',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4602861, -69.9033676],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'El MariScon',
+        description: 'I have not been here yet.',
+        kind: 'Seafood restaurant',
+        area: 'El Millon, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4577473, -69.9513509],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Delmonico`s',
+        description: 'I have not been here yet.',
+        kind: 'Steak Restaurant',
+        area: 'FiDi, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7050268, -74.0102557],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Freemans',
+        description: 'I have not been here yet.',
+        kind: 'American Restaurant',
+        area: 'Lower East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7219877, -73.9924573],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',
@@ -2416,6 +2861,302 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Restaurant La Baie des Singes',
+        description: 'I have not been here yet.',
+        kind: 'Mediterranean Restaurant',
+        area: 'Marseille, France',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.213992, 5.338046],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sons of Essex',
+        description: 'I have not been here yet.',
+        kind: 'American Restaurant',
+        area: 'Lower East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7202075, -73.9876239],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Wok Wok Southeast Asian Kitchen',
+        description: 'I have not been here yet.',
+        kind: 'Asian Restaurant',
+        area: 'Chinatown, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7140559, -73.9988387],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Piccola Cucina Uptown',
+        description: 'I have not been here yet.',
+        kind: 'Italian Restaurant',
+        area: 'Upper East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7632468, -73.9689825],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Peppa`s',
+        description: 'I have not been here yet.',
+        kind: 'Chicken restaurant',
+        area: 'Flatbush, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6549698, -73.9599139],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Mari Vanna',
+        description: 'I have not been here yet.',
+        kind: 'Russian Restaurant',
+        area: 'Flatiron, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7388833, -73.988525],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Dani`s House of Pizza',
+        description:
+          'I have not been here yet but this is supposed to be the best pizza place in New York City according to a friend of mine.',
+        kind: 'Fast Food',
+        area: 'Kew Gardens, Queens',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.708981, -73.830536],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Queen',
+        description: 'I have not been here yet.',
+        kind: 'Mediterranean restaurant',
+        area: 'Bushwick, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7060549, -73.9224135],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Taverna Kyclades',
+        description: 'I have not been here yet.',
+        kind: 'Greek restaurant',
+        area: 'Astoria, Queens',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7743819, -73.9079475],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sal, Kris & Charlie`s Deli',
+        description: 'I have not been here yet.',
+        kind: 'Fast Food',
+        area: 'Astoria, Queens',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.773226, -73.9115696],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'El Techo',
+        description: 'I have not been here yet.',
+        kind: 'Latin American restaurant',
+        area: 'San Francisco, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [37.756576, -122.4190831],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Mighty Quinn`s Barbeque',
+        description: 'I have not been here yet.',
+        kind: 'Barbecue restaurant',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7275899, -73.9886167],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Juicy Dumpling in Chinatown',
+        description: 'I have not been here yet.',
+        kind: 'Dumpling Restaurant',
+        area: 'Toronto, Canada',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6522501, -79.3976634],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Local Press',
+        description: 'I have not been here yet.',
+        kind: 'Fast Food',
+        area: 'Ozone Park, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6815177, -73.8469223],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'ASTRA',
+        description: 'I have not been here yet.',
+        kind: 'Rooftop - Mediterranean Restaurant',
+        area: 'Wynwood, Miami',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [25.7968628, -80.1986327],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'SBG Sophia`s Bar & Grill',
+        description: 'I have not been here yet.',
+        kind: 'Fine Dining',
+        area: 'Piantini, Santo  Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4670245, -69.9341379],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Milano Market',
+        description: 'I have not been here yet.',
+        kind: 'Italian Restaurant',
+        area: 'Upper East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7807599, -73.9528672],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Viralata',
+        description: 'I have not been here yet.',
+        kind: 'Fast Food',
+        area: 'Bella Vista, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4577269, -69.933872],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Boga Boga',
+        description: 'I have not been here yet.',
+        kind: 'Mediterranean restaurant',
+        area: 'La Esperilla, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4643819, -69.9251032],
       },
     },
   ],

@@ -223,6 +223,100 @@ const cultural = {
         coordinates: [40.7563454, -73.9239496],
       },
     },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'New York Transit Museum',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Downtown Brooklyn, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.69057, -73.9900678],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Edgar Allan Poe Cottage',
+        description:
+          'I have not been here yet. Last home (1846–49) of the famous poet & author.',
+        kind: 'Museum',
+        area: 'Bronx, New York',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8650401, -73.8946978],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Andy Warhol Museum',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Pittsburgh, Pennsylvania',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.4483755, -80.0024907],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Society of Illustrators',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Upper East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7648331, -73.9668335],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Color Factory New York',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Meatpacking District, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.725773, -74.0053337],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Bronx Museum of the Arts',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Bronx, New York',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8311761, -73.9197024],
+      },
+    },
     {
       type: 'Feature',
       properties: {
@@ -470,6 +564,86 @@ const cultural = {
       geometry: {
         type: 'Point',
         coordinates: [],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Vizcaya Museum & Gardens',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Miami, Florida',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [25.7443866, -80.2104747],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'PERROTIN NEW YORK',
+        description: 'I have not been here yet.',
+        kind: 'Gallery',
+        area: 'Lower East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7195864, -73.9892543],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Japan Society',
+        description: 'I have not been here yet.',
+        kind: 'Cultural Center',
+        area: 'Murray Hill, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.75251, -73.968287],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Royal Ontario Museum',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Toronto, Canada',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6677097, -79.3947771],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Shrine of the Book',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Jerusalem',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [31.7734662, 35.2029821],
       },
     },
   ],

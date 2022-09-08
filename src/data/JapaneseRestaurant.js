@@ -514,6 +514,83 @@ const JapaneseRestaurant = {
         coordinates: [440.7213, -73.987244],
       },
     },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sushi Ginza Onodera',
+        description: 'I have not been here yet.',
+        kind: 'Sushi - Japanese Restaurant',
+        area: 'Midtown, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7523496, -73.9814425],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'NR',
+        description: 'Great sushi in this cozy restaurant.',
+        kind: 'Japanese Restaurant',
+        area: 'Upper East Side, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7701183, -73.9549709],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ichimonjiya Wasuke (aburi-mochi) あぶり餅 一和（一文字屋 和輔）',
+        description: 'I have not been here yet.',
+        kind: 'Sweets - Japanese Restaurant',
+        area: 'Kyoto, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [35.0453272, 135.7427836],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'OKOZUSHI by Megumi',
+        description: 'I have not been here yet.',
+        kind: 'Sushi - Japanese Restaurant',
+        area: 'East Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7156469, -73.9443172],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: ' - Japanese Restaurant',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
   ],
 };
 

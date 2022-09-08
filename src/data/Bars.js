@@ -866,6 +866,87 @@ const Bars = {
         coordinates: [40.7402465, -74.0054948],
       },
     },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Dante NYC',
+        description:
+          'I have not been here yet but a friend of mine has been hyping this place for so long to me because it is suppose to be one of the best bars in world.',
+        kind: 'Bar',
+        area: 'NoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7288417, -74.0016444],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Rhythm & Vine',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Fort Lauderdale, Florida',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [26.1265368, -80.1379919],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Little Shop',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Two Bridges, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7083747, -74.0009552],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'La Noxe',
+        description: 'I have not been here yet.',
+        kind: 'Cocktail Bar',
+        area: 'Flatiron, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7470276, -73.9930899],
+      },
+    },
+    
+    {
+      type: 'Feature',
+      properties: {
+        name: 'AFROBAR',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Osaka, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [34.6715367, 135.5045825],
+      },
+    },
     {
       type: 'Feature',
       properties: {
@@ -1715,6 +1796,68 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Nevermind',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Barcelona, Spain',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.3851589, 2.1664084],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'TBA Brooklyn',
+        description:
+          'I have been here a couple of times and this place is cool, pretty low key, far from almost every train but the peeps that go there want to be there. Good Djs, cool staff, and everything is a dance floor.',
+        kind: 'Live Music Bar',
+        area: 'Williamsburg, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.711123, -73.966358],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cafe Du Nord',
+        description: 'I have not been here yet.',
+        kind: 'Live Music Venue',
+        area: 'San Francisco, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [37.7666241, -122.4304184],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Rockwood Music Hall',
+        description: 'I have not been here yet.',
+        kind: 'Live Music Venue',
+        area: 'Lower East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7223045, -73.9885815],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Cafe Wha?',
         description: 'I have not been here yet.',
         kind: 'Jazz Bar',
@@ -1957,6 +2100,51 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Williamsburg Music Center',
+        description: 'I have not been here yet.',
+        kind: 'Live Music',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.711305,-73.963079],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Attic',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Flushing, Queens',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7624984,-73.8278276],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Westlight',
+        description: 'Bar / Restaurant with great views of manhattan.',
+        kind: 'Rooftop Bar',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.722297,-73.9565396],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',
@@ -1982,6 +2170,266 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tambour',
+        description: 'I have not been here yet.',
+        kind: 'Wine Bar',
+        area: 'Park Slope, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6625032, -73.9925342],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Barra Matilde Mi Amor',
+        description: 'I have not been here yet.',
+        kind: 'Cocktail Bar',
+        area: ' Guadalajara, Mexico',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [20.6726872, -103.3659156],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Headless Widow',
+        description: 'I have not been here yet.',
+        kind: 'Cocktail Bar',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7266088, -73.9863556],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'One and One',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.723274, -73.9881314],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Skin Contact',
+        description: 'I have not been here yet.',
+        kind: 'Wine Bar',
+        area: 'Lower East side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7176912, -73.9902341],
       },
     },
 

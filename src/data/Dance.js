@@ -630,249 +630,146 @@ const Dance = {
         coordinates: [40.7443203, -73.9926957],
       },
     },
-
     {
       type: 'Feature',
       properties: {
-        name: '',
+        name: 'Pilo`s Tequila Garden Wynwood',
         description: 'I have not been here yet.',
-        kind: '',
-        area: '',
+        kind: 'Club',
+        area: 'Wynwood, Miami',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [25.7996853, -80.1979458],
       },
     },
     {
       type: 'Feature',
       properties: {
-        name: '',
+        name: 'LIV',
         description: 'I have not been here yet.',
-        kind: '',
-        area: '',
+        kind: 'Club',
+        area: 'Miami Beach, Florida',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
+        coordinates: [25.8178372, -80.1227119],
       },
     },
 
     {
       type: 'Feature',
       properties: {
-        name: '',
+        name: 'Vendôme Miami',
         description: 'I have not been here yet.',
-        kind: '',
-        area: '',
+        kind: 'Club',
+        area: 'Miami Beach, Florida',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [25.777844, -80.133088],
       },
     },
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: '3 Dollar Bill',
+        description:
+          'This place during the summer is a vibe, please go and experience it because it is definetely worth it.',
+        kind: 'Club',
+        area: 'East Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7084419, -73.9382032],
       },
     },
     {
       type: 'Feature',
       properties: {
-        name: '',
+        name: 'Centro Wynwood',
         description: 'I have not been here yet.',
-        kind: '',
-        area: '',
+        kind: 'Club',
+        area: 'Wynwood, Miami',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
+        coordinates: [25.7996387, -80.2009749],
       },
     },
 
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
+        name: 'Berghain | Panorama Bar',
+        description:
+          'I have not been here yet but this cool club was on a documentary about the times after the fall of the wall and how this nightclub was build in a former power plant because of how cheap it was being sold.',
+        kind: 'Club',
+        area: 'Berlin, Germany',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [52.5112834, 13.4404954],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Salsa con Fuego',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Bronx, New York',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8623156, -73.9114461],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Good Room',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7269376, -73.9529121],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Nuyorican Poets Cafe',
+        description: 'I have not been here yet.',
+        kind: 'Performing arts theater',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7219836, -73.9817849],
+      },
+    },
+
     {
       type: 'Feature',
       properties: {
