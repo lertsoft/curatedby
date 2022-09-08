@@ -163,10 +163,10 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Mamasushi',
         description:
-          'https://www.google.com/maps/place/Mamasushi/data=!4m2!3m1!1s0x89c2f662fa4f135f:0xaa39ac42b953d64a',
+          'Interesting combination of flavors, it has a lot of dominican related cuisine integrated into a sushi. Big portions of food, cool atmosphere, nice servers, and lots of options.',
         kind: 'Dominican-Japanese Resturant',
         area: 'Washington Heights, Manhattan',
-        visits: '1',
+        visits: '2',
         visited: true,
       },
       geometry: {
@@ -179,7 +179,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Zurutto',
         description:
-          'https://www.google.com/maps/place/Zurutto/data=!4m2!3m1!1s0x89c2588a4ebd7c1b:0x1a8f7a6996d044ae',
+          'This ramen spot in the UWS is nice and cozy. Their broth is not so thick neither is pretty thin it is right in between.',
         kind: 'Ramen - Japanese Resturant',
         area: 'Upper West Side, Manhattan',
         visits: '2',
@@ -195,7 +195,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Ippudo Westside',
         description:
-          'https://www.google.com/maps/place/Ippudo+Westside/data=!4m2!3m1!1s0x89c2585704dadb07:0x134867276342eb91',
+          'My favorite ramen restaurant in the entire city! Their broth taste really good, the service is good, the decor and design has a lot of japanese cues. I think Ippudo westside ramen is number 1 ramen spot in the city followed really closely by ichiran.',
         kind: 'Ramen - Japanese Resturant',
         area: 'Hells Kitchen, Manhattan',
         visits: '3',
@@ -211,7 +211,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Momofuku Noodle Bar Uptown',
         description:
-          'https://www.google.com/maps/place/Momofuku+Noodle+Bar+Uptown/data=!4m2!3m1!1s0x89c259d6e1ed322b:0x8d06611d6f84ff6e',
+          'Their ramen is really good, but check what time they are open before going because I have tried to go a few times and it is always closed or closing...',
         kind: 'Ramen - Japanese Resturant',
         area: 'Midtown West, Manhattan',
         visits: '1',
@@ -227,7 +227,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Fuji Hibachi',
         description:
-          'https://www.google.com/maps/place/Fuji/data=!4m2!3m1!1s0x89c25853122c1d63:0x277cfa8b1a858de6',
+          'I love this place, they offer japanese food that I think is really good in the midst of timesquare.',
         kind: 'Japanese Resturant',
         area: 'Hells Kitchen, Manhattan',
         visits: '3',
