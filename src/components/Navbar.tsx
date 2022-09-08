@@ -19,12 +19,12 @@ export default function Navbar() {
   // }, []);
 
   return (
-    <div className="mx-auto max-w-6xl px-12 pt-12 pb-0 md:pt-12 ">
+    <div className=" max-w-6xl px-12 pt-12 pb-0 sm:max-w-2xl md:pt-12 ">
       <div
-        className="flex items-center justify-between text-center  md:flex-row"
+        className="flex flex-wrap items-center justify-between text-center "
         id="navbar"
       >
-        <div className="hidden space-x-8 text-2xl md:block">
+        <div className="hidden space-x-6 text-2xl font-medium md:block">
           <Link href="/locations/bars">
             <a
               className={`text-base  ${

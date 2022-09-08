@@ -10,7 +10,7 @@ type ISubPageProps = {
 // NAVBAR
 const SubPages = (props: ISubPageProps) => (
   <div className="w-full px-1 text-gray-700 antialiased">
-    <div className="mx-auto max-w-screen-xl">
+    <div className="mx-auto max-w-screen-xl sm:max-w-screen-md">
       {/* <div className="border-b border-gray-300">  */}
       <div className="pt-10 pb-0">
         <div className="text-3xl font-bold text-blue-700">

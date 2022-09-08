@@ -5,7 +5,7 @@ import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
 import { SubPages } from '@/templates/SubPages';
 
-const LocationCard = ({ name, description, kind, visited, visits }) => {
+const LocationCard = ({ name, description, kind, visited, visits, area }) => {
   if (!description)
     return (
       <>
@@ -27,6 +27,10 @@ const LocationCard = ({ name, description, kind, visited, visits }) => {
         {kind}
       </a>
       <p className="my-2 text-blue-400 dark:text-blue-600">{description}</p>
+      <p className="my-2 text-blue-400 dark:text-blue-600">
+        <span className="font-bold"> Locale: </span>
+        {area}
+      </p>
     </div>
   );
 };
@@ -62,6 +66,7 @@ export default function Location() {
                     visited={val.properties.visited}
                     visits={val.properties.visits}
                     kind={val.properties.kind}
+                    area={val.properties.area}
                   />
                   {key === places.features.length - 1 ? null : (
                     // eslint-disable-next-line tailwindcss/no-custom-classname
