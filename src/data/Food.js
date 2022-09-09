@@ -1372,7 +1372,7 @@ const Food = {
         name: 'LILA - Modern Cuisine',
         description: 'I have not been here yet.',
         kind: 'American Restaurant',
-        area: 'Santo Domingo, DR',
+        area: 'Santo Domingo, Dominican Republic',
         visits: '0',
         visited: false,
       },
@@ -1700,7 +1700,7 @@ const Food = {
         description:
           'I have not been here yet but I heard is one of the best BBQ places around Austin.',
         kind: 'Barbecue restaurant',
-        area: '',
+        area: 'Austin, Texas',
         visits: '0',
         visited: false,
       },
@@ -2847,20 +2847,6 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.7219877, -73.9924573],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
       },
     },
 

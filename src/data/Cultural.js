@@ -554,22 +554,6 @@ const cultural = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
         name: 'Vizcaya Museum & Gardens',
         description: 'I have not been here yet.',
         kind: 'Museum',

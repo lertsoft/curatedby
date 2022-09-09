@@ -2145,112 +2145,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
         name: 'Tambour',
         description: 'I have not been here yet.',
         kind: 'Wine Bar',
@@ -2279,112 +2173,6 @@ const Bars = {
         coordinates: [20.6726872, -103.3659156],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
@@ -2430,6 +2218,36 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.7176912, -73.9902341],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
       },
     },
 

@@ -118,7 +118,7 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Artshack Cafe/ Bar',
-        description: '',
+        description: 'I have not been here yet.',
         kind: 'Cafe',
         area: 'Bed-Stuy, Brooklyn',
         visits: '0',
@@ -307,7 +307,8 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Rosecrans',
-        description: '22 Mbps',
+        description:
+          'This is my first flower shop and cafe, and loved it. The flower smell was unparalled.',
         kind: 'Cafe',
         area: 'greenwich, Manhattan',
         visits: '2',
@@ -1122,7 +1123,7 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: '',
-        description: '',
+        description: 'I have not been here yet.',
         kind: '',
         area: '',
         visits: '1',
@@ -1137,7 +1138,7 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: '',
-        description: '',
+        description: 'I have not been here yet.',
         kind: '',
         area: '',
         visits: '1',

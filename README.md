@@ -4,6 +4,25 @@
 
  This website was created with the purpose of better organizing all my saved places on google maps, and so that I can more easily find the places that i want to go or have been.
 
+ ### Pages
+
+![Home](/demo/curatedby_maps.jpg)
+
+
+![List](/demo/curatedby_list.jpg)
+
+
+![About](/demo/curatedby_about.jpg)
+
+
+### To-Do
+
+- Add more icons
+- Add filters for places
+- Add more data interactions
+- Maybe add d3? or Three?
+
+
 ### Features
 
 Developer experience first:
