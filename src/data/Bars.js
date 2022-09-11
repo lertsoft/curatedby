@@ -2223,16 +2223,16 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'Temple Court',
+        description: 'This bar / restaurant is one of the coolest places i have visited in New York  city. It is definetely a must visit while in NYC. It is a bit pricey but the look, service, and flavors of the foods and drinks makes it 1000% worth it. ',
+        kind: 'Bar',
+        area: 'FiDi, Manhattan',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7113002,-74.0089631],
       },
     },
     {

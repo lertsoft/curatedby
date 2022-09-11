@@ -6,6 +6,7 @@ import {
   useLoadScript,
   Marker,
   InfoWindow,
+  // MarkerClusterer,
 } from '@react-google-maps/api';
 
 import parks from '@/data/Parks';
@@ -23,7 +24,7 @@ const libraries = ['places'];
 
 const mapContainerStyle = {
   width: '100vw',
-  height: '95vh',
+  height: '94vh',
   // position: 'absolute',
 };
 
@@ -37,6 +38,15 @@ const center = {
   lat: 40.7357909,
   lng: -73.990212,
 };
+
+function createKey(location) {
+  return location.lat + location.lng;
+}
+
+// const clusterOptions = {
+//   imagePath:
+//     'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m', // so you must have m1.png, m2.png, m3.png, m4.png, m5.png and m6.png in that folder
+// };
 
 function Locate({ panTo }) {
   return (
@@ -104,9 +114,20 @@ export default function MyMaps() {
         onClick={onMapClick}
         onLoad={onMapLoad}
       >
+        {/* <MarkerClusterer options={options}>
+          {(clusterer) =>
+            japan.features.map((location) => (
+              <Marker key={createKey(location)} position={location} clusterer={clusterer} />
+            ))
+          } 
+          </MarkerClusterer> */}
+
+        {/* <MarkerClusterer options={clusterOptions}>
+          {(clusterer) =>  */}
         {japan.features.map((locations) => (
           <Marker
-            key={locations.properties.name}
+            // eslint-disable-next-line no-undef
+            key={createKey(locations.properties.name)}
             position={{
               lat: locations.geometry.coordinates[0],
               lng: locations.geometry.coordinates[1],
@@ -120,12 +141,14 @@ export default function MyMaps() {
               anchor: new window.google.maps.Point(15, 15),
               scaledSize: new window.google.maps.Size(30, 30),
             }}
+            // clusterer={clusterer}
           />
         ))}
+        {/* </MarkerClusterer> */}
 
         {restaurants.features.map((locations) => (
           <Marker
-            key={locations.properties.name}
+            key={createKey(locations.properties.name)}
             position={{
               lat: locations.geometry.coordinates[0],
               lng: locations.geometry.coordinates[1],
@@ -144,7 +167,7 @@ export default function MyMaps() {
 
         {dancing.features.map((locations) => (
           <Marker
-            key={locations.properties.name}
+            key={createKey(locations.properties.name)}
             position={{
               lat: locations.geometry.coordinates[0],
               lng: locations.geometry.coordinates[1],
@@ -163,7 +186,7 @@ export default function MyMaps() {
 
         {travelLocations.features.map((locations) => (
           <Marker
-            key={locations.properties.name}
+            key={createKey(locations.properties.name)}
             position={{
               lat: locations.geometry.coordinates[0],
               lng: locations.geometry.coordinates[1],
@@ -182,7 +205,7 @@ export default function MyMaps() {
 
         {parks.features.map((locations) => (
           <Marker
-            key={locations.properties.name}
+            key={createKey(locations.properties.name)}
             position={{
               lat: locations.geometry.coordinates[0],
               lng: locations.geometry.coordinates[1],
@@ -201,7 +224,7 @@ export default function MyMaps() {
 
         {cafes.features.map((locations) => (
           <Marker
-            key={locations.properties.name}
+            key={createKey(locations.properties.name)}
             position={{
               lat: locations.geometry.coordinates[0],
               lng: locations.geometry.coordinates[1],
@@ -220,7 +243,7 @@ export default function MyMaps() {
 
         {bars.features.map((locations) => (
           <Marker
-            key={locations.properties.name}
+            key={createKey(locations.properties.name)}
             position={{
               lat: locations.geometry.coordinates[0],
               lng: locations.geometry.coordinates[1],
@@ -239,7 +262,7 @@ export default function MyMaps() {
 
         {cultural.features.map((locations) => (
           <Marker
-            key={locations.properties.name}
+            key={createKey(locations.properties.name)}
             position={{
               lat: locations.geometry.coordinates[0],
               lng: locations.geometry.coordinates[1],
@@ -282,6 +305,14 @@ export default function MyMaps() {
               </p>
               <p>
                 {' '}
+                <span className="font-bold">
+                  What kind of place is this?{'  '}
+                </span>{' '}
+                <br></br>
+                {selected.properties.kind}
+              </p>
+              <p>
+                {' '}
                 <span className="font-bold">Have I visited? </span>
                 <br></br>
                 {String(selected.properties.visited)}{' '}
@@ -296,6 +327,7 @@ export default function MyMaps() {
                 <span className="font-bold">Where is this located? </span>{' '}
                 <br></br>
                 {selected.properties.area}
+                <br></br>
               </p>
             </div>
           </InfoWindow>

@@ -441,7 +441,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7223109, -74.0138321],
+        coordinates: [40.7223109, -73.9985166],
       },
     },
     {
@@ -609,12 +609,12 @@ const Food = {
         description: 'Okeyish chain for mexican food... pretty okay, i guess.',
         kind: 'Mexican Restaurant',
         area: 'Greenwich Village, Manhattan',
-        visits: '1',
+        visits: '2',
         visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7271108, -74.0211278],
+        coordinates: [40.7311047, -74.0049364],
       },
     },
     {
@@ -1066,7 +1066,7 @@ const Food = {
     {
       type: 'Feature',
       properties: {
-        name: 'Rosemeray`s',
+        name: 'Rosemary`s',
         description:
           'One of my fave italian restaurant and this place is even approved by my mom.',
         kind: 'Italian Restaurant',
@@ -1076,7 +1076,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7348368, -74.0173104],
+        coordinates: [40.7348368, -74.0019949],
       },
     },
     {
