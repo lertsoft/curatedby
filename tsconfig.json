@@ -12,8 +12,8 @@
     "noUncheckedIndexedAccess": true,
 
     "noImplicitAny": false,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "allowUnreachableCode": false,
@@ -52,6 +52,7 @@
     "src/data/Cultural.js",
     "src/data/Food.js",
     "src/data/Cultural.js",
-    "src/data/JapaneseRestaurant.js"
+    "src/data/JapaneseRestaurant.js",
+    "src/components/D3Maps/D3Maps.ts"
   ]
 }

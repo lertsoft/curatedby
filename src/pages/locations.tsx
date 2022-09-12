@@ -1,7 +1,8 @@
 import React from 'react';
 
 // import List from '@/components/List';
-import Navbar from '@/components/Navbar';
+// import MapsRegion from '@/components/D3Maps/MapsRegion';
+import D3Maps from '@/components/D3Maps/D3Maps';
 import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
 
@@ -15,8 +16,10 @@ const Locations = () => {
         />
       }
     >
-      <Navbar />
-      {/* <List /> */}
+      <div className="App">
+        {/* <Navbar /> */}
+        <D3Maps />
+      </div>
     </Main>
   );
 };
