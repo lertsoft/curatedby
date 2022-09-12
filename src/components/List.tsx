@@ -2,12 +2,7 @@ import React from 'react';
 
 import bars from '@/data/Bars';
 
-// import Navbar from './Navbar';
-
-// import cafes from '@/data/Cafes';
-// import cultural from '@/data/Cultural';
-// import parks from '@/data/Parks';
-
+// List component. Not in used but it is the component in which all of the list are based out of.
 const LocationCard = ({ name, description, kind, visited, visits }) => {
   if (!description)
     return (

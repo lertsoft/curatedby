@@ -7,6 +7,7 @@ type INavbarProps = {
   children: ReactNode;
 };
 
+// Main navbar seen in every page
 const NavbarTwoColumns = (props: INavbarProps) => (
   <div className="flex flex-wrap items-center justify-between">
     <div className="text-3xl font-bold text-gray-900">

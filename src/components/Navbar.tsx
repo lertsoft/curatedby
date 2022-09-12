@@ -7,6 +7,7 @@ import { useRouter } from 'next/router';
 //   children: ReactNode;
 // };
 
+// Secondary navbar seen only in the list pages
 export default function Navbar() {
   const router = useRouter();
   // eslint-disable-next-line no-console
@@ -276,31 +277,6 @@ export default function Navbar() {
           </button> */}
         </div>
       </div>
-
-      {/* Routes of the navbar */}
-      {/* <div className=" block space-x-8 md:hidden">
-        <Link href="/">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Bars
-          </a>
-        </Link>
-        <Link href="/">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Cafes
-          </a>
-        </Link>
-        <Link href="/">
-          <a className="text-base font-normal text-gray-600 dark:text-gray-300">
-            Parks
-          </a>
-        </Link>
-        <Link
-          href="/"
-          className="text-base font-normal text-gray-600 dark:text-gray-300"
-        >
-          Cultural
-        </Link>
-      </div> */}
     </div>
   );
 }

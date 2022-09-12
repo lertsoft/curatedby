@@ -43,11 +43,13 @@ function createKey(location) {
   return location.lat + location.lng;
 }
 
+// I am trying to implement the cluster market but It is not working...
 // const clusterOptions = {
 //   imagePath:
 //     'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m', // so you must have m1.png, m2.png, m3.png, m4.png, m5.png and m6.png in that folder
 // };
 
+// Function to zoom in and locate the user if the button it is clicked
 function Locate({ panTo }) {
   return (
     <button
@@ -114,6 +116,10 @@ export default function MyMaps() {
         onClick={onMapClick}
         onLoad={onMapLoad}
       >
+        {/* TODO: Make that once you click a marker it will zoom in into it */}
+        {/* TODO: Add a marker cluster event / function */}
+        {/* TODO: Add a connection between the list and the maps so that once a item on a list it's clicked it will take you to the maps. */}
+
         {/* <MarkerClusterer options={options}>
           {(clusterer) =>
             japan.features.map((location) => (
@@ -279,6 +285,7 @@ export default function MyMaps() {
           />
         ))}
 
+        {/* Info window with all of the relevant data for me to understand better this place. */}
         {selected ? (
           <InfoWindow
             position={{
