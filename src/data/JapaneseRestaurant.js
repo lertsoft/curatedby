@@ -1,3 +1,8 @@
+// All the data has been collected by Ronny Coste throughtout the years.
+/// ////////////////////////////////////////////////
+/// ///////    Japanese Restaurants       //////////
+/// ////////////////////////////////////////////////
+
 const JapaneseRestaurant = {
   type: 'FeatureCollection',
   features: [
@@ -139,7 +144,7 @@ const JapaneseRestaurant = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7148038, -73.9634234],
+        coordinates: [40.7148483, -73.9612059],
       },
     },
     {
@@ -266,7 +271,7 @@ const JapaneseRestaurant = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7451884, -73.990431],
+        coordinates: [40.7452305, -73.9882903],
       },
     },
     {
@@ -313,21 +318,6 @@ const JapaneseRestaurant = {
       geometry: {
         type: 'Point',
         coordinates: [40.7296064, -73.9879383],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Sushumai',
-        description: 'Amazingly good bento boxes.',
-        kind: 'Sushi - Japanese Resturant',
-        area: 'Lower East Side, Manhattan',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7213, -73.987244],
       },
     },
 
@@ -511,7 +501,7 @@ const JapaneseRestaurant = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [440.7213, -73.987244],
+        coordinates: [40.7213, -73.987244],
       },
     },
 

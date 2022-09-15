@@ -1,3 +1,8 @@
+// All the data has been collected by Ronny Coste throughtout the years.
+/// ////////////////////////////////////////////////
+/// ///////           Cafes         ////////////////
+/// ////////////////////////////////////////////////
+
 const cafes = {
   type: 'FeatureCollection',
   features: [
@@ -126,7 +131,7 @@ const cafes = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.6848772, -73.9561891],
+        coordinates: [40.6848879, -73.9539919],
       },
     },
     {
@@ -284,7 +289,7 @@ const cafes = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [41.4163195, -73.9602676],
+        coordinates: [41.4164992, -73.9601559],
       },
     },
     {
@@ -370,11 +375,11 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'Devoción',
+        name: 'Devoción - Williamsburg',
         description:
           'Devoción coffee is my go to. Their beans are from Colombia, their roast is nice, full of flavor coffee, and it feels like their barista always know what to do. Unlike dare i say STARBUCKS!!',
         kind: 'Cafe',
-        area: 'Flatiron, Manhattan',
+        area: 'Williamsburg, Brooklyn',
         visits: '3',
         visited: true,
       },
@@ -386,11 +391,11 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'Devoción - Williamsburg',
+        name: 'Devoción',
         description:
           'Devoción coffee is my go to. Their beans are from Colombia, their roast is nice, full of flavor coffee, and it feels like their barista always know what to do. Unlike dare i say STARBUCKS!!',
         kind: 'Cafe',
-        area: 'Williamsburg, Brooklyn',
+        area: 'Flatiron, Manhattan',
         visits: '3',
         visited: true,
       },
@@ -817,7 +822,7 @@ const cafes = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7523663, -73.9723553],
+        coordinates: [40.7536896, -73.9690676],
       },
     },
     {
@@ -847,7 +852,7 @@ const cafes = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7529677, -73.9980932],
+        coordinates: [40.7544385, -73.9943715],
       },
     },
 
@@ -863,7 +868,7 @@ const cafes = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7291106, -73.9888276],
+        coordinates: [40.7290702, -73.9867314],
       },
     },
     {
@@ -1013,11 +1018,12 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Gotan',
-        description: 'I have not been here yet.',
+        description:
+          'Cafe? Bar? Live Music Venue? Restaurant? this place kind of has it all.',
         kind: 'Cafe',
         area: 'Tribeca, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -1032,8 +1038,8 @@ const cafes = {
           'awesome Mamam location, They front area is a cute bookshop and the back half is the cafe and/or restaurant which is cool!.',
         kind: 'Cafe',
         area: 'Tribeca, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',

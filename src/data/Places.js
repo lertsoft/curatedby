@@ -1,3 +1,8 @@
+// All the data has been collected by Ronny Coste throughtout the years.
+/// ////////////////////////////////////////////////
+/// ///////      Travel | Visit        /////////////
+/// ////////////////////////////////////////////////
+
 const Places = {
   type: 'FeatureCollection',
   features: [
@@ -29,7 +34,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [45.6236615, 63.3076966],
+        coordinates: [45.6231074, 63.3139218],
       },
     },
 
@@ -110,7 +115,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [42.4319115, 46.5938011],
+        coordinates: [42.4293112, 46.5952359],
       },
     },
 
@@ -126,7 +131,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.8382589, -73.9215446],
+        coordinates: [40.8379546, -73.9225918],
       },
     },
     {
@@ -269,7 +274,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [48.6244746, -1.5286981],
+        coordinates: [48.6358607, -1.5115408],
       },
     },
 
@@ -301,41 +306,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [42.6019752, 9.4851518],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Tired Thrift',
-        description:
-          'Small shop that carries plenty of okayish things to thrift but at a premium.',
-        kind: 'Thrift Store',
-        area: 'Greenpoint, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7239023, -73.9514276],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Awoke Vintage Brooklyn',
-        description:
-          'Really small vintage shop with good curated items that carry a premium even though they are old.',
-        kind: 'Thrift Store',
-        area: 'Greenpoint, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7252109, -73.9514055],
+        coordinates: [42.6025563, 9.4920278],
       },
     },
 
@@ -382,7 +353,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [37.1196412, 24.9883319],
+        coordinates: [36.6260304, 24.9185049],
       },
     },
 
@@ -398,7 +369,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [43.619222, -71.7215705],
+        coordinates: [43.5914407, -71.7367645],
       },
     },
 
@@ -429,7 +400,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [47.8443234, -120.0087794],
+        coordinates: [47.8410053, -120.0176172],
       },
     },
 
@@ -437,7 +408,8 @@ const Places = {
       type: 'Feature',
       properties: {
         name: 'Tekoi Test Range',
-        description: 'I have not been here yet.',
+        description:
+          'I have not been here yet. Abandoned military based with misile sylos.',
         kind: 'Abandoned Base',
         area: 'Grantsville, Utah',
         visits: '0',
@@ -461,7 +433,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [17.8310042, -71.6324151],
+        coordinates: [17.8345961, -71.628374],
       },
     },
     {
@@ -662,7 +634,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [9.5509809, 99.8703946],
+        coordinates: [9.5215181, 100.0479604],
       },
     },
     {
@@ -677,7 +649,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [8.9385621, 98.2885718],
+        coordinates: [8.9541503, 98.2742356],
       },
     },
 
@@ -725,7 +697,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [19.011901, -71.6037071],
+        coordinates: [19.2468793, -71.5320985],
       },
     },
 
@@ -880,7 +852,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [1.8327896, 35.1848757],
+        coordinates: [31.8327667, 35.1846952],
       },
     },
     {
@@ -943,7 +915,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [36.610902, -121.8674989],
+        coordinates: [36.5972979, -121.8916082],
       },
     },
 
@@ -959,7 +931,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [19.2917932, -69.2637852],
+        coordinates: [19.2919035, -69.2597802],
       },
     },
     {
@@ -1004,7 +976,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [34.7751327, 135.3069603],
+        coordinates: [34.7370795, 135.3386197],
       },
     },
 
@@ -1020,7 +992,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [34.5109853, 133.3405734],
+        coordinates: [34.4869954, 133.362337],
       },
     },
     {
@@ -1035,7 +1007,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [34.2329628, 135.1568763],
+        coordinates: [34.2306573, 135.16984],
       },
     },
     {
@@ -1050,7 +1022,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [34.5191925, 135.494962],
+        coordinates: [34.5732092, 135.4825261],
       },
     },
 
@@ -1113,7 +1085,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [22.1127196, -100.9560695],
+        coordinates: [22.1553708, -100.9853637],
       },
     },
     {
@@ -1128,7 +1100,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [28.9325779, -113.5545174, 14],
+        coordinates: [28.950263, -113.5614959],
       },
     },
 
@@ -1145,7 +1117,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [17.9578584, -71.1822094],
+        coordinates: [17.9586416, -71.1831336],
       },
     },
 
@@ -1211,7 +1183,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [18.4033379, -68.9204653],
+        coordinates: [18.4039974, -68.9191723],
       },
     },
 
@@ -1291,7 +1263,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [18.7743201, -68.5348525],
+        coordinates: [18.7732435, -68.5357317],
       },
     },
 
@@ -1339,7 +1311,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [37.9420795, -107.8357625],
+        coordinates: [37.9376826, -107.8137781],
       },
     },
 
@@ -1371,7 +1343,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [45.6829647, -111.0520446],
+        coordinates: [45.6800949, -111.0360121],
       },
     },
 
@@ -1403,7 +1375,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [34.8543784, -111.7951384],
+        coordinates: [34.8690982, -111.7629996],
       },
     },
 
@@ -1434,7 +1406,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [35.272496, -120.6703861],
+        coordinates: [35.2807782, -120.6622468],
       },
     },
     {
@@ -1449,7 +1421,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [37.7642029, -111.5979615],
+        coordinates: [37.7700929, -111.6025422],
       },
     },
 
@@ -1466,7 +1438,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [9.8777566, 118.4457826],
+        coordinates: [9.4398187, 118.3856083],
       },
     },
     {
@@ -1595,7 +1567,7 @@ const Places = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [43.4957769, 4.4373755],
+        coordinates: [43.4534136, 4.4277333],
       },
     },
   ],

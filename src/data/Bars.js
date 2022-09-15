@@ -1,5 +1,4 @@
-/* eslint-disable prettier/prettier */
-
+// All the data has been collected by Ronny Coste throughtout the years.
 /// ////////////////////////////////////////////////
 /// ///////           Bars          ////////////////
 /// ////////////////////////////////////////////////
@@ -97,7 +96,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7399763, -73.9820936],
+        coordinates: [40.7399938, -73.9821476],
       },
     },
 
@@ -113,7 +112,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.6878566, -73.9788718],
+        coordinates: [40.6878427, -73.9789556],
       },
     },
 
@@ -130,7 +129,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7589873, -73.9799114],
+        coordinates: [40.7592233, -73.9806715],
       },
     },
     {
@@ -192,7 +191,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.678534, -73.960629],
+        coordinates: [40.6785248, -73.9584655],
       },
     },
     {
@@ -207,7 +206,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7180167, -73.9908442],
+        coordinates: [40.7180136, -73.988778],
       },
     },
     {
@@ -490,11 +489,11 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Sweet & Vicious',
-        description: 'I have not been here yet.',
+        description: 'Nice spot to hang and dance for bit to pop music.',
         kind: 'Bar',
-        area: 'Lower East Side, Manhattan',
-        visits: '0',
-        visited: false,
+        area: 'Nolita, Manhattan',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -514,7 +513,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [18.4515156, -69.9591796],
+        coordinates: [18.4527591, -69.9599377],
       },
     },
     {
@@ -642,11 +641,12 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Quintana Bar',
-        description: 'I have not been here yet.',
+        description:
+          'Cool spot to listen to some live music with the warthm of the night breezy and in a beautiful colonial building..',
         kind: 'Bar',
         area: 'Zona Colonial, Santo Domingo',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -795,7 +795,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Dizzy`s Club',
-        description: 'Favorite fucking jazz bar in the entire New York City! I used to go every Friday after my college classes to drink some whiskey while listening to some live jazz.',
+        description:
+          'Favorite fucking jazz bar in the entire New York City! I used to go every Friday after my college classes to drink some whiskey while listening to some live jazz.',
         kind: 'Jazz Bar',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -825,7 +826,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Fat Cat (Cellar Dog)',
-        description: 'I have been here many, many times. I love it. Live jazz with pool tables, and many other games. Close to stonewall in Greenwich Village.',
+        description:
+          'I have been here many, many times. I love it. Live jazz with pool tables, and many other games. Close to stonewall in Greenwich Village.',
         kind: 'Jazz Bar',
         area: 'Greenwich, Manhattan',
         visits: '3',
@@ -840,7 +842,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Barcade',
-        description: 'Cool bar in the Village, pretty dive bar vibe but plenty of arcade games to fulfill all of your heart desires.',
+        description:
+          'Cool bar in the Village, pretty dive bar vibe but plenty of arcade games to fulfill all of your heart desires.',
         kind: 'Bar - Games',
         area: 'East Village, Manhattan',
         visits: '3',
@@ -931,7 +934,7 @@ const Bars = {
         coordinates: [40.7470276, -73.9930899],
       },
     },
-    
+
     {
       type: 'Feature',
       properties: {
@@ -951,7 +954,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Kind Regards',
-        description: 'Lovely bar with a basement ready for you to dance to techno until the sun comes out. In the heart of Lower East Side.',
+        description:
+          'Lovely bar with a basement ready for you to dance to techno until the sun comes out. In the heart of Lower East Side.',
         kind: 'Bar',
         area: 'Lower East Side, Manhattan',
         visits: '2',
@@ -966,7 +970,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Mika',
-        description: 'Awesome beer hall in bushwick, Brooklyn. It opened in the middle of the pandemic... literally the owner was going to open in march 2020 but it had to delay for obvious reason.',
+        description:
+          'Awesome beer hall in bushwick, Brooklyn. It opened in the middle of the pandemic... literally the owner was going to open in march 2020 but it had to delay for obvious reason.',
         kind: 'Bar',
         area: 'Bushwick, Brooklyn',
         visits: '3',
@@ -981,7 +986,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'The Garret Coctelería',
-        description: 'I have been here a lot! Mostly because my friend is a Dj Gig with them. Go support Him, and the bartenders there every Friday. Cool Latin sounds every, and tropical drinks.',
+        description:
+          'I have been here a lot! Mostly because my friend is a Dj Gig with them. Go support Him, and the bartenders there every Friday. Cool Latin sounds every, and tropical drinks.',
         kind: 'Bar',
         area: 'Nolita, Manhattan',
         visits: '3',
@@ -1011,7 +1017,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Bowery Electric',
-        description: 'Cool bar / Venue with bands playing on the basement in your fave neighborhood the east village.',
+        description:
+          'Cool bar / Venue with bands playing on the basement in your fave neighborhood the east village.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -1026,7 +1033,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Short Stories',
-        description: 'Small Bar in the village, there is almost always a bunch of peeps waiting to go in on a Friday night. That does not mean it is good, it is cool tho for what that`s worth.',
+        description:
+          'Small Bar in the village, there is almost always a bunch of peeps waiting to go in on a Friday night. That does not mean it is good, it is cool tho for what that`s worth.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '2',
@@ -1041,7 +1049,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Rocka Rolla',
-        description: 'Bar in Williamsburg, brooklyn. Nothing much to say about it.',
+        description:
+          'Bar in Williamsburg, brooklyn. Nothing much to say about it.',
         kind: 'Bar',
         area: 'Williamsburg, brooklyn',
         visits: '1',
@@ -1056,7 +1065,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'The Gutter',
-        description: 'Cool bar in greenpoint with a full on bowling alley, and other games.',
+        description:
+          'Cool bar in greenpoint with a full on bowling alley, and other games.',
         kind: 'Bar',
         area: 'Green Point, Brooklyn',
         visits: '1',
@@ -1071,7 +1081,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'The Red Lion',
-        description: 'Bar for NYU Student`s they do not card all the time so that is the only positive... That only applies for kiddos from NYU and surroundings.',
+        description:
+          'Bar for NYU Student`s they do not card all the time so that is the only positive... That only applies for kiddos from NYU and surroundings.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -1086,7 +1097,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'The Late Late',
-        description: 'Cool bar if you are bar hopping, plenty of peeps, basement for dancing but be wary the basement lacks good ventilation so expect smells.',
+        description:
+          'Cool bar if you are bar hopping, plenty of peeps, basement for dancing but be wary the basement lacks good ventilation so expect smells.',
         kind: 'Bar',
         area: 'Lower East Side, Manhattan',
         visits: '2',
@@ -1101,7 +1113,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'BUA',
-        description: 'Cool Bar in the East Village. Good drinks, Good atmosphere, Cool vibes.',
+        description:
+          'Cool Bar in the East Village. Good drinks, Good atmosphere, Cool vibes.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -1116,7 +1129,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Mr. Purple',
-        description: 'Cool rooftop bar in Lower East Side. I feel like everyone in Manhattan knows about this rooftop bar, I guess that means they are doing something right. During the summer they open their pool up until 10pm if you are feeling dangerous.',
+        description:
+          'Cool rooftop bar in Lower East Side. I feel like everyone in Manhattan knows about this rooftop bar, I guess that means they are doing something right. During the summer they open their pool up until 10pm if you are feeling dangerous.',
         kind: 'Rooftop Bar',
         area: 'Lower East Side, Manhattan',
         visits: '3',
@@ -1131,7 +1145,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Panorama Room',
-        description: 'Cool rooftop bar in Roosevelt Island, cool views of mostly 59st and the United Nations. Good drinks and cool vibes.',
+        description:
+          'Cool rooftop bar in Roosevelt Island, cool views of mostly 59st and the United Nations. Good drinks and cool vibes.',
         kind: 'Rooftop Bar',
         area: 'Roosevelt Island, Manhattan',
         visits: '3',
@@ -1146,7 +1161,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'PHD Terrace at Dream Midtown',
-        description: 'ahh PHD... It is cool but not my cup of tea. View of midtown.',
+        description:
+          'ahh PHD... It is cool but not my cup of tea. View of midtown.',
         kind: 'Rooftop Bar',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -1161,7 +1177,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Dear Irving on Hudson Rooftop',
-        description: 'Cool rooftop bar in 34st with Views of the Empire State, and Hudson Yards.',
+        description:
+          'Cool rooftop bar in 34st with Views of the Empire State, and Hudson Yards.',
         kind: 'Rooftop Bar',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -1176,7 +1193,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'The Roof',
-        description: 'Another Lower East Rooftop bar this one is in the public hotel, it is more low key than Mr. Purple, more chill but has plenty of room.',
+        description:
+          'Another Lower East Rooftop bar this one is in the public hotel, it is more low key than Mr. Purple, more chill but has plenty of room.',
         kind: 'Rooftop Bar',
         area: 'Lower East Side, Manhattan',
         visits: '3',
@@ -1208,9 +1226,10 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Refinery Rooftop',
-        description: 'Rooftop bar in midtown with views of buildings in 39st and 37st... I went there once and probably will stay that way.',
+        description:
+          'Rooftop bar in midtown with views of buildings in 39st and 37st... I went there once and probably will stay that way.',
         kind: 'Rooftop Bar',
-        area: 'Midtown, Manhattan',        
+        area: 'Midtown, Manhattan',
         visits: '1',
         visited: true,
       },
@@ -1224,7 +1243,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Magic Hour Rooftop Bar & Lounge',
-        description: 'Instagram Worthy Rooftop in midtown, I guess if you want to go to take photos go there... just know that everyone is going there for those reasons. Great view of the Empire State tho.',
+        description:
+          'Instagram Worthy Rooftop in midtown, I guess if you want to go to take photos go there... just know that everyone is going there for those reasons. Great view of the Empire State tho.',
         kind: 'Rooftop Bar',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -1256,7 +1276,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Garfunkel',
-        description: 'My favorite speakeasy in New York City, great drinks, Awesome atmosphere, Great bartenders. Awesome menu, full of surprises :)',
+        description:
+          'My favorite speakeasy in New York City, great drinks, Awesome atmosphere, Great bartenders. Awesome menu, full of surprises :)',
         kind: 'Speakeasy',
         area: 'Lower East side, Manhattan',
         visits: '3',
@@ -1273,7 +1294,7 @@ const Bars = {
         name: 'The Back Room',
         description: 'I have not been here yet. I want to go tho.',
         kind: 'Speakeasy',
-         area: 'Lower East side, Manhattan',
+        area: 'Lower East side, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -1286,7 +1307,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Crif Dogs',
-        description: 'I have not been here yet. But I have had their hotdogs in the cover shop. Those are good!',
+        description:
+          'I have not been here yet. But I have had their hotdogs in the cover shop. Those are good!',
         kind: 'Speakeasy',
         area: 'East Village, Manhattan',
         visits: '0',
@@ -1301,7 +1323,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'The Garret',
-        description: 'I have not been here yet. But I have always wanted to go there because it is on top of a five guys restaurant.',
+        description:
+          'I have not been here yet. But I have always wanted to go there because it is on top of a five guys restaurant.',
         kind: 'Speakeasy',
         area: 'Greenwich Village, Manhattan',
         visits: '0',
@@ -1316,7 +1339,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Basement',
-        description: 'I have not been here yet. But I have heard good things about this place!',
+        description:
+          'I have not been here yet. But I have heard good things about this place!',
         kind: 'Speakeasy',
         area: 'Chinatown, Manhattan',
         visits: '0',
@@ -1346,7 +1370,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'UES.',
-        description: 'Speakeasy behind an Ice Cream shop, cool drink presentation.',
+        description:
+          'Speakeasy behind an Ice Cream shop, cool drink presentation.',
         kind: 'Speakeasy',
         area: 'Upper East Side, Manhattan',
         visits: '1',
@@ -1361,7 +1386,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'The Cauldron',
-        description: 'Bar with drinks inspire by Harry Potter in the Financial District, don`t ask questions about the location.',
+        description:
+          'Bar with drinks inspire by Harry Potter in the Financial District, don`t ask questions about the location.',
         kind: 'Bar',
         area: 'Financial District, Manhattan',
         visits: '1',
@@ -1384,14 +1410,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7442781,-73.9839841],
+        coordinates: [40.7442781, -73.9839841],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'The Jane Ballroom',
-        description: 'Cool venue, only been there once but that is because only one event that i have been interested in or invited was there.',
+        description:
+          'Cool venue, only been there once but that is because only one event that i have been interested in or invited was there.',
         kind: 'Live Music Venue',
         area: 'Meatpacking District, Manhattan',
         visits: '1',
@@ -1399,7 +1426,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7383247, -74.0092930],
+        coordinates: [40.7383247, -74.009293],
       },
     },
     {
@@ -1414,14 +1441,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7215410, -73.9881860],
+        coordinates: [40.721541, -73.988186],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'Jupiter Disco',
-        description: 'Small bar in bushwick, Brooklyn where you can dance yourself to death if you`d like. ',
+        description:
+          'Small bar in bushwick, Brooklyn where you can dance yourself to death if you`d like. ',
         kind: 'Bar - Dance',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -1436,7 +1464,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Mezzrow',
-        description: 'Awesome jazz provided in this small or should i say cozy bar in Greenwich village.',
+        description:
+          'Awesome jazz provided in this small or should i say cozy bar in Greenwich village.',
         kind: 'Jazz Bar',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -1451,7 +1480,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: '55 Bar',
-        description: 'Another amazing jazz bar! Manhattan is the heart of jazz so yeah... makes sense.',
+        description:
+          'Another amazing jazz bar! Manhattan is the heart of jazz so yeah... makes sense.',
         kind: 'Jazz Bar',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -1466,7 +1496,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Tomi Jazz',
-        description: 'Amazing jazz bar with Japanese inspirations which means I loved it! Again Manhattan is the heart of jazz so yeah... so makes sense.',
+        description:
+          'Amazing jazz bar with Japanese inspirations which means I loved it! Again Manhattan is the heart of jazz so yeah... so makes sense.',
         kind: 'Jazz Bar',
         area: 'Midtown East, Manhattan',
         visits: '1',
@@ -1481,7 +1512,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Happyfun Hideaway',
-        description: 'Happyfun Hideaway is happy as long as you are happy in deep bushwick, it is fun as long as you are also fun, you can definitely hide and also make way because you will hide and make way while dancing.',
+        description:
+          'Happyfun Hideaway is happy as long as you are happy in deep bushwick, it is fun as long as you are also fun, you can definitely hide and also make way because you will hide and make way while dancing.',
         kind: 'Bar',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -1497,7 +1529,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Iguana New York',
-        description: 'Mexican Restaurant that has a huge basement that host latin music parties. I have been unlucky tho everytime that i have visited it is pretty dead... maybe is because i show up at 10pm and that is too early.',
+        description:
+          'Mexican Restaurant that has a huge basement that host latin music parties. I have been unlucky tho everytime that i have visited it is pretty dead... maybe is because i show up at 10pm and that is too early.',
         kind: 'Dance',
         area: 'Midtown, Manhattan',
         visits: '2',
@@ -1505,7 +1538,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7642491,-73.9832269],
+        coordinates: [40.7642491, -73.9832269],
       },
     },
     {
@@ -1520,14 +1553,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.744002,-73.9880767],
+        coordinates: [40.744002, -73.9880767],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'Union Pool',
-        description: 'This place is just a bar, no pool tables here. Check for other places.',
+        description:
+          'This place is just a bar, no pool tables here. Check for other places.',
         kind: 'Bar',
         area: 'Williamburg, Brooklyn',
         visits: '1',
@@ -1535,14 +1569,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7149875,-73.9516407],
+        coordinates: [40.7149875, -73.9516407],
       },
-    },  
+    },
     {
       type: 'Feature',
       properties: {
         name: 'Karaoke Boho Orchard',
-        description: 'Karaoke bar in chinatown which i think it is the cheapest one in the entire city at $10 dollars per person.',
+        description:
+          'Karaoke bar in chinatown which i think it is the cheapest one in the entire city at $10 dollars per person.',
         kind: 'Karaoke Bar',
         area: 'Chinatown, Manhattan',
         visits: '1',
@@ -1550,14 +1585,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7207467,-73.9886926],
+        coordinates: [40.7207467, -73.9886926],
       },
-    },  
+    },
     {
       type: 'Feature',
       properties: {
         name: 'The Dead Rabbit Manhattan',
-        description: 'Nice bar in FiDi, their drinks are good but i have only been here once... it is supppse to be a really popular bar for whatever that`s worth.',
+        description:
+          'Nice bar in FiDi, their drinks are good but i have only been here once... it is supppse to be a really popular bar for whatever that`s worth.',
         kind: 'Bar',
         area: 'Financial District, Manhattan',
         visits: '1',
@@ -1565,14 +1601,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.703248,-74.0112339],
+        coordinates: [40.7122656, -73.9515525],
       },
-    },  
+    },
     {
       type: 'Feature',
       properties: {
         name: '169 Bar',
-        description: 'Dimes Square bar were you can find and interact with so many different personalities. Find creative peeps, and peeps that will either make you night, or not, your year, or not. Maybe that only applies for my friends.',
+        description:
+          'Dimes Square bar were you can find and interact with so many different personalities. Find creative peeps, and peeps that will either make you night, or not, your year, or not. Maybe that only applies for my friends.',
         kind: 'Bar',
         area: 'Dimes Square, Manhattan',
         visits: '1',
@@ -1580,9 +1617,9 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7138889,-73.9897222],
+        coordinates: [40.7138889, -73.9897222],
       },
-    },  
+    },
     {
       type: 'Feature',
       properties: {
@@ -1595,14 +1632,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7511025,-74.0337796],
+        coordinates: [40.7551665, -74.0315654],
       },
-    },  
+    },
     {
       type: 'Feature',
       properties: {
         name: 'Death & Company',
-        description: 'Fancy bar of the village? Maybe this one is here because it has a nice vibe. ',
+        description:
+          'Fancy bar of the village? Maybe this one is here because it has a nice vibe. ',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -1610,14 +1648,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.72592,-73.9846452],
+        coordinates: [40.72592, -73.9846452],
       },
-    },  
+    },
     {
       type: 'Feature',
       properties: {
         name: 'Ace Bar',
-        description: 'Pool tables ready, Bartenders ready, nothing fancy, it just works.',
+        description:
+          'Pool tables ready, Bartenders ready, nothing fancy, it just works.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '3',
@@ -1625,14 +1664,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7243881,-73.9828652],
+        coordinates: [40.7243881, -73.9828652],
       },
-    },  
+    },
     {
       type: 'Feature',
       properties: {
         name: 'Beauty Bar',
-        description: 'Salon and Bar mixed into one on 14st. Want to do your hair and get drunk this might be your spot.',
+        description:
+          'Salon and Bar mixed into one on 14st. Want to do your hair and get drunk this might be your spot.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -1640,14 +1680,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7329854,-73.985709],
+        coordinates: [40.7329854, -73.985709],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'The Penrose',
-        description: 'Bar with good food, I think this two are only achivable on the Upper East ide.',
+        description:
+          'Bar with good food, I think this two are only achivable on the Upper East ide.',
         kind: 'Bar',
         area: 'Upper East Side, Manhattan',
         visits: '1',
@@ -1655,14 +1696,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7754438,-73.9531426],
+        coordinates: [40.7754438, -73.9531426],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'Jungle Bird',
-        description: 'I did not love this place. But it is definetely a place to check at least onces.',
+        description:
+          'I did not love this place. But it is definetely a place to check at least onces.',
         kind: 'Bar',
         area: 'Chelsea, Manhattan',
         visits: '1',
@@ -1670,14 +1712,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7426041,-74.0001774],
+        coordinates: [40.7426041, -74.0001774],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'Bossa Nova Civic Club',
-        description: 'I bar hopped through a bunch bars when i visited this place.',
+        description:
+          'I bar hopped through a bunch bars when i visited this place.',
         kind: 'Bar',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -1685,7 +1728,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7571457, -73.9678294],
+        coordinates: [40.6978896, -73.9279335],
       },
     },
     {
@@ -1700,7 +1743,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7752393,-73.9106741],
+        coordinates: [40.7748385, -73.9086568],
       },
     },
     {
@@ -1715,7 +1758,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7295621,-73.958191],
+        coordinates: [40.7296345, -73.9583868],
       },
     },
     {
@@ -1730,14 +1773,15 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7756265,-73.9509132],
+        coordinates: [40.7770712, -73.9527088],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'Home Sweet Home',
-        description: 'Taxidermy? on a bar? If that is your kink this is your place in the lower east side.',
+        description:
+          'Taxidermy? on a bar? If that is your kink this is your place in the lower east side.',
         kind: 'Bar',
         area: 'Lower East Side, Manhattan',
         visits: '1',
@@ -1745,7 +1789,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7194868,-73.9933538],
+        coordinates: [40.7194868, -73.9933538],
       },
     },
     {
@@ -1760,7 +1804,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7204065,-73.9955523],
+        coordinates: [40.7204327, -73.9933927],
       },
     },
     {
@@ -1775,7 +1819,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.6866574,-73.9777373],
+        coordinates: [40.6866574, -73.9777373],
       },
     },
     {
@@ -1790,7 +1834,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7101278,-73.9634861],
+        coordinates: [40.7101278, -73.9634861],
       },
     },
     {
@@ -1867,7 +1911,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.730084,-74.0005579],
+        coordinates: [40.730084, -74.0005579],
       },
     },
     {
@@ -1882,7 +1926,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7843586,-73.9777082],
+        coordinates: [40.7843586, -73.9777082],
       },
     },
     {
@@ -1897,7 +1941,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7849608,-73.9795149],
+        coordinates: [40.7850035, -73.9773822],
       },
     },
     {
@@ -1912,7 +1956,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7189604,-73.9883548],
+        coordinates: [40.7189604, -73.9883548],
       },
     },
     {
@@ -1927,7 +1971,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7253512,-73.9872202],
+        coordinates: [40.7253512, -73.9872202],
       },
     },
     {
@@ -1942,22 +1986,23 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [6.2066915,-75.5642431],
+        coordinates: [6.2066915, -75.5642431],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'Life Rooftop Central Park',
-        description: 'Rooftop with what it seems to be immaculate views of central park and midtwon manhtattan but I have not been here yet.',
+        description:
+          'Rooftop with what it seems to be immaculate views of central park and midtwon manhtattan but I have not been here yet.',
         kind: 'Rooftop Bar',
-        area: 'Midtown, Manhattan',        
+        area: 'Midtown, Manhattan',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7645242,-73.9784575],
+        coordinates: [40.7645242, -73.9784575],
       },
     },
     {
@@ -1966,13 +2011,13 @@ const Bars = {
         name: 'Ice Kube Bar',
         description: 'I need to go here when in paris!',
         kind: 'Bar',
-        area: 'Paris, France',   
+        area: 'Paris, France',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [48.8865207,2.35881],
+        coordinates: [48.8865207, 2.35881],
       },
     },
     {
@@ -1987,7 +2032,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7600765,-73.9872658],
+        coordinates: [40.7600765, -73.9872658],
       },
     },
     {
@@ -1996,13 +2041,13 @@ const Bars = {
         name: 'Swingers Crazy Golf - NoMad',
         description: 'I have not been here yet.',
         kind: 'Game Bar',
-        area: 'Chelsea, Manhattan',   
+        area: 'Chelsea, Manhattan',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7463273,-73.9890193],
+        coordinates: [40.7463273, -73.9890193],
       },
     },
 
@@ -2043,43 +2088,45 @@ const Bars = {
         name: 'Vintrash',
         description: 'I have not been to this medillin bar yet.',
         kind: 'bar',
-        area: 'Medellin, Colombia',   
+        area: 'Medellin, Colombia',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [6.2079191,-75.5660177],
+        coordinates: [6.2079191, -75.5660177],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'IRL',
-        description: 'Gallery that has a speakeasy afterhours?? I have not been here yet.',
+        description:
+          'Gallery that has a speakeasy afterhours?? I have not been here yet.',
         kind: 'Speakeasy',
-        area: 'Greenpoint, Brooklyn',   
+        area: 'Greenpoint, Brooklyn',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.727349,-73.956995],
+        coordinates: [40.727349, -73.956995],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'Spring Lounge',
-        description: 'I have not been here yet but have heard good things of this place in spring st.',
+        description:
+          'I have not been here yet but have heard good things of this place in spring st.',
         kind: 'Bar',
-        area: 'SoHo, Manhattan',   
+        area: 'SoHo, Manhattan',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.721904,-73.996424],
+        coordinates: [40.721904, -73.996424],
       },
     },
     {
@@ -2094,7 +2141,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7094323,-73.9333896],
+        coordinates: [40.7094323, -73.9333896],
       },
     },
     {
@@ -2109,7 +2156,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.711305,-73.963079],
+        coordinates: [40.711305, -73.963079],
       },
     },
     {
@@ -2124,7 +2171,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7624984,-73.8278276],
+        coordinates: [40.7624984, -73.8278276],
       },
     },
     {
@@ -2139,7 +2186,7 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.722297,-73.9565396],
+        coordinates: [40.722297, -73.9565396],
       },
     },
     {
@@ -2224,7 +2271,8 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Temple Court',
-        description: 'This bar / restaurant is one of the coolest places i have visited in New York  city. It is definetely a must visit while in NYC. It is a bit pricey but the look, service, and flavors of the foods and drinks makes it 1000% worth it. ',
+        description:
+          'This bar / restaurant is one of the coolest places i have visited in New York  city. It is definetely a must visit while in NYC. It is a bit pricey but the look, service, and flavors of the foods and drinks makes it 1000% worth it. ',
         kind: 'Bar',
         area: 'FiDi, Manhattan',
         visits: '1',
@@ -2232,7 +2280,23 @@ const Bars = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7113002,-74.0089631],
+        coordinates: [40.71126, -74.006822],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bent Run Brewing Company',
+        description:
+          'Cool brewery with live music, games, and awesome selection of beers, and my favorite root beer to this day! If you are in Warren, PA give them a visit.',
+        kind: 'Brewery',
+        area: 'Scandia, PA',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.8429087, -79.1470254],
       },
     },
     {
@@ -2250,7 +2314,6 @@ const Bars = {
         coordinates: [],
       },
     },
-
   ],
 };
 

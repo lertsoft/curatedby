@@ -1,3 +1,8 @@
+// All the data has been collected by Ronny Coste throughtout the years.
+/// ////////////////////////////////////////////////
+/// ///////        Restaurants        //////////////
+/// ////////////////////////////////////////////////
+
 const Food = {
   type: 'FeatureCollection',
   features: [
@@ -46,7 +51,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.9203736, -73.8697598],
+        coordinates: [40.9203563, -73.8676098],
       },
     },
     {
@@ -78,7 +83,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7144856, -73.9992632],
+        coordinates: [40.7149542, -73.9996032],
       },
     },
     {
@@ -110,7 +115,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7587252, -73.988414],
+        coordinates: [40.7588048, -73.9863224],
       },
     },
     {
@@ -126,7 +131,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7214575, -73.9810942],
+        coordinates: [40.7196132, -73.9885413],
       },
     },
     {
@@ -173,7 +178,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7075225, -73.9331828],
+        coordinates: [40.7289775, -73.9871531],
       },
     },
     {
@@ -189,7 +194,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7319558, -73.9854781],
+        coordinates: [40.7318475, -73.9856341],
       },
     },
     {
@@ -220,7 +225,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7030909, -73.9224975],
+        coordinates: [40.7031479, -73.9219607],
       },
     },
     {
@@ -313,7 +318,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7784728, -73.9797464],
+        coordinates: [40.7784809, -73.9807187],
       },
     },
     {
@@ -393,7 +398,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.6790244, -73.9948259],
+        coordinates: [40.6781926, -73.9980566],
       },
     },
     {
@@ -441,7 +446,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7223109, -73.9985166],
+        coordinates: [40.7222884, -73.9963121],
       },
     },
     {
@@ -473,7 +478,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7571457, -73.9678294],
+        coordinates: [40.7231758, -73.9957423],
       },
     },
     {
@@ -489,7 +494,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7285199, -73.9892737],
+        coordinates: [40.728502, -73.9871284],
       },
     },
     {
@@ -505,7 +510,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [41.7038783, -73.9308954],
+        coordinates: [41.7039015, -73.9287277],
       },
     },
     {
@@ -599,7 +604,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7156656, -73.9988928],
+        coordinates: [40.715684, -73.9967863],
       },
     },
     {
@@ -614,7 +619,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7311047, -74.0049364],
+        coordinates: [40.7311062, -74.0028768],
       },
     },
     {
@@ -630,7 +635,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7287667, -74.001769],
+        coordinates: [40.7287148, -73.9995887],
       },
     },
     {
@@ -646,7 +651,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7573214, -74.0051635],
+        coordinates: [40.757344, -73.9877278],
       },
     },
     {
@@ -662,7 +667,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7282142, -73.9843493],
+        coordinates: [40.7282008, -73.982161],
       },
     },
 
@@ -678,7 +683,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.804197, -73.956285],
+        coordinates: [40.8040794, -73.954158],
       },
     },
 
@@ -736,9 +741,9 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Kouzina',
-        description: 'good greek food in astoria.',
+        description: 'good greek food from an authentic greek owner.',
         kind: 'Greek Restaurant',
-        area: 'Astoria, Queens',
+        area: 'Stamford, Connecticut',
         visits: '1',
         visited: true,
       },
@@ -824,7 +829,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7323017, -73.9895357],
+        coordinates: [40.7322941, -73.987338],
       },
     },
     {
@@ -871,7 +876,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [26.0034924, -80.1327928],
+        coordinates: [26.0131647, -80.1488042],
       },
     },
     {
@@ -887,7 +892,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.727031, -74.1264487],
+        coordinates: [40.8502639, -73.9332046],
       },
     },
     {
@@ -935,7 +940,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7264287, -73.9918806],
+        coordinates: [40.7263976, -73.9896958],
       },
     },
     {
@@ -1029,7 +1034,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7271157, -73.9947989],
+        coordinates: [40.7274812, -73.9827222],
       },
     },
     {
@@ -1045,7 +1050,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [41.4150039, -72.9056848],
+        coordinates: [41.4148877, -72.9035541],
       },
     },
     {
@@ -1076,7 +1081,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7348368, -74.0019949],
+        coordinates: [40.7347908, -73.9998812],
       },
     },
     {
@@ -1092,7 +1097,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7475891, -73.989107],
+        coordinates: [40.7475648, -73.9870015],
       },
     },
     {
@@ -1378,7 +1383,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [18.4669959, -69.9372118],
+        coordinates: [18.4666429, -69.9344991],
       },
     },
     {
@@ -1393,7 +1398,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [64.1452958, -21.930149],
+        coordinates: [64.1453857, -21.9280034],
       },
     },
     {
@@ -1746,11 +1751,12 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Sarabeth`s',
-        description: 'I have not been here yet.',
+        description:
+          'The servers are attentive and really knowledgable of the menu and full of recommendation.',
         kind: 'Casual Dining',
         area: 'Grammercy, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -1988,15 +1994,16 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Fonda',
-        description: 'I have not been here yet.',
+        description:
+          'Great tacos, and drinks would definetely go back again if I am in park slope.',
         kind: 'Mexican Restaurant',
         area: 'Park Slope, Brooklyn',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.663619, -73.98677],
+        coordinates: [40.6636067, -73.9844925],
       },
     },
     {
@@ -2339,7 +2346,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.6885818, -73.9720043],
+        coordinates: [40.689451, -73.9724167],
       },
     },
 
@@ -2782,7 +2789,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.8643916, -73.9241014],
+        coordinates: [40.8636443, -73.9263601],
       },
     },
 
@@ -3048,7 +3055,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [43.6522501, -79.3976634],
+        coordinates: [43.6526034, -79.3988045],
       },
     },
 

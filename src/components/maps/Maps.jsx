@@ -24,7 +24,7 @@ const libraries = ['places'];
 
 const mapContainerStyle = {
   width: '100vw',
-  height: '94vh',
+  height: '95vh',
   // position: 'absolute',
 };
 

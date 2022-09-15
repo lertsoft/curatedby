@@ -1,3 +1,8 @@
+// All the data has been collected by Ronny Coste throughtout the years.
+/// ////////////////////////////////////////////////
+/// ///////          Dance          ////////////////
+/// ////////////////////////////////////////////////
+
 const Dance = {
   type: 'FeatureCollection',
   features: [
@@ -22,7 +27,7 @@ const Dance = {
         name: 'Den Social Lounge',
         description: 'I have not been here yet.',
         kind: 'Club',
-        area: 'Midtwon, Manhattan',
+        area: 'Midtown, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -73,7 +78,7 @@ const Dance = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7397951, -73.9865826],
+        coordinates: [40.7398202, -73.9849883],
       },
     },
     {
@@ -476,7 +481,7 @@ const Dance = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7107814, -73.9538264],
+        coordinates: [40.7105274, -73.9541514],
       },
     },
 
@@ -594,7 +599,7 @@ const Dance = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [37.7846065, -122.5733131],
+        coordinates: [37.7846156, -122.4332592],
       },
     },
 
@@ -721,7 +726,7 @@ const Dance = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [52.5112834, 13.4404954],
+        coordinates: [52.5110459, 13.4430186],
       },
     },
     {

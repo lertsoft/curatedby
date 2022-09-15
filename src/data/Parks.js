@@ -1,3 +1,8 @@
+// All the data has been collected by Ronny Coste throughtout the years.
+/// ////////////////////////////////////////////////
+/// ///////       Parks | Hiking       /////////////
+/// ////////////////////////////////////////////////
+
 const Parks = {
   type: 'FeatureCollection',
   features: [
@@ -30,7 +35,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [18.4821729, -69.8378193],
+        coordinates: [18.4805811, -69.8431322],
       },
     },
     {
@@ -69,7 +74,7 @@ const Parks = {
         name: 'Mt Marcy',
         description: 'I have not been here yet.',
         kind: 'Hiking',
-        area: 'Keene, NY',
+        area: 'Adirondack Mountains, New York',
         visits: '0',
         visited: false,
       },
@@ -92,7 +97,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [41.4670803, -73.9547742],
+        coordinates: [41.4455492, -73.9750735],
       },
     },
 
@@ -173,7 +178,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [41.2327867, -74.1151763],
+        coordinates: [41.2331601, -74.1175197],
       },
     },
 
@@ -199,7 +204,7 @@ const Parks = {
       properties: {
         name: 'Greenpoint Beach',
         description:
-          'Small Park in Greenpoint, Brooklyn, get on the water at your own cost.',
+          'Small Park in Greenpoint, Brooklyn, get on the water at your own cost also something to note is that this park has a kaws sculture sitting there waiting to be admire.',
         kind: 'Park',
         area: 'Greenpoint, brooklyn',
         visits: '3',
@@ -250,7 +255,7 @@ const Parks = {
           'Beautiful park with a beautiful view of Jersey. Go during sunset, One of the best sunsets i have seen was from that high up vantage point that the park offers. This is in Washington Heights, Manhattan.',
         kind: 'Park',
         area: 'Inwood, Manhattan',
-        visits: '1',
+        visits: '2',
         visited: true,
       },
       geometry: {
@@ -311,7 +316,7 @@ const Parks = {
       properties: {
         name: 'Hunters Point South Park',
         description:
-          'Huge park in hunts point, Queens were they hold concerts, and have beach volleyball set up for us. The sunset are beautiful here with an awesome and unique view of manhattan with the United Nations building being the center of it.',
+          'I am going to start with... I saw Cold play perform here for free!! Huge park in hunts point, Queens were they hold concerts, and have beach volleyball set up for us. The sunset are beautiful here with an awesome and unique view of manhattan with the United Nations building being the center of it.',
         kind: 'Park',
         area: 'Long Island City, Queens',
         visits: '3',
@@ -527,7 +532,8 @@ const Parks = {
       type: 'Feature',
       properties: {
         name: 'Van Cortlandt Park',
-        description: 'I have not been here yet.',
+        description:
+          'I have not been here yet but I have read that this is the only park in NYC that has original forestry left.',
         kind: 'Park',
         area: 'Bronx, NY',
         visits: '0',
@@ -550,14 +556,15 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.5441972, -73.8726985],
+        coordinates: [40.5620227, -73.895756],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: '"45°57`53.3""N 63°18`18.4""E"S',
-        description: 'I have not been here yet.',
+        description:
+          'I have not been here yet. This is supposed to be an abandoned soviet town that has some of the nuclear test perfom on.',
         kind: 'Park',
         area: 'Ayteke Bi District, Kazakhstan',
         visits: '0',
@@ -595,14 +602,15 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7420658, -74.0107073],
+        coordinates: [40.6044772, -74.0599693],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: '40°34`06.3"N 73°51`53.0"W',
-        description: 'I have not been here yet.',
+        description:
+          'I have not been here yet. Abandoned warehouse / fort in far rockaway.',
         kind: 'Park',
         area: 'Far Rockaway, NY',
         visits: '0',
@@ -610,14 +618,15 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.5707902, -73.8867172],
+        coordinates: [40.5685127, -73.8648307],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'Windsor State Forest',
-        description: 'I have not been here yet.',
+        description:
+          'I have not been here yet. During fall or spring this intersection looks pretty from all the change of colors.',
         kind: 'Park',
         area: 'Windsor, MA',
         visits: '0',
@@ -625,14 +634,15 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [42.5189219, -73.029752],
+        coordinates: [42.5089977, -73.0461521],
       },
     },
     {
       type: 'Feature',
       properties: {
         name: 'Red Hook Grain Terminal',
-        description: 'I have not been here yet.',
+        description:
+          'I have not been here yet. Abandoned terminal that has a rooftop but it is not that easy to get to.',
         kind: 'Park',
         area: 'Brooklyn, NY',
         visits: '0',
@@ -647,7 +657,7 @@ const Parks = {
       type: 'Feature',
       properties: {
         name: 'Blue Horizon',
-        description: 'I have not been here yet.',
+        description: 'I have not been here yet. Abandoned recreational center.',
         kind: 'Abandoned',
         area: 'Philladelphia, PA',
         visits: '0',
@@ -655,7 +665,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [39.9683941, -75.1293572],
+        coordinates: [39.9738085, -75.1592429],
       },
     },
 
@@ -663,7 +673,7 @@ const Parks = {
       type: 'Feature',
       properties: {
         name: 'Centralia',
-        description: 'I have not been here yet.',
+        description: 'I have not been here yet. Abandoned town.',
         kind: 'Abandoned',
         area: 'Centralia, PA',
         visits: '0',
@@ -671,7 +681,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.8002974, -76.3455618],
+        coordinates: [40.8045109, -76.341925],
       },
     },
     {
@@ -716,7 +726,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.8978516, -73.9136389],
+        coordinates: [40.8978851, -73.9117588],
       },
     },
     {
@@ -738,21 +748,6 @@ const Parks = {
     {
       type: 'Feature',
       properties: {
-        name: 'Mt Marcy',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Adirondack Mountains, New York',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [44.0696416, -74.2468779],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Natural Stone Bridge & Caves',
         description: 'I have not been here yet.',
         kind: 'Hiking',
@@ -762,7 +757,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [43.7426903, -73.9180556],
+        coordinates: [43.7475159, -73.8514579],
       },
     },
     {
@@ -778,7 +773,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [43.4323547, -73.730076],
+        coordinates: [43.4261675, -73.7123366],
       },
     },
     {
@@ -809,7 +804,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [19.7986158, -70.6954812],
+        coordinates: [19.7985932, -70.6936937],
       },
     },
 
@@ -950,7 +945,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [42.2496615, -73.9863915],
+        coordinates: [42.1937353, -74.0642294],
       },
     },
 
@@ -997,7 +992,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [43.6833979, -102.3820746],
+        coordinates: [43.8446153, -102.3408059],
       },
     },
 
@@ -1029,7 +1024,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [44.3193806, -68.2968099],
+        coordinates: [44.3361204, -68.2765056],
       },
     },
 
@@ -1046,7 +1041,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [47.5267068, -116.7951048],
+        coordinates: [47.6707874, -116.7869783],
       },
     },
 
@@ -1092,7 +1087,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [39.6033667, -107.1877653],
+        coordinates: [39.601392, -107.1918609],
       },
     },
     {
@@ -1330,7 +1325,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [42.1979739, -73.2191494],
+        coordinates: [42.2352488, -73.1936019],
       },
     },
 
@@ -1377,7 +1372,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [45.2550769, -111.266115],
+        coordinates: [45.2617841, -111.3080159],
       },
     },
 
@@ -1393,7 +1388,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [36.0924094, -112.843134],
+        coordinates: [36.088433, -112.1111396],
       },
     },
 
@@ -1424,7 +1419,7 @@ const Parks = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [36.331608, -121.8181792],
+        coordinates: [36.2717301, -121.8075025],
       },
     },
 

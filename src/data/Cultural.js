@@ -1,3 +1,4 @@
+// All the data has been collected by Ronny Coste throughtout the years.
 /// ////////////////////////////////////////////////
 /// ///////   Museum & Galleries    ////////////////
 /// ////////////////////////////////////////////////
@@ -204,7 +205,7 @@ const cultural = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7487662, -74.0036157],
+        coordinates: [40.766813, -73.9402479],
       },
     },
     {
@@ -236,7 +237,7 @@ const cultural = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.69057, -73.9900678],
+        coordinates: [40.69057, -73.9922618],
       },
     },
     {
@@ -293,7 +294,7 @@ const cultural = {
         name: 'Color Factory New York',
         description: 'I have not been here yet.',
         kind: 'Museum',
-        area: 'Meatpacking District, Manhattan',
+        area: 'SoHo, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -415,13 +416,13 @@ const cultural = {
         name: 'The Jewish Museum',
         description: 'I have not been here yet.',
         kind: 'Museum',
-        area: 'Financial District, Manhattan',
+        area: 'Upper East Side, Manhattan',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.785334, -73.957351],
+        coordinates: [40.7853499, -73.957387],
       },
     },
     {

@@ -1,3 +1,8 @@
+// All the data has been collected by Ronny Coste throughtout the years.
+/// ////////////////////////////////////////////////
+/// ///////      Entertaiment       ///////////////
+/// ////////////////////////////////////////////////
+
 const Entertaiment = {
   type: 'FeatureCollection',
   features: [
@@ -29,7 +34,7 @@ const Entertaiment = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [31.617394, -99.1818621],
+        coordinates: [31.6174682, -97.0006342],
       },
     },
     {
@@ -154,7 +159,7 @@ const Entertaiment = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.6718933, -74.0003929],
+        coordinates: [40.6708389, -74.0012171],
       },
     },
 
@@ -171,6 +176,22 @@ const Entertaiment = {
       geometry: {
         type: 'Point',
         coordinates: [18.2564827, -66.3902099],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Voler en Aéroplume',
+        description:
+          'I have not been here yet but for 60 Dollars you can get on a helium ballon and fly!.',
+        kind: 'Amusement center',
+        area: 'Écausseville, France',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [49.4522522, -1.3819024],
       },
     },
   ],
