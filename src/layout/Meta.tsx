@@ -67,7 +67,7 @@ const Meta = (props: IMetaProps, customMeta) => {
         <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
         <meta
           name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
+          content="width=device-width, height=95vh,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=yes"
           key="viewport"
         />
         <link

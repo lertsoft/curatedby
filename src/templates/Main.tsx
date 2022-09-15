@@ -12,7 +12,7 @@ type IMainProps = {
 
 // NAVBAR
 const Main = (props: IMainProps) => (
-  <div className="w-full px-1 text-gray-700 antialiased">
+  <div className="inset-full px-1 text-gray-700 antialiased">
     {props.meta}
 
     <div className="mx-auto max-w-screen-xl">
@@ -48,10 +48,10 @@ const Main = (props: IMainProps) => (
 
     {/* Body of the App */}
 
-    <div className=" inset-full mx-0">{props.children}</div>
+    <div className=" mx-0 h-full w-full max-w-screen-xl">{props.children}</div>
 
     {/* FOOTER  */}
-    {/* <div className=" border-gray-300 py-8 text-center text-sm">
+    {/* <div className=" border-gray-300 py-2 text-center text-sm">
       © Copyright {new Date().getFullYear()} {AppConfig.title}. Created with{' '}
       <span role="img" aria-label="Love">
         ♥
