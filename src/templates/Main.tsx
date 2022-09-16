@@ -51,6 +51,7 @@ const Main = (props: IMainProps) => (
     <div className=" mx-0 h-full w-full">{props.children}</div>
 
     {/* FOOTER  */}
+
     {/* <div className=" border-gray-300 py-2 text-center text-sm">
       © Copyright {new Date().getFullYear()} {AppConfig.title}. Created with{' '}
       <span role="img" aria-label="Love">

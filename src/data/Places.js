@@ -1570,6 +1570,37 @@ const Places = {
         coordinates: [43.4534136, 4.4277333],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sky City',
+        description:
+          'I have not been here yet. This is longest waterslide ever built at 3km.',
+        kind: 'Travel',
+        area: 'Hubei, China',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.8087535, 114.8414682],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
   ],
 };
 

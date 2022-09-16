@@ -3152,6 +3152,37 @@ const Food = {
         coordinates: [18.4643819, -69.9251032],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Lobster Place',
+        description:
+          'Their sushi, oysters, and seafood in general is pretty fresh and tasty. I would say that i did not have high hopes for it but I ended up liking it and probably will go back.',
+        kind: 'Seafood Restaurant',
+        area: 'Chelsea, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.74277, -74.0059828],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
   ],
 };
 
