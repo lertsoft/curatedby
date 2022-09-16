@@ -1,3 +1,5 @@
+// TODO: Turn this component into typescript
+// TODO: Break down and separate some of the logic away from the maps renderer.
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
@@ -96,6 +98,10 @@ export default function MyMaps() {
     mapRef.current.setZoom(16);
   }, []);
 
+  const ZoomIn = React.useCallback(() => {
+    mapRef.current.setZoom(18);
+  }, []);
+
   if (loadError) {
     return <div>Map cannot be loaded right now, sorry.</div>;
   }
@@ -147,6 +153,7 @@ export default function MyMaps() {
               anchor: new window.google.maps.Point(15, 15),
               scaledSize: new window.google.maps.Size(30, 30),
             }}
+            panTo={ZoomIn}
             // clusterer={clusterer}
           />
         ))}

@@ -48,7 +48,7 @@ const Main = (props: IMainProps) => (
 
     {/* Body of the App */}
 
-    <div className=" mx-0 h-full w-full max-w-screen-xl">{props.children}</div>
+    <div className=" mx-0 h-full w-full">{props.children}</div>
 
     {/* FOOTER  */}
     {/* <div className=" border-gray-300 py-2 text-center text-sm">
