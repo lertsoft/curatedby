@@ -98,9 +98,10 @@ export default function MyMaps() {
     mapRef.current.setZoom(16);
   }, []);
 
-  const ZoomIn = React.useCallback(() => {
-    mapRef.current.setZoom(18);
-  }, []);
+  // TODO: ZoomIn if you click a marker.
+  // const ZoomIn = React.useCallback(() => {
+  //   mapRef.current.setZoom(18);
+  // }, []);
 
   if (loadError) {
     return <div>Map cannot be loaded right now, sorry.</div>;
@@ -153,7 +154,7 @@ export default function MyMaps() {
               anchor: new window.google.maps.Point(15, 15),
               scaledSize: new window.google.maps.Size(30, 30),
             }}
-            panTo={ZoomIn}
+            // panTo={ZoomIn}
             // clusterer={clusterer}
           />
         ))}
