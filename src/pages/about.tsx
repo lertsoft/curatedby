@@ -18,48 +18,52 @@ const About = () => (
     </div>
     <div className="mx-auto -mt-10 max-w-6xl bg-white pt-20">
       <p
-        className="mx-4 text-xl font-semibold leading-loose  md:text-2xl"
+        className="mx-4 text-xl font-normal leading-loose  md:text-xl"
         style={{ lineHeight: '3rem' }}
       >
-        This page / website / webapp was created because google does not offer a
-        way for me to surface my saved places on maps on a native way. If you
-        have a lot of places like me you want to go to those places or so I
-        would hope but google does not tell you of them if you search, you need
-        to purpusely look for your saved place. How it works now is that you
-        need to find the saved icon a Green Marker if you know where it is but
-        usually you don`t that is why you are using maps. So the second step is
-        going to that area but again you might find it you might not but it will
-        take a long time to do that. So the third option is just knowing the
-        name and by that point the feature is kind of usuless because you are
-        using the feature to outsource this things... Well you found your place,
-        now you go and enjoy.
+        This page / website / web-app was created because google does not offer
+        a way for me to surface my saved places on maps in a native way. If you
+        have a lot of places like me you want to go to those places or so you
+        would hope but google does not surface those places if you search. You
+        need to purposely look for a saved place. How it works now is that you
+        need to find the saved icon (a Green Marker) if you know where it is but
+        usually, you don`t know that is why you are using maps. So the second
+        step is going to that area but again you might find it or you might not
+        but it will take a long time to do that eitherway. So the third option
+        is just knowing the name and by that point, the feature is kind of
+        useless because you are using the feature to outsource these things...
+        And well, this is why I build this thing, now you go and enjoy.
         <br></br>
-        The way this app works is I could go to a neighborhood go my app press
-        locate me and it show me every place save in that area. If I want to go
-        to a restaurant I press the restaurarnt Icon get some quick info, and go
-        there. I can easily surface the information that i need to go to the
+        <br></br>
+        The way this app work is I could go to a neighborhood go to my app press
+        locate me and it shows me every place saved in that area. If I want to
+        go to a restaurant I press the restaurant Icon get some quick info and
+        go there. I can easily surface the information that I need to go to the
         places that I have saved. The way I am using my data it will allow me to
-        better understand the information that I had stored on google maps and
-        act on it. <br></br>I would consider myself a poweruser of google maps
-        as you can kind of assume from the paragraph above so when google
-        offerings were not meeting my needs and standards I when out of my way
-        to build that thing that i wanted and needed to better understand all my
-        maps information.
+        understand better the information that I had stored on google maps and
+        act on it.
+        <br></br>I would consider myself a google maps power-user as you can
+        kind of assume from the paragraph above so when google offerings were
+        not meeting my needs and standards I when out of my way to build that
+        thing that I wanted and needed to better understand all my maps
+        information.
       </p>
       <p
-        className="mx-4 text-xl font-semibold leading-loose  md:text-2xl"
+        className="mx-4 text-xl font-normal leading-loose  md:text-xl"
         style={{ lineHeight: '3rem' }}
       >
         <br></br>
-        The website is pretty simple.<br></br>
+        <span className="font-semibold"> The website is pretty simple.</span>
+        <br></br>
         It has Icons to represent Bars, Restaurants, Japanese Restaurants, Parks
-        | Hiking trails, Museums | Galleries, Clubs | Dance Venues, Cafes, and
-        Places that I would like to travel to. <br></br>
-        The data used on this maps came from my saved information from google.
-        Google does not offer clean data or usuable actianable data at all so
-        you have clean and structure it manually... it took me 5 days to do so.
+        / Hiking trails, Museums / Galleries, Clubs / Dance Venues, Cafes, and
+        Places that I would like to travel to.
+        <br></br>
+        The data used on these maps came from my saved information from google.
+        Google does not offer clean data or usable actionable data at all so you
+        have clean and structure it manually... it took me 5 days to do so.
         <br></br> It was built using Google Maps API`s, Next, React, Tailwind,
-        and Typescript / Javascript. Pretty osverengineer but 🤷🏽‍♂️.
+        and Typescript / Javascript. Pretty over-engineer but 🤷🏽‍♂️.
         <br></br>
         This Website also works as a PWA or Progressive Web Application so tried
         it out! Install it on your phone 🕺🏽.
