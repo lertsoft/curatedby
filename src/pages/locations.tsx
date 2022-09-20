@@ -16,7 +16,7 @@ const Locations = () => {
         />
       }
     >
-      <div className="App">
+      <div className="App ">
         {/* <Navbar /> */}
         <D3Maps />
       </div>

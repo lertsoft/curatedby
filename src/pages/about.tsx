@@ -76,6 +76,9 @@ const About = () => (
         Build by <a href="https://ronnycoste.com"> Ronny Coste</a> <br></br>
         Source Code <a href="https://github.com/lertsoft/curatedby"> Github </a>
         <br></br>
+        Report
+        <a href="https://github.com/lertsoft/curatedby/issues"> Issues </a>
+        <br></br>
         <br></br>
       </p>
     </div>

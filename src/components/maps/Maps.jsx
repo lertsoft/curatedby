@@ -26,7 +26,7 @@ const libraries = ['places'];
 
 const mapContainerStyle = {
   width: '100vw',
-  height: ' calc(90dvh + 10px)',
+  height: ' calc(90dvh + 10px)', // Workaround to get the maps to work correctly on mobile mostly iphones because the search bar counts for viewport output
   // position: 'absolute',
 };
 

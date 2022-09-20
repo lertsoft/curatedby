@@ -30,11 +30,13 @@ export default function D3Maps(_props: any) {
     return (
       <>
         <h1>New York State Counties</h1>
-        <div className="relative flex items-center">
-          <svg className="map-canvas mr-20">
-            <g>{mapsRegions}</g>
+        {/* <div className="relative flex"> */}
+        <div className="flex justify-center">
+          <svg className="map-canvas absolute">
+            <g className="">{mapsRegions}</g>
           </svg>
         </div>
+        {/* </div> */}
       </>
     );
   }
