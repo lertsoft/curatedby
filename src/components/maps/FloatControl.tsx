@@ -13,7 +13,7 @@ const FloatControl = () => {
   //           style={{ color }}
   //           onClick={() => setFilter(color)}
   //         >
-  //           <Icon className="pointer-events-none" icon={ColorToIcon[color]} />
+  //           <button className="pointer-events-none" icon={ColorToIcon[color]} />
   //         </button>
   //       ))}
   //     </div>

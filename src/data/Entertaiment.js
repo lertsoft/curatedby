@@ -99,21 +99,6 @@ const Entertaiment = {
         coordinates: [28.433743, -81.4715282],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Silverman`s Farm',
-        description: 'Apple Picking farm',
-        kind: 'Farm',
-        area: 'Easton, Connecticut',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [41.2496895, -73.279234],
-      },
-    },
 
     {
       type: 'Feature',
@@ -192,6 +177,67 @@ const Entertaiment = {
       geometry: {
         type: 'Point',
         coordinates: [49.4522522, -1.3819024],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Barcade',
+        description: 'I have not been here yet.',
+        kind: 'Bar - Games',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.712072, -73.951063],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Barcade',
+        description:
+          'Cool bar in the Village, pretty dive bar vibe but plenty of arcade games to fulfill all of your heart desires.',
+        kind: 'Bar - Games',
+        area: 'East Village, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7291156, -73.9895393],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Troy',
+        description: 'Cool bar in Meatpacking with many games, and cool vibes.',
+        type: 'Bar - Games',
+        area: 'Meatpacking District, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7402465, -74.0054948],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Swingers Crazy Golf - NoMad',
+        description: 'I have not been here yet.',
+        kind: 'Bar - Games',
+        area: 'Chelsea, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7463273, -73.9890193],
       },
     },
   ],

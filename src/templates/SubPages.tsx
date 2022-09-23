@@ -1,6 +1,7 @@
 import { ReactNode } from 'react';
 
 import Navbar from '@/components/Navbar';
+import ScrollTop from '@/components/Scrolltop';
 import { AppConfig } from '@/utils/AppConfig';
 
 type ISubPageProps = {
@@ -25,6 +26,7 @@ const SubPages = (props: ISubPageProps) => (
     </div>
 
     {/* Body of the App */}
+    <ScrollTop />
 
     <div className=" inset-full mx-0">{props.children}</div>
 

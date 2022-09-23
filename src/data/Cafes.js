@@ -1128,16 +1128,49 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
+        name: 'Gossip Coffee',
+        description:
+          'Cool greek coffee shop in astoria. Coffee is strong and the spot is cool to hang or do some work sesh.',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
         visits: '1',
         visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7644306, -73.9165278],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Doggie Cafe',
+        description:
+          'That is not the actual name is just that i forgot the name and this place is not on google... With that out of the way this cafe is awesome!! you can look at puppies while drinking your coffee and/or working!',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7680796, -73.9357377],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'PlantShed',
+        description:
+          '2 Floors Cafe & flower shop for the peeps that are not allergic to pollen!',
+        kind: 'Cafe',
+        area: 'Soho, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7219019, -73.9977759],
       },
     },
     {

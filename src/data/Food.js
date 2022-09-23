@@ -3171,6 +3171,68 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Rubirosa',
+        description:
+          'My girlfriends faves, and Harry Styles approves so you know you can go wrong with this italian place. ',
+        kind: 'Italian Restaurant',
+        area: 'Nolita, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7227208, -73.9961387],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Prince Street Pizza',
+        description:
+          'Try it but do not succum on the rabbit hole of places that are okay but not the best as everyone says. Do not follow blindly.',
+        kind: 'Fast Food',
+        area: 'Nolita, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.723013, -73.9945907],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',

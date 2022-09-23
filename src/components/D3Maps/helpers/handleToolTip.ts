@@ -17,6 +17,6 @@ export const handleMouseOut = function () {
 // get mouse location so tooltip tracks cursor
 export const handleMouseMove = function (event) {
   d3.select('#tooltip')
-    .style('left', `${event.pageX + 10}px`)
-    .style('top', `${event.pageY + 10}px`);
+    .style('left', `${event.pageX + 5}px`)
+    .style('top', `${event.pageY + 1}px`);
 };

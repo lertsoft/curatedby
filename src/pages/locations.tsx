@@ -1,7 +1,6 @@
 import React from 'react';
 
 // import List from '@/components/List';
-// import MapsRegion from '@/components/D3Maps/MapsRegion';
 import D3Maps from '@/components/D3Maps/D3Maps';
 import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
@@ -19,6 +18,8 @@ const Locations = () => {
       <div className="App ">
         {/* <Navbar /> */}
         <D3Maps />
+        {/* <section id="globe">  </section> */}
+        {/* <GlobePage /> */}
       </div>
     </Main>
   );

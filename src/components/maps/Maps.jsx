@@ -19,6 +19,7 @@ import japan from '@/data/JapaneseRestaurant';
 import dancing from '@/data/Dance';
 import restaurants from '@/data/Food';
 import travelLocations from '@/data/Places';
+import fun from '@/data/Entertaiment';
 
 import MapStyle from './MapStyles';
 
@@ -286,6 +287,25 @@ export default function MyMaps() {
             }}
             icon={{
               url: `/assets/images/museum.png`,
+              origin: new window.google.maps.Point(0, 0),
+              anchor: new window.google.maps.Point(15, 15),
+              scaledSize: new window.google.maps.Size(30, 30),
+            }}
+          />
+        ))}
+
+        {fun.features.map((locations) => (
+          <Marker
+            key={createKey(locations.properties.name)}
+            position={{
+              lat: locations.geometry.coordinates[0],
+              lng: locations.geometry.coordinates[1],
+            }}
+            onClick={() => {
+              setSelected(locations);
+            }}
+            icon={{
+              url: `/assets/images/entertaiment.png`,
               origin: new window.google.maps.Point(0, 0),
               anchor: new window.google.maps.Point(15, 15),
               scaledSize: new window.google.maps.Size(30, 30),
