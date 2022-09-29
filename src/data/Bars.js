@@ -9,6 +9,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'LOULOU',
+        description:
+          'So LouLou has a "speakeasy" they say on the basement of the restaurant but this place is really a club. It has tropical vibes and the trendy Coca-Cola door so that all the influencers enter this place with glamour. I was not fan of mostly because i felt ',
+        kind: 'Club',
+        area: 'Chelsea, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7426408, -74.0002172],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'The Up & Up',
         description: 'I have not been here yet.',
         kind: 'Cocktail Bar',
@@ -1658,10 +1674,10 @@ const Bars = {
       properties: {
         name: 'Jungle Bird',
         description:
-          'I did not love this place. But it is definetely a place to check at least onces.',
+          'I did not love this place the first time now I would say definetely check this place out it has a second floor and a first floor bars with separed entrances.',
         kind: 'Bar',
         area: 'Chelsea, Manhattan',
-        visits: '1',
+        visits: '2',
         visited: true,
       },
       geometry: {
@@ -2238,6 +2254,83 @@ const Bars = {
         coordinates: [41.8429087, -79.1470254],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bathtub Gin',
+        description:
+          'okay speakeasy behind a coffee shop. The drinks were okay butttt they bring out pole dancers and performers from time to time.',
+        kind: 'Speakeasy',
+        area: 'Chelsea, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7436536, -74.0031809],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+
     {
       type: 'Feature',
       properties: {

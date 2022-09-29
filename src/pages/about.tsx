@@ -79,6 +79,8 @@ const About = () => (
         Report
         <a href="https://github.com/lertsoft/curatedby/issues"> Issues </a>
         <br></br>
+        Last updated {new Date().getFullYear()}
+        <br></br>
         <br></br>
       </p>
     </div>

@@ -1144,9 +1144,9 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'Doggie Cafe',
+        name: 'Château le Woof',
         description:
-          'That is not the actual name is just that i forgot the name and this place is not on google... With that out of the way this cafe is awesome!! you can look at puppies while drinking your coffee and/or working!',
+          'This cafe is awesome!! you can look at puppies while drinking your coffee and/or working! what else do you need in life?',
         kind: 'Cafe',
         area: 'Astoria, Queens',
         visits: '1',
@@ -1154,7 +1154,7 @@ const cafes = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7680796, -73.9357377],
+        coordinates: [40.7690251, -73.9355708],
       },
     },
     {

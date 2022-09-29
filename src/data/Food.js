@@ -9,6 +9,21 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Compton`s',
+        description: 'This place has the best sandwiches I have had period!',
+        kind: 'Sandwich',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7708399, -73.9301794],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Warajiya',
         description:
           'I have not been here yet but this is supposed to be the oldest restaurant and business of the enitre world! It has been in business for at least 1000 years some peeps say it is longer some say it is shorter but the paper trail starts at about 1000 years.',
@@ -3203,16 +3218,17 @@ const Food = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'Caffè Panna',
+        description:
+          'One of the best ice cream shops in the city. Worth it to stand in line for some time... I only only waited for 10 min.',
+        kind: 'Ice Cream',
+        area: 'Gramercy, Manhattan',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7369692, -73.9867977],
       },
     },
     {
