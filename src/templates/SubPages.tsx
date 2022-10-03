@@ -28,7 +28,9 @@ const SubPages = (props: ISubPageProps) => (
     {/* Body of the App */}
     <ScrollTop />
 
-    <div className=" inset-full mx-0">{props.children}</div>
+    <div className=" inset-full mx-0 flex-wrap overflow-hidden text-center">
+      {props.children}
+    </div>
 
     {/* FOOTER  */}
     <div className=" border-gray-300 py-8 text-center text-sm">

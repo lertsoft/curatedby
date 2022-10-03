@@ -1,6 +1,7 @@
 @import 'ScrollTop.module.css';
 @import 'MapsRegion.module.css';
 @import 'D3Maps.module.css';
+@import 'Draw.module.css';
 
 @tailwind base;
 
@@ -22,6 +23,36 @@ a:hover {
 
 .content ul {
   @apply my-6;
+}
+
+:root {
+  --dark-color1: #3e596c;
+  --dark-color1: #324758;
+  --dark-color2: #000926;
+  --dark-color3: #1b283b;
+  --dark-color4: #0e1f37;
+  /*blue*/
+  --blue-color1: #124e8a;
+  --blue-color2: #2c6f86;
+  --blue-color3: #154454;
+  /*yellow*/
+  --yellow-color1: #cbcc7f;
+  --yellow-color2: #c6b763;
+  /*gray*/
+  --gray-color: #b9b9c2;
+  /*white*/
+  --white-color: #d7e3ff;
+
+  --bg-color2: #6ea1be;
+  --bg-color1: #dadee0;
+  --text-color1: #24305e;
+  --text-color1: var(--third-bg-color);
+
+/* Main colors for the tip  */
+  --main-bg-color: var(--dark-color1);
+  --second-bg-color: var(--jblue-color1);
+  --third-bg-color: var(--dark-color3);
+  --main-text-color: var(--yellow-color2);
 }
 
 /* D3Maps */

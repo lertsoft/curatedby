@@ -53,6 +53,7 @@
     "src/data/Food.js",
     "src/data/Cultural.js",
     "src/data/JapaneseRestaurant.js",
-    "src/components/D3Maps/D3Maps.ts"
+    "src/components/D3Maps/D3Maps.ts",
+    "src/components/Draw.js"
   ]
 }

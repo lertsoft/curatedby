@@ -1586,21 +1586,6 @@ const Places = {
         coordinates: [29.8087535, 114.8414682],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
-      },
-    },
   ],
 };
 

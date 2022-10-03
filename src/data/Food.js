@@ -3234,6 +3234,83 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'DuMont Burger',
+        description:
+          'I have not been here yet but I heard that their burgers are a delight to be had.',
+        kind: 'Fast Food',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.713646, -73.9620345],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'So Pho 88',
+        description: 'I have not been here yet.',
+        kind: 'Vietnamese restaurant',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7136206, -73.9619943],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Farm to People',
+        description:
+          'This is one of the most unique restaurants that i have been to in the city. This place is a Restaurant, Brewery, and Grocery store warehouse so you know your food will be fresh, and your beers will be unique. Which they clearly are I tried a strawberry infused beer and it was something to try but to sour for my preference haha. It is a huge space so big parties or get together can happen and their front-yard has many tables for those summer days.',
+        kind: 'Restaurant',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7052478, -73.9268612],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Propaganda Vietnamese Bistro',
+        description: 'I have not been here yet.',
+        kind: 'Vietnamese restaurant',
+        area: 'District 1, Ho Chi Minh City, Vietnam',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [10.7787789, 106.6982206],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',

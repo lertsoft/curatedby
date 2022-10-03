@@ -569,16 +569,17 @@ const JapaneseRestaurant = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: ' - Japanese Restaurant',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'Dock Asian Eatery',
+        description:
+          'This is a restaurant that serves two different types of asian cusines Thai, and Japanese. I had the ramen and my friend had a pad thai and both good! Their thai tea is good and the atmosphere and vibe of the place it is really cool too. Definetely go if you are in the area.',
+        kind: 'Asian restaurant',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7063095, -73.9226524],
       },
     },
   ],

@@ -12,7 +12,7 @@ export const setMapProjection = function (mapData) {
       [
         [0, 0],
         [960, 480],
-        // [480, 240],
+        [480, 240],
       ],
       mapData
     );

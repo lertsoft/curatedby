@@ -2273,61 +2273,50 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'Elder Greene',
+        description:
+          'This bar feels more like a restaurant because of the food menu but maybe that is the reason why this place calls itself a gastropub. The beer selection and alcohol selection is big and the food menu is just as big as long as you like burgers, and fried food.',
+        kind: 'Bar',
+        area: 'Greenpoint, Brooklyn',
+        visits: '2',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7307085, -73.9575852],
       },
     },
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'The Johnson`s',
+        description:
+          'Cool place to chill and vibe, it has even a burger restaurant inside of it in case you are hungry. It looks really small from the outside but once you go in you realize how big it is. The drinks are cheap and the music selection is top notch. It has character and great vibe If I am in the area I will go again.',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7058242, -73.9238032],
       },
     },
+
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'The Turk`s Inn',
+        description:
+          'This place has an interesting facade because it is suppose to be a restaurant but they have shows all the time and the time i visited it I went to their little rooftop bar and to be honest it was cool. Djs playing music upstairs while down below there was a play happening all in the middle of bushwick, brooklyn because of course this kind of place would be on bushwick.',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [],
+        coordinates: [40.70571, -73.9223992],
       },
     },
 

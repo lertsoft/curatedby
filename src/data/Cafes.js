@@ -9,6 +9,22 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Château le Woof',
+        description:
+          'This cafe is awesome!! you can look at puppies while drinking your coffee and/or working! what else do you need in life?',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7690251, -73.9355708],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Orwashers Bakery',
         description: 'I have not been here yet.',
         kind: 'Bakery',
@@ -1139,22 +1155,6 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7644306, -73.9165278],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Château le Woof',
-        description:
-          'This cafe is awesome!! you can look at puppies while drinking your coffee and/or working! what else do you need in life?',
-        kind: 'Cafe',
-        area: 'Astoria, Queens',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7690251, -73.9355708],
       },
     },
     {
