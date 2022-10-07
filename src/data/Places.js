@@ -1586,6 +1586,22 @@ const Places = {
         coordinates: [29.8087535, 114.8414682],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Zubarah Town ruins',
+        description:
+          'I have not been here yet but the reason is here is because it is an archeological site and you know i love me some history.',
+        kind: 'Archaeological site',
+        area: 'Al Zubarah, Qatar',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [25.9773637, 51.0276156],
+      },
+    },
   ],
 };
 

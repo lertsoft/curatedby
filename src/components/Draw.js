@@ -11,8 +11,8 @@ const Draw = () => {
   const [showPopup, setPopup] = useState(false);
   const [state, setState] = useState({
     isFocused: false,
-    col: '#000',
-    col2: '#000',
+    col: '#000000',
+    col2: '#000000',
     dist: { x: 0, y: 0 },
     prevPos: { x: 0, y: 0 },
     startPos: { x: 0, y: 0 },
@@ -40,8 +40,10 @@ const Draw = () => {
     const { startPos, prevPos, dist, totalDistance, tipShowed } = state;
     const distState = {
       newDistance: 0,
-      tipShowed,
+      // eslint-disable-next-line object-shorthand
+      tipShowed: tipShowed,
     };
+
     const distance = Math.sqrt(
       (prevPos.x - startPos.x) ** 2 + (prevPos.y - startPos.y) ** 2
     );
@@ -134,9 +136,10 @@ const Draw = () => {
         startPos: { x: window.innerWidth / 2, y: window.innerHeight / 2 },
         width: window.innerWidth,
         height: window.innerHeight,
-        context: canvas.current.getContext('2d'),
+        context: canvas?.current?.getContext('2d'),
         randomNumb: Math.floor(Math.random() * 3),
-        shouldShow: window.innerWidth > 1024,
+        // eslint-disable-next-line no-unneeded-ternary
+        shouldShow: window.innerWidth > 1024 ? true : false,
       });
     }
   }, []);

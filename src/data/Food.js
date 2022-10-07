@@ -1483,11 +1483,12 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Amor loco',
-        description: 'I have not been here yet.',
+        description:
+          'Nice looking mexican restaurant in the middle of manhattan... Almost in the middle of timesquare and pretty close to broadway theater so food before or after a show here are a good choice! mostly with the Drinks as I felt in love the with "Corny Colada" Great drink and the food is okay you are going to be full.',
         kind: 'Mexican Restaurant',
         area: 'Hells Kitchen, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -3296,16 +3297,65 @@ const Food = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'Daniela Trattoria',
+        description:
+          'This place was a trip... My friend did the reservation thinking they would have a brunch menu or something of those sorts as they said on their site but they did not and she was pissed lol. The food is okay and the drinks too. There are better italian places but if you are in a hurry in hells kitchen, midtown this will do the job.',
+        kind: 'Italian Restaurant',
+        area: 'Hells Kitchen',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7592064, -73.9880664],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Andrews NYC Diner',
+        description:
+          'I have only been to this diner before the pandemic and it was okay did not hate it, did not love it. Would I go back now? probably not. Also I think I tried all the diners in the 34 street area lol.',
+        kind: 'Diner',
+        area: 'Midtown, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7516787, -73.9896976],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tick Tock Diner NY',
+        description:
+          'I have only been to this diner before the pandemic and it was okay did not hate it, did not love it. Would I go back now? probably not. The main reason that I have been there so often is just proximity to were I and my friends were... Also I think I tried all the diners in the 34 street area lol.',
+        kind: 'Diner',
+        area: 'Midtown, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7525107, -73.9936687],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Skylight Diner',
+        description:
+          'This is my favorite of all of 34st diner`s why? I do not know because the food is not that better but I think the ambiance is atmosphere is waayy better than the others. Also the have a bigger dessert selection.',
+        kind: 'Diner',
+        area: 'Midtown, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7533706, -73.9967566],
       },
     },
     {

@@ -1176,16 +1176,16 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: '',
+        name: 'Crew Collective & Cafe',
         description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '1',
-        visited: true,
+        kind: 'Cafe',
+        area: 'Montréal, Canada',
+        visits: '0',
+        visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [45.5023132, -73.5593176],
       },
     },
   ],

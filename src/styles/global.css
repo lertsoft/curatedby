@@ -53,6 +53,7 @@ a:hover {
   --second-bg-color: var(--jblue-color1);
   --third-bg-color: var(--dark-color3);
   --main-text-color: var(--yellow-color2);
+  --art-lh: 1.7;
 }
 
 /* D3Maps */
