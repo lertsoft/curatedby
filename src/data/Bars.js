@@ -2323,6 +2323,85 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Katana Kitten',
+        description:
+          'A friend of mine that is obsessed with ranking took me here because of this page https://www.worlds50bestbars.com/the-list/katana-kitten.html and to be honest I do not know but i did not love it... It was okay but I have been to better bars. If you care about rankings this is number 9 of the world best bars so definetely try it out. Their food tho it is quite tasty and good.',
+        kind: 'Bar',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7342323, -74.0064007],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Employees Only',
+        description:
+          'This is suppose to be one of the 50 best bars in the world. This especifically is rank 47 here https://www.worlds50bestbars.com/the-list/employees-only.html Their drinks are good, the look and feel of the place is nice and cool. The bartenders are nice and explains the drinks to you if you ask. It is quite loud tho so be mindful of that. But I liked it, just do not get seasonal drinks if you would like to try their specialties. ',
+        kind: 'Bar',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7334326, -74.0061625],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Thyme Bar',
+        description:
+          'I do not know if this place could count as a speak easy as it is inside a bakery / cafe basement... with that out of the way the drinks and the presentation of those drinks is on another level. One of the best drinks I have had, and the best presentation of it of any bar period! It is a bit pricey butttt it is worth it at least once but I will be going more than once for sure.',
+        kind: 'Cocktail Bar',
+        area: 'Flatiron District, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7417341, -73.9905126],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Amor Y Amargo',
+        description:
+          'I have not been here yet but this place it is a whiskey and cigar tasting and smoking speak easy or bar situation. I must try!',
+        kind: 'Cocktail Bar',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7256166, -73.9841141],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',

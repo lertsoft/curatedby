@@ -3126,11 +3126,12 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Milano Market',
-        description: 'I have not been here yet.',
+        description:
+          'They identify as an italian restaurant but it is really an Italian bodega... Their sandwinches is what they are known for and it was a good sandwich. Would recommend it is a solid option and it is also close to all the museum of the Upper East Side.',
         kind: 'Italian Restaurant',
         area: 'Upper East Side, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -3361,16 +3362,48 @@ const Food = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'Berimbau Brazilian Kitchen',
+        description:
+          'This brazilian restaurant is a must try of NYC in my opinion! Their are good, the food is good, the garden is cool, the vibe is cool and it is not crazy expensive. I had a caipirinha for drink and almost the entire menu for food of course shared with my friends.',
+        kind: 'Brazilian Restaurant',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7300863, -74.0036158],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Pastelería Y Panadería Los Trigales',
+        description: 'Here I always got the pastelitos and croissants 🤌🏽 ',
+        kind: 'Bakery',
+        area: 'Santo Domingo, Republica Dominicana',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4709072, -69.9617951],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'El Duke',
+        description:
+          'Coño las tostadas que el duke hace son para morirse! por 30 pesos comes como un rey donde el y te quedas con ganas de mas solo ten cuidado porque por ahi es caliente.',
+        kind: 'Fast Food',
+        area: 'Santo Domingo, Republica Dominicana',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4860823, -69.9614339],
       },
     },
     {
