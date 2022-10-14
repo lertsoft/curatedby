@@ -1602,6 +1602,22 @@ const Places = {
         coordinates: [25.9773637, 51.0276156],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tourist Information, Uri Tourismus',
+        description:
+          'I have not been here yet but at this tourist place you can go to a high speed train tunnel under the alps and see the train go pass you at over 320km/h on the base of the mountain ain`t that cool!! Link: https://www.uri.swiss/de/erleben/seilbahn-eldorado-uri/eisenbahn/gotthard-tunnel-erlebnis/',
+        kind: 'Tourist',
+        area: 'Altdorf, Switzerland',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [46.8811649, 8.6451494],
+      },
+    },
   ],
 };
 

@@ -845,11 +845,11 @@ const Bars = {
       properties: {
         name: 'Dante NYC',
         description:
-          'I have not been here yet but a friend of mine has been hyping this place for so long to me because it is suppose to be one of the best bars in world.',
+          'After a long time of wnating to go there, I went with my friend that so highly rated this place and I gotta say... it is not bad, now I had a negroni bianco because negronis is what they are known for but I do not love negronis at all! So with that in mind it was good I enjoy the negroni it smelled delicious and tasted good. Would say it is definetely a must try and I will probably try a different thing next time.',
         kind: 'Bar',
         area: 'NoHo, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
