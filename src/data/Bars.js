@@ -2404,6 +2404,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'The Infamous',
+        description:
+          'This is suppose to be a speakeasy. It is next to MoMA PS1 and it is behind the extra butter clothing store in LIC, but to get in is not through the store but on the back door that is street facing... is that a speakeasy? for me no but their pizza was good and the drinks were okay. If you want an attempt of an speakeasy in LIC this is your spot I guess.',
+        kind: 'Speakeasy',
+        area: 'LIC, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7453266, -73.9474952],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',

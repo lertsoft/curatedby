@@ -3425,6 +3425,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Omonia Cafe',
+        description:
+          'This is a greek style diner, they call themselves a Cafe but I think a more accurate description would be diner. Their food is good, their coffee and hot chocolate are good too. This is a chill and nice spot to get some good food.',
+        kind: 'Diner',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.761184, -73.923965],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',
