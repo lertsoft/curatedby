@@ -3441,6 +3441,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Favela Cubana',
+        description:
+          'I went there after a shoot with the crew and it was an amazing atmostphere (maybe we did that ourselves lol), playing latin music (Cuban, Puerto Rican, and Dominican), great drinks, and the food was good too. It is definetely a good place to try food from the caribean. If you are craving Cuban food and are in the NYU / NoHo area try it out.',
+        kind: 'Cuban Restaurant',
+        area: 'NoHo, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7284873, -73.9980696],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',
