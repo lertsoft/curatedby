@@ -3409,6 +3409,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Junkie Burger',
+        description:
+          'This burger place goes crazy! Their burgers are good and interesting, the sauce is really good but I do not think this is the best burger joint I have been so far. Also they are only open Thursday to Sunday from 5pm to 10pm so you gotta be dedicated to cause. Now their prices... their burger prices are not that bad but their milkshakes are a different story lol. Would I go again? maybe',
+        kind: 'Fast Food',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.762812, -73.9275407],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',

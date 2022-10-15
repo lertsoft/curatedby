@@ -1,6 +1,7 @@
 import React from 'react';
 
 // import List from '@/components/List';
+import D3Maps from '@/components/D3Maps/D3Maps';
 import Draw from '@/components/Draw';
 import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
@@ -15,10 +16,13 @@ const Locations = () => {
         />
       }
     >
-      <React.StrictMode>
-        <div className="App ">{/* <D3Maps /> */}</div>
-        <Draw />
-      </React.StrictMode>
+      {/* <React.StrictMode> */}
+      <div className="App">
+        <D3Maps />
+      </div>
+      <Draw />
+
+      {/* </React.StrictMode> */}
     </Main>
   );
 };

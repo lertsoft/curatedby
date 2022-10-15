@@ -48,7 +48,7 @@ const Main = (props: IMainProps) => (
 
     {/* Body of the App */}
     {/* <ScrollTop /> */}
-    <div className=" mx-0 h-full w-full">{props.children}</div>
+    <div className=" m-0 mx-auto h-full w-full p-0">{props.children}</div>
 
     {/* FOOTER  */}
 

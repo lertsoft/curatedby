@@ -1,3 +1,5 @@
+// This component is not working because the DOM is passing NaN values for lineWidth, lineTo, and moveTo thus it is not rendering but it is also not given error :(
+// I need some time to fix and figure things out.
 /* eslint-disable no-unused-vars */
 import { useState, useEffect, useRef } from 'react';
 
@@ -11,8 +13,8 @@ const Draw = () => {
   const [showPopup, setPopup] = useState(false);
   const [state, setState] = useState({
     isFocused: false,
-    col: '#000000',
-    col2: '#000000',
+    col: '#000',
+    col2: '#000',
     dist: { x: 0, y: 0 },
     prevPos: { x: 0, y: 0 },
     startPos: { x: 0, y: 0 },
@@ -39,7 +41,7 @@ const Draw = () => {
   const onMouseMove = (e) => {
     const { startPos, prevPos, dist, totalDistance, tipShowed } = state;
     const distState = {
-      newDistance: 0,
+      newDistance: 1,
       // eslint-disable-next-line object-shorthand
       tipShowed: tipShowed,
     };
@@ -115,7 +117,10 @@ const Draw = () => {
       col2: getRandColor(),
       randomNumb: Math.floor(Math.random() * 3),
     });
+    // console.log(onClick);
   };
+
+  // console.log(onMouseMove);
 
   const onMouseLeave = (e) => {
     setState({ ...state, isFocused: false });

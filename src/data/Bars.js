@@ -1705,11 +1705,12 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'The Ditty',
-        description: 'I have not been here yet.',
+        description:
+          'After a long time of wanting to go to this place I finally did it! This place is awesome. This is an insconspicious place because it looks small but then you realize it has a huge garden and all your expectations are broken. They have big collection of board games for you to play while getting hammered (what could go wrong) Monopoly and cocktails is the game in town. My fave drink is the coconut coffee rum mixed, OMG it is good for those that enjoy coffee or coconuts. I will definetely try to go again mostly because of this... They have a fricking NES at Bar ready for you to take on the world!! I am a simple person.',
         kind: 'Bar',
         area: 'Astoria, Queens',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -2387,16 +2388,17 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'The Last World',
+        description:
+          'The vibe of the place is of a speakeasy, but this is far from one. I did like it tho pretty relax, a place to go after work or to enjoy some drinks with friends or girlfriend with. This place is girlfriend approved so that means they are doing something right. The drink menu is extensive and with plenty of wine selection too mixed with some foods.',
+        kind: 'Cocktail Bar',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7753693, -73.9099682],
       },
     },
     {
