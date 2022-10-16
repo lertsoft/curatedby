@@ -799,11 +799,11 @@ const cafes = {
       properties: {
         name: 'The Little One',
         description:
-          'I have not been to this japanese coffee and tea shop yet.',
+          'I got their Hojicha Tiramisu and Hojicha Lemonade. Their tiramisu was soooo good!! The lemonade i was not a fan of the Hojicha gave it a taste that I did not love, but I will absolutely come back to this place and you should go too!',
         kind: 'Cafe',
         area: 'Dimes Square, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',

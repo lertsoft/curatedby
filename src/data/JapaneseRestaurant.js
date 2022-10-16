@@ -304,6 +304,22 @@ const JapaneseRestaurant = {
         coordinates: [40.7406794, -74.0043019],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Okiboru House of Tsukemen',
+        description:
+          'I have not been here yet but when I walked by this place there was a line that wrapped around... I do not know what is the hype about but I will try this place out.',
+        kind: 'Ramen - Japnese Restaurant',
+        area: 'Lower East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7192779, -73.9897135],
+      },
+    },
 
     {
       type: 'Feature',
@@ -401,11 +417,12 @@ const JapaneseRestaurant = {
       type: 'Feature',
       properties: {
         name: 'Cocoron',
-        description: 'I have not been here yet.',
+        description:
+          'I got the cocoron ramen and beware the broth is really spicy. I thought it would not be so spicy but it really is with that out of the way the ramen was okay I was feeling all the spices on the broth which I do not love and that made it kind of hard to eat because it would just bother my throat.',
         kind: 'Ramen - Japanese Restaurant',
         area: 'Lower East Side, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',

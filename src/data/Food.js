@@ -3457,6 +3457,54 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Sam`s Fried Ice Cream',
+        description:
+          'This ice cream are delicious! Try them out at least once. I have had this ice cream so many times but more often than not I get them in food festivals or street activities around the city. They are always there selling this tasty ice creams.',
+        kind: 'Ice Cream',
+        area: 'Dimes Square, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7158238, -73.9915722],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Brigadeiro Bakery',
+        description:
+          'Small brazilian dessert place South of Houston Street. their cookies and cupcakes are good. nothing crazy.',
+        kind: 'Dessert',
+        area: 'SoHo, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.727448, -74.0017397],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Kopitiam',
+        description:
+          'My First time trying malaysian food was here and my malaysian friend says that they have some of the closest taste of the food to how it is in malaysia. Really good and their skylights are cool too.',
+        kind: 'Malaysian restaurant',
+        area: 'Dimes square, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7138751, -73.9909771],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',
