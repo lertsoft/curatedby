@@ -599,6 +599,22 @@ const JapaneseRestaurant = {
         coordinates: [40.7063095, -73.9226524],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Kiraku Japanese Restaurant',
+        description:
+          'There are not that many japanese restaurant in the bronx that serve Ramen and this one is one of the only ones. Not the best as I have been spoiled but when this is the closest to you it is the best at the moment.',
+        kind: 'Japanese Resturant',
+        area: 'Morris Park, Bronx',
+        visits: '3',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8533996, -73.8535656],
+      },
+    },
   ],
 };
 

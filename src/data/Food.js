@@ -3505,12 +3505,107 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'La Masa',
+        description:
+          'Must try of this place are: "Bandeja paisa", "Callejera", and "Montañero" those are really good! ',
+        kind: 'Colombian restaurant',
+        area: 'Morris Park, Bronx',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8480168, -73.8559589],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Emilio`s of Morris Park',
+        description:
+          'Their vodka pizza is **Cheff Kiss** everything else is just okay.',
+        kind: 'Fast Food',
+        area: 'Morris Park, Bronx',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8490174, -73.854695],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Lin’s Asian Cuisine',
+        description: 'I only ate bento boxes and pad thai from this place.',
+        kind: 'Asian Restaurant',
+        area: 'Morris Park, Bronx',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8427071, -73.8537226],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Don Emilio Diner',
+        description:
+          'Really, Really good dominican food but I guess that is the specialty food of the bronx or anywhere north of 125st. Emilio (The Owner) is always there taking care of peeps and talking to you while serving, he also used to cook mostly in the morning but he stopped as he is getting older and leaving the kitchen to others. Go support Emilio if you are in the area.',
+        kind: 'Dominican restaurant',
+        area: 'Castle Hill, Bronx',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8346396, -73.8521896],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Marisco Centro',
+        description:
+          'They call themselves Seafood restaurant but I think a more accurate description is Dominican because those are their main dishes seafood is not the main thing that they serve lol. But this is the only place that my dad would eat fish soup from and he is really picky with his soup.',
+        kind: 'Dominican Restaurant',
+        area: 'Castle Hill, Bronx',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8314147, -73.850663],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'YUBU',
+        description:
+          'Really interesting and good korean quick bites. I really liked it. I would say it is a must try for people that love and palette adventure lmao.',
+        kind: 'Korean restaurant',
+        area: 'East Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7270393, -73.9862331],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
-        description: 'I have not been here yet.',
+        description: '',
         kind: '',
         area: '',
         visits: '0',
-        visited: false,
+        visited: true,
       },
       geometry: {
         type: 'Point',
