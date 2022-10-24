@@ -3600,12 +3600,75 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Two Hands',
+        description:
+          'Australian-inspired restuarant ie. Breakfast restaurant ie. toast paradise. Their coffee are really good and the food is really good too. good brunch spot in the heart of NoHo. The Purple taro latte is a must try!! ',
+        kind: 'Australian Restaurant',
+        area: 'NoHo, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7263096, -73.995669],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Lexington Candy Shop',
+        description:
+          'I have not been here yet but the only reason this is on the list is becuase they make their coke or pepsi like your grand-grand-parents used by mixing seltzer water with coke / pepsi syrup. Something so old merits to be great just for the sake of being consistent on staying true to the 19 century lol.',
+        kind: 'Diner',
+        area: 'Upper East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7774621, -73.9571982],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Paesano',
+        description:
+          'This Italian restaurant has some good lasagna but you gotta love cheese to enjoy it. The star of this place tho is the the frame of the building that resemble that of an old building or house in Italy or early New York not because of its ostentation but rather the lack thereof. maybe that is a feature of Little Italy but I do not know. Also this is a cozy place to bring your girlfriend and talk about something romantic like Godfather.',
+        kind: 'Italian Restaurant',
+        area: 'Little Italy, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7185598, -73.9974801],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
-        description: '',
+        description: 'I have not been here yet.',
         kind: '',
         area: '',
         visits: '0',
-        visited: true,
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
+        visited: false,
       },
       geometry: {
         type: 'Point',

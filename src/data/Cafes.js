@@ -1188,6 +1188,22 @@ const cafes = {
         coordinates: [45.5023132, -73.5593176],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Little Collins',
+        description:
+          'Great cafe with great coffee and good food! It is an australian inspired cafe and I think they have stores in australia but do not quote me on that.',
+        kind: 'Cafe',
+        area: 'Midtown, Manhattan',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7523854, -73.9735836],
+      },
+    },
   ],
 };
 

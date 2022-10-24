@@ -2420,6 +2420,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'The Stumble Inn',
+        description:
+          'I do not remember much of this bar experience not because I was too drunk but because I just do not care about this place.',
+        kind: 'Bar',
+        area: 'Upper East Side, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7712422, -73.9562963],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '',
         description: 'I have not been here yet.',
         kind: '',
