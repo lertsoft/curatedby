@@ -10,11 +10,12 @@ const JapaneseRestaurant = {
       type: 'Feature',
       properties: {
         name: 'Zest Sushi',
-        description: 'I have not been here yet.',
+        description:
+          'Good sushi for the price. Are there better options? Yeah. Do they beat the price? Nope. So if you are craving sushi in LES this is the spot!',
         kind: 'Sushi - Japanese Resturant',
         area: 'Lower East Side, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',

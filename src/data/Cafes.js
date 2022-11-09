@@ -1204,6 +1204,37 @@ const cafes = {
         coordinates: [40.7523854, -73.9735836],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Textbook',
+        description: 'Cool looking coffee shop in fort greene! I want to go!',
+        kind: 'Cafe',
+        area: 'Fort Greene, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.689677, -73.9778429],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cafe Calaca',
+        description:
+          'Nice Coffee shop with cute and nice garden! Their coffee is good as I am used to for New York City and they have some nice bites and snacks like interested tasting empanadas... interesting because I have never had empanadas like those and I grew up eating empanadas lol. Would definetely come back if I am in the area.',
+        kind: 'Cafe',
+        area: 'Bed-stuy, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6814705, -73.9555832],
+      },
+    },
   ],
 };
 

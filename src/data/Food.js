@@ -3648,16 +3648,17 @@ const Food = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'Enthaice Thai Kitchen',
+        description:
+          'Me and my girlfriend got the quintisential Thai food... PAD THAI, and PAD SEA EW and... Drum Rolls  🥁...🥁 It was really good! I liked it and would get it again, and again. ',
+        kind: 'Thai Restaurant',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7631348, -73.9212747],
       },
     },
     {
