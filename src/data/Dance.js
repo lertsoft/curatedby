@@ -6,6 +6,9 @@
 const Dance = {
   type: 'FeatureCollection',
   features: [
+    /// ////////////////////////////////////////////////
+    /// ////////         Manhattan       ///////////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
@@ -34,36 +37,6 @@ const Dance = {
       geometry: {
         type: 'Point',
         coordinates: [40.7510316, -73.9861709],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Tresor',
-        description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Berlin, Germany',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [52.5109975, 13.4195219],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Noir NY',
-        description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Chelsea, Manhattan',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7421872, -74.0038214],
       },
     },
     {
@@ -114,16 +87,16 @@ const Dance = {
     {
       type: 'Feature',
       properties: {
-        name: 'Chin Chin Club',
+        name: 'Noir NY',
         description: 'I have not been here yet.',
         kind: 'Club',
-        area: 'Amsterdam, Netherlands',
+        area: 'Chelsea, Manhattan',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [52.3727778, 4.8788889],
+        coordinates: [40.7421872, -74.0038214],
       },
     },
     {
@@ -144,16 +117,16 @@ const Dance = {
     {
       type: 'Feature',
       properties: {
-        name: 'The Astoria',
+        name: 'Treadwell Park',
         description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Portsmouth, United Kingdom',
+        kind: 'Beer Hall',
+        area: 'Murray Hill, Manhattan',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [50.7958657, -1.09331],
+        coordinates: [40.7614741, -73.9611074],
       },
     },
     {
@@ -171,51 +144,7 @@ const Dance = {
         coordinates: [40.7203748, -73.9971177],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Treadwell Park',
-        description: 'I have not been here yet.',
-        kind: 'Beer Hall',
-        area: 'Murray Hill, Manhattan',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7614741, -73.9611074],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'THE WORLD DR',
-        description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Serralles, Santo Domingo',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4757384, -69.9338092],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Rise DR',
-        description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Naco, Santo Domingo',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4753136, -69.9309058],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -310,52 +239,6 @@ const Dance = {
     {
       type: 'Feature',
       properties: {
-        name: 'Club Space',
-        description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Miami, Florida',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [25.784673, -80.193202],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Bochinche Bar',
-        description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Zona Colonial, Santo Domingo',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4783096, -69.8831856],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Garabato Lounge',
-        description:
-          'Awesome club of La Zona the music is vibe, usually Deephouse. They have a garden were the Dj is and some seating but go ready to sweat because this place is hot, at least the times that i visited. Otherwise I loved it.',
-        kind: 'Club',
-        area: 'Zona Colonial, Santo Domingo',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4778103, -69.8831152],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'The Q NYC',
         description: 'I have not been here yet.',
         kind: 'Club',
@@ -405,39 +288,6 @@ const Dance = {
     {
       type: 'Feature',
       properties: {
-        name: 'Schimanski',
-        description:
-          'One of my fave club in Manhattan. Always a vibe, good music.',
-        kind: 'Club',
-        area: 'Williamburg, Brooklyn',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7220958, -73.9588463],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'House of Yes',
-        description:
-          'House of yes is the club that introduced me to bushwick. Awesome club, the peeps are nice, the dance floor is better, and the show that they put it is another level. Go there even if you hate Brooklyn.',
-        kind: 'Club',
-        area: 'Bushwick, Brooklyn',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7068, -73.9236],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
         name: 'LAVO Nightclub',
         description:
           'LAVO host a lot of popular DJ`s and they are suppose to be one of the best clubs but i hate it because there is barely any space to dance. All the space there is dedicated for tables, and hallways which is cool for a restaurant but not for a club.',
@@ -449,39 +299,6 @@ const Dance = {
       geometry: {
         type: 'Point',
         coordinates: [40.7626792, -73.9715725],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Nowadays',
-        description:
-          'Awesome club in bushwick, brooklyn it is one of my faves but i do not go often because it is so far.',
-        kind: 'Club',
-        area: 'Bushwick, Brooklyn',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6928852, -73.9015072],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Black Flamingo',
-        description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Williamburg, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7105274, -73.9541514],
       },
     },
 
@@ -517,24 +334,6 @@ const Dance = {
         coordinates: [40.7262578, -73.9970046],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'La Boom',
-        description:
-          'Latin Music club in queens. I want to go here to dance a bit.',
-        kind: 'Club',
-        area: 'Woodside, Queens',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7538869, -73.90443],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
@@ -551,24 +350,6 @@ const Dance = {
         coordinates: [40.7179713, -73.9852887],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Elsewhere',
-        description:
-          'greatest club in Manhattan? I do not know go there and experience yourself, maybe you`d like Mirage more but they are literally 3 blocks away. All this amazing news for East Williamsburg who would have known.',
-        kind: 'Club',
-        area: 'Bushwick, Brooklyn',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.709411, -73.923169],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
@@ -585,24 +366,6 @@ const Dance = {
         coordinates: [40.7258559, -73.9840245],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Boom Boom Room',
-        description:
-          'Club with Live Music perfomances and others in San Francisco. I have not been here yet.',
-        kind: 'Club',
-        area: 'Downtown, San Francisco',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [37.7846156, -122.4332592],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
@@ -619,7 +382,6 @@ const Dance = {
         coordinates: [40.7262059, -73.9836212],
       },
     },
-
     {
       type: 'Feature',
       properties: {
@@ -635,6 +397,238 @@ const Dance = {
         coordinates: [40.7443203, -73.9926957],
       },
     },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Nuyorican Poets Cafe',
+        description: 'I have not been here yet.',
+        kind: 'Performing arts theater',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7219836, -73.9817849],
+      },
+    },
+
+    /// ////////////////////////////////////////////////
+    /// ////////         Brooklyn       ///////////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Schimanski',
+        description:
+          'One of my fave club in Manhattan. Always a vibe, good music.',
+        kind: 'Club',
+        area: 'Williamburg, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7220958, -73.9588463],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'House of Yes',
+        description:
+          'House of yes is the club that introduced me to bushwick. Awesome club, the peeps are nice, the dance floor is better, and the show that they put it is another level. Go there even if you hate Brooklyn.',
+        kind: 'Club',
+        area: 'Bushwick, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7068, -73.9236],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Nowadays',
+        description:
+          'Awesome club in bushwick, brooklyn it is one of my faves but i do not go often because it is so far.',
+        kind: 'Club',
+        area: 'Bushwick, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6928852, -73.9015072],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Black Flamingo',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Williamburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7105274, -73.9541514],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Elsewhere',
+        description:
+          'greatest club in Manhattan? I do not know go there and experience yourself, maybe you`d like Mirage more but they are literally 3 blocks away. All this amazing news for East Williamsburg who would have known.',
+        kind: 'Club',
+        area: 'Bushwick, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.709411, -73.923169],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '3 Dollar Bill',
+        description:
+          'This place during the summer is a vibe, please go and experience it because it is definetely worth it.',
+        kind: 'Club',
+        area: 'East Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7084419, -73.9382032],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Good Room',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7269376, -73.9529121],
+      },
+    },
+
+    /// ////////////////////////////////////////////////
+    /// ///////         New York, NY       /////////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'La Boom',
+        description:
+          'Latin Music club in queens. I want to go here to dance a bit.',
+        kind: 'Club',
+        area: 'Woodside, Queens',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7538869, -73.90443],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Salsa con Fuego',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Bronx, New York',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8623156, -73.9114461],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// //////         Dominican Republic      /////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'THE WORLD DR',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Serralles, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4757384, -69.9338092],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Rise DR',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Naco, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4753136, -69.9309058],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bochinche Bar',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Zona Colonial, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4783096, -69.8831856],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Garabato Lounge',
+        description:
+          'Awesome club of La Zona the music is vibe, usually Deephouse. They have a garden were the Dj is and some seating but go ready to sweat because this place is hot, at least the times that i visited. Otherwise I loved it.',
+        kind: 'Club',
+        area: 'Zona Colonial, Santo Domingo',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4778103, -69.8831152],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// ////////////       United States      /////////////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
@@ -681,22 +675,7 @@ const Dance = {
         coordinates: [25.777844, -80.133088],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: '3 Dollar Bill',
-        description:
-          'This place during the summer is a vibe, please go and experience it because it is definetely worth it.',
-        kind: 'Club',
-        area: 'East Williamsburg, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7084419, -73.9382032],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -710,6 +689,105 @@ const Dance = {
       geometry: {
         type: 'Point',
         coordinates: [25.7996387, -80.2009749],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Club Space',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Miami, Florida',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [25.784673, -80.193202],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Boom Boom Room',
+        description:
+          'Club with Live Music perfomances and others in San Francisco. I have not been here yet.',
+        kind: 'Club',
+        area: 'Downtown, San Francisco',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [37.7846156, -122.4332592],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Mahogany Jazz Hall',
+        description:
+          'Great music! The atmostphere is cool the drinks are okay... maybe i should have not gotten absthine but other than that 10/10 I would definetely go back. ',
+        kind: 'Jazz Club',
+        area: 'New Orleans, LA',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9532634, -90.0677112],
+      },
+    },
+
+    /// ////////////////////////////////////////////////
+    /// //////////          Europe       ///////////////
+    /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tresor',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Berlin, Germany',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [52.5109975, 13.4195219],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Chin Chin Club',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Amsterdam, Netherlands',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [52.3727778, 4.8788889],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Astoria',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'Portsmouth, United Kingdom',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [50.7958657, -1.09331],
       },
     },
 
@@ -727,51 +805,6 @@ const Dance = {
       geometry: {
         type: 'Point',
         coordinates: [52.5110459, 13.4430186],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Salsa con Fuego',
-        description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Bronx, New York',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.8623156, -73.9114461],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Good Room',
-        description: 'I have not been here yet.',
-        kind: 'Club',
-        area: 'Greenpoint, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7269376, -73.9529121],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Nuyorican Poets Cafe',
-        description: 'I have not been here yet.',
-        kind: 'Performing arts theater',
-        area: 'East Village, Manhattan',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7219836, -73.9817849],
       },
     },
 

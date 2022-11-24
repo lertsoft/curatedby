@@ -6,22 +6,9 @@
 const cafes = {
   type: 'FeatureCollection',
   features: [
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Château le Woof',
-        description:
-          'This cafe is awesome!! you can look at puppies while drinking your coffee and/or working! what else do you need in life?',
-        kind: 'Cafe',
-        area: 'Astoria, Queens',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7690251, -73.9355708],
-      },
-    },
+    /// ////////////////////////////////////////////////
+    /// ///////         MANHATTAN        ////////////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
@@ -44,110 +31,13 @@ const cafes = {
         description:
           'Cool cafe inside Sotheby`s New York building. Cool place to grab coffee, tea, or hot chocolate and then go to the three floors of galleries that Sothebys has in their building free for everyone to see!',
         kind: 'Cafe',
-        area: 'Upper East Side',
+        area: 'Upper East Side, Manhattan',
         visits: '2',
         visited: true,
       },
       geometry: {
         type: 'Point',
         coordinates: [40.7662678, -73.9538283],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Little Choc Apothecary',
-        description: 'I have not been here yet.',
-        kind: 'Cafe',
-        area: 'Williamsburg, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7119047, -73.9571692],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Flitch Coffee',
-        description: 'I have not been here yet.',
-        kind: 'Cafe',
-        area: 'Austin, Texas',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [30.2577456, -97.7054476],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Nook',
-        description:
-          'Awesome coffee shop big, with places to sit inside or out, good matcha lattes and it is just comfy place. ',
-        kind: 'Cafe',
-        area: 'Bushwick, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.705189, -73.924549],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Cafe SBG',
-        description:
-          'Okayish cafe / restaurant inside blue mall, because it is inside the mall so if you are going shopping you could do that and then sit and get some coffee. ',
-        kind: 'Cafe',
-        area: 'Piantini',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4726823, -69.9409382],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Arsicault Bakery',
-        description: 'I have not been here yet.',
-        kind: 'Bakery',
-        area: 'San Francisco, CA',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [37.7834259, -122.4593062],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Artshack Cafe/ Bar',
-        description: 'I have not been here yet.',
-        kind: 'Cafe',
-        area: 'Bed-Stuy, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6848879, -73.9539919],
       },
     },
     {
@@ -264,22 +154,6 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'Choice Market',
-        description:
-          'Fire ass breakfast food in the coffee shop in Clinton hill.',
-        kind: 'Cafe',
-        area: 'Clinton Hill, Brooklyn',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6884013, -73.9629705],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Little Canal',
         description: 'Dimes Square is alive and well thank you!',
         kind: 'Cafe',
@@ -290,22 +164,6 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.71434, -73.9904271],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Rincon Argentino',
-        description:
-          'Get your mate (mah-teh) while in cold spring please!! Support the owner she is really sweet and nice.',
-        kind: 'Cafe',
-        area: 'Cold Spring, NY',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [41.4164992, -73.9601559],
       },
     },
     {
@@ -343,70 +201,6 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'Casa Barista & Co.',
-        description:
-          'The first coffee shop outside of a mall that I have ever visited in the Dominican Republic. All their roast and beans are source from the Dominican Republic. Go visit them if you are in the DR.',
-        kind: 'Cafe',
-        area: 'Piantini, Santo Domingo, DR',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4700987, -69.9323464],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Prince Coffee House',
-        description:
-          'Cool coffee shop in the bronx, close to the Zoo, the New York Botanic Garden, and Forham University.',
-        kind: 'Cafe',
-        area: 'Forham, Bronx',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.8536135, -73.8890274],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Black Brick Coffee',
-        description:
-          'Their refreshments beverages are on a whole nother level.',
-        kind: 'Cafe',
-        area: 'Williamsburg, Brooklyn',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7141914, -73.9616546],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Devoción - Williamsburg',
-        description:
-          'Devoción coffee is my go to. Their beans are from Colombia, their roast is nice, full of flavor coffee, and it feels like their barista always know what to do. Unlike dare i say STARBUCKS!!',
-        kind: 'Cafe',
-        area: 'Williamsburg, Brooklyn',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7160576, -73.9646899],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Devoción',
         description:
           'Devoción coffee is my go to. Their beans are from Colombia, their roast is nice, full of flavor coffee, and it feels like their barista always know what to do. Unlike dare i say STARBUCKS!!',
@@ -420,22 +214,7 @@ const cafes = {
         coordinates: [40.739111, -73.989113],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'SEY COFFEE',
-        description:
-          'Cool cafe in bushwick, Brooklyn. Great coffee, and cool atmosphere.',
-        kind: 'Cafe',
-        area: 'Bushwick, Brooklyn',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7053167, -73.9324176],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -486,21 +265,6 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'Cold Spring Coffeehouse',
-        description: 'I have not been here yet. I want to go tho.',
-        kind: 'Cafe',
-        area: 'Cold Spring, NY',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [41.4182976, -73.9579212],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Ludlow Coffee Supply',
         description: 'Cafe in Lower East Side. One of Many.',
         kind: 'Cafe',
@@ -541,22 +305,6 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7403556, -74.0055767],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Copper Mug Coffee',
-        description:
-          'Cool cafe in Williamsburg, Brooklyn with access to a huge garden!',
-        kind: 'Cafe',
-        area: 'Williamsburg, Brooklyn',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7165423, -73.9597969],
       },
     },
     {
@@ -639,22 +387,6 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'Xing Fu Tang Flushing Main St',
-        description:
-          'Best Bubble tea in NYC hands down. They also opened a new shop in the East Village in case you don`t want to go on a trip to flushing, Queens lol.',
-        kind: 'Bubble Tea',
-        area: 'Flushing, Queens',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7582153, -73.8296787],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Yaya Tea GRAND',
         description:
           'Okay bubble tea, pretty refreshing drinks. They have good food too. Been there many time and will continue to go there!',
@@ -666,22 +398,6 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7191263, -73.9963099],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'MiuMiu Tea',
-        description: 'I have not been here yet.',
-        kind: 'Bubble Tea',
-        area: 'Naco, Santo Domingo',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4733961, -69.9343592],
       },
     },
     {
@@ -701,37 +417,6 @@ const cafes = {
       },
     },
 
-    {
-      type: 'Feature',
-      properties: {
-        name: 'FREEHOLD',
-        description: 'Restaurant / Cafe / Cool place to hang. ',
-        kind: 'Cafe',
-        area: 'Williamsburg, Brooklyn',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7137744, -73.9658268],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Puerh Brooklyn teashop',
-        description:
-          'The only cafe that sells mate in New York City. and it had to be in Williamburg, Brooklyn.',
-        kind: 'Cafe',
-        area: 'Williamsburg, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7143355, -73.9611974],
-      },
-    },
     {
       type: 'Feature',
       properties: {
@@ -761,37 +446,6 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7292874, -73.9814563],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Poetica Coffee',
-        description:
-          'Awesome looking coffee shop with cool garden, cool color scheme. Would reccomend if you are in the park slope area of brooklyn.',
-        kind: 'Cafe',
-        area: 'Park Slope, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6594561, -73.9814648],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Invigatorium',
-        description: 'I have not been here yet.',
-        kind: 'Cafe',
-        area: 'San Diego, CA',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [32.7118579, -117.1563494],
       },
     },
     {
@@ -832,7 +486,7 @@ const cafes = {
         description:
           'Coffee shops with a flower shop inside are now trendy in NYC. This coffee one block away from the United Nations is a beautiful cafe.',
         kind: 'Cafe',
-        area: 'Murray Hill',
+        area: 'Murray Hill, Manhattan',
         visits: '1',
         visited: true,
       },
@@ -885,21 +539,6 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7290702, -73.9867314],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'OpenSpace',
-        description: 'I have not been here yet.',
-        kind: 'Cafe',
-        area: 'Medillin, Colombia',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [6.213546, -75.5710456],
       },
     },
     {
@@ -1004,7 +643,7 @@ const cafes = {
         name: 'The Hideout Chai Bar',
         description: 'I have not been here yet.',
         kind: 'Cafe',
-        area: 'Lower East Side',
+        area: 'Lower East Side, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -1013,23 +652,6 @@ const cafes = {
         coordinates: [40.7210707, -73.9909791],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Nocciola Coffee Bar And Bakery Arroyo Hondo',
-        description: 'I have not been here yet.',
-        kind: 'Cafe',
-        area: 'Arroyo Hondo, Santo Domingo',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4933251, -69.937488],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
@@ -1093,23 +715,6 @@ const cafes = {
         coordinates: [40.7109333, -74.0060101],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Oslo Coffee Roasters',
-        description: 'I have not been here yet.',
-        kind: 'Cafe',
-        area: 'Williamsburg, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7131786, -73.9623787],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
@@ -1123,38 +728,6 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7177667, -73.9920389],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Sweet Bloom Coffee Roasters',
-        description: 'I have not been here yet.',
-        kind: 'Cafe',
-        area: 'Denver, Colorado',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [39.7423987, -105.0746389],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Gossip Coffee',
-        description:
-          'Cool greek coffee shop in astoria. Coffee is strong and the spot is cool to hang or do some work sesh.',
-        kind: 'Cafe',
-        area: 'Astoria, Queens',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7644306, -73.9165278],
       },
     },
     {
@@ -1176,21 +749,6 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'Crew Collective & Cafe',
-        description: 'I have not been here yet.',
-        kind: 'Cafe',
-        area: 'Montréal, Canada',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [45.5023132, -73.5593176],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Little Collins',
         description:
           'Great cafe with great coffee and good food! It is an australian inspired cafe and I think they have stores in australia but do not quote me on that.',
@@ -1202,6 +760,183 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7523854, -73.9735836],
+      },
+    },
+
+    /// ////////////////////////////////////////////////
+    /// ///////         Brooklyn         ////////////////
+    /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Little Choc Apothecary',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7119047, -73.9571692],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Nook',
+        description:
+          'Awesome coffee shop big, with places to sit inside or out, good matcha lattes and it is just comfy place. ',
+        kind: 'Cafe',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.705189, -73.924549],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Artshack Cafe/ Bar',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Bed-Stuy, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6848879, -73.9539919],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Choice Market',
+        description:
+          'Fire ass breakfast food in the coffee shop in Clinton hill.',
+        kind: 'Cafe',
+        area: 'Clinton Hill, Brooklyn',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6884013, -73.9629705],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Black Brick Coffee',
+        description:
+          'Their refreshments beverages are on a whole nother level.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7141914, -73.9616546],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Devoción - Williamsburg',
+        description:
+          'Devoción coffee is my go to. Their beans are from Colombia, their roast is nice, full of flavor coffee, and it feels like their barista always know what to do. Unlike dare i say STARBUCKS!!',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7160576, -73.9646899],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'SEY COFFEE',
+        description:
+          'Cool cafe in bushwick, Brooklyn. Great coffee, and cool atmosphere.',
+        kind: 'Cafe',
+        area: 'Bushwick, Brooklyn',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7053167, -73.9324176],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Poetica Coffee',
+        description:
+          'Awesome looking coffee shop with cool garden, cool color scheme. Would reccomend if you are in the park slope area of brooklyn.',
+        kind: 'Cafe',
+        area: 'Park Slope, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6594561, -73.9814648],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'FREEHOLD',
+        description: 'Restaurant / Cafe / Cool place to hang. ',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7137744, -73.9658268],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Puerh Brooklyn teashop',
+        description:
+          'The only cafe that sells mate in New York City. and it had to be in Williamburg, Brooklyn.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7143355, -73.9611974],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Oslo Coffee Roasters',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7131786, -73.9623787],
       },
     },
     {
@@ -1233,6 +968,378 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.6814705, -73.9555832],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Copper Mug Coffee',
+        description:
+          'Cool cafe in Williamsburg, Brooklyn with access to a huge garden!',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7165423, -73.9597969],
+      },
+    },
+
+    /// ////////////////////////////////////////////////
+    /// /////////         Queens       ////////////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Château le Woof',
+        description:
+          'This cafe is awesome!! you can look at puppies while drinking your coffee and/or working! what else do you need in life?',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7690251, -73.9355708],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Xing Fu Tang Flushing Main St',
+        description:
+          'Best Bubble tea in NYC hands down. They also opened a new shop in the East Village in case you don`t want to go on a trip to flushing, Queens lol.',
+        kind: 'Bubble Tea',
+        area: 'Flushing, Queens',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7582153, -73.8296787],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Gossip Coffee',
+        description:
+          'Cool greek coffee shop in astoria. Coffee is strong and the spot is cool to hang or do some work sesh.',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7644306, -73.9165278],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// //////       Dominican Republic       //////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Nocciola Coffee Bar And Bakery Arroyo Hondo',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Arroyo Hondo, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4933251, -69.937488],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'MiuMiu Tea',
+        description: 'I have not been here yet.',
+        kind: 'Bubble Tea',
+        area: 'Naco, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4733961, -69.9343592],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Casa Barista & Co.',
+        description:
+          'The first coffee shop outside of a mall that I have ever visited in the Dominican Republic. All their roast and beans are source from the Dominican Republic. Go visit them if you are in the DR.',
+        kind: 'Cafe',
+        area: 'Piantini, Santo Domingo, DR',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4700987, -69.9323464],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cafe SBG',
+        description:
+          'Okayish cafe / restaurant inside blue mall, because it is inside the mall so if you are going shopping you could do that and then sit and get some coffee. ',
+        kind: 'Cafe',
+        area: 'Piantini, Dominican Republic',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4726823, -69.9409382],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// ///////         United States      /////////////
+    /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Flitch Coffee',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Austin, Texas',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [30.2577456, -97.7054476],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Arsicault Bakery',
+        description: 'I have not been here yet.',
+        kind: 'Bakery',
+        area: 'San Francisco, CA',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [37.7834259, -122.4593062],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Rincon Argentino',
+        description:
+          'Get your mate (mah-teh) while in cold spring please!! Support the owner she is really sweet and nice.',
+        kind: 'Cafe',
+        area: 'Cold Spring, NY',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.4164992, -73.9601559],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Prince Coffee House',
+        description:
+          'Cool coffee shop in the bronx, close to the Zoo, the New York Botanic Garden, and Forham University.',
+        kind: 'Cafe',
+        area: 'Forham, Bronx',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8536135, -73.8890274],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cold Spring Coffeehouse',
+        description: 'I have not been here yet. I want to go tho.',
+        kind: 'Cafe',
+        area: 'Cold Spring, NY',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.4182976, -73.9579212],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Invigatorium',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'San Diego, CA',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [32.7118579, -117.1563494],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sweet Bloom Coffee Roasters',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Denver, Colorado',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [39.7423987, -105.0746389],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Envie Espresso Bar & Cafe',
+        description:
+          'Good coffee and hot Chocolate. Nice spot to read and hear the city noises.',
+        kind: 'Cafe',
+        area: 'New Orleans, LA',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9614434, -90.0587567],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cafe Du Monde French Market',
+        description:
+          'Great hot chocolate and awesome beignets. This is definetely a must try in while in NOLA pretty touristy but pretty worth it.',
+        kind: 'Cafe',
+        area: 'New Orleans, LA',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9576367, -90.0618279],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cafe Beignet, Bourbon Street',
+        description:
+          'Maybe not as good beignets as Cafe Du Monde but you get live jazz music here which is just as good as the beignets but the coffee and drinks are just as good. Really enjoyed it here. Jazz music while sipping coffee.',
+        kind: 'Cafe',
+        area: 'New Orleans, LA',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9557967, -90.0684354],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Revelator Coffee Company',
+        description:
+          'Really great pour over coffee! The flavors and texture of the coffee were of the best! I want to go back again! Also the space asthetic was a minimalist delight.',
+        kind: 'Cafe',
+        area: 'New Orleans, LA',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9468172, -90.0675151],
+      },
+    },
+
+    /// //////////////////////////////////////////////
+    /// ///////////     Asia     /////////////////////
+    /// //////////////////////////////////////////////
+
+    /// //////////////////////////////////////////////
+    /// ///////////     Europe     /////////////////////
+    /// //////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Café Hawelka',
+        description:
+          'I have not been here yet but this coffee shop looks awesome!',
+        kind: 'Cafe',
+        area: 'Vienna, Austria',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [48.2079267, 16.3697049],
+      },
+    },
+    /// //////////////////////////////////////////////
+    /// ///////////     Americas     /////////////////////
+    /// //////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'OpenSpace',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Medillin, Colombia',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [6.213546, -75.5710456],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Crew Collective & Cafe',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Montréal, Canada',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [45.5023132, -73.5593176],
       },
     },
   ],

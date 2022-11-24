@@ -5,6 +5,9 @@
 const cultural = {
   type: 'FeatureCollection',
   features: [
+    /// ////////////////////////////////////////////////
+    /// ////////         New York, NY      /////////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
@@ -256,22 +259,6 @@ const cultural = {
         coordinates: [40.8650401, -73.8946978],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Andy Warhol Museum',
-        description: 'I have not been here yet.',
-        kind: 'Museum',
-        area: 'Pittsburgh, Pennsylvania',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.4483755, -80.0024907],
-      },
-    },
     {
       type: 'Feature',
       properties: {
@@ -476,38 +463,6 @@ const cultural = {
     {
       type: 'Feature',
       properties: {
-        name: 'Magazzino Italian Art',
-        description:
-          'This art center around cold spring looks awesome but I have to see it and experience it with my own eyes.',
-        kind: 'Art Center',
-        area: 'Cold Spring, NY',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [41.429749, -73.914816],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Storm King Art Center',
-        description:
-          'A stonehenge but for new yorkers. I have not been here yet.',
-        kind: 'Art Center',
-        area: 'Storm King, NY',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [41.4207619, -74.065351],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'The Hole',
         description:
           'It is a cool and popping gallery in the village with contemporary arts.',
@@ -536,38 +491,6 @@ const cultural = {
         coordinates: [40.8648628, -73.9317274],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Palais de Tokyo',
-        description: 'I have not been here yet.',
-        kind: 'Museum',
-        area: 'Paris, France',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [48.8642031, 2.2970914],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Vizcaya Museum & Gardens',
-        description: 'I have not been here yet.',
-        kind: 'Museum',
-        area: 'Miami, Florida',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [25.7443866, -80.2104747],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
@@ -600,6 +523,138 @@ const cultural = {
       },
     },
 
+    /// ////////////////////////////////////////////////
+    /// ///////         United States      /////////////
+    /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Andy Warhol Museum',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Pittsburgh, Pennsylvania',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.4483755, -80.0024907],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Magazzino Italian Art',
+        description:
+          'This art center around cold spring looks awesome but I have to see it and experience it with my own eyes.',
+        kind: 'Art Center',
+        area: 'Cold Spring, NY',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.429749, -73.914816],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Storm King Art Center',
+        description:
+          'A stonehenge but for new yorkers. I have not been here yet.',
+        kind: 'Art Center',
+        area: 'Storm King, NY',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.4207619, -74.065351],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Vizcaya Museum & Gardens',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Miami, Florida',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [25.7443866, -80.2104747],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ogden Museum of Southern Art',
+        description:
+          'Really cool museum with exhibits ranging from professionals to students. All of them based or living in the South.',
+        kind: 'Museum',
+        area: 'New Orleans, LA',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9436251, -90.0712739],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Contemporary Arts Center, New Orleans',
+        description:
+          'Coffee shop on the first floor, exhibits and spaces on all the other floors. Really cool, and Inspiring.',
+        kind: 'Art Center',
+        area: 'New Orleans, LA',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.943786, -90.0708531],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'New Orleans Jazz Museum',
+        description:
+          'This museum while the exhibits are small the you learn quite a bit about jazz and they have a lot of live jazz music going on so make sure you go before one of those sessions start! Great jazz players in a space that is sound treated is a deligh.',
+        kind: 'Museum',
+        area: 'New Orleans, LA',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9615268, -90.0580473],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Museum Of Trade Finance And The Fed',
+        description:
+          'Really, Really small museum that I do not understand its purpose because the main FED is in New York and the one that takes care of new orleans region is based out of Atlanta but they do not have a Museum... So why is this here?? IDK and never will but go while you can to prove your knowledge.',
+        kind: 'Museum',
+        area: 'New Orleans, LA',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9489706, -90.0710666],
+      },
+    },
+
     {
       type: 'Feature',
       properties: {
@@ -615,6 +670,30 @@ const cultural = {
         coordinates: [43.6677097, -79.3947771],
       },
     },
+
+    /// ////////////////////////////////////////////////
+    /// /////////////        Europe       //////////////
+    /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Palais de Tokyo',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Paris, France',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [48.8642031, 2.2970914],
+      },
+    },
+
+    /// ////////////////////////////////////////////////
+    /// /////////////        Asia       ///////////////
+    /// ////////////////////////////////////////////////
 
     {
       type: 'Feature',

@@ -6,6 +6,9 @@
 const Bars = {
   type: 'FeatureCollection',
   features: [
+    /// ////////////////////////////////////////////////
+    /// ///////         MANHATTAN          ////////////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
@@ -41,52 +44,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: 'R2',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Marseille, France',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [43.3079371, 5.3640841],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Old Glory',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Nashville, Tennessee',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [36.1430041, -86.7916463],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Attaboy',
-        description: 'I have not been here yet.',
-        kind: 'Cocktail Bar',
-        area: 'Nashville, Tennessee',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [36.1761096, -86.7554403],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Attaboy',
         description: 'I have not been here yet.',
         kind: 'Cocktail Bar',
@@ -119,22 +76,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: 'Whatever Forever',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Downtown Brooklyn, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6878427, -73.9789556],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
         name: 'Pebble Bar',
         description:
           'Really nice atmosphere, Cool staff, small space ( If you care about that ), great drinks, not so great food options in case you do not like sea food. I love their framed photos and decor I will definetely go back. Also it was founded by Nicholas Braun "Greg from Succession".',
@@ -148,21 +89,7 @@ const Bars = {
         coordinates: [40.7592233, -73.9806715],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Gabiao Rooftop Bar',
-        description: 'I have not been here yet.',
-        kind: 'Rooftop Bar',
-        area: 'Santo Domingo, DR',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4698165, -69.9279886],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -198,21 +125,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: 'Friends and Lovers',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Prospect Heights, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6785248, -73.9584655],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'The Gutter L.E.S.',
         description: 'I have not been here yet.',
         kind: 'Bowling Alley',
@@ -244,36 +156,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: 'Scholars American Bistro and Cocktail Lounge',
-        description: 'I have not been here yet.',
-        kind: 'Cocktail bar',
-        area: 'Boston, Massachusetts',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [42.3577549, -71.0591691],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'JADE',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Bushwick, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6965932, -73.9349947],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Haswell Green`s',
         description: 'I have not been here yet.',
         kind: 'Cocktail Bar',
@@ -293,7 +175,7 @@ const Bars = {
         name: 'Comedy Cellar',
         description: 'I have not been here yet.',
         kind: 'Comedy Club',
-        area: 'NoHo',
+        area: 'NoHo, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -319,21 +201,6 @@ const Bars = {
       },
     },
 
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Radegast Hall & Biergarten',
-        description: 'I have not been here yet.',
-        kind: 'Beer Hall',
-        area: 'Greenpoint, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7166614, -73.9614494],
-      },
-    },
     {
       type: 'Feature',
       properties: {
@@ -413,36 +280,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: 'Blackbird Ordinary',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Brickell, Miami',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [25.7667169, -80.1951854],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Waiting Room',
-        description: 'I have not been here yet.',
-        kind: 'Live Music Venue',
-        area: 'London, United Kingdom',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [51.5620857, -0.0739683],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Flûte Champagne Bar',
         description: 'I have not been here yet.',
         kind: 'Bar',
@@ -470,83 +307,22 @@ const Bars = {
         coordinates: [40.7192169, -74.0001156],
       },
     },
-
     {
       type: 'Feature',
       properties: {
-        name: '75 Grados',
+        name: 'Good Behavior',
         description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Naco, Santo Domingo',
+        kind: 'Cocktail bar',
+        area: 'Midtown, Manhattan',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [18.4751101, -69.9272335],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'La Gloria Rooftop',
-        description: 'I have not been here yet.',
-        kind: 'Rooftop Bar',
-        area: 'Piantini, Santo Domingo',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4763927, -69.926918],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Sweet & Vicious',
-        description: 'Nice spot to hang and dance for bit to pop music.',
-        kind: 'Bar',
-        area: 'Nolita, Manhattan',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7213247, -73.9942801],
+        coordinates: [40.7463212, -73.9895145],
       },
     },
 
-    {
-      type: 'Feature',
-      properties: {
-        name: '300 Bar Lounge',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Bella Vista, Santo Domingo',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4527591, -69.9599377],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Sparta Lounge',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Naco, Santo Domingo',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4591214, -69.9323447],
-      },
-    },
     {
       type: 'Feature',
       properties: {
@@ -656,145 +432,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: 'Quintana Bar',
-        description:
-          'Cool spot to listen to some live music with the warthm of the night breezy and in a beautiful colonial building..',
-        kind: 'Bar',
-        area: 'Zona Colonial, Santo Domingo',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4775907, -69.8836697],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Good Behavior',
-        description: 'I have not been here yet.',
-        kind: 'Cocktail bar',
-        area: 'Midtown, Manhattan',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7463212, -73.9895145],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Marketcito',
-        description:
-          'Beer hall in the middle of santo domingo, with decent selection of beers.',
-        kind: 'Bar',
-        area: 'Naco, Santo Domingo',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.470011, -69.9272214],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Vida Loca Bar',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Zona Colonial, Santo Domingo',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4681175, -69.8896409],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'wild birds',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Prospect Heights, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.678322, -73.958423],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Bushwick Country Club',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Williamsburg, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7110994, -73.9477951],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Twins Lounge',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Greenpoint, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7263177, -73.9519866],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Lamplighter Brewing Co. - Broadway',
-        description: 'I have not been here yet.',
-        kind: 'Brewery',
-        area: 'Cambridge, Massachusetts',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [42.36799, -71.0979015],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Levee',
-        description: 'Small, and cozy bar in willy, with games and cool vibe.',
-        kind: 'Bar',
-        area: 'Williamsburg, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7163685, -73.961633],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Dizzy`s Club',
         description:
           'Favorite fucking jazz bar in the entire New York City! I used to go every Friday after my college classes to drink some whiskey while listening to some live jazz.',
@@ -860,22 +497,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: 'Rhythm & Vine',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Fort Lauderdale, Florida',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [26.1265368, -80.1379919],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
         name: 'The Little Shop',
         description: 'I have not been here yet.',
         kind: 'Bar',
@@ -908,21 +529,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: 'AFROBAR',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Osaka, Japan',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [34.6715367, 135.5045825],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Kind Regards',
         description:
           'Lovely bar with a basement ready for you to dance to techno until the sun comes out. In the heart of Lower East Side.',
@@ -936,22 +542,7 @@ const Bars = {
         coordinates: [40.7208262, -73.9878062],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Mika',
-        description:
-          'Awesome beer hall in bushwick, Brooklyn. It opened in the middle of the pandemic... literally the owner was going to open in march 2020 but it had to delay for obvious reason.',
-        kind: 'Bar',
-        area: 'Bushwick, Brooklyn',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7050544, -73.9319682],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -1015,38 +606,7 @@ const Bars = {
         coordinates: [40.7266592, -73.9913549],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Rocka Rolla',
-        description:
-          'Bar in Williamsburg, brooklyn. Nothing much to say about it.',
-        kind: 'Bar',
-        area: 'Williamsburg, brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7138889, -73.9527778],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Gutter',
-        description:
-          'Cool bar in greenpoint with a full on bowling alley, and other games.',
-        kind: 'Bar',
-        area: 'Green Point, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7226667, -73.955375],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -1414,22 +974,7 @@ const Bars = {
         coordinates: [40.721541, -73.988186],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Jupiter Disco',
-        description:
-          'Small bar in bushwick, Brooklyn where you can dance yourself to death if you`d like. ',
-        kind: 'Bar - Dance',
-        area: 'Bushwick, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7081769, -73.9235424],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -1478,22 +1023,6 @@ const Bars = {
         coordinates: [40.7571457, -73.9678294],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Happyfun Hideaway',
-        description:
-          'Happyfun Hideaway is happy as long as you are happy in deep bushwick, it is fun as long as you are also fun, you can definitely hide and also make way because you will hide and make way while dancing.',
-        kind: 'Bar',
-        area: 'Bushwick, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6975169, -73.9316165],
-      },
-    },
 
     {
       type: 'Feature',
@@ -1526,22 +1055,7 @@ const Bars = {
         coordinates: [40.744002, -73.9880767],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Union Pool',
-        description:
-          'This place is just a bar, no pool tables here. Check for other places.',
-        kind: 'Bar',
-        area: 'Williamburg, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7149875, -73.9516407],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -1685,53 +1199,7 @@ const Bars = {
         coordinates: [40.7426041, -74.0001774],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Bossa Nova Civic Club',
-        description:
-          'I bar hopped through a bunch bars when i visited this place.',
-        kind: 'Bar',
-        area: 'Bushwick, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6978896, -73.9279335],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Ditty',
-        description:
-          'After a long time of wanting to go to this place I finally did it! This place is awesome. This is an insconspicious place because it looks small but then you realize it has a huge garden and all your expectations are broken. They have big collection of board games for you to play while getting hammered (what could go wrong) Monopoly and cocktails is the game in town. My fave drink is the coconut coffee rum mixed, OMG it is good for those that enjoy coffee or coconuts. I will definetely try to go again mostly because of this... They have a fricking NES at Bar ready for you to take on the world!! I am a simple person.',
-        kind: 'Bar',
-        area: 'Astoria, Queens',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7748385, -73.9086568],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Tender Trap',
-        description: 'I have not been here yet. And I think they are close :(',
-        kind: 'Bar',
-        area: 'Williamburg, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7296345, -73.9583868],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -1778,83 +1246,7 @@ const Bars = {
         coordinates: [40.7204327, -73.9933927],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'BAMcafé',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Downtown Brooklyn, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6866574, -73.9777373],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Baby`s All Right',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Williamburg, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7101278, -73.9634861],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Nevermind',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Barcelona, Spain',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [41.3851589, 2.1664084],
-      },
-    },
 
-    {
-      type: 'Feature',
-      properties: {
-        name: 'TBA Brooklyn',
-        description:
-          'I have been here a couple of times and this place is cool, pretty low key, far from almost every train but the peeps that go there want to be there. Good Djs, cool staff, and everything is a dance floor.',
-        kind: 'Live Music Bar',
-        area: 'Williamsburg, Brooklyn',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.711123, -73.966358],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Cafe Du Nord',
-        description: 'I have not been here yet.',
-        kind: 'Live Music Venue',
-        area: 'San Francisco, California',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [37.7666241, -122.4304184],
-      },
-    },
     {
       type: 'Feature',
       properties: {
@@ -1945,21 +1337,7 @@ const Bars = {
         coordinates: [40.7253512, -73.9872202],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'La Chagra',
-        description: 'I have not been to this bar in Medillin, Colombia yet.',
-        kind: 'Bar',
-        area: 'Medellin, Colombia',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [6.2066915, -75.5642431],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -1976,21 +1354,7 @@ const Bars = {
         coordinates: [40.7645242, -73.9784575],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Ice Kube Bar',
-        description: 'I need to go here when in paris!',
-        kind: 'Bar',
-        area: 'Paris, France',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [48.8865207, 2.35881],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -2010,22 +1374,6 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
-        name: 'Stumpy`s Hatchet House Brooklyn',
-        description: 'I have not been here yet.',
-        kind: 'Recreation Center',
-        area: 'Industry City, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6574, -74.0061278],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
         name: 'Bluebird London NYC',
         description: 'I have not been here yet.',
         kind: 'Fine Dining',
@@ -2038,37 +1386,7 @@ const Bars = {
         coordinates: [40.7679711, -73.9828777],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Vintrash',
-        description: 'I have not been to this medillin bar yet.',
-        kind: 'bar',
-        area: 'Medellin, Colombia',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [6.2079191, -75.5660177],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'IRL',
-        description:
-          'Gallery that has a speakeasy afterhours?? I have not been here yet.',
-        kind: 'Speakeasy',
-        area: 'Greenpoint, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.727349, -73.956995],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -2085,97 +1403,7 @@ const Bars = {
         coordinates: [40.721904, -73.996424],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Our Wicked Lady',
-        description: 'I have not been here yet.',
-        kind: 'Live Music',
-        area: 'East Williamsburg, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7094323, -73.9333896],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Williamsburg Music Center',
-        description: 'I have not been here yet.',
-        kind: 'Live Music',
-        area: 'Williamsburg, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.711305, -73.963079],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Attic',
-        description: 'I have not been here yet.',
-        kind: 'Bar',
-        area: 'Flushing, Queens',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7624984, -73.8278276],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Westlight',
-        description: 'Bar / Restaurant with great views of manhattan.',
-        kind: 'Rooftop Bar',
-        area: 'Williamsburg, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.722297, -73.9565396],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Tambour',
-        description: 'I have not been here yet.',
-        kind: 'Wine Bar',
-        area: 'Park Slope, Brooklyn',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.6625032, -73.9925342],
-      },
-    },
 
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Barra Matilde Mi Amor',
-        description: 'I have not been here yet.',
-        kind: 'Cocktail Bar',
-        area: ' Guadalajara, Mexico',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [20.6726872, -103.3659156],
-      },
-    },
     {
       type: 'Feature',
       properties: {
@@ -2239,22 +1467,7 @@ const Bars = {
         coordinates: [40.71126, -74.006822],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Bent Run Brewing Company',
-        description:
-          'Cool brewery with live music, games, and awesome selection of beers, and my favorite root beer to this day! If you are in Warren, PA give them a visit.',
-        kind: 'Brewery',
-        area: 'Scandia, PA',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [41.8429087, -79.1470254],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -2269,55 +1482,6 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.7436536, -74.0031809],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Elder Greene',
-        description:
-          'This bar feels more like a restaurant because of the food menu but maybe that is the reason why this place calls itself a gastropub. The beer selection and alcohol selection is big and the food menu is just as big as long as you like burgers, and fried food.',
-        kind: 'Bar',
-        area: 'Greenpoint, Brooklyn',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7307085, -73.9575852],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Johnson`s',
-        description:
-          'Cool place to chill and vibe, it has even a burger restaurant inside of it in case you are hungry. It looks really small from the outside but once you go in you realize how big it is. The drinks are cheap and the music selection is top notch. It has character and great vibe If I am in the area I will go again.',
-        kind: 'Bar',
-        area: 'Bushwick, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7058242, -73.9238032],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Turk`s Inn',
-        description:
-          'This place has an interesting facade because it is suppose to be a restaurant but they have shows all the time and the time i visited it I went to their little rooftop bar and to be honest it was cool. Djs playing music upstairs while down below there was a play happening all in the middle of bushwick, brooklyn because of course this kind of place would be on bushwick.',
-        kind: 'Bar',
-        area: 'Bushwick, Brooklyn',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.70571, -73.9223992],
       },
     },
 
@@ -2388,6 +1552,662 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'The Stumble Inn',
+        description:
+          'I do not remember much of this bar experience not because I was too drunk but because I just do not care about this place.',
+        kind: 'Bar',
+        area: 'Upper East Side, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7712422, -73.9562963],
+      },
+    },
+    /// //////////////////////////////////////////////
+    /// ////////    BROOKLYN      ////////////////////
+    /// //////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Whatever Forever',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Downtown Brooklyn, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6878427, -73.9789556],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Friends and Lovers',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Prospect Heights, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6785248, -73.9584655],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'JADE',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6965932, -73.9349947],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Radegast Hall & Biergarten',
+        description: 'I have not been here yet.',
+        kind: 'Beer Hall',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7166614, -73.9614494],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'wild birds',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Prospect Heights, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.678322, -73.958423],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bushwick Country Club',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7110994, -73.9477951],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Twins Lounge',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7263177, -73.9519866],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Mika',
+        description:
+          'Awesome beer hall in bushwick, Brooklyn. It opened in the middle of the pandemic... literally the owner was going to open in march 2020 but it had to delay for obvious reason.',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7050544, -73.9319682],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Rocka Rolla',
+        description:
+          'Bar in Williamsburg, brooklyn. Nothing much to say about it.',
+        kind: 'Bar',
+        area: 'Williamsburg, brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7138889, -73.9527778],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Gutter',
+        description:
+          'Cool bar in greenpoint with a full on bowling alley, and other games.',
+        kind: 'Bar',
+        area: 'Green Point, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7226667, -73.955375],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Jupiter Disco',
+        description:
+          'Small bar in bushwick, Brooklyn where you can dance yourself to death if you`d like. ',
+        kind: 'Bar - Dance',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7081769, -73.9235424],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Happyfun Hideaway',
+        description:
+          'Happyfun Hideaway is happy as long as you are happy in deep bushwick, it is fun as long as you are also fun, you can definitely hide and also make way because you will hide and make way while dancing.',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6975169, -73.9316165],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Union Pool',
+        description:
+          'This place is just a bar, no pool tables here. Check for other places.',
+        kind: 'Bar',
+        area: 'Williamburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7149875, -73.9516407],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bossa Nova Civic Club',
+        description:
+          'I bar hopped through a bunch bars when i visited this place.',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6978896, -73.9279335],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tender Trap',
+        description: 'I have not been here yet. And I think they are close :(',
+        kind: 'Bar',
+        area: 'Williamburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7296345, -73.9583868],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'BAMcafé',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Downtown Brooklyn, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6866574, -73.9777373],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Baby`s All Right',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Williamburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7101278, -73.9634861],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'TBA Brooklyn',
+        description:
+          'I have been here a couple of times and this place is cool, pretty low key, far from almost every train but the peeps that go there want to be there. Good Djs, cool staff, and everything is a dance floor.',
+        kind: 'Live Music Bar',
+        area: 'Williamsburg, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.711123, -73.966358],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Stumpy`s Hatchet House Brooklyn',
+        description: 'I have not been here yet.',
+        kind: 'Recreation Center',
+        area: 'Industry City, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6574, -74.0061278],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'IRL',
+        description:
+          'Gallery that has a speakeasy afterhours?? I have not been here yet.',
+        kind: 'Speakeasy',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.727349, -73.956995],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Our Wicked Lady',
+        description: 'I have not been here yet.',
+        kind: 'Live Music',
+        area: 'East Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7094323, -73.9333896],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Williamsburg Music Center',
+        description: 'I have not been here yet.',
+        kind: 'Live Music',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.711305, -73.963079],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Westlight',
+        description: 'Bar / Restaurant with great views of manhattan.',
+        kind: 'Rooftop Bar',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.722297, -73.9565396],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tambour',
+        description: 'I have not been here yet.',
+        kind: 'Wine Bar',
+        area: 'Park Slope, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6625032, -73.9925342],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Elder Greene',
+        description:
+          'This bar feels more like a restaurant because of the food menu but maybe that is the reason why this place calls itself a gastropub. The beer selection and alcohol selection is big and the food menu is just as big as long as you like burgers, and fried food.',
+        kind: 'Bar',
+        area: 'Greenpoint, Brooklyn',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7307085, -73.9575852],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Johnson`s',
+        description:
+          'Cool place to chill and vibe, it has even a burger restaurant inside of it in case you are hungry. It looks really small from the outside but once you go in you realize how big it is. The drinks are cheap and the music selection is top notch. It has character and great vibe If I am in the area I will go again.',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7058242, -73.9238032],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Levee',
+        description: 'Small, and cozy bar in willy, with games and cool vibe.',
+        kind: 'Bar',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7163685, -73.961633],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Turk`s Inn',
+        description:
+          'This place has an interesting facade because it is suppose to be a restaurant but they have shows all the time and the time i visited it I went to their little rooftop bar and to be honest it was cool. Djs playing music upstairs while down below there was a play happening all in the middle of bushwick, brooklyn because of course this kind of place would be on bushwick.',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.70571, -73.9223992],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Spritzenhaus33',
+        description:
+          'Huge beer hall with plenty of beer selections and an expansive place. Not a place to go and talk tho as it is pretty loud.',
+        kind: 'Bar',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7233111, -73.952689],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cool World',
+        description:
+          'The martines, The Granny smith margarita, and the negroni are really good, and delicious! The asthetic of the place resembles the 70s to me. Also this place has a big food selection and technically is a restaurant not a bar but we only got drinks here and we were impressed. Definetely would go back again. ',
+        kind: 'Bar',
+        area: 'Greenpoint, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7234951, -73.9520195],
+      },
+    },
+
+    /// //////////////////////////////////////////////
+    /// ////    DOMINICAN REPUBLIC    ///////////////
+    /// //////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Gabiao Rooftop Bar',
+        description: 'I have not been here yet.',
+        kind: 'Rooftop Bar',
+        area: 'Santo Domingo, DR',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4698165, -69.9279886],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: '75 Grados',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Naco, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4751101, -69.9272335],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'La Gloria Rooftop',
+        description: 'I have not been here yet.',
+        kind: 'Rooftop Bar',
+        area: 'Piantini, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4763927, -69.926918],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: '300 Bar Lounge',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Bella Vista, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4527591, -69.9599377],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sparta Lounge',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Naco, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4591214, -69.9323447],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Quintana Bar',
+        description:
+          'Cool spot to listen to some live music with the warthm of the night breezy and in a beautiful colonial building..',
+        kind: 'Bar',
+        area: 'Zona Colonial, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4775907, -69.8836697],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Marketcito',
+        description:
+          'Beer hall in the middle of santo domingo, with decent selection of beers.',
+        kind: 'Bar',
+        area: 'Naco, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.470011, -69.9272214],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Vida Loca Bar',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Zona Colonial, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4681175, -69.8896409],
+      },
+    },
+
+    /// //////////////////////////////////////////////
+    /// ///////////    QUEENS    /////////////////////
+    /// //////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Ditty',
+        description:
+          'After a long time of wanting to go to this place I finally did it! This place is awesome. This is an insconspicious place because it looks small but then you realize it has a huge garden and all your expectations are broken. They have big collection of board games for you to play while getting hammered (what could go wrong) Monopoly and cocktails is the game in town. My fave drink is the coconut coffee rum mixed, OMG it is good for those that enjoy coffee or coconuts. I will definetely try to go again mostly because of this... They have a fricking NES at Bar ready for you to take on the world!! I am a simple person.',
+        kind: 'Bar',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7748385, -73.9086568],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Attic',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Flushing, Queens',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7624984, -73.8278276],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'The Last World',
         description:
           'The vibe of the place is of a speakeasy, but this is far from one. I did like it tho pretty relax, a place to go after work or to enjoy some drinks with friends or girlfriend with. This place is girlfriend approved so that means they are doing something right. The drink menu is extensive and with plenty of wine selection too mixed with some foods.',
@@ -2417,22 +2237,318 @@ const Bars = {
         coordinates: [40.7453266, -73.9474952],
       },
     },
+
+    /// //////////////////////////////////////////////
+    /// ///////////     United States    ////////////
+    /// //////////////////////////////////////////////
+
     {
       type: 'Feature',
       properties: {
-        name: 'The Stumble Inn',
-        description:
-          'I do not remember much of this bar experience not because I was too drunk but because I just do not care about this place.',
+        name: 'Blackbird Ordinary',
+        description: 'I have not been here yet.',
         kind: 'Bar',
-        area: 'Upper East Side, Manhattan',
+        area: 'Brickell, Miami',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [25.7667169, -80.1951854],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Scholars American Bistro and Cocktail Lounge',
+        description: 'I have not been here yet.',
+        kind: 'Cocktail bar',
+        area: 'Boston, Massachusetts',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [42.3577549, -71.0591691],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Lamplighter Brewing Co. - Broadway',
+        description: 'I have not been here yet.',
+        kind: 'Brewery',
+        area: 'Cambridge, Massachusetts',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [42.36799, -71.0979015],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Rhythm & Vine',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Fort Lauderdale, Florida',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [26.1265368, -80.1379919],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cafe Du Nord',
+        description: 'I have not been here yet.',
+        kind: 'Live Music Venue',
+        area: 'San Francisco, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [37.7666241, -122.4304184],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bent Run Brewing Company',
+        description:
+          'Cool brewery with live music, games, and awesome selection of beers, and my favorite root beer to this day! If you are in Warren, PA give them a visit.',
+        kind: 'Brewery',
+        area: 'Scandia, PA',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.8429087, -79.1470254],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Old Glory',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Nashville, Tennessee',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.1430041, -86.7916463],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Attaboy',
+        description: 'I have not been here yet.',
+        kind: 'Cocktail Bar',
+        area: 'Nashville, Tennessee',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.1761096, -86.7554403],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Marilou',
+        description:
+          'I have not been here yet but their drinks and cocktails looks delish.',
+        kind: 'Cocktail Bar',
+        area: 'New Orleans, LA',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9487598, -90.0720388],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cane and Table',
+        description:
+          'Almost all the drinks are made with some type of rum and I am here for it! Love the vibe, loved the drinks, and they have a huge garden in the back to chill get some drinks, eat some food and have a good time. I loved this place.',
+        kind: 'Carribeam Bar',
+        area: 'New Orleans, LA',
         visits: '1',
         visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7712422, -73.9562963],
+        coordinates: [29.9602514, -90.0599082],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The John',
+        description:
+          'I have not been here yet but I heard that the live jazz music here is pretty good.',
+        kind: 'Bar',
+        area: 'New Orleans, LA',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.9663133, -90.0580655],
+      },
+    },
+
+    /// //////////////////////////////////////////////
+    /// ///////////     Asia     /////////////////////
+    /// //////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'AFROBAR',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Osaka, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [34.6715367, 135.5045825],
+      },
+    },
+
+    /// //////////////////////////////////////////////
+    /// ///////////     Europe     /////////////////////
+    /// //////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Waiting Room',
+        description: 'I have not been here yet.',
+        kind: 'Live Music Venue',
+        area: 'London, United Kingdom',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [51.5620857, -0.0739683],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Nevermind',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Barcelona, Spain',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.3851589, 2.1664084],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'R2',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Marseille, France',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.3079371, 5.3640841],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ice Kube Bar',
+        description: 'I need to go here when in paris!',
+        kind: 'Bar',
+        area: 'Paris, France',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [48.8865207, 2.35881],
+      },
+    },
+    /// //////////////////////////////////////////////
+    /// ///////////     Americas     /////////////////////
+    /// //////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'La Chagra',
+        description: 'I have not been to this bar in Medillin, Colombia yet.',
+        kind: 'Bar',
+        area: 'Medellin, Colombia',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [6.2066915, -75.5642431],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Vintrash',
+        description: 'I have not been to this medillin bar yet.',
+        kind: 'bar',
+        area: 'Medellin, Colombia',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [6.2079191, -75.5660177],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Barra Matilde Mi Amor',
+        description: 'I have not been here yet.',
+        kind: 'Cocktail Bar',
+        area: ' Guadalajara, Mexico',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [20.6726872, -103.3659156],
+      },
+    },
+
     {
       type: 'Feature',
       properties: {

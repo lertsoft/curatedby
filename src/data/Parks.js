@@ -6,38 +6,9 @@
 const Parks = {
   type: 'FeatureCollection',
   features: [
-    {
-      type: 'Feature',
-      properties: {
-        name: 'La Peñita',
-        description:
-          'Awesome place to cliff jump! There are two different cliff a big one that is about 3 stories high and a small one which is about 1 story high. The small one you could feel the floor of the coral depending on were you jump. Also be careful of thiefs as the area has gotten popular it has gotten their attention. Other than that pretty cool spot to jump into the ocean and have some adventure fun.',
-        kind: 'Cliff',
-        area: 'Boca Chica, Republica Dominicana',
-        visits: '2',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4317816, -69.5696174],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The 3 Eyes National Park',
-        description: 'I have not been here yet.',
-        kind: 'Park',
-        area: 'Santo Domingo, Republica Dominicana',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.4805811, -69.8431322],
-      },
-    },
+    /// ////////////////////////////////////////////////
+    /// ////////        United States       ////////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
@@ -114,56 +85,6 @@ const Parks = {
       geometry: {
         type: 'Point',
         coordinates: [38.224148, -119.6084177],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Jungfraujoch',
-        description:
-          'I have not been here yet but this place has the highest railway in Europe that takes visitors to this glacier saddle that also has an observatory.',
-        kind: 'Hiking',
-        area: 'Lauterbrunnen, Switzerland',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [46.548276, 7.9806434],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Sulak Canyon',
-        description:
-          'I have not been here yet but this is suppose to be the deepest canyon in the entire world.',
-        kind: 'Park',
-        area: 'Republic of Dagestan, Russia',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [43.0211216, 46.8255206],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Jungfrau',
-        description:
-          'I have not been here yet. This is the peak of Europe, The peak of the highest mountain over there.',
-        kind: 'Hiking',
-        area: 'Lauterbrunnen, Switzerland',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [46.5367835, 7.9625955],
       },
     },
     {
@@ -562,22 +483,6 @@ const Parks = {
     {
       type: 'Feature',
       properties: {
-        name: '"45°57`53.3""N 63°18`18.4""E"S',
-        description:
-          'I have not been here yet. This is supposed to be an abandoned soviet town that has some of the nuclear test perfom on.',
-        kind: 'Park',
-        area: 'Ayteke Bi District, Kazakhstan',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [50.0604273, 61.5780236],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'North Brother Island',
         description: 'I have not been here yet.',
         kind: 'Park',
@@ -791,23 +696,6 @@ const Parks = {
         coordinates: [41.2478714, -73.7979121],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Paseo de Doña Blanca',
-        description: 'I have not been here yet.',
-        kind: 'Park',
-        area: 'Puerto Plata, DR',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [19.7985932, -70.6936937],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
@@ -868,39 +756,6 @@ const Parks = {
         coordinates: [38.2269533, -109.9005907],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Timna Park',
-        description: 'I have not been here yet.',
-        kind: 'Park',
-        area: 'Timna Park, Israel',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [29.7882452, 35.0031576],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Bahá`í Gardens Haifa - Balcony (Bahá`í Holy Place)',
-        description: 'I have not been here yet.',
-        kind: 'Garden',
-        area: 'Haifa, Israel',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [32.811364, 34.9852756],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
@@ -948,23 +803,177 @@ const Parks = {
         coordinates: [42.1937353, -74.0642294],
       },
     },
-
     {
       type: 'Feature',
       properties: {
-        name: 'Mosi-Oa-Tunya Falls',
+        name: 'Gasworks Park Marina',
         description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Mosi-o-tunya, Zambia',
+        kind: 'Park',
+        area: 'Seattle, Washington',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [-17.9256587, 25.8624953],
+        coordinates: [47.6471284, -122.3325622],
       },
     },
 
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Yosemite National Park',
+        description: 'I have not been here yet.',
+        kind: 'Park',
+        area: 'Yosemite National Park, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [37.8533091, -119.55111],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Berkshires',
+        description: 'I have not been here yet.',
+        kind: 'Hiking',
+        area: 'The Berkshires, Massachusetts',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [42.2352488, -73.1936019],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Yellowstone National Park',
+        description: 'I have not been here yet.',
+        kind: 'Park',
+        area: 'Yellowstone National Park, Wyoming',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [44.4279679, -110.5884542],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Coyote Gulch',
+        description: 'I have not been here yet.',
+        kind: 'Travel',
+        area: 'Glen Canyon National Recreation Area, Utah',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [37.4282437, -110.9808555],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Big Sky',
+        description: 'I have not been here yet.',
+        kind: 'Hiking',
+        area: 'Big Sky, Montana',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [45.2617841, -111.3080159],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Grand Canyon National Park',
+        description: 'I have not been here yet.',
+        kind: 'Park',
+        area: 'Grand Canyon National Park, Arizona',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.088433, -112.1111396],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Enchanted Valley',
+        description: 'I have not been here yet.',
+        kind: 'Hiking',
+        area: 'Enchanted Valley, Washington',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [47.6686231, -123.3943046],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Big Sur',
+        description: 'I have not been here yet.',
+        kind: 'Hiking',
+        area: 'Big Sur, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.2717301, -121.8075025],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Hanging Lake',
+        description: 'I have not been here yet.',
+        kind: 'Lake',
+        area: 'Hanging Lake, Colorado',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [39.601392, -107.1918609],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Flathead Lake',
+        description:
+          'I have not been here yet but this is one of the clearest water lakes in the world! One of the other is in sweeden.',
+        kind: 'Lake',
+        area: 'Flathead Lake, Montana',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [47.8910242, -114.1823648],
+      },
+    },
     {
       type: 'Feature',
       properties: {
@@ -1075,149 +1084,243 @@ const Parks = {
         coordinates: [44.9781913, -85.3153834],
       },
     },
+
+    /// ////////////////////////////////////////////////
+    /// //////     Domininican Republic     ///////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
-        name: 'Hanging Lake',
-        description: 'I have not been here yet.',
-        kind: 'Lake',
-        area: 'Hanging Lake, Colorado',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [39.601392, -107.1918609],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Flathead Lake',
+        name: 'La Peñita',
         description:
-          'I have not been here yet but this is one of the clearest water lakes in the world! One of the other is in sweeden.',
-        kind: 'Lake',
-        area: 'Flathead Lake, Montana',
-        visits: '0',
-        visited: false,
+          'Awesome place to cliff jump! There are two different cliff a big one that is about 3 stories high and a small one which is about 1 story high. The small one you could feel the floor of the coral depending on were you jump. Also be careful of thiefs as the area has gotten popular it has gotten their attention. Other than that pretty cool spot to jump into the ocean and have some adventure fun.',
+        kind: 'Cliff',
+        area: 'Boca Chica, Republica Dominicana',
+        visits: '2',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [47.8910242, -114.1823648],
+        coordinates: [18.4317816, -69.5696174],
       },
     },
 
     {
       type: 'Feature',
       properties: {
-        name: 'Green Lakes State Park',
+        name: 'The 3 Eyes National Park',
         description: 'I have not been here yet.',
         kind: 'Park',
-        area: 'Fayetteville, New York',
+        area: 'Santo Domingo, Republica Dominicana',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [43.0584686, -75.9717647],
+        coordinates: [18.4805811, -69.8431322],
       },
     },
     {
       type: 'Feature',
       properties: {
-        name: 'Old Rag Circuit Hike',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Etlan, Virginia',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [38.5705013, -78.2935351],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Buttermilk Falls State Park',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Ithaca, New York',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [42.4164863, -76.520968],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Point Dume',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Malibu, California',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [34.0016741, -118.8068986],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Anza-Borrego Desert State Park',
+        name: 'Paseo de Doña Blanca',
         description: 'I have not been here yet.',
         kind: 'Park',
-        area: 'Borrego Springs, California',
+        area: 'Puerto Plata, DR',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [33.100492, -116.3013266],
+        coordinates: [19.7985932, -70.6936937],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Valle Nuevo National Park',
+        description: 'I have not been here yet.',
+        kind: 'Park',
+        area: 'La Vega, Republica Dominicana',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.8463327, -70.7406358],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Indigenous Eyes Ecological Reserve',
+        description: 'I have not been here yet.',
+        kind: 'Park',
+        area: 'Punta Cana, Republica Dominicana',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.5137242, -68.3791346],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// //////////         Americas       /////////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Edith Cavell Trail',
+        description: 'I have not been here yet.',
+        kind: 'Hiking',
+        area: 'Alberta, Canada',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [52.6816899, -118.0408537],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// //////////         Europe       /////////////
+    /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Jungfraujoch',
+        description:
+          'I have not been here yet but this place has the highest railway in Europe that takes visitors to this glacier saddle that also has an observatory.',
+        kind: 'Hiking',
+        area: 'Lauterbrunnen, Switzerland',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [46.548276, 7.9806434],
       },
     },
 
     {
       type: 'Feature',
       properties: {
-        name: 'Minnewaska State Park Preserve',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Kerhonkson, New York',
+        name: 'Sulak Canyon',
+        description:
+          'I have not been here yet but this is suppose to be the deepest canyon in the entire world.',
+        kind: 'Park',
+        area: 'Republic of Dagestan, Russia',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [41.7300631, -74.2352364],
+        coordinates: [43.0211216, 46.8255206],
       },
     },
 
     {
       type: 'Feature',
       properties: {
-        name: 'Roys Peak',
-        description: 'I have not been here yet.',
+        name: 'Jungfrau',
+        description:
+          'I have not been here yet. This is the peak of Europe, The peak of the highest mountain over there.',
         kind: 'Hiking',
-        area: 'Wānaka, New Zealand',
+        area: 'Lauterbrunnen, Switzerland',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [-44.6999994, 169.05],
+        coordinates: [46.5367835, 7.9625955],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Calanque de Sugiton',
+        description: 'I have not been here yet.',
+        kind: 'Hiking',
+        area: 'Calanque de Sugiton, France',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.2104793, 5.455583],
       },
     },
 
+    /// ////////////////////////////////////////////////
+    /// //////////         Asia       /////////////
+    /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: '"45°57`53.3""N 63°18`18.4""E"S',
+        description:
+          'I have not been here yet. This is supposed to be an abandoned soviet town that has some of the nuclear test perfom on.',
+        kind: 'Park',
+        area: 'Ayteke Bi District, Kazakhstan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [50.0604273, 61.5780236],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Timna Park',
+        description: 'I have not been here yet.',
+        kind: 'Park',
+        area: 'Timna Park, Israel',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [29.7882452, 35.0031576],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bahá`í Gardens Haifa - Balcony (Bahá`í Holy Place)',
+        description: 'I have not been here yet.',
+        kind: 'Garden',
+        area: 'Haifa, Israel',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [32.811364, 34.9852756],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Batangas',
+        description:
+          'I have not been here yet but this place was reccomended by a friend of mine from the philippines.',
+        kind: 'Hiking',
+        area: 'Batangas, Philippines',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [13.88343, 120.9783636],
+      },
+    },
     {
       type: 'Feature',
       properties: {
@@ -1231,6 +1334,26 @@ const Parks = {
       geometry: {
         type: 'Point',
         coordinates: [35.0622472, 135.8315317],
+      },
+    },
+
+    /// ////////////////////////////////////////////////
+    /// //////////         Africa         /////////////
+    /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Mosi-Oa-Tunya Falls',
+        description: 'I have not been here yet.',
+        kind: 'Hiking',
+        area: 'Mosi-o-tunya, Zambia',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [-17.9256587, 25.8624953],
       },
     },
 
@@ -1253,21 +1376,6 @@ const Parks = {
     {
       type: 'Feature',
       properties: {
-        name: 'Indigenous Eyes Ecological Reserve',
-        description: 'I have not been here yet.',
-        kind: 'Park',
-        area: 'Punta Cana, Republica Dominicana',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.5137242, -68.3791346],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
         name: 'Lion`s Head',
         description: 'I have not been here yet.',
         kind: 'Hiking',
@@ -1280,211 +1388,22 @@ const Parks = {
         coordinates: [-33.935037, 18.3889709],
       },
     },
-
+    /// ////////////////////////////////////////////////
+    /// //////////         Oceania      /////////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
-        name: 'Edith Cavell Trail',
+        name: 'Roys Peak',
         description: 'I have not been here yet.',
         kind: 'Hiking',
-        area: 'Alberta, Canada',
+        area: 'Wānaka, New Zealand',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
-        coordinates: [52.6816899, -118.0408537],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Valle Nuevo National Park',
-        description: 'I have not been here yet.',
-        kind: 'Park',
-        area: 'La Vega, Republica Dominicana',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [18.8463327, -70.7406358],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'The Berkshires',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'The Berkshires, Massachusetts',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [42.2352488, -73.1936019],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Yellowstone National Park',
-        description: 'I have not been here yet.',
-        kind: 'Park',
-        area: 'Yellowstone National Park, Wyoming',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [44.4279679, -110.5884542],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Coyote Gulch',
-        description: 'I have not been here yet.',
-        kind: 'Travel',
-        area: 'Glen Canyon National Recreation Area, Utah',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [37.4282437, -110.9808555],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Big Sky',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Big Sky, Montana',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [45.2617841, -111.3080159],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Grand Canyon National Park',
-        description: 'I have not been here yet.',
-        kind: 'Park',
-        area: 'Grand Canyon National Park, Arizona',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [36.088433, -112.1111396],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Enchanted Valley',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Enchanted Valley, Washington',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [47.6686231, -123.3943046],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Big Sur',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Big Sur, California',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [36.2717301, -121.8075025],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Batangas',
-        description:
-          'I have not been here yet but this place was reccomended by a friend of mine from the philippines.',
-        kind: 'Hiking',
-        area: 'Batangas, Philippines',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [13.88343, 120.9783636],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Gasworks Park Marina',
-        description: 'I have not been here yet.',
-        kind: 'Park',
-        area: 'Seattle, Washington',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [47.6471284, -122.3325622],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Yosemite National Park',
-        description: 'I have not been here yet.',
-        kind: 'Park',
-        area: 'Yosemite National Park, California',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [37.8533091, -119.55111],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Calanque de Sugiton',
-        description: 'I have not been here yet.',
-        kind: 'Hiking',
-        area: 'Calanque de Sugiton, France',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [43.2104793, 5.455583],
+        coordinates: [-44.6999994, 169.05],
       },
     },
   ],

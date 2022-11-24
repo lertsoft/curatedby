@@ -6,6 +6,9 @@
 const JapaneseRestaurant = {
   type: 'FeatureCollection',
   features: [
+    /// ////////////////////////////////////////////////
+    /// ////////         Manhattan       ///////////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
@@ -130,38 +133,6 @@ const JapaneseRestaurant = {
       geometry: {
         type: 'Point',
         coordinates: [40.7214202, -73.9967361],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Setagaya',
-        description:
-          'I have been to so many Japanese restaurants that if it is not one of my faves i will put something generic. If you are in the area try it out but there are better.',
-        kind: 'Ramen - Japanese Resturant',
-        area: 'Williamburg, Brooklyn',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7148483, -73.9612059],
-      },
-    },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Ichiran',
-        description:
-          'Best ramen spot in the city? I think they are close to it but ichiran is number 2 for me. Great tho.',
-        kind: 'Ramen - Japanese Resturant',
-        area: 'Bushwick, Brooklyn',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7075225, -73.9331828],
       },
     },
     {
@@ -493,22 +464,6 @@ const JapaneseRestaurant = {
     {
       type: 'Feature',
       properties: {
-        name: 'O-Ku',
-        description: 'I have not been here yet.',
-        kind: 'Sushi - Japanese Restaurant',
-        area: 'Nashville, Tennessee',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [36.1818581, -86.7847957],
-      },
-    },
-
-    {
-      type: 'Feature',
-      properties: {
         name: 'Sushumai',
         description:
           'I liked their sushi it was okay, but i also think it is pretty hard to mess up sushi? what do you think?',
@@ -554,21 +509,10 @@ const JapaneseRestaurant = {
         coordinates: [40.7701183, -73.9549709],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Ichimonjiya Wasuke (aburi-mochi) あぶり餅 一和（一文字屋 和輔）',
-        description: 'I have not been here yet.',
-        kind: 'Sweets - Japanese Restaurant',
-        area: 'Kyoto, Japan',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [35.0453272, 135.7427836],
-      },
-    },
+
+    /// ////////////////////////////////////////////////
+    /// ////////         Brooklyn       ///////////////
+    /// ////////////////////////////////////////////////
     {
       type: 'Feature',
       properties: {
@@ -603,6 +547,41 @@ const JapaneseRestaurant = {
     {
       type: 'Feature',
       properties: {
+        name: 'Setagaya',
+        description:
+          'I have been to so many Japanese restaurants that if it is not one of my faves i will put something generic. If you are in the area try it out but there are better.',
+        kind: 'Ramen - Japanese Resturant',
+        area: 'Williamburg, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7148483, -73.9612059],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ichiran',
+        description:
+          'Best ramen spot in the city? I think they are close to it but ichiran is number 2 for me. Great tho.',
+        kind: 'Ramen - Japanese Resturant',
+        area: 'Bushwick, Brooklyn',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7075225, -73.9331828],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// ////////         New York, NY       ////////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
         name: 'Kiraku Japanese Restaurant',
         description:
           'There are not that many japanese restaurant in the bronx that serve Ramen and this one is one of the only ones. Not the best as I have been spoiled but when this is the closest to you it is the best at the moment.',
@@ -616,6 +595,45 @@ const JapaneseRestaurant = {
         coordinates: [40.8533996, -73.8535656],
       },
     },
+    /// ////////////////////////////////////////////////
+    /// ////////         United States      ////////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'O-Ku',
+        description: 'I have not been here yet.',
+        kind: 'Sushi - Japanese Restaurant',
+        area: 'Nashville, Tennessee',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.1818581, -86.7847957],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// /////////////         Japan      ///////////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ichimonjiya Wasuke (aburi-mochi) あぶり餅 一和（一文字屋 和輔）',
+        description: 'I have not been here yet.',
+        kind: 'Sweets - Japanese Restaurant',
+        area: 'Kyoto, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [35.0453272, 135.7427836],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// //////////////        Asia      ///////////////
+    /// ////////////////////////////////////////////////
   ],
 };
 
