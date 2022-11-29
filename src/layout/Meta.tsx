@@ -86,7 +86,7 @@ const Meta = (props: IMetaProps, customMeta) => {
         <script
           defer
           src="https://static.cloudflareinsights.com/beacon.min.js"
-          data-cf-beacon={`{"token": ${process.env.NEXT_PUBLIC_ANALYTICS_ID}}`}
+          data-cf-beacon={`{token": "${process.env.NEXT_PUBLIC_ANALYTICS_ID}"}`}
         ></script>
       </Head>
       <NextSeo
