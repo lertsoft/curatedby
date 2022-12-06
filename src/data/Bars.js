@@ -28,6 +28,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Saint Tuesday',
+        description:
+          'I have not been here yet but heard good things about this place.',
+        kind: 'Speakeasy',
+        area: 'Tribeca, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7182243, -74.0021302],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'The Up & Up',
         description: 'I have not been here yet.',
         kind: 'Cocktail Bar',
@@ -38,6 +54,21 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.7296941, -74.0004701],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Village Vanguard',
+        description: 'I have not been here yet.',
+        kind: 'Jazz Club',
+        area: 'Greenwich Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7359736, -74.0016172],
       },
     },
 

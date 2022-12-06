@@ -530,11 +530,12 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'MUD SPOT aka MUD',
-        description: 'I have not been here yet.',
+        description:
+          'This coffee shop is pretty good! But it feels more like a restaurant or brunch spot than anything else.',
         kind: 'Cafe',
         area: 'East Village, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -766,7 +767,22 @@ const cafes = {
     /// ////////////////////////////////////////////////
     /// ///////         Brooklyn         ////////////////
     /// ////////////////////////////////////////////////
-
+    {
+      type: 'Feature',
+      properties: {
+        name: '% Arabica',
+        description:
+          'This coffee shop coffee is a must try if you are a coffee aficionado like I am! Their beans are from the middle east mostly hence the name. But their blend of arabica coffee with colimbian and brazilian coffee is really good!',
+        kind: 'Cafe',
+        area: 'Dumbo, Brooklyn',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7026, -73.994165],
+      },
+    },
     {
       type: 'Feature',
       properties: {
@@ -1305,6 +1321,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [48.2079267, 16.3697049],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Café Marlette',
+        description:
+          'I have not been here yet but SouSou reccomended me this place.',
+        kind: 'Cafe',
+        area: 'Paris, France',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [48.8801986, 2.3400846],
       },
     },
     /// //////////////////////////////////////////////

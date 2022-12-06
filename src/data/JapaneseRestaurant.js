@@ -516,6 +516,22 @@ const JapaneseRestaurant = {
     {
       type: 'Feature',
       properties: {
+        name: 'Tsuta Dumbo',
+        description:
+          'This place is a franchise of a Michilin Star restaurant that is located in Tokyo, Japan! The ramen is really good and the prices are just regular like other ramen places. Is it worth the hype and waiting in line for 1 hour? If you have time to spare yeah otherwise it didn`t taste so revolutionary than any other ramen spot.',
+        kind: 'Ramen - Japanese Resturant',
+        area: 'Dumbo, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7025551, -73.9941019],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'OKOZUSHI by Megumi',
         description: 'I have not been here yet.',
         kind: 'Sushi - Japanese Restaurant',

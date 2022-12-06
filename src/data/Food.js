@@ -12,6 +12,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Ye`s Apothecary 夜莺',
+        description:
+          'I have not been here yet but it looks like a great spot to go to.',
+        kind: 'Sichuan restaurant',
+        area: 'LES, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7194051, -73.9897702],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Cafe R',
         description:
           'Cafe R is supposed to be a cafe but it is more like a collections of restaurant under the same roof. No coffee here at least not the good kind but the food is pretty good. They also have buffet if you feel like having that ( which is good ) This place is in the infamous park of midtown, ie 32st by penn station.',
@@ -3779,7 +3795,22 @@ const Food = {
         description: 'I have not been here yet.',
         kind: '',
         area: '',
-        visits: '1',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description: 'I have not been here yet.',
+        kind: '',
+        area: '',
+        visits: '0',
         visited: true,
       },
       geometry: {
