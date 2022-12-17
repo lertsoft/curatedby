@@ -1599,6 +1599,53 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'S&P Lunch',
+        description:
+          'Really good sandwich shop and restaurant. The vibe is kind of 80`s, and simple. I really like this place and the story behind it is pretty cool to as this restaurant has been open since 80`s, and in 2021 the owners were going to close it but Nicholas Braun and others peeps decided to invest in this place to keep open.',
+        kind: 'Restaurant',
+        area: 'Flatiron, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.741132, -73.9901715],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Smith & Wollensky',
+        description: 'I have not been here yet.',
+        kind: 'Steak House',
+        area: 'Midtown East, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7551977, -73.9708831],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Crown Shy',
+        description: 'I have not been here yet.',
+        kind: 'American restaurant',
+        area: 'FiDi, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7065102, -74.0078413],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Lexington Candy Shop',
         description:
           'I have not been here yet but the only reason this is on the list is becuase they make their coke or pepsi like your grand-grand-parents used by mixing seltzer water with coke / pepsi syrup. Something so old merits to be great just for the sake of being consistent on staying true to the 19 century lol.',
@@ -3791,18 +3838,19 @@ const Food = {
     {
       type: 'Feature',
       properties: {
-        name: '',
-        description: 'I have not been here yet.',
-        kind: '',
-        area: '',
-        visits: '0',
-        visited: false,
+        name: 'La Pecora Bianca Meatpacking',
+        description: 'Good Food. I liked it and my girlfriend liked it too!',
+        kind: 'Italian Restaurant',
+        area: 'Meatpacking District, Manhattan',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [],
+        coordinates: [40.7395447, -74.0078923],
       },
     },
+
     {
       type: 'Feature',
       properties: {

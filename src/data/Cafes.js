@@ -562,11 +562,11 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'C&B',
-        description: 'I have not been here yet.',
+        description: 'Small bakery / cafe with great bread and okay coffee.',
         kind: 'Cafe',
         area: 'East Village, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '2',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -761,6 +761,52 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7523854, -73.9735836],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ariston Coffee Bar',
+        description:
+          'Really cool cafe with a lot of space for working and sitting to with plenty of plans to breath some somewhat fresh air in the middle of this concrete jungle.',
+        kind: 'Cafe',
+        area: 'Chelsea, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7357229, -73.9940437],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Miss Du`s Tea Shop',
+        description: 'good bubble tea but I think there are better ones.',
+        kind: 'Bubble Tea',
+        area: 'Chinatown, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7148516, -73.998695],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Silk Road Cafe',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Chinatown, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7146928, -73.9987589],
       },
     },
 
@@ -1372,6 +1418,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [45.5023132, -73.5593176],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Qūentin Café',
+        description:
+          'Awesome looking cafe in DF for whenever I visit mexico but I have not been here yet :(',
+        kind: 'Cafe',
+        area: 'Mexico DF, Mexico',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [19.4184767, -99.1576753],
       },
     },
   ],

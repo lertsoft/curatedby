@@ -2497,6 +2497,23 @@ const Bars = {
         coordinates: [41.3851589, 2.1664084],
       },
     },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Paradiso',
+        description:
+          'I have not been here yet but this is supposed to be the best bar in the world. Number 1 according to this website... best50bars in the world.',
+        kind: 'Cocktail bar',
+        area: 'Barcelona, Spain',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [41.3836945, 2.1836719],
+      },
+    },
     {
       type: 'Feature',
       properties: {

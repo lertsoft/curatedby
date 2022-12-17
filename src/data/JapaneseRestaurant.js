@@ -281,11 +281,11 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Okiboru House of Tsukemen',
         description:
-          'I have not been here yet but when I walked by this place there was a line that wrapped around... I do not know what is the hype about but I will try this place out.',
+          'One of the best ramen places in the city hands down! As for the Tsukemen it is really really good too. Would definetely come back to place because I love it!',
         kind: 'Ramen - Japnese Restaurant',
         area: 'Lower East Side, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
