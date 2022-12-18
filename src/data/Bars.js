@@ -103,6 +103,22 @@ const Bars = {
         coordinates: [40.7399938, -73.9821476],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Ivory Peacock',
+        description:
+          'The new bar in town. Now open in Flatiron District. This is supposed to be a bar that specializes on Gin and one of the servers told us that they are planning on having at least 1000 different Gin bottles... Now I do not know if there that many Gins in the world but it would be awesome to go again another time when their menu is final to try some of those gins. For now their drinks are good just what I would expect from a nice bar in new york, it did not become my fave but it is good enough that I would go again. ',
+        kind: 'Cocktail Bar',
+        area: 'Flatiron, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7443483, -73.9907586],
+      },
+    },
 
     {
       type: 'Feature',

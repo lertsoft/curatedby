@@ -509,6 +509,22 @@ const JapaneseRestaurant = {
         coordinates: [40.7701183, -73.9549709],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tomo21 Sushi',
+        description:
+          'The sushi in the place is great! It is fresh and tasty. The Quality of the fish you get here feels as if this place would be more expensive than what you actually payed for it. Would definetely go again!!',
+        kind: 'Sushi - Japanese Restaurant',
+        area: 'NoHo, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7276648, -74.0001182],
+      },
+    },
 
     /// ////////////////////////////////////////////////
     /// ////////         Brooklyn       ///////////////
