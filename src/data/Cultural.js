@@ -11,6 +11,22 @@ const cultural = {
     {
       type: 'Feature',
       properties: {
+        name: 'The New York Earth Room',
+        description:
+          'I have been to this room many times and everytime I find it amazing that they actually keep that dirt in it... it is pretty surreal to see because why would you do this? lol',
+        kind: 'Art gallery',
+        area: 'SoHo, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7260015, -73.9997858],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'David Zwirner',
         description:
           'Gallery in Chelsea were some prominent artist has shown their work. Such as, Yayoi Kusama.',

@@ -1612,6 +1612,83 @@ const Bars = {
         coordinates: [40.7712422, -73.9562963],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Campbell',
+        description:
+          'I have not been here yet but this place looks really cool, it is a bar in grand central.',
+        kind: 'Bar',
+        area: 'Midtown, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7526141, -73.9778257],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'JIMMY',
+        description: 'I have not been here yet.',
+        kind: 'Rooftop Bar',
+        area: 'SoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.722482, -74.0048524],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Zinc Bar',
+        description: 'I have not been here yet.',
+        kind: 'Jazz Bar',
+        area: 'NoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7297273, -73.9988973],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Arthur`s Tavern',
+        description:
+          'I have not been here yet but I have heard so many good things about this place.',
+        kind: 'Jazz Club',
+        area: 'Greenwich Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7332322, -74.0034994],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Milady`s',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'SoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.725997, -74.0015829],
+      },
+    },
     /// //////////////////////////////////////////////
     /// ////////    BROOKLYN      ////////////////////
     /// //////////////////////////////////////////////
@@ -2084,6 +2161,23 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.7234951, -73.9520195],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Caribbean Social Club',
+        description:
+          'I have not been here yet but this is tonnitas bar, the bar that a lot of celebrities, and writers have been seen because of the owner.',
+        kind: 'Bar',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7134213, -73.9591367],
       },
     },
 
@@ -2612,7 +2706,6 @@ const Bars = {
         coordinates: [20.6726872, -103.3659156],
       },
     },
-
     {
       type: 'Feature',
       properties: {

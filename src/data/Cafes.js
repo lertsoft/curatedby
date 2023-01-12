@@ -809,6 +809,85 @@ const cafes = {
         coordinates: [40.7146928, -73.9987589],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Do Not Feed Alligators',
+        description:
+          'I have not been here yet but it looks like a cool cafe from the outside.',
+        kind: 'Cafe',
+        area: 'Greenwich Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7336684, -74.0042842],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Café Kitsuné West Village',
+        description: 'Cool cafe, decent coffee. A place to go read and chill.',
+        kind: 'Cafe',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7350652, -74.0057837],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Now or Never Coffee',
+        description: 'This coffee is pretty cool.',
+        kind: 'Cafe',
+        area: 'SoHo, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.722937, -74.004518],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Teavva 茶花女',
+        description:
+          'This place glowing diva drink is sooooo good!! OMG - I LOVE IT!',
+        kind: 'Bubble Tea',
+        area: 'LES, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7213695, -73.9879724],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Doughnut Project',
+        description: 'Really, Really GOOD donuts!!!',
+        kind: 'Donut shop',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7312377, -74.0036592],
+      },
+    },
 
     /// ////////////////////////////////////////////////
     /// ///////         Brooklyn         ////////////////
@@ -1046,6 +1125,23 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7165423, -73.9597969],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Black Flamingo',
+        description:
+          'I have not been here yet but a friend told me that this coffee shop is good and they even have a bar / club on friday nights.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6790859, -74.0106547],
       },
     },
 

@@ -2233,6 +2233,117 @@ const Food = {
       },
     },
 
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Via Carota',
+        description:
+          'I have not been here yet but this place together with I Sodi are suppose to be the best italian restaurants.',
+        kind: 'Italian Restaurant',
+        area: 'Greenwich Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7331152, -74.0037462],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'I Sodi',
+        description:
+          'I have not been here yet but this place together with Via Carota are suppose to be the best italian restaurants.',
+        kind: 'Italian Restaurant',
+        area: 'Greenwich Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7333925, -74.004978],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'La Pecora Bianca Meatpacking',
+        description: 'Good Food. I liked it and my girlfriend liked it too!',
+        kind: 'Italian Restaurant',
+        area: 'Meatpacking District, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7395447, -74.0078923],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'burger joint',
+        description: 'I have not been here yet.',
+        kind: 'Burger Restaurant',
+        area: 'Midtown, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7642155, -73.9785651],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Emily: West Village',
+        description:
+          'This place has best burger I have tried in New York City PERIOD! it is really good.',
+        kind: 'Pizza Restaurant',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7293737, -74.0038588],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Old Fashion Café',
+        description: 'I have not been here yet.',
+        kind: 'Restaurant',
+        area: 'SoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7257391, -74.0018077],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bubby`s',
+        description:
+          'okay brunch spot, cool for the vibe, okay for the food... can`t really mess up american breakfast foods lol',
+        kind: 'American Restaurant',
+        area: 'Tribeca, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7198475, -74.0083981],
+      },
+    },
+
     /// ////////////////////////////////////////////////
     /// ////////////         Queens      ///////////////
     /// ////////////////////////////////////////////////
@@ -2406,6 +2517,53 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.773226, -73.9115696],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Burger Club',
+        description:
+          'Restaurant that has a menu full of different kind of burger, really good!',
+        kind: 'Burger Restaurant',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7663226, -73.9206369],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bund on Broadway',
+        description:
+          'The food here is really good! Really tasty, and wonderful. Would definetely go again.',
+        kind: 'Chinese Restaurant',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7631622, -73.9281626],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'District Saigon',
+        description: 'I have not been here yet.',
+        kind: 'Vietnamese Restaurant',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7596087, -73.9200308],
       },
     },
     /// ////////////////////////////////////////////////
@@ -2735,6 +2893,38 @@ const Food = {
         coordinates: [40.7060549, -73.9224135],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Fandi Mata',
+        description:
+          'I have not been here yet but this place looks really cool, it looks like a garden and they also become a bar / club at night which is interesting.',
+        kind: 'Restaurant',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7188547, -73.9492803],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ainslie',
+        description: 'I have not been here yet.',
+        kind: 'Italian Restaurant',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7123851, -73.9520328],
+      },
+    },
 
     /// ////////////////////////////////////////////////
     /// ////////         New York, NY       /////////////
@@ -2877,6 +3067,22 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.8538646, -73.8892456],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Empanadas RD',
+        description:
+          'This place has one of the best empanadas in NYC in my opinion.',
+        kind: 'Fast Food',
+        area: 'Bronx, New York',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8126778, -73.8817469],
       },
     },
     /// ////////////////////////////////////////////////
@@ -3834,23 +4040,6 @@ const Food = {
         coordinates: [43.213992, 5.338046],
       },
     },
-
-    {
-      type: 'Feature',
-      properties: {
-        name: 'La Pecora Bianca Meatpacking',
-        description: 'Good Food. I liked it and my girlfriend liked it too!',
-        kind: 'Italian Restaurant',
-        area: 'Meatpacking District, Manhattan',
-        visits: '1',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7395447, -74.0078923],
-      },
-    },
-
     {
       type: 'Feature',
       properties: {
