@@ -236,6 +236,22 @@ const Dance = {
         coordinates: [40.7239548, -73.996038],
       },
     },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Escondido',
+        description: 'I have not been here yet.',
+        kind: 'Club',
+        area: 'LES, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7194152, -73.9947009],
+      },
+    },
     {
       type: 'Feature',
       properties: {

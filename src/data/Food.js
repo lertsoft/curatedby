@@ -677,22 +677,7 @@ const Food = {
         coordinates: [40.7301085, -74.002537],
       },
     },
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Dokodemo',
-        description:
-          'This is a casual dining japanese restaurant. I liked it but again it is fast casual food. East Village.',
-        kind: 'Japanese restaurant',
-        area: 'East Village, Manhattan',
-        visits: '3',
-        visited: true,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [40.7263976, -73.9896958],
-      },
-    },
+
     {
       type: 'Feature',
       properties: {
@@ -2343,6 +2328,84 @@ const Food = {
         coordinates: [40.7198475, -74.0083981],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: '456 New Shanghai',
+        description: 'Really good, and cheap chinese food!',
+        kind: 'Chinese Food',
+        area: 'Chinatown, Manhattan',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7162621, -73.9983186],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Carnegie Diner & Cafe',
+        description:
+          'Great diner for those going to carnegie hall after. Do not go into a show with an empty stomach.',
+        kind: 'Diner',
+        area: 'Central Park South, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7657789, -73.9802301],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Havana Central Times Square',
+        description:
+          'Great cuban spot surrounded by touristy places... This is kind of touristy too but do not worry it is good.',
+        kind: 'Cuban Restaurant',
+        area: 'Times Square, manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.758311, -73.9841574],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Café Habana',
+        description: 'I have not been here yet.',
+        kind: 'Cuban Restaurant',
+        area: 'SoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7228876, -73.994214],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Oiji Mi',
+        description: 'I have not been here yet.',
+        kind: 'Korean restaurant',
+        area: 'Flatiron, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7397297, -73.9924342],
+      },
+    },
 
     /// ////////////////////////////////////////////////
     /// ////////////         Queens      ///////////////
@@ -2360,6 +2423,51 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.7708399, -73.9301794],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sugar Freak',
+        description: 'New Orleans style food but in astoria. It`s great!',
+        kind: 'Creole Restaurant',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7645616, -73.9160715],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'El Rey del Taco to go',
+        description: 'Good and Tasty tacos.',
+        kind: 'Mexican Restaurant',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7639733, -73.9222881],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Notable',
+        description: 'They have great Sandwiches.',
+        kind: 'Jamaican Restaurant',
+        area: 'Astoria, Queens',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7685582, -73.924592],
       },
     },
 
@@ -2914,15 +3022,48 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Ainslie',
-        description: 'I have not been here yet.',
-        kind: 'Italian Restaurant',
-        area: 'Greenpoint, Brooklyn',
-        visits: '0',
-        visited: false,
+        description:
+          'Great Italian restaurant. the pizza, pasta and drinks are really good!.',
+        kind: 'Italian restaurant',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7123851, -73.9520328],
+        coordinates: [40.712398, -73.9520449],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Vera Cruz',
+        description:
+          'The food is bland, and not so great... The drinks tho they are good! I would only go back for the frozen drinks and the nachos and guac.',
+        kind: 'Mexican Restaurant',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7173639, -73.9579825],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Beco',
+        description: 'Great restaurant, and bar. Their drinks are really good!',
+        kind: 'Brazilian Restaurant',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7183554, -73.9504451],
       },
     },
 
@@ -3972,6 +4113,26 @@ const Food = {
     },
 
     /// ////////////////////////////////////////////////
+    /// ////////       North America      /////////////
+    /// ///////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'e11even',
+        description: 'I have not been here yet.',
+        kind: 'Restaurant',
+        area: 'Toronto, Canada',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6427748, -79.3811295],
+      },
+    },
+
+    /// ////////////////////////////////////////////////
     /// ////////        Asia     /////////////
     /// ////////////////////////////////////////////////
     {
@@ -4040,6 +4201,7 @@ const Food = {
         coordinates: [43.213992, 5.338046],
       },
     },
+
     {
       type: 'Feature',
       properties: {

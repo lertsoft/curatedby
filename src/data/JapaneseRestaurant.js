@@ -526,6 +526,23 @@ const JapaneseRestaurant = {
       },
     },
 
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Dokodemo',
+        description:
+          'This is a casual dining japanese restaurant. I liked it but again it is fast casual food. East Village.',
+        kind: 'Japanese restaurant',
+        area: 'East Village, Manhattan',
+        visits: '3',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7263976, -73.9896958],
+      },
+    },
+
     /// ////////////////////////////////////////////////
     /// ////////         Brooklyn       ///////////////
     /// ////////////////////////////////////////////////
@@ -625,6 +642,23 @@ const JapaneseRestaurant = {
       geometry: {
         type: 'Point',
         coordinates: [40.8533996, -73.8535656],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sapps',
+        description:
+          'The sushi is good but the ramen not so much... Just stick with what they are known for I guess.',
+        kind: 'Japanese Restaurant',
+        area: 'LIC, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7477451, -73.9401713],
       },
     },
     /// ////////////////////////////////////////////////

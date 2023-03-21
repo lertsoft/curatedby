@@ -164,6 +164,22 @@ const Entertaiment = {
         coordinates: [18.2564827, -66.3902099],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Diggerland USA',
+        description:
+          'I have not been here yet but Diggerland USA and Diggerland XL seems like a cool Theme park! This theme parks allow you to drive contruction trucks!!',
+        kind: 'Theme Park',
+        area: 'West Berlin, New Jersey',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [39.8135827, -74.9231497],
+      },
+    },
 
     /// ////////////////////////////////////////////////
     /// ////////////         Asia      ////////////////

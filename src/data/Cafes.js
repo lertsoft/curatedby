@@ -499,11 +499,12 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Sawada Coffee',
-        description: 'I have not been here yet.',
+        description:
+          'Cozy coffee shop inside AU Cheval resturant, their coffee is good, no complains there.',
         kind: 'Cafe',
         area: 'Tribeca, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -888,6 +889,22 @@ const cafes = {
         coordinates: [40.7312377, -74.0036592],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Taiyaki NYC',
+        description:
+          'Their fluffy pancakes are sooo goood! This is a must try for sure!.',
+        kind: 'Japanese ice cream shop',
+        area: 'Chinatown, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7179788, -73.9989213],
+      },
+    },
 
     /// ////////////////////////////////////////////////
     /// ///////         Brooklyn         ////////////////
@@ -1142,6 +1159,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.6790859, -74.0106547],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'For All Things Good Williamsburg',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7127067, -73.9570094],
       },
     },
 

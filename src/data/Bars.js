@@ -30,11 +30,11 @@ const Bars = {
       properties: {
         name: 'Saint Tuesday',
         description:
-          'I have not been here yet but heard good things about this place.',
+          'This is a Awesome bar with live music, deep underneath the streets of manhattan. The cocktails are good but not appetizers so go with a full tommy.',
         kind: 'Speakeasy',
         area: 'Tribeca, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -1689,6 +1689,22 @@ const Bars = {
         coordinates: [40.725997, -74.0015829],
       },
     },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Zinc Bar',
+        description: 'I have not been here yet.',
+        kind: 'Jazz Bar',
+        area: 'NoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7296734, -73.9989836],
+      },
+    },
     /// //////////////////////////////////////////////
     /// ////////    BROOKLYN      ////////////////////
     /// //////////////////////////////////////////////
@@ -1737,6 +1753,22 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.6965932, -73.9349947],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Whiskey on Grand',
+        description:
+          'Cool bar with a Great burger, and some games on the basement.',
+        kind: 'Bar',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7108664, -73.9503434],
       },
     },
     {
@@ -2331,6 +2363,36 @@ const Bars = {
       },
     },
 
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sek`end Sun',
+        description: 'Cool bar, with a nice backyard.',
+        kind: 'Bar',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7615333, -73.9241685],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Oliver`s Astoria',
+        description: 'Great old fashioned whiskey!',
+        kind: 'Bar',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7595681, -73.9197395],
+      },
+    },
     {
       type: 'Feature',
       properties: {
