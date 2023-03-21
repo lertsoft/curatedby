@@ -1622,10 +1622,10 @@
     "@types/eslint" "*"
     "@types/estree" "*"
 
-"@types/eslint@*":
-  version "8.4.6"
-  resolved "https://registry.npmjs.org/@types/eslint/-/eslint-8.4.6.tgz"
-  integrity sha512-/fqTbjxyFUaYNO7VcW5g+4npmqVACz1bB7RTHYuLj+PRjw9hrCwrUXVQFpChUS0JsyEFvMZ7U/PfmvWgxJhI9g==
+"@types/eslint@*", "@types/eslint@^8.21.3":
+  version "8.21.3"
+  resolved "https://registry.npmjs.org/@types/eslint/-/eslint-8.21.3.tgz"
+  integrity sha512-fa7GkppZVEByMWGbTtE5MbmXWJTVbrjjaS8K6uQj+XtuuUv1fsuPAxhygfqLmsb/Ufb3CV8deFCpiMfAgi00Sw==
   dependencies:
     "@types/estree" "*"
     "@types/json-schema" "*"
