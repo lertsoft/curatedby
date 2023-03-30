@@ -59,6 +59,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Jolene ',
+        description:
+          'This place is supposed to be an American Restaurant but I will classified as a bar because the food menu is tiny and only available at some times during the night/day. For drinks it was really good! The vibe and decor is nice and cool, and their is some outdoors tents, that is were we sat it was really cozy and intimate. ',
+        kind: 'Bar',
+        area: 'NOHO, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7267242, -73.9922134],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Village Vanguard',
         description: 'I have not been here yet.',
         kind: 'Jazz Club',
@@ -2161,6 +2177,21 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.70571, -73.9223992],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Sampler',
+        description: 'Interesting bar... Check it out for yourself!',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.705602, -73.9224877],
       },
     },
     {

@@ -2035,11 +2035,12 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Freemans',
-        description: 'I have not been here yet.',
+        description:
+          'Great restaurant! The decor is top notch for those that love the outdoors, and/or Americana culture.',
         kind: 'American Restaurant',
         area: 'Lower East Side, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -2711,6 +2712,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Surf Bar',
+        description:
+          'The most crazy restaurant I have been in the city period. I love it. The floor is full of sand and the rooftop is cover by surfboards like... I do not know what to say. The food is good too which surprise me because I thought peeps would go here for the atmosphere but nope! The food is good, the interior design is cool, and the drinks a great. 10/10',
+        kind: 'Seafood Restaurant',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7197416, -73.9599664],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'SEA',
         description:
           'I loved the skylight that they had in the middle of the floor honestly.',
@@ -2990,11 +3007,12 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Queen',
-        description: 'I have not been here yet.',
+        description:
+          'Great restaurant with Mediterranean food. It is a great place to get tasteful, and healhty meals.',
         kind: 'Mediterranean restaurant',
         area: 'Bushwick, Brooklyn',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',

@@ -60,7 +60,7 @@ const cafes = {
       properties: {
         name: 'Felix Roasting Co.',
         description:
-          'A big coffee shop in soho, beautiful design on the inside, and that design reminds me of the look Wes Anderson has on his movies. Which always brings inspires me to go back.',
+          '** CLOSED :( ** This awesome coffee shop of SoHo will be remember as A big coffee shop in soho, beautiful design on the inside, and that design reminds me of the look Wes Anderson has on his movies. Which always brings inspires me to go back.',
         kind: 'Cafe',
         area: 'SoHo, Manhattan',
         visits: '3',
@@ -212,6 +212,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.739111, -73.989113],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sammy L Coffee',
+        description:
+          'There seens to be a new coffee shop in town! Their coffee is good, and they carry a lot of food too. It feels more like a little market than a coffee shop which has its downsides but this is okay. I would come back. A great place to get some snacks or breakfast that is not just a plain croissant.',
+        kind: 'Cafe',
+        area: 'East Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7316986, -73.9880435],
       },
     },
 
@@ -579,15 +595,32 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Sip & Co.',
-        description: 'I have not been here yet.',
+        description:
+          'Great coffee in midtown... A first for me. On a see of Starbucks, and Dunkin Donuts this will save you all.',
         kind: 'Cafe',
         area: 'Midtown, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
         coordinates: [40.7647538, -73.9758633],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Coppa Nomad',
+        description:
+          'Okay coffee but go there for the vibes honestly. Vibes first, then coffee.',
+        kind: 'Cafe',
+        area: 'Flatiron, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7436235, -73.9864955],
       },
     },
 
@@ -627,11 +660,12 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Hutch and Waldo',
-        description: 'I have not been here yet.',
+        description:
+          'Cool aussie cafe in the Upper East Side. During the summer this coffee shop is a vibe of the tropics during the winter is a glorified takeout window pretty much.',
         kind: 'Cafe',
         area: 'Upper East Side, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -721,10 +755,10 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'The Granddaddy',
-        description: 'I have not been here yet.',
+        description: 'Cool cafe in the Lower East Side.',
         kind: 'Cafe',
         area: 'Lower East Side, Manhattan',
-        visits: '0',
+        visits: '2',
         visited: false,
       },
       geometry: {
@@ -815,11 +849,11 @@ const cafes = {
       properties: {
         name: 'Do Not Feed Alligators',
         description:
-          'I have not been here yet but it looks like a cool cafe from the outside.',
+          'Great coffee shop in Greenwich Village. Definetely a place to visit for those that loves coffee.',
         kind: 'Cafe',
         area: 'Greenwich Village, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '3',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -1101,11 +1135,12 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Textbook',
-        description: 'Cool looking coffee shop in fort greene! I want to go!',
+        description:
+          'Cool looking coffee shop in fort greene! With good coffee and better burgers! Their chicken sandwich is a must try, and their fries are *Chef Kiss*.',
         kind: 'Cafe',
         area: 'Fort Greene, Brooklyn',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
