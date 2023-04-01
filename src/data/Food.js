@@ -2224,11 +2224,11 @@ const Food = {
       properties: {
         name: 'Via Carota',
         description:
-          'I have not been here yet but this place together with I Sodi are suppose to be the best italian restaurants.',
+          'Great Italian restaurant! The negroni was good, and their pasta is really good but the rabbit dish it is interesting but the bread that comes with the rabbit dish [CONIGLIO FRITTO] is top notch! I will go back to this place just to get more of that bread, I do not know if they have as a separate dish that is not the CONIGLIO FRITTO but it is definetely a must try. Do not wait in line for hours for this place tho... Just try something else.',
         kind: 'Italian Restaurant',
         area: 'Greenwich Village, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -2405,6 +2405,22 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.7397297, -73.9924342],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Khe-Yo',
+        description:
+          'I really liked this restaurant the food is tasty, with a good balance of flavors, and uniqueness to it... to me this place has a "je nais se quois" to it. The atmosphere is awesome, and the decor. The Waiter are nice and attentive, and a must try is the vietnamese coffee.',
+        kind: 'Laotian restaurant',
+        area: 'Tribeca, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7169082, -74.0086282],
       },
     },
 

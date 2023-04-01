@@ -939,6 +939,22 @@ const cafes = {
         coordinates: [40.7179788, -73.9989213],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Hungry Ghost Coffee',
+        description:
+          'Nice cafe with pretty good matcha latte! It is definetely worth it to come back here and try their coffee.',
+        kind: 'Cafe',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7328627, -74.0037843],
+      },
+    },
 
     /// ////////////////////////////////////////////////
     /// ///////         Brooklyn         ////////////////

@@ -1438,7 +1438,7 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Bluebird London NYC',
-        description: 'I have not been here yet.',
+        description: '** CLOSED :( **',
         kind: 'Fine Dining',
         area: 'Midtown, Manhattan',
         visits: '0',
