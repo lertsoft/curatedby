@@ -1833,7 +1833,37 @@ const Bars = {
         coordinates: [40.7110994, -73.9477951],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Greenpoint Beer & Ale Co.',
+        description: 'I have not been here yet but it looks kind of cool.',
+        kind: 'Brewery',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7376747, -73.9552349],
+      },
+    },
 
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Springs',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7333623, -73.9579317],
+      },
+    },
     {
       type: 'Feature',
       properties: {

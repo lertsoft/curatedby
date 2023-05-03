@@ -2240,7 +2240,23 @@ const Food = {
       properties: {
         name: 'I Sodi',
         description:
-          'I have not been here yet but this place together with Via Carota are suppose to be the best italian restaurants.',
+          'Now I can understand why this place was so hype. Their lasagna is pretty good, of the best I have had in NYC. I have tried many of them so I would know. The meatsauce lasagna is delicious, soft, and tasty definetely a good place for Italian food Maybe of the best ones.',
+        kind: 'Italian Restaurant',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7333925, -74.004978],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Revelie Luncheonette',
+        description:
+          'New American Restaurant place in soho with a really small menu, and diner vibes.',
         kind: 'Italian Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '0',
@@ -2248,7 +2264,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7333925, -74.004978],
+        coordinates: [40.7263969, -74.0019957],
       },
     },
     {

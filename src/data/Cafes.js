@@ -1104,8 +1104,104 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Bakeri',
+        description:
+          'Really cute cafe / bakery in greenpoint. It kind of looks like something that could be in a Wes Anderson movie. Their croissants are really good! ',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7343266, -73.9575636],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Poetica Coffee',
+        description:
+          'Small but cute looking coffee shop with cool color scheme. Coffee is not the greatest the roast is a little bit burn?? Maybe I should try the cold brew`s and not a latte, the croissants are great tho.',
+        kind: 'Cafe',
+        area: 'Greenpoint, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7246486, -73.9476535],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Pueblo Querido',
+        description:
+          'The coffee in this shop is really good but no wonder their beans is sourcd from colombia roasted in house! Coffee is great if you enjoy colombian coffee beans and pastires are good too! Also a lot of machinary to look at in the store which is cool beacause I say so.',
+        kind: 'Cafe',
+        area: 'Greenpoint, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7252995, -73.9515662],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'For The Record',
+        description:
+          'I have not been here yet but this is a cool looking spot, coffee plus vynils only in greenpoint.',
+        kind: 'Cafe',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7362991, -73.955498],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sweetleaf Coffee Roasters',
+        description:
+          'I have not been here yet but this is a cool looking spot.',
+        kind: 'Cafe',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7345132, -73.9555278],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Le Paris Dakar',
+        description:
+          'I have not been here yet but it seems to have really good pastries.',
+        kind: 'Cafe',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7345132, -73.9555278],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'FREEHOLD',
-        description: 'Restaurant / Cafe / Cool place to hang. ',
+        description: 'Restaurant / Cafe / Cool place to hang.',
         kind: 'Cafe',
         area: 'Williamsburg, Brooklyn',
         visits: '2',
@@ -1136,11 +1232,11 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Oslo Coffee Roasters',
-        description: 'I have not been here yet.',
+        description: 'Small but good coffee shop.',
         kind: 'Cafe',
         area: 'Williamsburg, Brooklyn',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -1246,6 +1342,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7690251, -73.9355708],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Under Pressure',
+        description:
+          'The coffee is really good, and the have a good coffee blend plus a bunch of greek fusion of things which I liked.',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7645958, -73.9236104],
       },
     },
     {

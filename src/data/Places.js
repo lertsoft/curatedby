@@ -1597,6 +1597,23 @@ const Places = {
         coordinates: [46.8811649, 8.6451494],
       },
     },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Miataland',
+        description:
+          'This is a hotel in italy were you can rent a room and that room is name and theme on anything and everything miata plus you also get a borrowed Miata. Pretty cool!',
+        kind: 'Hotel',
+        area: 'Perugia ,Italy',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [42.8894965, 12.4050221],
+      },
+    },
     /// ////////////////////////////////////////////////
     /// //////////////       Africa      ///////////////
     /// ////////////////////////////////////////////////
