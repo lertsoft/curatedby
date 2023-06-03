@@ -561,7 +561,7 @@ const JapaneseRestaurant = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7269404, -73.9831557],
+        coordinates: [40.7247347, -73.9550404],
       },
     },
 

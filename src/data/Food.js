@@ -2506,7 +2506,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7708399, -73.9301794],
+        coordinates: [40.744063, -73.9585367],
       },
     },
 
