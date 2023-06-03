@@ -172,6 +172,38 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Tiki Chick',
+        description:
+          'Really cheap sandwiches, and good cocktails with interesting presentation.',
+        kind: 'Southern American restaurant',
+        area: 'Upper West Side, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7867849, -73.9754728],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Jacob`s Pickles',
+        description: 'Great spot to get some southerner biscuits!',
+        kind: 'Southern American restaurant',
+        area: 'Upper West Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7866824, -73.9755962],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Tortaria',
         description:
           'I have been here once, and it was on New Years eve with a friend! It was a great night, with good food.',
@@ -1005,6 +1037,23 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.7578942, -73.9839177],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Milling Room',
+        description:
+          'Nice looking American restaurant in the Upper West side of manhattan.',
+        kind: 'American Restaurant',
+        area: 'Upper West Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7837623, -73.9745153],
       },
     },
 
@@ -2443,6 +2492,24 @@ const Food = {
     /// ////////////////////////////////////////////////
     /// ////////////         Queens      ///////////////
     /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'American Brass',
+        description:
+          'Their burgers are really good and the fries too but the benchmark is not that crazy high for me either. Not the best burguer but one of the best ambiance in LIC perhaps. I would go back to sit on the terrace and have a view of the park, east river and the skyline.',
+        kind: 'American Restaurant',
+        area: 'LIC, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7708399, -73.9301794],
+      },
+    },
+
     {
       type: 'Feature',
       properties: {
@@ -4159,6 +4226,22 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [19.4332844, -99.1494128],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Andrés Carne de Res',
+        description: 'I have not been here yet.',
+        kind: 'Thai restaurant',
+        area: 'Bogota, Colombia',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [4.8543555, -74.065406],
       },
     },
 

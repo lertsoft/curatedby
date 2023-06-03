@@ -1406,11 +1406,11 @@ const Bars = {
       properties: {
         name: 'Life Rooftop Central Park',
         description:
-          'Rooftop with what it seems to be immaculate views of central park and midtwon manhtattan but I have not been here yet.',
+          'Rooftop with immaculate views of central park. Go to enjoy the views not for the drinks, as they are average not great, not bad just okay.',
         kind: 'Rooftop Bar',
         area: 'Midtown, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -2499,6 +2499,23 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.7453266, -73.9474952],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Focal Point Beer Co',
+        description:
+          'I have not been here but from the looks of it, it seems Interesting.',
+        kind: 'Brewery',
+        area: 'LIC, Queens',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7501233, -73.9486611],
       },
     },
 

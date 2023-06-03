@@ -12,6 +12,101 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'noa, a café',
+        description:
+          'Small, and cute coffee with okay coffee and a great photo wall. The croissant and coffee is just okay not bad better than the benchmark of starbucks which I guess is not hard to beat but not the best or close to it.s',
+        kind: 'Cafe',
+        area: 'Midtown, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7460497, -73.9833716],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Café-Flor',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Chelsea, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7440903, -73.9991976],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Voyager Espresso',
+        description:
+          'I have not been here yet. Somewhat hidden coffee shop that I would love to try!',
+        kind: 'Cafe',
+        area: 'FiDi, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7086604, -74.0069969],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Postcrypt Coffeehouse',
+        description:
+          'I have not been here yet. Coffee shop hidden inside a church because ofcourse it had to be this is new york city people go to coffee shops not churches!',
+        kind: 'Cafe',
+        area: 'West Harlem, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8078297, -73.9610321],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Church of Sweden',
+        description:
+          'I have not been here yet. Coffee shop hidden inside a church because ofcourse it had to be this is new york city people go to coffee shops not churches!',
+        kind: 'Cafe',
+        area: 'Midtown, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7571927, -73.9773861],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Norwegian Seamen`s Church in New York',
+        description:
+          'I have not been here yet. Coffee shop hidden inside a church because ofcourse it had to be this is new york city people go to coffee shops not churches!',
+        kind: 'Cafe',
+        area: 'Midtown, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7558724, -73.9666346],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Orwashers Bakery',
         description: 'I have not been here yet.',
         kind: 'Bakery',
@@ -978,6 +1073,37 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Black Star Bakery & Cafe',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7172871, -73.9564514],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'KIJITORA',
+        description:
+          'Try their Iced Matcha Latte, and / or the Tiramisu Chai Latte Those two are "chef kiss" of the best I have had in New York City.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7172871, -73.9564514],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Little Choc Apothecary',
         description: 'I have not been here yet.',
         kind: 'Cafe',
@@ -1461,6 +1587,23 @@ const cafes = {
     /// ////////////////////////////////////////////////
     /// ///////         United States      /////////////
     /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Hidden Grounds Coffee',
+        description:
+          'The New Orleans iced coffee and the lavander infused iced coffee are really good! The might not be for the coffee purist but the mixture of taste was awesome and refreshing.',
+        kind: 'Cafe',
+        area: 'Hoboken, New Jersey',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7362506, -74.0299703],
+      },
+    },
 
     {
       type: 'Feature',

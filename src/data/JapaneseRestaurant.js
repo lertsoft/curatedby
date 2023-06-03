@@ -103,6 +103,7 @@ const JapaneseRestaurant = {
         coordinates: [40.7590777, -73.9523339],
       },
     },
+
     {
       type: 'Feature',
       properties: {
@@ -546,6 +547,24 @@ const JapaneseRestaurant = {
     /// ////////////////////////////////////////////////
     /// ////////         Brooklyn       ///////////////
     /// ////////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Rule of Thirds',
+        description:
+          'I have not been here yet but walking by it caught my attention and now I want to go.',
+        kind: 'Japanese Resturant',
+        area: 'Greenpoint, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7269404, -73.9831557],
+      },
+    },
+
     {
       type: 'Feature',
       properties: {
