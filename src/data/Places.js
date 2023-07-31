@@ -91,6 +91,150 @@ const Places = {
     {
       type: 'Feature',
       properties: {
+        name: 'Aztec Ruins National Monument',
+        description:
+          'I have not been here yet but it would be awesome to go here and see some Aztec buildings all within the US!',
+        kind: 'Ruins',
+        area: 'Aztec, New Mexico',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.8352594, -107.9996424],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Chaco Culture National Historical Park',
+        description:
+          'I have not been here yet but it would be awesome to go here.',
+        kind: 'Historical place',
+        area: 'New Mexico',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.0529351, -107.9560409],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Taos Pueblo',
+        description:
+          'I have not been here yet but these place have a old native american buildings that have been preseved, and would be an awesome experience to see it.',
+        kind: 'Town',
+        area: 'Taos, New Mexico',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.4627525, -105.558872],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Navajo National Monument',
+        description: 'I have not been here.',
+        kind: 'Monument',
+        area: 'Shonto, Arizona',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.681999, -110.5328509],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cahokia Mounds State Historic Site',
+        description:
+          'I have not been here but this site is supposed to hold a 13th-century Native American urban center with artifacts & ruins of homes & monuments.',
+        kind: 'Historical place',
+        area: 'Collinsville, Illinois',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [38.6550643, -90.0618228],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Birth of the New World',
+        description:
+          'I have not been here but this seem like an nice puerto rican sightseeing.',
+        kind: 'Cultural landmark',
+        area: 'Arecibo, Puerto Rico',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4901057, -66.6266968],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Dignity of Earth and Sky',
+        description:
+          'I have not been here but this seem like an nice americana sightseeing.',
+        kind: 'Cultural landmark',
+        area: 'Chamberlain, South Dakota',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.7869608, -99.3382337],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Crazy Horse Memorial',
+        description:
+          'I have not been here but this monument was started in 1948, it is unfinished mountain carving shares a site with a Native American museum.',
+        kind: 'Monument',
+        area: 'Crazy Horse, South Dakota',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.8366191, -103.6234038],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Vermilion Cliffs National Monument',
+        description:
+          'I have not been here but this monument has marks of prehistoric life. ie when the ocean or ice was part of the landscape',
+        kind: 'Historical landmark',
+        area: 'Marble Canyon, Arizona',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [36.8625026, -111.8270372],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'The Gulch',
         description: 'I have not been here yet.',
         kind: 'Town',
@@ -1595,6 +1739,23 @@ const Places = {
       geometry: {
         type: 'Point',
         coordinates: [46.8811649, 8.6451494],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: '',
+        description:
+          'This is a historical landmark of naples that houses galleries, restaurants, cafes, and museums. One of those restaurant is the acclaimed "sustanza napoli" - www.sustanzanapoli.com. ',
+        kind: 'Historical landmark',
+        area: 'Naples ,Italy',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8523871, 14.2500391],
       },
     },
 

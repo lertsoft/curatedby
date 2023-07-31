@@ -185,6 +185,22 @@ const Food = {
         coordinates: [40.7867849, -73.9754728],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Ellington',
+        description:
+          'I have not been here yet but walking past it looks like a nice spot for lunch or dinner.',
+        kind: 'American restaurant',
+        area: 'Upper West Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8008284, -73.9682014],
+      },
+    },
 
     {
       type: 'Feature',
@@ -472,6 +488,21 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Sveta',
+        description: 'I have not been here yet.',
+        kind: 'Modern European restaurant',
+        area: 'Greenwich Village, Manhattan',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7297118, -74.0041959],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Tacombi',
         description: 'Okeyish chain for mexican food... pretty okay, i guess.',
         kind: 'Mexican Restaurant',
@@ -666,7 +697,7 @@ const Food = {
       properties: {
         name: 'La Casa Del Mofongo',
         description:
-          'Best Dominican Restaurant in New York City were you will feel like you are in Santo Dominigo.',
+          'Best Dominican Restaurant in New York City were you will feel like you are in Santo Domingo.',
         kind: 'Dominican Restaurant',
         area: 'Washington Heights, Manhattan',
         visits: '3',
@@ -881,6 +912,21 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.7390045, -73.9906704],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ol`Days',
+        description: 'I have not been here yet.',
+        kind: 'Brunch Restaurant',
+        area: 'Tribeca, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.71493, -74.010294],
       },
     },
     {
@@ -1272,6 +1318,22 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.7266801, -73.9845333],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Meze Mazi',
+        description:
+          'I have not been here yet but it looks like a cool spot to go to.',
+        kind: 'Restaurant',
+        area: 'Grammercy, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7436363, -73.9794358],
       },
     },
 
@@ -2509,6 +2571,22 @@ const Food = {
         coordinates: [40.744063, -73.9585367],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bel Aire Diner',
+        description:
+          'Cool diner with plenty of options for every single person on earth.',
+        kind: 'Diner',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7652393, -73.9313814],
+      },
+    },
 
     {
       type: 'Feature',
@@ -2701,11 +2779,12 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Taverna Kyclades',
-        description: 'I have not been here yet.',
+        description:
+          'Great greek restaurant in Astoria. Everything I that tried was really, really good. The chicken was flavorfull, and well cooked but not overwhelmed with seasoning or overcooked. The seafood was the same it tasted simple seasoning but made but marinated? or left to rest to later cook. I don`t know but it was really good. Definetelly give a try.',
         kind: 'Greek restaurant',
         area: 'Astoria, Queens',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -2781,6 +2860,38 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Brooklyn BBQ',
+        description:
+          'I have not been here yet but I have heard that it is one of the best BBQ Restaurants.',
+        kind: 'BBQ restaurant',
+        area: 'Brooklyn Heights, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6980306, -73.991806],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Bark Barbecue',
+        description:
+          'I have not been here yet but I have heard that it is a good BBQ Restaurants.',
+        kind: 'BBQ restaurant',
+        area: 'Dumbo, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7034105, -73.9917017],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Amaranto',
         description: 'Cool mexican spot in bushwick new york.',
         kind: 'Mexican restaurant',
@@ -2821,7 +2932,7 @@ const Food = {
       },
       geometry: {
         type: 'Point',
-        coordinates: [40.7197416, -73.9599664],
+        coordinates: [40.7176824, -73.9588304],
       },
     },
     {
@@ -3365,6 +3476,38 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: '지뇽이네 태능갈비 Tae Neung Korean BBQ',
+        description:
+          'One of the best Korean BBQ that I have had so far! It was sooo good definetely worth a try and for me to comeback.',
+        kind: 'Korean BBQ',
+        area: 'Palisades Park, New Jersey',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8447189, -73.9999829],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Casa Bonita',
+        description:
+          'Mexican restaurant that the writers of central park bought to bring back to life because it is mentioned on central park many times and it is supposed to be a denver icon too.',
+        kind: 'Mexican Restaurant',
+        area: 'Denver, Colorado',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [39.7417341, -105.0708674],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '100 Montaditos',
         description:
           'Great spanish restaurant in wynwood or midtown miami. Their apperitifs are made so that you lick your fingers. But... I am bias.',
@@ -3877,9 +4020,40 @@ const Food = {
       },
     },
     /// ////////////////////////////////////////////////
-    /// ////////        Dominican Republic      /////////////
+    /// ////////        Dominican Republic      //////////
     /// ////////////////////////////////////////////////
-
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Central Gastronómica',
+        description:
+          'Everything that I tried from this restaurant was really good, and delicious. I think this is my favorite fine dining restaurant in the Dominican Republic right now. The cocktails are okay so that is the worst part of it all. For food the Quesadilla short rib, Angus beef bao, and the lasagna were all amazingly good. You won`t regret none of them. The quality of the food felt really good compare with high end restaurant of NYC like I-Sodi or Via Carota. ',
+        kind: 'Fast Food',
+        area: 'Naco, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4736793, -69.9258705],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Crime Restaurante - Sucursal Nuñez',
+        description:
+          'Great burgers at this restaurant. Would definetely give it a try.',
+        kind: 'Fast Food',
+        area: 'El Millon, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4628174, -69.9579821],
+      },
+    },
     {
       type: 'Feature',
       properties: {
@@ -3902,7 +4076,7 @@ const Food = {
       properties: {
         name: 'SBG KITCHEN',
         description:
-          'Fine Dining in the DR is not that expensive compare to NYC.',
+          'The steak that I got here was really good plus the strawberry smoothie, it was really good! Perfect for the DR hot weather. Fine Dining in the DR is not that expensive compare to NYC.',
         kind: 'Fine Dining',
         area: 'El millon, Santo Domingo',
         visits: '2',
@@ -3946,6 +4120,22 @@ const Food = {
         coordinates: [18.4690451, -69.934911],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'El Leñazo',
+        description:
+          'Great restaurant with an expansive menu of dominican food. really good service and delicious food. Really worth for if you ar itching for some dominican food, just as good as Adrian Tropical.',
+        kind: 'Dominican Restaurant',
+        area: 'Santo Domingo, Dominican Republic',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4637, -69.9017863],
+      },
+    },
 
     {
       type: 'Feature',
@@ -3975,6 +4165,22 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [18.4569472, -69.9400183],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Lu•Ga',
+        description:
+          'Their burgers are supposed to be one of the best but I was not hungry enough to eat a burger so instead I got a hot dog and it was really really good!.',
+        kind: 'Burger Restaurant',
+        area: 'La Esperilla, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4651465, -69.9236392],
       },
     },
 
@@ -4028,11 +4234,12 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Laurel',
-        description: 'I have not been here yet.',
+        description:
+          'Their penne laurel pasta was really really good I enjoyed it, the drinks tho I got a laurel cocktail thinking that because it had their name it would be great but it was at best just okay. So food is great, drinks are okay.',
         kind: 'Fine Dining',
         area: 'Piantini, Santo Domingo',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -4104,11 +4311,12 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'SBG Sophia`s Bar & Grill',
-        description: 'I have not been here yet.',
+        description:
+          'Fine Dining in the Dominican Republic... The food was great! I would say stay away from the steak chicharron unless you know what you are getting into. The Sushi it is really good but this is independant to how good the suhsi really is why is it that almost of most of the sushi restaurant in the DR have most of their rolls with some fruity sauce or cream cheese? Is it a cultural thing, climate thing? I don`t know but i find it interesting nonetheless.',
         kind: 'Fine Dining',
         area: 'Piantini, Santo  Domingo',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -4332,6 +4540,84 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [43.213992, 5.338046],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Trattoria Sostanza',
+        description: 'I have not been here yet.',
+        kind: 'Italian restaurant',
+        area: 'Florence, Italy',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.7726873, 11.247028],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Osteria Della Mattonella',
+        description:
+          'I have not been here yet but it looks like a cool restaurant tucked into the tight grid of streets that forms the working-class Quartieri Spagnoli district and full of history.',
+        kind: 'Neapolitan restaurant',
+        area: 'Naples, Italy',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8366274, 14.2440846],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tripperia O`Russ Napoli',
+        description:
+          'I have not been here yet but this restaurant serves the traditionally referred food of cucina povera — the food of the poor — which is made variously from pigs’ feet, veal snout and bovine stomachs. This food is referred like that because women from Napoli’s lower classes would gather outside royal residences in hopes of being granted the discarded entrails of the animals slaughtered for aristocrats’ banquets. Now we go to restaurant to try their it lol.',
+        kind: 'Neapolitan restaurant',
+        area: 'Naples, Italy',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8651126, 14.2673962],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'La Locanda Gesù Vecchio',
+        description:
+          'I have not been here yet but this seems to be the old meets the new kind of place.',
+        kind: 'Neapolitan restaurant',
+        area: 'Naples, Italy',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8472483, 14.2572017],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sea Front Di Martino Pasta Bar',
+        description: 'I have not been here yet.',
+        kind: 'Restaurant',
+        area: 'Naples, Italy',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8395085, 14.2515843],
       },
     },
 

@@ -629,6 +629,22 @@ const Dance = {
     {
       type: 'Feature',
       properties: {
+        name: 'Safe Zone Bar & Lounge',
+        description:
+          'The place to go if you like dembow latest and greatest hits.',
+        kind: 'Club',
+        area: 'Zona Colonial, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4726809, -69.8852641],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Garabato Lounge',
         description:
           'Awesome club of La Zona the music is vibe, usually Deephouse. They have a garden were the Dj is and some seating but go ready to sweat because this place is hot, at least the times that i visited. Otherwise I loved it.',

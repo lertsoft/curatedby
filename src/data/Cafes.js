@@ -28,12 +28,61 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'Café-Flor',
-        description: 'I have not been here yet.',
+        name: 'Intelligentsia Coffee Highline Coffeebar',
+        description:
+          'Beautiful cafe with really good coffee... perhabs the blend is just different to what im used to as I can taste maybe colombian, ethiopia and maybe brazilian beams in the mix... I tried the Intelligentsia cold brew worth it!.',
         kind: 'Cafe',
         area: 'Chelsea, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7458931, -74.0052533],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Urbana Cafe and Gallery',
+        description:
+          'Coffee is source by devocion so you better expect that the coffee is at least decent! It was defenetelly better thant decent, coffee was sweet, fruity, and passed the test for me but again that is expected from a devocion source. The gallery park of the cafe is interesting, pretty small and it honestly just is paintings hanging in which case I guess my room is a gallery too.',
+        kind: 'Cafe',
+        area: 'Chelsea, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7450009, -74.0058584],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sorella Coffee & Wine',
+        description:
+          'Coffee is okay. Shop is really small but they have a wine happy hour from 4 to 7? I guess that is unique.',
+        kind: 'Cafe',
+        area: 'Grammercy, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7416975, -73.9819061],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Café-Flor',
+        description:
+          'Third time is the charn... Sort of the cafe part of the shop was close but the juice bar part was open so I got an Acai bowl instead that was really good so at least that is a great positive going for this place. I have been wanting to come here for while so now at least I can crossed and come back another time or maybe I should just find some other place...',
+        kind: 'Cafe',
+        area: 'Chelsea, Manhattan',
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -102,6 +151,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7558724, -73.9666346],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Peaky Barista',
+        description:
+          'I tried a coffee which was good but it was not my style of coffee so I ended up trowing most of it... should have gotten my usual. the decor is cool it is based on the show "Peaky blinders" which that is based in manchester, UK in the early 1900`s after the first world war.',
+        kind: 'cafe',
+        area: 'Upper East Side, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7773389, -73.9573862],
       },
     },
     {
@@ -201,6 +266,22 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Charlotte Cafe',
+        description:
+          'Okay cafe with okay coffee. My cold brew tasted burn so yeah not great. Great place to work from tho plenty of sitting space with a limit of 90 minutes not enforced.',
+        kind: 'Cafe',
+        area: 'Upper West Side, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7941674, -73.97246],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Hex & Company (UWS)',
         description:
           '1 out of 3 Gaming cafe, that I know of, This one is in Upper West Side by Columbia University. Coffee shop and Gaming cafe is awesome for meeting with friends or dates, and play games. The variety of games available here will definitely overwhelm you haha',
@@ -244,6 +325,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7452234, -73.9902283],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Dimes',
+        description:
+          'I have not been here but Dimes Square is alive and well thank you!',
+        kind: 'Cafe',
+        area: 'Dimes Square, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7149398, -73.9915704],
       },
     },
     {
@@ -307,6 +404,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.739111, -73.989113],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Luz Cafe',
+        description:
+          'New coffee shop in tha block... but this one has a backyard!',
+        kind: 'Cafe',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7274616, -73.9845929],
       },
     },
     {
@@ -754,6 +867,23 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Café Blériot XI',
+        description:
+          'Really small coffee shop in UES, really charming and cute. Coffee is okay nothing crazy but you would go for the vibes of a coffee shop trap in the 1900`s in this modern era full of minimalist-ism, and mordernist designs astetics.',
+        kind: 'Cafe',
+        area: 'Upper East Side, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.776234, -73.9543691],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
         name: 'Hutch and Waldo',
         description:
           'Cool aussie cafe in the Upper East Side. During the summer this coffee shop is a vibe of the tropics during the winter is a glorified takeout window pretty much.',
@@ -942,6 +1072,22 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Merriweather Coffee + Kitchen',
+        description:
+          'Good coffee, and okay croissant... Would I go again? well maybe to try something from their food menu but there are better cafes not that far from here.',
+        kind: 'Cafe',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7305602, -74.0065341],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Do Not Feed Alligators',
         description:
           'Great coffee shop in Greenwich Village. Definetely a place to visit for those that loves coffee.',
@@ -987,6 +1133,23 @@ const cafes = {
         coordinates: [40.722937, -74.004518],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Lost Draft',
+        description:
+          'Cool cafe, really trandy and ready for tiktok if that is your Jam as they have plenty of shitty coffee mixes that I stupidly tried... Need to go again to try my go to "Cold brew with milk on the side" and see if the coffee is actually good or this is just a tourist, social media trap.',
+        kind: 'Cafe',
+        area: 'SoHo, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7208219, -73.997315],
+      },
+    },
+
     {
       type: 'Feature',
       properties: {
@@ -1088,6 +1251,37 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'designers collab coffee',
+        description:
+          'I have never heard of this place before but now that I do know of it`s existance I am exicted to go again. It is a beautiful shop that looks like a furniture store ( Maybe because it is! ). Their  rose refresher it is really good and taste amazing and it does it`s job which is refresh you in those hot summer days.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7176644, -73.9607098],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Qahwah House',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7185888, -73.9572219],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'KIJITORA',
         description:
           'Try their Iced Matcha Latte, and / or the Tiramisu Chai Latte Those two are "chef kiss" of the best I have had in New York City.',
@@ -1161,6 +1355,38 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.6884013, -73.9629705],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Pasa Pasa',
+        description:
+          'I have not being here yet but walking by seem like it is a cool spot.',
+        kind: 'Cafe',
+        area: 'Crown Heights, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6630811, -73.9540336],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'PLG Coffee House and Tavern',
+        description:
+          'I have not being here yet but walking by seem like it is a cool spot.',
+        kind: 'Cafe',
+        area: 'Crown Heights, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.6600465, -73.9532771],
       },
     },
     {
@@ -1326,6 +1552,22 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Botbar Coffee',
+        description:
+          'The most gimmiky or perhabs futuristic cafe in the city... The barista is a Robot! Hopefully the coffee beams are decent because...',
+        kind: 'Cafe',
+        area: 'Williamsburg, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7246906, -73.9512152],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'FREEHOLD',
         description: 'Restaurant / Cafe / Cool place to hang.',
         kind: 'Cafe',
@@ -1473,6 +1715,21 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Kua Bori Coffee Lounge',
+        description: 'Cool looking cafe but I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7680766, -73.9357487],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Under Pressure',
         description:
           'The coffee is really good, and the have a good coffee blend plus a bunch of greek fusion of things which I liked.',
@@ -1540,12 +1797,29 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Cafecito Del Parque',
+        description:
+          'A cute little coffee shop in the middle of the park with a small library on it`s side and plenty of outdoor sitting. Getting some juice from here, sit and relax. Coffee is not their forte as it is instant coffee. ',
+        kind: 'Cafe',
+        area: 'La Esperilla, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4672405, -69.919433],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'MiuMiu Tea',
-        description: 'I have not been here yet.',
+        description:
+          'If you need a fix of bubble in the dominican republic this will do. Not great but its gotta do. They also serve a lot of food.',
         kind: 'Bubble Tea',
         area: 'Naco, Santo Domingo',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -1557,10 +1831,10 @@ const cafes = {
       properties: {
         name: 'Casa Barista & Co.',
         description:
-          'The first coffee shop outside of a mall that I have ever visited in the Dominican Republic. All their roast and beans are source from the Dominican Republic. Go visit them if you are in the DR.',
+          'The best coffee shop in the Dominican Republic where you can get really good coffee. This is probably the first coffee shop outside of a mall too that I have ever visited in the Dominican Republic. All their roast and beans are source from the Dominican Republic, and there coffee is really good, they have a variaty from different regions of the Dominican Republic with different roasts. Go visit them if you are in the DR.',
         kind: 'Cafe',
         area: 'Piantini, Santo Domingo, DR',
-        visits: '1',
+        visits: '2',
         visited: true,
       },
       geometry: {

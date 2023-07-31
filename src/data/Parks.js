@@ -744,6 +744,37 @@ const Parks = {
     {
       type: 'Feature',
       properties: {
+        name: 'Montezuma Castle National Monument',
+        description:
+          'I have not been here yet but this momument is in a native american reservation.',
+        kind: 'Monument',
+        area: 'Camp Verde, Arizona',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [34.6115755, -111.8349854],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Mesa Verde National Park',
+        description: 'I have not been here yet.',
+        kind: 'Park',
+        area: 'Mesa Verde, Colorado',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [37.2428606, -108.4654568],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Canyonlands National Park',
         description: 'I have not been here yet.',
         kind: 'Park',

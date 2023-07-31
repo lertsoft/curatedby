@@ -686,6 +686,25 @@ const cultural = {
         coordinates: [43.6677097, -79.3947771],
       },
     },
+    /// ////////////////////////////////////////////////
+    /// /////////////     Latin America     ////////////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Museum of Rum',
+        description:
+          'Cool museum to learn about the history of dominican rum, also during the night the museum becomes a bar / club / dance venue. Wednesday night it turn into a merengue, bachata dance hall with plenty of rum to go around. Awesome atmosphere, and cool to learn the history and what goes down to make rum a thing. ',
+        kind: 'Museum',
+        area: 'Santo Domingo, Republica dominicana',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4772795, -69.884086],
+      },
+    },
 
     /// ////////////////////////////////////////////////
     /// /////////////        Europe       //////////////

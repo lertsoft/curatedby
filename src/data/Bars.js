@@ -28,9 +28,25 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Anotheroom',
+        description:
+          'Small cute bar with a decent beer selection, and some nice cocktails. Would I go again? Probably if anything else is not the vibe. but the vibe is a small, intimate place that is also somewhat cheap.',
+        kind: 'Bar',
+        area: 'Tribeca, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7198796, -74.0056002],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Saint Tuesday',
         description:
-          'This is a Awesome bar with live music, deep underneath the streets of manhattan. The cocktails are good but not appetizers so go with a full tommy.',
+          'This is a Awesome bar with live music, deep underneath the streets of manhattan. The cocktails are good but not appetizers so go with a full tommy do not repeat my mistake.',
         kind: 'Speakeasy',
         area: 'Tribeca, Manhattan',
         visits: '1',
@@ -39,6 +55,38 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.7182243, -74.0021302],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Analogue',
+        description:
+          'I have not been here yet but I have heard that it is a great bar.',
+        kind: 'Cocktail Bar',
+        area: 'NoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7328781, -73.9974686],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Folly',
+        description:
+          'I did not know that this place had such a great Rum menu but it really was great. I tried the "Wits End" which is done with Brugal extra viejo. It was really good, and amazing it even included a sugar cane for you to enjoy. That sugar was not that good but I mean this is new york city they are not fresh like they would in the dominican republic. ',
+        kind: 'Bar',
+        area: 'NoHo, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7272085, -74.0000853],
       },
     },
     {
@@ -1759,6 +1807,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Pink Metal',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'Bushwick, Brooklyn',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7072646, -73.9396469],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
         name: 'JADE',
         description: 'I have not been here yet.',
         kind: 'Bar',
@@ -2283,13 +2347,29 @@ const Bars = {
         name: 'Gabiao Rooftop Bar',
         description: 'I have not been here yet.',
         kind: 'Rooftop Bar',
-        area: 'Santo Domingo, DR',
+        area: 'Santo Domingo, Dominican Republic',
         visits: '0',
         visited: false,
       },
       geometry: {
         type: 'Point',
         coordinates: [18.4698165, -69.9279886],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Local 3',
+        description:
+          'This is the only bar where I got great cocktails in my stay in the Dominican Republic in any of the main spirits (Gin, Rum, Vodka). Rum was my favorite one of them all. Cocktails are not that cheap so be aware of that prices are just a tap cheaper than New York prices. DR = 10 to 14. NYC = 12 to 20.',
+        kind: 'Bar',
+        area: 'Naco, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4742995, -69.9311974],
       },
     },
 
@@ -2321,6 +2401,22 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [18.4763927, -69.926918],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Irish Pub',
+        description:
+          'This bar is supposed to be the irish pub of the dominican republic. It is a interesting place with live rock music which is cool but it is too crowded. It is like the place to go for a lot of people now thus it has way to many people and it is better to go somewhere else.',
+        kind: 'Irish Pub',
+        area: 'Piantini, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4653722, -69.935123],
       },
     },
 
@@ -2357,9 +2453,25 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'La Resistencia',
+        description:
+          'I have not been here but my friends say this is a cool place and it is putting the resistance to a new law enacted in the DR which says that bars, clubs, and others need to close at the latest at 2am but "la resistencia" is open until 6 AM or sunrise.',
+        kind: 'Bar',
+        area: 'Zona Colonial, Santo Domingo',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4710645, -69.8904574],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Quintana Bar',
         description:
-          'Cool spot to listen to some live music with the warthm of the night breezy and in a beautiful colonial building..',
+          'Cool spot to listen to some live music with the warthm of the night breezy and in a beautiful colonial building.',
         kind: 'Bar',
         area: 'Zona Colonial, Santo Domingo',
         visits: '1',
@@ -2368,6 +2480,22 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [18.4775907, -69.8836697],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Onno`s Zona Colonial Bar & Restaurant',
+        description:
+          'Nice spot for a variaty of music from house to some merengue. It has an inside bar, and the backyard with the view of the beautiful colonial buildings.',
+        kind: 'Bar',
+        area: 'Zona Colonial, Santo Domingo',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4732314, -69.8852066],
       },
     },
 
@@ -2536,6 +2664,21 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [25.7667169, -80.1951854],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'La Factoría',
+        description: 'I have not been here yet.',
+        kind: 'Bar',
+        area: 'San Juan, Puerto Rico',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [18.4672545, -66.1175413],
       },
     },
     {

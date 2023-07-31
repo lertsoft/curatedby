@@ -12,6 +12,22 @@ const JapaneseRestaurant = {
     {
       type: 'Feature',
       properties: {
+        name: 'Nishida Sho-ten',
+        description:
+          'One of the best Ramen places in the city in my opinion! It just as good as Okiboru House of Tsukemen if not better while also being low key, and cheaper. This is my fave ramen shop now.',
+        kind: 'Ramen - Japanese Resturant',
+        area: 'Midtown, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7539588, -73.9686939],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Zest Sushi',
         description:
           'Good sushi for the price. Are there better options? Yeah. Do they beat the price? Nope. So if you are craving sushi in LES this is the spot!',
