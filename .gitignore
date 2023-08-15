@@ -36,6 +36,7 @@ yarn-error.log*
 # dotenv local files
 .env*.local
 .env
+src/data/allplaces.json
 
 # local folder
 local

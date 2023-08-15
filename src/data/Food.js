@@ -1,4 +1,4 @@
-// All the data has been collected by Ronny Coste throughtout the years.
+// All the data has been collected by Ronny Coste throughout the years.
 /// ////////////////////////////////////////////////
 /// ///////        Restaurants        //////////////
 /// ////////////////////////////////////////////////
@@ -30,7 +30,7 @@ const Food = {
       properties: {
         name: 'Cafe R',
         description:
-          'Cafe R is supposed to be a cafe but it is more like a collections of restaurant under the same roof. No coffee here at least not the good kind but the food is pretty good. They also have buffet if you feel like having that ( which is good ) This place is in the infamous park of midtown, ie 32st by penn station.',
+          'Cafe R is supposed to be a cafe but it is more like a collection of restaurants under the same roof. No coffee here at least not the good kind but the food is pretty good. They also have a buffet if you feel like having that ( which is good ) This place is in the infamous park of midtown, ie 32nd St by Penn station.',
         kind: 'Restaurant',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -46,7 +46,7 @@ const Food = {
       properties: {
         name: 'Mei Lai Wah',
         description:
-          'This bakery in chinatown has some really good baked good. it is pretty cheap and if you want to eat something quick for $3 dollars this is your spot.',
+          'This bakery in Chinatown has some really good baked goods. it is pretty cheap and if you want to eat something quick for 3 dollars this is your spot.',
         kind: 'Chinese Restaurant',
         area: 'Chinatown, Manhattan',
         visits: '3',
@@ -62,7 +62,7 @@ const Food = {
       properties: {
         name: 'Tasty Dumpling',
         description:
-          'This is my favorite dumpling place in chinatown! They are really good and tasty just like they have on their name. If you are in chinatown with only $3 dollars and wants some awesome and fresh dumplings this is your spot.',
+          'This is my favorite dumpling place in Chinatown! They are really good and tasty just like they have on their name. If you are in Chinatown with only 3 dollars and want some awesome and fresh dumplings this is your spot.',
         kind: 'Dumpling Restaurant',
         area: 'Chinatown, Manhattan',
         visits: '3',
@@ -78,7 +78,7 @@ const Food = {
       properties: {
         name: 'May Wah Fast Food',
         description:
-          'I did not love or feel this place even though i tried it twice... let`s just leave it at that.',
+          'I did not love or feel this place even though I tried it twice... let`s just leave it at that.',
         kind: 'Chinese Resturant',
         area: 'Chinatown, Manhattan',
         visits: '2',
@@ -94,7 +94,7 @@ const Food = {
       properties: {
         name: 'The View Restaurant & Lounge',
         description:
-          'I have not been here yet... but it have been reccomended to me by a couple of friends, and the view. The view is what you here for.',
+          'I have not been here yet... but it has been recommended to me by a couple of friends, and the view. The view is what you here for.',
         kind: 'Rooftop - American Restaurant',
         area: 'Midtown, Manhattan',
         visits: '0',
@@ -110,7 +110,7 @@ const Food = {
       properties: {
         name: '375° Chicken `n Fries',
         description:
-          'Good fried chicken joint in the lower east side. It is pretty good but i cannot tell the different between their sandwiches and popeyes.',
+          'Good fried chicken joint in the lower east Side. It is pretty good but I cannot tell the difference between their sandwiches and Popeyes.',
         kind: 'Fast Food',
         area: 'Lower East Side, Manhattan',
         visits: '1',
@@ -126,7 +126,7 @@ const Food = {
       properties: {
         name: 'Pulqueria Restaurant Agave Bar',
         description:
-          'Cool mexican restaurant and bar, it is in the basement of the most famous street of chinatown. Their drinks presentation it is really cool.',
+          'Cool Mexican restaurant and bar, it is in the basement of the most famous street of Chinatown. Their drinks presentation is really cool.',
         kind: 'Mexican Restaurant',
         area: 'Chinatown, Manhattan',
         visits: '1',
@@ -142,7 +142,7 @@ const Food = {
       properties: {
         name: 'Veselka',
         description:
-          'Veselka is a pretty iconic restaurant of the East village. Pretty good food, nice outdoor seating, and great for people watching.',
+          'Veselka is a pretty iconic restaurant in the East Village. Pretty good food, nice outdoor seating, and great for people-watching.',
         kind: 'Ukrainian Restaurant',
         area: 'East Village, Manhattan',
         visits: '3',
@@ -158,7 +158,7 @@ const Food = {
       properties: {
         name: 'Jackdaw',
         description:
-          'Great spot for boozy brunch and/or bottemless brunch. Anything else there might be better options.',
+          'Great spot for boozy brunch and/or bottomless brunch. Anything else there might be better options.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -222,7 +222,7 @@ const Food = {
       properties: {
         name: 'Tortaria',
         description:
-          'I have been here once, and it was on New Years eve with a friend! It was a great night, with good food.',
+          'I have been here once, and it was on New Year`s Eve with a friend! It was a great night, with good food.',
         kind: 'Mexican Restaurant',
         area: 'NoHo, Manhattan',
         visits: '1',
@@ -238,7 +238,7 @@ const Food = {
       properties: {
         name: 'Carroll Place',
         description:
-          'Italian restaurant that is in a popping area / neighborhood.',
+          'Italian restaurant that is in a popping area/neighborhood.',
         kind: 'Italian Restaurant',
         area: 'NoHo, Manhattan',
         visits: '2',
@@ -269,7 +269,7 @@ const Food = {
       properties: {
         name: 'Nom Wah Tea Parlor',
         description:
-          'Oldest Restaurant in New York City, and of chinatown. Their Dim Sum is tasty, and delicious. Worth the wait in line at least for 20min. Only take cash but It is definetely worthwhile.',
+          'Oldest Restaurant in New York City, and of Chinatown. Their Dim Sum is tasty and delicious. Worth the wait in line at least for 20min. Only take cash but It is worthwhile.',
         kind: 'Chinese Restaurant',
         area: 'Chinatown, Manhattan',
         visits: '3',
@@ -332,7 +332,7 @@ const Food = {
       properties: {
         name: 'Souvlaki GR',
         description:
-          'Great greek restaurant in Lower East Side. I really like it and have been there many times.',
+          'Great Greek restaurant in Lower East Side. I like it and have been there many times.',
         kind: 'Greek Restaurant',
         area: 'Lower East Side, Manhattan',
         visits: '3',
@@ -364,7 +364,8 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Ruby`s Cafe',
-        description: 'Get shirleys summer drink while you can! Nolita Dirtbag.',
+        description:
+          'Get Shirley`s summer drink while you can! Nolita Dirtbag.',
         kind: 'Australian Restaurant',
         area: 'Nolita, Manhattan',
         visits: '2',
@@ -395,8 +396,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Bronson’s Burgers',
-        description:
-          'Great burguer joint! A bit pricey but it is definetely worth it.',
+        description: 'Great burger joint! A bit pricey but it is worth it.',
         kind: 'Fast Food',
         area: 'Nolita, Manhattan',
         visits: '2',
@@ -412,7 +412,7 @@ const Food = {
       properties: {
         name: 'Marylou',
         description:
-          'Great french restaurant in the villag! They have live music on wednesday, on friday it turns into a party, and the drinks, food, and peeps are awesome.',
+          'Great French restaurant in the village! They have live music on Wednesday, on Friday it turns into a party, and the drinks, food, and peeps are awesome.',
         kind: 'French Restaurant',
         area: 'East Village, Manhattan',
         visits: '3',
@@ -428,7 +428,7 @@ const Food = {
       properties: {
         name: 'Sonnyboy',
         description:
-          'If you like wisconsin styled bloddy marys this might be one of your few spot that does it. Few less if they have to be in the Lower East Side.',
+          'If you like Wisconsin-styled bloody marys this might be one of your few spots that does it. Few less if they have to be in the Lower East Side.',
         kind: 'Australian restaurant',
         area: 'Lower East Side, Manhattan',
         visits: '1',
@@ -444,7 +444,7 @@ const Food = {
       properties: {
         name: 'La Esquina',
         description:
-          'I think this spot was my first ever taco place or Mexican place that i went to when i arrive to New York back in 2017. Please DO NOT JUDGE ME!',
+          'I think this spot was my first ever taco place or Mexican place that I went to when I arrive in New York back in 2017. Please DO NOT JUDGE ME!',
         kind: 'Mexican Restaurant',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -504,7 +504,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Tacombi',
-        description: 'Okeyish chain for mexican food... pretty okay, i guess.',
+        description: 'Okeyish chain for Mexican food... pretty okay, I guess.',
         kind: 'Mexican Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '2',
@@ -536,7 +536,7 @@ const Food = {
       properties: {
         name: 'Los Tacos No.1',
         description:
-          'Their Tacos are pretty good for a chain! Definately try them they are all over the city.',
+          'Their Tacos are pretty good for a chain! Try them they are all over the city.',
         kind: 'Mexican Restaurant',
         area: 'Hells Kitchen, Manhattan',
         visits: '1',
@@ -552,7 +552,7 @@ const Food = {
       properties: {
         name: 'Mama Fina House of Filipino Sisig',
         description:
-          'Their name has Sisig for a reason. That is because they are great. This filipino restaurant in the village is a must try.',
+          'Their name has Sisig for a reason. That is because they are great. This Filipino restaurant in the village is a must try.',
         kind: 'Filipino restaurant',
         area: 'East Village, Manhattan',
         visits: '3',
@@ -584,7 +584,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'King Dumplings',
-        description: 'Can never go wrong with dumplings. Chinatown dumplighs.',
+        description: 'Can never go wrong with dumplings. Chinatown dumplings.',
         kind: 'Dumpling Restaurant',
         area: 'Chinatown, Manhattan',
         visits: '3',
@@ -618,7 +618,7 @@ const Food = {
       properties: {
         name: 'Saigon Shack',
         description:
-          'Their pho is amezingly good! Also their are not that many vietnamese restaurant in the city or not that many that i know of so so far this is the best one for me.',
+          'Their pho is amazingly good! Also, there are not that many Vietnamese restaurants in the city or not that many that I know of so so far this is the best one for me.',
         kind: 'Vietnamese restaurant',
         area: 'NoHo, Manhattan',
         visits: '3',
@@ -634,7 +634,7 @@ const Food = {
       properties: {
         name: 'Rudy`s Bar & Grill',
         description:
-          'The cheapest bear of the city comes with the cheapest hotdogs of New York City. So $5 Dollars and you get both, Do not ask questions.',
+          'The cheapest bear in the city comes with the cheapest hotdogs in New York City. So 5 Dollars and you get both, Do not ask questions.',
         kind: 'Bar',
         area: 'Hells Kitchen, Manhattan',
         visits: '3',
@@ -665,7 +665,7 @@ const Food = {
       properties: {
         name: 'Soothr',
         description:
-          'Great Thai restaurant i think this is probably one of the best I have tried so far.',
+          'Great Thai restaurant I think this is probably one of the best I have tried so far.',
         kind: 'Thai restaurant',
         area: 'East Village, Manhattan',
         visits: '2',
@@ -681,7 +681,7 @@ const Food = {
       properties: {
         name: 'La Grande Boucherie',
         description:
-          'Great French Restaurant. I love it this place the look of it is on another level.',
+          'Great French Restaurant. I love this place the look of it is on another level.',
         kind: 'French Restaurant',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -697,7 +697,7 @@ const Food = {
       properties: {
         name: 'La Casa Del Mofongo',
         description:
-          'Best Dominican Restaurant in New York City were you will feel like you are in Santo Domingo.',
+          'Best Dominican Restaurant in New York City where you will feel like you are in Santo Domingo.',
         kind: 'Dominican Restaurant',
         area: 'Washington Heights, Manhattan',
         visits: '3',
@@ -713,7 +713,7 @@ const Food = {
       properties: {
         name: 'Olio e Più',
         description:
-          'Nice Italian Restaurant, not my fave, not the worse just okay. But the Ambiance and the amount of peeps here for people watching is outstanding. There food the time i visited was a bit to much oily for my taste but it is okay.',
+          'Nice Italian Restaurant, not my fave, not the worse just okay. But the Ambiance and the amount of peeps here for people-watching is outstanding. Their food the time I visited was a bit too much oily for my taste but it is okay.',
         kind: 'Italian Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '2',
@@ -729,9 +729,9 @@ const Food = {
       properties: {
         name: 'Molly`s Cupcakes',
         description:
-          'Great Fricking cupcakes! The best i would say a bit pricey but worth it every penny.',
+          'Great Fricking cupcakes! The best I would say a bit pricey but worth it every penny.',
         kind: 'Dessert',
-        area: 'greenwich Village, Manhattan',
+        area: 'Greenwich Village, Manhattan',
         visits: '1',
         visited: true,
       },
@@ -746,7 +746,7 @@ const Food = {
       properties: {
         name: 'La Lanterna di Vittorio',
         description:
-          'I loved this place the garder is beautiful, it is in Greenwich Village, their lasagna is the best lasagna I have ever tried in NYC.',
+          'I loved this place the garden is beautiful, it is in Greenwich Village, and their lasagna is the best lasagna I have ever tried in NYC.',
         kind: 'Italian Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '3',
@@ -777,9 +777,9 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Up Thai',
-        description: 'My second fave thai place before I went to Soothr.',
+        description: 'My second fave Thai place before I went to Soothr.',
         kind: 'Thai restaurant',
-        area: 'Upper East side, Manhattan',
+        area: 'Upper East Side, Manhattan',
         visits: '3',
         visited: true,
       },
@@ -793,7 +793,7 @@ const Food = {
       properties: {
         name: 'Rosemary`s',
         description:
-          'One of my fave italian restaurant and this place is even approved by my mom.',
+          'One of my fave Italian restaurants and this place is even approved by my mom.',
         kind: 'Italian Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '3',
@@ -825,7 +825,7 @@ const Food = {
       properties: {
         name: 'Black Tap',
         description:
-          'Great Shakes and burgers here. Again GREAT SHAKES! I think that would be the main reason i would go here for.',
+          'Great Shakes and burgers here. Again GREAT SHAKES! I think that would be the main reason I would go here for.',
         kind: 'Fast Food',
         area: 'Midtown, Manhattan',
         visits: '2',
@@ -841,7 +841,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'BETTY',
-        description: 'This restaurant looks cool but i have not been here yet.',
+        description: 'This restaurant looks cool but I have not been here yet.',
         kind: 'American Restaurant',
         area: 'Lower East Side, Manhattan',
         visits: '0',
@@ -857,7 +857,7 @@ const Food = {
       properties: {
         name: 'Watermark',
         description:
-          'I have not been here yet. But I have been to the pier many times and this places looks cool, with a waterfront and nice views.',
+          'I have not been here yet. But I have been to the pier many times and this place looks cool, with a waterfront and nice views.',
         kind: 'American Restaurant',
         area: 'FiDi, Manhattan',
         visits: '0',
@@ -995,7 +995,8 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Fraunces Tavern',
-        description: 'I have not been here yet.',
+        description:
+          'I have not been here yet but this is one of the oldest bar/restaurants in the city of new york. It opened in 1762,  it holds a spot on the National Register of Historic Places..',
         kind: 'American Restaurant',
         area: 'FiDi, Manhattan',
         visits: '0',
@@ -1074,7 +1075,7 @@ const Food = {
       properties: {
         name: 'Amor loco',
         description:
-          'Nice looking mexican restaurant in the middle of manhattan... Almost in the middle of timesquare and pretty close to broadway theater so food before or after a show here are a good choice! mostly with the Drinks as I felt in love the with "Corny Colada" Great drink and the food is okay you are going to be full.',
+          'Nice looking Mexican restaurant in the middle of Manhattan... Almost in the middle of Times Square and pretty close to broadway theater so food before or after a show here is a good choice! mostly with the Drinks as I fell in love the with "Corny Colada" Great drink and the food is okay you are going to be full.',
         kind: 'Mexican Restaurant',
         area: 'Hells Kitchen, Manhattan',
         visits: '1',
@@ -1091,7 +1092,7 @@ const Food = {
       properties: {
         name: 'The Milling Room',
         description:
-          'Nice looking American restaurant in the Upper West side of manhattan.',
+          'Nice looking American restaurant in the Upper West Side of Manhattan.',
         kind: 'American Restaurant',
         area: 'Upper West Side, Manhattan',
         visits: '0',
@@ -1141,7 +1142,7 @@ const Food = {
         name: 'Mediterraneo',
         description: 'I have not been here yet.',
         kind: 'Italian Restaurant',
-        area: 'Upper East side, Manhattan',
+        area: 'Upper East Side, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -1189,7 +1190,7 @@ const Food = {
         name: 'Upper East Café',
         description: 'I have not been here yet.',
         kind: 'American Restaurant',
-        area: 'Upper East side, Manhattan',
+        area: 'Upper East Side, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -1342,7 +1343,7 @@ const Food = {
       properties: {
         name: 'Sarabeth`s',
         description:
-          'The servers are attentive and really knowledgable of the menu and full of recommendation.',
+          'The servers are attentive and really knowledgable of the menu and full of recommendations.',
         kind: 'Casual Dining',
         area: 'Grammercy, Manhattan',
         visits: '1',
@@ -1665,7 +1666,7 @@ const Food = {
       properties: {
         name: 'YUBU',
         description:
-          'Really interesting and good korean quick bites. I really liked it. I would say it is a must try for people that love and palette adventure lmao.',
+          'Really interesting and good Korean quick bites. I liked it. I would say it is a must-try for people that love and palette adventure lmao.',
         kind: 'Korean restaurant',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -1681,7 +1682,7 @@ const Food = {
       properties: {
         name: 'Two Hands',
         description:
-          'Australian-inspired restuarant ie. Breakfast restaurant ie. toast paradise. Their coffee are really good and the food is really good too. good brunch spot in the heart of NoHo. The Purple taro latte is a must try!! ',
+          'Australian-inspired restaurant ie. Breakfast restaurant ie. toast paradise. Their coffee is really good and the food is really good too. good brunch spot in the heart of NoHo. The Purple taro latte is a must try!! ',
         kind: 'Australian Restaurant',
         area: 'NoHo, Manhattan',
         visits: '1',
@@ -1697,7 +1698,7 @@ const Food = {
       properties: {
         name: 'S&P Lunch',
         description:
-          'Really good sandwich shop and restaurant. The vibe is kind of 80`s, and simple. I really like this place and the story behind it is pretty cool to as this restaurant has been open since 80`s, and in 2021 the owners were going to close it but Nicholas Braun and others peeps decided to invest in this place to keep open.',
+          'Really good sandwich shop and restaurant. The vibe is kind of 80`s, and simple. I really like this place and the story behind it is pretty cool too as this restaurant has been open since the 80s, and in 2021 the owners were going to close it but Nicholas Braun and others peeps decided to invest in this place to keep open.',
         kind: 'Restaurant',
         area: 'Flatiron, Manhattan',
         visits: '1',
@@ -1744,11 +1745,11 @@ const Food = {
       properties: {
         name: 'Lexington Candy Shop',
         description:
-          'I have not been here yet but the only reason this is on the list is becuase they make their coke or pepsi like your grand-grand-parents used by mixing seltzer water with coke / pepsi syrup. Something so old merits to be great just for the sake of being consistent on staying true to the 19 century lol.',
+          'It is an okay shop... The only reason this is on the list is that they make their Coke or Pepsi like your grand-grand-parents used by mixing seltzer water with Coke/Pepsi syrup. Something so old merits to be great just for the sake of being consistent on staying true to the 19 century lol.',
         kind: 'Diner',
         area: 'Upper East Side, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -1760,7 +1761,7 @@ const Food = {
       properties: {
         name: 'Paesano',
         description:
-          'This Italian restaurant has some good lasagna but you gotta love cheese to enjoy it. The star of this place tho is the the frame of the building that resemble that of an old building or house in Italy or early New York not because of its ostentation but rather the lack thereof. maybe that is a feature of Little Italy but I do not know. Also this is a cozy place to bring your girlfriend and talk about something romantic like Godfather.',
+          'This Italian restaurant has some good lasagna but you gotta love cheese to enjoy it. The star of this place tho is the frame of the building that resembles that of an old building or house in Italy or early New York not because of its ostentation but rather the lack thereof. maybe that is a feature of Little Italy but I do not know. Also, this is a cozy place to bring your girlfriend and talk about something romantic like Godfather.',
         kind: 'Italian Restaurant',
         area: 'Little Italy, Manhattan',
         visits: '1',
@@ -1776,7 +1777,7 @@ const Food = {
       properties: {
         name: 'Favela Cubana',
         description:
-          'I went there after a shoot with the crew and it was an amazing atmostphere (maybe we did that ourselves lol), playing latin music (Cuban, Puerto Rican, and Dominican), great drinks, and the food was good too. It is definetely a good place to try food from the caribean. If you are craving Cuban food and are in the NYU / NoHo area try it out.',
+          'I went there after a shoot with the crew and it was an amazing atmosphere (maybe we did that ourselves lol), playing Latin music (Cuban, Puerto Rican, and Dominican), great drinks and the food was good too. It is a good place to try food from the Caribbean. If you are craving Cuban food and are in the NYU / NoHo area try it out.',
         kind: 'Cuban Restaurant',
         area: 'NoHo, Manhattan',
         visits: '1',
@@ -1792,7 +1793,7 @@ const Food = {
       properties: {
         name: 'Sam`s Fried Ice Cream',
         description:
-          'This ice cream are delicious! Try them out at least once. I have had this ice cream so many times but more often than not I get them in food festivals or street activities around the city. They are always there selling this tasty ice creams.',
+          'This ice cream is delicious! Try them out at least once. I have had this ice cream so many times but more often than not I get them in food festivals or street activities around the city. They are always there selling these tasty ice creams.',
         kind: 'Ice Cream',
         area: 'Dimes Square, Manhattan',
         visits: '3',
@@ -1808,7 +1809,7 @@ const Food = {
       properties: {
         name: 'Brigadeiro Bakery',
         description:
-          'Small brazilian dessert place South of Houston Street. their cookies and cupcakes are good. nothing crazy.',
+          'Small Brazilian dessert place South of Houston Street. their cookies and cupcakes are good. nothing crazy.',
         kind: 'Dessert',
         area: 'SoHo, Manhattan',
         visits: '1',
@@ -1824,9 +1825,9 @@ const Food = {
       properties: {
         name: 'Kopitiam',
         description:
-          'My First time trying malaysian food was here and my malaysian friend says that they have some of the closest taste of the food to how it is in malaysia. Really good and their skylights are cool too.',
+          'My First time trying Malaysian food was here and my Malaysian friend says that they have some of the closest taste of the food to how it is in Malaysia. Really good and their skylights are cool too.',
         kind: 'Malaysian restaurant',
-        area: 'Dimes square, Manhattan',
+        area: 'Dimes Square, Manhattan',
         visits: '1',
         visited: true,
       },
@@ -1840,7 +1841,7 @@ const Food = {
       properties: {
         name: 'Daniela Trattoria',
         description:
-          'This place was a trip... My friend did the reservation thinking they would have a brunch menu or something of those sorts as they said on their site but they did not and she was pissed lol. The food is okay and the drinks too. There are better italian places but if you are in a hurry in hells kitchen, midtown this will do the job.',
+          'This place was a trip... My friend did the reservation thinking they would have a brunch menu or something of those sorts as they said on their site but they did not and she was pissed lol. The food is okay and the drinks too. There are better Italian places but if you are in a hurry in hells Kitchen, midtown this will do the job.',
         kind: 'Italian Restaurant',
         area: 'Hells Kitchen, Manhattan',
         visits: '1',
@@ -1856,7 +1857,7 @@ const Food = {
       properties: {
         name: 'Andrews NYC Diner',
         description:
-          'I have only been to this diner before the pandemic and it was okay did not hate it, did not love it. Would I go back now? probably not. Also I think I tried all the diners in the 34 street area lol.',
+          'I have only been to this diner before the pandemic and it was okay did not hate it, did not love it. Would I go back now? probably not. Also, I think I tried all the diners in the 34 Street area lol.',
         kind: 'Diner',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -1872,7 +1873,7 @@ const Food = {
       properties: {
         name: 'Tick Tock Diner NY',
         description:
-          'I have only been to this diner before the pandemic and it was okay did not hate it, did not love it. Would I go back now? probably not. The main reason that I have been there so often is just proximity to were I and my friends were... Also I think I tried all the diners in the 34 street area lol.',
+          'I have only been to this diner before the pandemic and it was okay did not hate it, did not love it. Would I go back now? probably not. The main reason that I have been there so often is just the proximity to where I and my friends were... Also, I think I tried all the diners in the 34 Street area lol.',
         kind: 'Diner',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -1888,7 +1889,7 @@ const Food = {
       properties: {
         name: 'Skylight Diner',
         description:
-          'This is my favorite of all of 34st diner`s why? I do not know because the food is not that better but I think the ambiance is atmosphere is waayy better than the others. Also the have a bigger dessert selection.',
+          'This is my favorite of all of 34th St diners why? I do not know because the food is not that better but I think the ambiance is the atmosphere is way better than the others. Also, they have a bigger dessert selection.',
         kind: 'Diner',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -1904,7 +1905,7 @@ const Food = {
       properties: {
         name: 'Berimbau Brazilian Kitchen',
         description:
-          'This brazilian restaurant is a must try of NYC in my opinion! Their are good, the food is good, the garden is cool, the vibe is cool and it is not crazy expensive. I had a caipirinha for drink and almost the entire menu for food of course shared with my friends.',
+          'This Brazilian restaurant is a must-try in NYC in my opinion! They are good, the food is good, the garden is cool, the vibe is cool and it is not crazy expensive. I had a caipirinha for a drink and almost the entire menu for food of course shared with my friends.',
         kind: 'Brazilian Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -2223,7 +2224,7 @@ const Food = {
       properties: {
         name: 'Lobster Place',
         description:
-          'Their sushi, oysters, and seafood in general is pretty fresh and tasty. I would say that i did not have high hopes for it but I ended up liking it and probably will go back.',
+          'Their sushi, oysters, and seafood in general are pretty fresh and tasty. I would say that I did not have high hopes for it but I ended up liking it and probably will go back.',
         kind: 'Seafood Restaurant',
         area: 'Chelsea, Manhattan',
         visits: '1',
@@ -2239,7 +2240,7 @@ const Food = {
       properties: {
         name: 'Rubirosa',
         description:
-          'My girlfriends faves, and Harry Styles approves so you know you can go wrong with this italian place. ',
+          'My girlfriend`s faves and Harry Styles approves so you know you can go wrong with this Italian place. ',
         kind: 'Italian Restaurant',
         area: 'Nolita, Manhattan',
         visits: '1',
@@ -2255,7 +2256,7 @@ const Food = {
       properties: {
         name: 'Prince Street Pizza',
         description:
-          'Try it but do not succum on the rabbit hole of places that are okay but not the best as everyone says. Do not follow blindly.',
+          'Try it but do not succumb to the rabbit hole of places that are okay but not the best as everyone says. Do not follow blindly.',
         kind: 'Fast Food',
         area: 'Nolita, Manhattan',
         visits: '3',
@@ -2271,7 +2272,7 @@ const Food = {
       properties: {
         name: 'Caffè Panna',
         description:
-          'One of the best ice cream shops in the city. Worth it to stand in line for some time... I only only waited for 10 min.',
+          'One of the best ice cream shops in the city. Worth it to stand in line for some time... I only waited for 10 min.',
         kind: 'Ice Cream',
         area: 'Gramercy, Manhattan',
         visits: '1',
@@ -2302,7 +2303,7 @@ const Food = {
       properties: {
         name: 'Mighty Quinn`s Barbeque',
         description:
-          'It is okay but it is a fast casual place not a place for great barbecue which I did not know when I decided to go.',
+          'It is okay but it is a fast-casual place not a place for a great barbecue which I did not know when I decided to go.',
         kind: 'Barbecue restaurant',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -2318,7 +2319,7 @@ const Food = {
       properties: {
         name: 'Milano Market',
         description:
-          'They identify as an italian restaurant but it is really an Italian bodega... Their sandwinches is what they are known for and it was a good sandwich. Would recommend it is a solid option and it is also close to all the museum of the Upper East Side.',
+          'They identify as an Italian restaurant but it is really an Italian bodega... Their sandwiches are what they are known for and it was a good sandwich. Would recommend it is a solid option and it is also close to all the museums of the Upper East Side.',
         kind: 'Italian Restaurant',
         area: 'Upper East Side, Manhattan',
         visits: '1',
@@ -2335,7 +2336,7 @@ const Food = {
       properties: {
         name: 'Via Carota',
         description:
-          'Great Italian restaurant! The negroni was good, and their pasta is really good but the rabbit dish it is interesting but the bread that comes with the rabbit dish [CONIGLIO FRITTO] is top notch! I will go back to this place just to get more of that bread, I do not know if they have as a separate dish that is not the CONIGLIO FRITTO but it is definetely a must try. Do not wait in line for hours for this place tho... Just try something else.',
+          'Great Italian restaurant! The Negroni was good, their pasta is really good, and the rabbit dish is interesting but the bread that comes with the rabbit dish [CONIGLIO FRITTO] is top-notch! I will go back to this place just to get more of that bread, I do not know if they have a separate dish that is not the CONIGLIO FRITTO but it is a must-try. Do not wait in line for hours for this place tho... Just try something else.',
         kind: 'Italian Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -2351,7 +2352,7 @@ const Food = {
       properties: {
         name: 'I Sodi',
         description:
-          'Now I can understand why this place was so hype. Their lasagna is pretty good, of the best I have had in NYC. I have tried many of them so I would know. The meatsauce lasagna is delicious, soft, and tasty definetely a good place for Italian food Maybe of the best ones.',
+          'Now I can understand why this place was so hyped. Their lasagna is pretty good, of the best I have had in NYC. I have tried many of them so I would know. The meat sauce lasagna is delicious, soft, and tasty definitely a good place for Italian food Maybe of the best ones.',
         kind: 'Italian Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -2367,7 +2368,7 @@ const Food = {
       properties: {
         name: 'Revelie Luncheonette',
         description:
-          'New American Restaurant place in soho with a really small menu, and diner vibes.',
+          'New American Restaurant place in Soho with a really small menu, and diner vibes.',
         kind: 'Italian Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '0',
@@ -2414,7 +2415,7 @@ const Food = {
       properties: {
         name: 'Emily: West Village',
         description:
-          'This place has best burger I have tried in New York City PERIOD! it is really good.',
+          'This place has the best burger I have tried in New York City PERIOD! it is really good.',
         kind: 'Pizza Restaurant',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -2445,7 +2446,7 @@ const Food = {
       properties: {
         name: 'Bubby`s',
         description:
-          'okay brunch spot, cool for the vibe, okay for the food... can`t really mess up american breakfast foods lol',
+          'okay brunch spot, cool for the vibe, okay for the food... can`t really mess up American breakfast foods lol',
         kind: 'American Restaurant',
         area: 'Tribeca, Manhattan',
         visits: '1',
@@ -2460,7 +2461,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: '456 New Shanghai',
-        description: 'Really good, and cheap chinese food!',
+        description: 'Really good, and cheap Chinese food!',
         kind: 'Chinese Food',
         area: 'Chinatown, Manhattan',
         visits: '2',
@@ -2477,7 +2478,7 @@ const Food = {
       properties: {
         name: 'Carnegie Diner & Cafe',
         description:
-          'Great diner for those going to carnegie hall after. Do not go into a show with an empty stomach.',
+          'Great diner for those going to Carnegie Hall after. Do not go into a show with an empty stomach.',
         kind: 'Diner',
         area: 'Central Park South, Manhattan',
         visits: '1',
@@ -2493,7 +2494,7 @@ const Food = {
       properties: {
         name: 'Havana Central Times Square',
         description:
-          'Great cuban spot surrounded by touristy places... This is kind of touristy too but do not worry it is good.',
+          'Great Cuban spot surrounded by touristy places... This is kind of touristy too but do not worry it is good.',
         kind: 'Cuban Restaurant',
         area: 'Times Square, manhattan',
         visits: '1',
@@ -2539,7 +2540,7 @@ const Food = {
       properties: {
         name: 'Khe-Yo',
         description:
-          'I really liked this restaurant the food is tasty, with a good balance of flavors, and uniqueness to it... to me this place has a "je nais se quois" to it. The atmosphere is awesome, and the decor. The Waiter are nice and attentive, and a must try is the vietnamese coffee.',
+          'I really liked this restaurant the food is tasty, with a good balance of flavors, and uniqueness to it... to me this place has a "je nais se quois" to it. The atmosphere is awesome, and the decor. The Waiter are nice and attentive, and a must try is the Vietnamese coffee.',
         kind: 'Laotian restaurant',
         area: 'Tribeca, Manhattan',
         visits: '1',
@@ -2560,7 +2561,7 @@ const Food = {
       properties: {
         name: 'American Brass',
         description:
-          'Their burgers are really good and the fries too but the benchmark is not that crazy high for me either. Not the best burguer but one of the best ambiance in LIC perhaps. I would go back to sit on the terrace and have a view of the park, east river and the skyline.',
+          'Their burgers are really good and the fries too but the benchmark is not that crazy high for me either. Not the best burger but one of the best ambiance in LIC perhaps. I would go back to sit on the terrace and have a view of the park, east river, and the skyline.',
         kind: 'American Restaurant',
         area: 'LIC, Queens',
         visits: '1',
@@ -2607,7 +2608,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Sugar Freak',
-        description: 'New Orleans style food but in astoria. It`s great!',
+        description: 'New Orleans style food but in Astoria. It`s great!',
         kind: 'Creole Restaurant',
         area: 'Astoria, Queens',
         visits: '1',
@@ -2669,7 +2670,7 @@ const Food = {
       properties: {
         name: 'Ovelia',
         description:
-          'Great greek restaurant of astoria. The owners are sweet and attentive and the food was delicious. What else would you want?',
+          'Great Greek restaurant of Astoria. The owners are sweet and attentive and the food was delicious. What else would you want?',
         kind: 'Greek restaurant',
         area: 'Astoria, Queens',
         visits: '1',
@@ -2701,7 +2702,7 @@ const Food = {
       properties: {
         name: 'Enthaice Thai Kitchen',
         description:
-          'Me and my girlfriend got the quintisential Thai food... PAD THAI, and PAD SEA EW and... Drum Rolls  🥁...🥁 It was really good! I liked it and would get it again, and again. ',
+          'Me and my girlfriend got the quintessential Thai food... PAD THAI, and PAD SEA EW and... Drum Rolls  🥁...🥁 It was really good! I liked it and would get it again, and again. ',
         kind: 'Thai Restaurant',
         area: 'Astoria, Queens',
         visits: '1',
@@ -2717,7 +2718,7 @@ const Food = {
       properties: {
         name: 'Junkie Burger',
         description:
-          'This burger place goes crazy! Their burgers are good and interesting, the sauce is really good but I do not think this is the best burger joint I have been so far. Also they are only open Thursday to Sunday from 5pm to 10pm so you gotta be dedicated to cause. Now their prices... their burger prices are not that bad but their milkshakes are a different story lol. Would I go again? maybe',
+          'This burger place goes crazy! Their burgers are good and interesting, and the sauce is really good but I do not think this is the best burger joint I have been so far. Also, they are only open Thursday to Sunday from 5 pm to 10 pm so you gotta be dedicated to the cause. Now their prices... their burger prices are not that bad but their milkshakes are a different story lol. Would I go again? maybe',
         kind: 'Fast Food',
         area: 'Astoria, Queens',
         visits: '1',
@@ -2733,7 +2734,7 @@ const Food = {
       properties: {
         name: 'Omonia Cafe',
         description:
-          'This is a greek style diner, they call themselves a Cafe but I think a more accurate description would be diner. Their food is good, their coffee and hot chocolate are good too. This is a chill and nice spot to get some good food.',
+          'This is a Greek-style diner, they call themselves a Cafe but I think a more accurate description would be a diner. Their food is good, their coffee and hot chocolate are good too. This is a chill and nice spot to get some good food.',
         kind: 'Diner',
         area: 'Astoria, Queens',
         visits: '1',
@@ -2750,7 +2751,7 @@ const Food = {
         name: 'Romanian Garden',
         description: 'I have not been here yet.',
         kind: 'Romanian Restaurant',
-        area: 'Sunnyside, Queens',
+        area: 'SunnySide, Queens',
         visits: '0',
         visited: false,
       },
@@ -2780,7 +2781,7 @@ const Food = {
       properties: {
         name: 'Taverna Kyclades',
         description:
-          'Great greek restaurant in Astoria. Everything I that tried was really, really good. The chicken was flavorfull, and well cooked but not overwhelmed with seasoning or overcooked. The seafood was the same it tasted simple seasoning but made but marinated? or left to rest to later cook. I don`t know but it was really good. Definetelly give a try.',
+          'Great Greek restaurant in Astoria. Everything I tried was really, really good. The chicken was flavorful, and well cooked but not overwhelmed with seasoning or overcooked. The seafood was the same it tasted simple seasoning but made but marinated? or left to rest to later cook. I don`t know but it was really good. Give it a try.',
         kind: 'Greek restaurant',
         area: 'Astoria, Queens',
         visits: '1',
@@ -2811,7 +2812,7 @@ const Food = {
       properties: {
         name: 'Burger Club',
         description:
-          'Restaurant that has a menu full of different kind of burger, really good!',
+          'Restaurant that has a menu full of different kinds of burger, really good!',
         kind: 'Burger Restaurant',
         area: 'Astoria, Queens',
         visits: '1',
@@ -2827,10 +2828,10 @@ const Food = {
       properties: {
         name: 'Bund on Broadway',
         description:
-          'The food here is really good! Really tasty, and wonderful. Would definetely go again.',
+          'The food here is really good! Tasty, and wonderful. Would definitely go again.',
         kind: 'Chinese Restaurant',
         area: 'Astoria, Queens',
-        visits: '1',
+        visits: '2',
         visited: true,
       },
       geometry: {
@@ -2893,7 +2894,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Amaranto',
-        description: 'Cool mexican spot in bushwick new york.',
+        description: 'Cool Mexican spot in Bushwick new york.',
         kind: 'Mexican restaurant',
         area: 'Bushwick, Brooklyn',
         visits: '0',
@@ -2924,7 +2925,7 @@ const Food = {
       properties: {
         name: 'Surf Bar',
         description:
-          'The most crazy restaurant I have been in the city period. I love it. The floor is full of sand and the rooftop is cover by surfboards like... I do not know what to say. The food is good too which surprise me because I thought peeps would go here for the atmosphere but nope! The food is good, the interior design is cool, and the drinks a great. 10/10',
+          'The craziest restaurant I have been to in the city period. I love it. The floor is full of sand and the rooftop is covered by surfboards like... I do not know what to say. The food is good too which surprised me because I thought peeps would go here for the atmosphere but nope! The food is good, the interior design is cool, and the drinks a great. 10/10',
         kind: 'Seafood Restaurant',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -2956,7 +2957,7 @@ const Food = {
       properties: {
         name: 'Boran',
         description:
-          'Hot Thai restaurant in Red Hook, brooklyn hot because my meal burned my tongue.',
+          'Hot Thai restaurant in Red Hook, Brooklyn hot because my meal burned my tongue.',
         kind: 'Thai Restaurant',
         area: 'Red Hook, Brooklyn',
         visits: '1',
@@ -2971,7 +2972,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: '12 Chairs Café',
-        description: 'Great israeli restaurant, Worth it.',
+        description: 'Great Israeli restaurant, Worth it.',
         kind: 'Israeli Restaurant',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -2986,7 +2987,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Santa Salsa',
-        description: 'I have had it a couple times and it is cool.',
+        description: 'I have been here a couple of times and it is cool.',
         kind: 'Venezuelan restaurant',
         area: 'Bushwick, Brooklyn',
         visits: '3',
@@ -3047,7 +3048,7 @@ const Food = {
       properties: {
         name: 'Fonda',
         description:
-          'Great tacos, and drinks would definetely go back again if I am in park slope.',
+          'Great tacos and drinks would definitely go back again if I am in park slope.',
         kind: 'Mexican Restaurant',
         area: 'Park Slope, Brooklyn',
         visits: '1',
@@ -3202,7 +3203,7 @@ const Food = {
       properties: {
         name: 'Farm to People',
         description:
-          'This is one of the most unique restaurants that i have been to in the city. This place is a Restaurant, Brewery, and Grocery store warehouse so you know your food will be fresh, and your beers will be unique. Which they clearly are I tried a strawberry infused beer and it was something to try but to sour for my preference haha. It is a huge space so big parties or get together can happen and their front-yard has many tables for those summer days.',
+          'This is one of the most unique restaurants that I have been to in the city. This place is a Restaurant, Brewery, and Grocery store warehouse so you know your food will be fresh, and your beers will be unique. The foods are clearly fresh I tried a strawberry-infused beer and it was something to try but too sour for my preference haha. It is a huge space so big parties or get together can happen and their front yard has many tables for those summer days.',
         kind: 'Restaurant',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -3218,7 +3219,7 @@ const Food = {
       properties: {
         name: 'Queen',
         description:
-          'Great restaurant with Mediterranean food. It is a great place to get tasteful, and healhty meals.',
+          'Great restaurant with Mediterranean food. It is a great place to get tasteful, and healthy meals.',
         kind: 'Mediterranean restaurant',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -3234,7 +3235,7 @@ const Food = {
       properties: {
         name: 'Fandi Mata',
         description:
-          'I have not been here yet but this place looks really cool, it looks like a garden and they also become a bar / club at night which is interesting.',
+          'I have not been here yet but this place looks cool, it looks like a garden and they also become a bar/club at night which is interesting.',
         kind: 'Restaurant',
         area: 'Greenpoint, Brooklyn',
         visits: '0',
@@ -3251,7 +3252,7 @@ const Food = {
       properties: {
         name: 'Ainslie',
         description:
-          'Great Italian restaurant. the pizza, pasta and drinks are really good!.',
+          'Great Italian restaurant. the pizza, pasta, and drinks are really good!.',
         kind: 'Italian restaurant',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -3267,7 +3268,7 @@ const Food = {
       properties: {
         name: 'Vera Cruz',
         description:
-          'The food is bland, and not so great... The drinks tho they are good! I would only go back for the frozen drinks and the nachos and guac.',
+          'The food is bland, and not so great... The drinks are good! I would only go back for the frozen drinks and the nachos and guac.',
         kind: 'Mexican Restaurant',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -3318,7 +3319,7 @@ const Food = {
       properties: {
         name: 'Mis Antojitos Juice Bar',
         description:
-          'Their say it all! I always crave their stuff for no reason lol',
+          'They say it all! I always crave their stuff for no reason lol',
         kind: 'Fast Food',
         area: 'Bronx, NY',
         visits: '3',
@@ -3396,7 +3397,7 @@ const Food = {
       properties: {
         name: 'Don Emilio Diner',
         description:
-          'Really, Really good dominican food but I guess that is the specialty food of the bronx or anywhere north of 125st. Emilio (The Owner) is always there taking care of peeps and talking to you while serving, he also used to cook mostly in the morning but he stopped as he is getting older and leaving the kitchen to others. Go support Emilio if you are in the area.',
+          'Really, Really good Dominican food but I guess that is the specialty food of the Bronx or anywhere north of 125st. Emilio (The Owner) is always there taking care of peeps and talking to you while serving, he also used to cook mostly in the morning but he stopped as he is getting older and left the kitchen to others. Go support Emilio if you are in the area.',
         kind: 'Dominican restaurant',
         area: 'Castle Hill, Bronx',
         visits: '3',
@@ -3412,7 +3413,7 @@ const Food = {
       properties: {
         name: 'Marisco Centro',
         description:
-          'They call themselves Seafood restaurant but I think a more accurate description is Dominican because those are their main dishes seafood is not the main thing that they serve lol. But this is the only place that my dad would eat fish soup from and he is really picky with his soup.',
+          'They call themselves a Seafood restaurant but I think a more accurate description is Dominican because those are their main dishes seafood is not the main thing that they serve lol. But this is the only place that my dad would eat fish soup from and he is really picky with his soup.',
         kind: 'Dominican Restaurant',
         area: 'Castle Hill, Bronx',
         visits: '3',
@@ -3462,7 +3463,7 @@ const Food = {
       properties: {
         name: 'Alex`s Restaurant',
         description:
-          'It suppose to be the first restaurant of the town... I did not fact check that tho... food is okay just like you like it from a diner.',
+          'It is supposed to be the first restaurant in the town... I did not fact check that tho... food is okay just like you like it from a diner.',
         kind: 'Diner',
         area: 'Poughkeepsie, NY',
         visits: '1',
@@ -3478,7 +3479,7 @@ const Food = {
       properties: {
         name: '지뇽이네 태능갈비 Tae Neung Korean BBQ',
         description:
-          'One of the best Korean BBQ that I have had so far! It was sooo good definetely worth a try and for me to comeback.',
+          'One of the best Korean BBQs that I have had so far! It was sooo good definitely worth a try and for me to come back.',
         kind: 'Korean BBQ',
         area: 'Palisades Park, New Jersey',
         visits: '1',
@@ -3494,7 +3495,7 @@ const Food = {
       properties: {
         name: 'Casa Bonita',
         description:
-          'Mexican restaurant that the writers of central park bought to bring back to life because it is mentioned on central park many times and it is supposed to be a denver icon too.',
+          'Mexican restaurant that the writers of central park bought to bring back to life because it is mentioned on central park many times and it is supposed to be a Denver icon too.',
         kind: 'Mexican Restaurant',
         area: 'Denver, Colorado',
         visits: '0',
@@ -3510,7 +3511,7 @@ const Food = {
       properties: {
         name: '100 Montaditos',
         description:
-          'Great spanish restaurant in wynwood or midtown miami. Their apperitifs are made so that you lick your fingers. But... I am bias.',
+          'Great Spanish restaurant in Wynwood or midtown Miami. Their aperitifs are made so that you lick your fingers. But... I am biased.',
         kind: 'Spanish Restaurant',
         area: 'Midtown, Miami',
         visits: '2',
@@ -3542,7 +3543,7 @@ const Food = {
       properties: {
         name: 'Enriqueta`s Sandwich Shop',
         description:
-          'Loved their sandwiches and breakfast food! And supposebly the jonas brothers has been here before and eaten. If you are in midtwon miami comes',
+          'Loved their sandwiches and breakfast food! And supposedly the Jonas brothers have been here before and eaten. If you are in midtown Miami comes',
         kind: 'Diner',
         area: 'Midtown, Miami',
         visits: '2',
@@ -3604,7 +3605,7 @@ const Food = {
       properties: {
         name: 'MiKro Depot',
         description:
-          'I had poutine at these place for the first time and i feel in love with it <3 ',
+          'I had poutine at this place for the first time and I fell in love with it <3 ',
         kind: 'Canadian Restaurant',
         area: 'Hamden, CT',
         visits: '1',
@@ -3619,7 +3620,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Kouzina',
-        description: 'good greek food from an authentic greek owner.',
+        description: 'good greek food from an authentic Greek owner.',
         kind: 'Greek Restaurant',
         area: 'Stamford, Connecticut',
         visits: '1',
@@ -3677,6 +3678,51 @@ const Food = {
         coordinates: [29.8836284, -97.6709195],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Captain Keno`s Restaurant',
+        description: 'I have not been here yet.',
+        kind: 'Bar & grill',
+        area: 'San Diego, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [33.0516517, -117.2953985],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Javier`s',
+        description: 'I have not been here yet.',
+        kind: 'Mexican restaurant',
+        area: 'San Diego, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [32.8723257, -117.2128038],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'The Regal Seagull',
+        description: 'I have not been here yet.',
+        kind: 'Bar & grill',
+        area: 'San Diego, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [33.0660443, -117.3031116],
+      },
+    },
 
     {
       type: 'Feature',
@@ -3699,7 +3745,7 @@ const Food = {
         name: 'Saison',
         description: 'I have not been here yet.',
         kind: 'American Restaurant',
-        area: 'San francisco, California',
+        area: 'San Francisco, California',
         visits: '0',
         visited: false,
       },
@@ -3910,7 +3956,7 @@ const Food = {
       properties: {
         name: 'NOLA Caye',
         description:
-          'This place is kind of hard to describe but I will try my best... It is a coffee shop style restaurant that only serve brunch / breakfast / light eats. Even though it is a restaurant it feels more like a cafe and bar and the cokctails are really good therefore that is what it is for me a cafe bar. I like it, it was quite nice and cool.',
+          'This place is kind of hard to describe but I will try my best... It is a coffee shop-style restaurant that only serves brunch/breakfast/light eats. Even though it is a restaurant it feels more like a cafe and bar and the cocktails are really good therefore that is what it is for me a cafe bar. I like it, it was quite nice and cool.',
         kind: 'Restaurant',
         area: 'New Orleans, LA',
         visits: '1',
@@ -3927,7 +3973,7 @@ const Food = {
       properties: {
         name: 'Pêche Seafood Grill',
         description:
-          'The drinks are great but you would come here mostly for the seafood which is pretty good and really fresh. Really big space to for big parties and plenty of bar space for both drinks and oysters. If you are in NOLA and likes seafood gives pêche a try!',
+          'The drinks are great but you would come here mostly for the seafood which is pretty good and fresh. Really big space for big parties and plenty of bar space for both drinks and oysters. If you are in NOLA and like seafood gives pêche a try!',
         kind: 'Seafood Restaurant',
         area: 'New Orleans, LA',
         visits: '1',
@@ -3944,7 +3990,7 @@ const Food = {
       properties: {
         name: 'Mother`s Restaurant',
         description:
-          'This is supposed to be  the place to get po boys together with verti marte. Which one is better? I do not know both are really good. Just keep in mind that there might be a long line.',
+          'This is supposed to be the place to get po boys together with Verti Marte. Which one is better? I do not know, both are really good. Just keep in mind that there might be a long line.',
         kind: 'Po Boys Restaurant',
         area: 'New Orleans, LA',
         visits: '1',
@@ -3976,7 +4022,7 @@ const Food = {
       properties: {
         name: 'Daisy Dukes French Quarter',
         description:
-          'Here I got a breakfast of champions Aligator sausage Omellete! It was pretty interesting but it did not felt weird at all. I guess that was just my mind trying to get me to get something else and stay in my comfort zone.',
+          'Here I got a breakfast of champions Aligator sausage Omellete! It was pretty interesting but it did not feel weird at all. I guess that was just my mind trying to get me to get something else and stay in my comfort zone.',
         kind: 'Breakfast Restaurant',
         area: 'New Orleans, LA',
         visits: '1',
@@ -4027,7 +4073,7 @@ const Food = {
       properties: {
         name: 'Central Gastronómica',
         description:
-          'Everything that I tried from this restaurant was really good, and delicious. I think this is my favorite fine dining restaurant in the Dominican Republic right now. The cocktails are okay so that is the worst part of it all. For food the Quesadilla short rib, Angus beef bao, and the lasagna were all amazingly good. You won`t regret none of them. The quality of the food felt really good compare with high end restaurant of NYC like I-Sodi or Via Carota. ',
+          'Everything that I tried from this restaurant was really good, and delicious. I think this is my favorite fine-dining restaurant in the Dominican Republic right now. The cocktails are okay so that is the worst part of it all. For food, the Quesadilla short rib, Angus beef bao, and lasagna were all amazingly good. You won`t regret any of them. The quality of the food felt really good compare with high-end restaurants in NYC like I-Sodi or Via Carota. ',
         kind: 'Fast Food',
         area: 'Naco, Santo Domingo',
         visits: '1',
@@ -4043,7 +4089,7 @@ const Food = {
       properties: {
         name: 'The Crime Restaurante - Sucursal Nuñez',
         description:
-          'Great burgers at this restaurant. Would definetely give it a try.',
+          'Great burgers at this restaurant. Would definitely give it a try.',
         kind: 'Fast Food',
         area: 'El Millon, Santo Domingo',
         visits: '1',
@@ -4059,7 +4105,7 @@ const Food = {
       properties: {
         name: 'Food Truck Town',
         description:
-          'Full of food trucks that are full of good foods. This food truck villa is literally in the middle of city so it is pretty convinient. ',
+          'Full of food trucks that are full of good foods. This food truck villa is literally in the middle of the city so it is pretty convenient. ',
         kind: 'Fast Food',
         area: 'Naco, Santo Domingo',
         visits: '1',
@@ -4125,7 +4171,7 @@ const Food = {
       properties: {
         name: 'El Leñazo',
         description:
-          'Great restaurant with an expansive menu of dominican food. really good service and delicious food. Really worth for if you ar itching for some dominican food, just as good as Adrian Tropical.',
+          'Great restaurant with an expansive menu of Dominican food. really good service and delicious food. Worth it if you are itching for some Dominican food, just as good as Adrian Tropical.',
         kind: 'Dominican Restaurant',
         area: 'Santo Domingo, Dominican Republic',
         visits: '1',
@@ -4312,7 +4358,7 @@ const Food = {
       properties: {
         name: 'SBG Sophia`s Bar & Grill',
         description:
-          'Fine Dining in the Dominican Republic... The food was great! I would say stay away from the steak chicharron unless you know what you are getting into. The Sushi it is really good but this is independant to how good the suhsi really is why is it that almost of most of the sushi restaurant in the DR have most of their rolls with some fruity sauce or cream cheese? Is it a cultural thing, climate thing? I don`t know but i find it interesting nonetheless.',
+          'Fine Dining in the Dominican Republic... The food was great! I would say stay away from the steak chicharron unless you know what you are getting into. The Sushi is really good but this is independent of how good the sushi really is why is it that almost most of the sushi restaurants in the DR have most of their rolls with some fruity sauce or cream cheese? Is it a cultural thing, a climate thing? I don`t know but I find it interesting nonetheless.',
         kind: 'Fine Dining',
         area: 'Piantini, Santo  Domingo',
         visits: '1',
@@ -4328,7 +4374,7 @@ const Food = {
       properties: {
         name: 'Adrian Tropical',
         description:
-          'Great restaurant with views of the Caribeam Sea and freat food, this restaurant is kind of like a starter pack to dominican cusine, it is a must go.',
+          'Great restaurant with views of the Caribbean Sea and great food, this restaurant is kind of like a starter pack to Dominican cuisine, it is a must go.',
         kind: 'Dominican Restaurant',
         area: 'Santo Domingo, Republica Dominicana',
         visits: '2',
@@ -4481,7 +4527,7 @@ const Food = {
       properties: {
         name: 'Warajiya',
         description:
-          'I have not been here yet but this is supposed to be the oldest restaurant and business of the enitre world! It has been in business for at least 1000 years some peeps say it is longer some say it is shorter but the paper trail starts at about 1000 years.',
+          'I have not been here yet but this is supposed to be the oldest restaurant and business in the entire world! It has been in business for at least 1000 years some peeps say it is longer some say it is shorter but the paper trail starts at about 1000 years.',
         kind: 'Unagi restaurant',
         area: 'Kyoto, Japan',
         visits: '0',
@@ -4490,6 +4536,38 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [34.9893591, 135.7705125],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cask Strength',
+        description:
+          'I have not been here yet but this is supposed to be a sophisticated and great bar with an expansive selection of spirit.',
+        kind: 'Bar',
+        area: 'Tokyo, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [35.663836, 139.7340318],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'sumibiyakiniku nakahara - 炭火焼肉 なかはら',
+        description:
+          'I have not been here yet but this is supposed  one of the best steak restaurants in Tokyo.',
+        kind: 'Steak restaurant',
+        area: 'Tokyo, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [35.6892055, 139.7352601],
       },
     },
     {
@@ -4578,7 +4656,7 @@ const Food = {
       properties: {
         name: 'Tripperia O`Russ Napoli',
         description:
-          'I have not been here yet but this restaurant serves the traditionally referred food of cucina povera — the food of the poor — which is made variously from pigs’ feet, veal snout and bovine stomachs. This food is referred like that because women from Napoli’s lower classes would gather outside royal residences in hopes of being granted the discarded entrails of the animals slaughtered for aristocrats’ banquets. Now we go to restaurant to try their it lol.',
+          'I have not been here yet but this restaurant serves the traditionally referred food of cucina povera — the food of the poor — which is made variously from pigs’ feet, veal snout, and bovine stomachs. This food is referred to like that because women from Napoli’s lower classes would gather outSide royal reSidences in hopes of being granted the discarded entrails of the animals slaughtered for aristocrats’ banquets. Now we go to a restaurant to try it lol.',
         kind: 'Neapolitan restaurant',
         area: 'Naples, Italy',
         visits: '0',

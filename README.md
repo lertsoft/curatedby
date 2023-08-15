@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=28ADE7&center=true&lines=Modern+Template;Production+ready;Built+your+next+project)](https://git.io/typing-svg)
 
- This website was created with the purpose of better organizing all my saved places on google maps, and so that I can more easily find the places that i want to go or have been.
+ This website was created with the purpose of better organizing all my saved places on google maps, and so that I can more easily find the places that I want to go or have been.
 
  ### Pages
 
@@ -30,17 +30,17 @@ Developer experience first:
 - 🔥 [Next.js](https://nextjs.org) for Static Site Generator
 - 🎨 Integrate with [Tailwind CSS](https://tailwindcss.com)
 - 💅 PostCSS for processing Tailwind CSS and integrated to `styled-jsx`
-- 🎉 Type checking [TypeScript](https://www.typescriptlang.org)
+- 🎉 Type-checking [TypeScript](https://www.typescriptlang.org)
 - ✅ Strict Mode for TypeScript and React 17
-- ✏️ Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS and Airbnb configuration)
+- ✏️ Linter with [ESLint](https://eslint.org) (default NextJS, NextJS Core Web Vitals, Tailwind CSS, and Airbnb configuration)
 - 💡 Absolute Imports
 - 🛠 Code Formatter with [Prettier](https://prettier.io)
 - 🦊 Husky for Git Hooks
 - 🚫 Lint-staged for running linters on Git staged files
-- 🗂 VSCode configuration: Debug, Settings, Tasks and extension for PostCSS, ESLint, Prettier, TypeScript
-- 🤖 SEO metadata, JSON-LD and Open Graph tags with Next SEO
+- 🗂 VSCode configuration: Debug, Settings, Tasks, and extension for PostCSS, ESLint, Prettier, TypeScript
+- 🤖 SEO metadata, JSON-LD, and Open Graph tags with Next SEO
 - ⚙️ [Bundler Analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
-- 🖱️ One click deployment with Vercel or Netlify (or manual deployment to any hosting services)
+- 🖱️ One-click deployment with Vercel or Netlify (or manual deployment to any hosting services)
 - 🌈 Include a FREE minimalist theme
 - 💯 Maximize lighthouse score
 - 🧩 Progresive web App
@@ -124,7 +124,7 @@ $ npm run build
 $ npm run start
 ```
 
-The generated HTML and CSS files are minified (built-in feature from Next js). It will also removed unused CSS from [Tailwind CSS](https://tailwindcss.com).
+The generated HTML and CSS files are minified (built-in feature from Next js). It will also remove unused CSS from [Tailwind CSS](https://tailwindcss.com).
 
 You can create an optimized production build with:
 
@@ -132,11 +132,11 @@ You can create an optimized production build with:
 npm run build-prod
 ```
 
-Now, your blog is ready to be deployed. All generated files are located at `out` folder, which you can deploy with any hosting service.
+Now, your blog is ready to be deployed. All generated files are located in `out` folder, which you can deploy with any hosting service.
 
 ### Deploy to Netlify
 
-Clone this repository on own GitHub account and deploy to Netlify:
+Clone this repository on your own GitHub account and deploy it to Netlify:
 
 [![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)
 
@@ -148,13 +148,13 @@ Deploy this Next JS Boilerplate on Vercel in one click:
 
 ### VSCode information (optional)
 
-If you are VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
+If you are a VSCode user, you can have better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
 
-Pro tips: if you need a project wide type checking with TypeScript, you can run a build with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> on Mac.
+Pro tips: if you need a project-wide type checking with TypeScript, you can run a build with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> on Mac.
 
 ### Contributions
 
-Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug.
+Everyone is welcome to contribute to this project. Feel free to open an issue if you have a question or found a bug.
 
 ### License
 

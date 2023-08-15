@@ -1,4 +1,4 @@
-// All the data has been collected by Ronny Coste throughtout the years.
+// All the data has been collected by Ronny Coste throughout the years.
 /// ////////////////////////////////////////////////
 /// ///////      Travel | Visit        /////////////
 /// ////////////////////////////////////////////////
@@ -13,7 +13,7 @@ const Places = {
       type: 'Feature',
       properties: {
         name: 'Societal Staircase / Joker Staircase',
-        description: 'cool to see only once',
+        description: 'Cool to see only once.',
         kind: 'landmark',
         area: 'Bronx, New York',
         visits: '1',
@@ -125,7 +125,7 @@ const Places = {
       properties: {
         name: 'Taos Pueblo',
         description:
-          'I have not been here yet but these place have a old native american buildings that have been preseved, and would be an awesome experience to see it.',
+          'I have not been here yet but these places have an old native american buildings that have been preserved, and would be an awesome experience to see it.',
         kind: 'Town',
         area: 'Taos, New Mexico',
         visits: '0',
@@ -172,7 +172,7 @@ const Places = {
       properties: {
         name: 'Birth of the New World',
         description:
-          'I have not been here but this seem like an nice puerto rican sightseeing.',
+          'I have not been here but this seems like a nice puerto rican sightseeing.',
         kind: 'Cultural landmark',
         area: 'Arecibo, Puerto Rico',
         visits: '0',
@@ -188,7 +188,7 @@ const Places = {
       properties: {
         name: 'Dignity of Earth and Sky',
         description:
-          'I have not been here but this seem like an nice americana sightseeing.',
+          'I have not been here but this seems like a nice Americana sightseeing.',
         kind: 'Cultural landmark',
         area: 'Chamberlain, South Dakota',
         visits: '0',
@@ -204,7 +204,7 @@ const Places = {
       properties: {
         name: 'Crazy Horse Memorial',
         description:
-          'I have not been here but this monument was started in 1948, it is unfinished mountain carving shares a site with a Native American museum.',
+          'I have not been here but this monument was started in 1948, it is an unfinished mountain carving that shares a site with a Native American museum.',
         kind: 'Monument',
         area: 'Crazy Horse, South Dakota',
         visits: '0',
@@ -327,6 +327,22 @@ const Places = {
     {
       type: 'Feature',
       properties: {
+        name: 'Gaslamp Quarter',
+        description:
+          'I have not been here yet but if I visit San Diego this is the downtown area where most of the things are happening and walkability is a thing.',
+        kind: 'Town',
+        area: 'San Diego, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [32.7114135, -117.1599734],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Sonoma',
         description: 'I have not been here yet.',
         kind: 'Town',
@@ -374,7 +390,7 @@ const Places = {
       properties: {
         name: 'Telluride',
         description:
-          'I have not been here yet but telluride is a town in the rocky mountains area of colorado.',
+          'I have not been here yet but Telluride is a town in the rocky mountains area of Colorado.',
         kind: 'Town',
         area: 'Telluride, Colorado',
         visits: '0',
@@ -533,7 +549,7 @@ const Places = {
       properties: {
         name: 'Tekoi Test Range',
         description:
-          'I have not been here yet. Abandoned military based with misile sylos.',
+          'I have not been here yet. Abandoned military based with missile sylos.',
         kind: 'Abandoned Base',
         area: 'Grantsville, Utah',
         visits: '0',
@@ -722,7 +738,7 @@ const Places = {
       properties: {
         name: 'Playa Los Patos',
         description:
-          'I have not been here yet but my friends showed me photos of this place and I was jelous of how beatiful it looked.',
+          'I have not been here yet but my friends showed me photos of this place and I was jealous of how beautiful it looked.',
         kind: 'Beach',
         area: 'Barahona, Republica Dominicana',
         visits: '0',
@@ -739,7 +755,7 @@ const Places = {
       properties: {
         name: 'San Rafael Beach',
         description:
-          'I have not been here yet but my friends showed me photos of this place and i was jelous of how beatiful it looked.',
+          'I have not been here yet but my friends showed me photos of this place and I was jealous of how beautiful it looked.',
         kind: 'Beach',
         area: 'Barahona, Republica Dominicana',
         visits: '0',
@@ -756,7 +772,7 @@ const Places = {
       properties: {
         name: 'Playa Dominicus',
         description:
-          'White sand beach with clear water in bayahibe, dominican republic. It has an Iconic and well known or well photographed Light House. I have only been once but I will definetely go back. ',
+          'White sand beach with clear water in Bayahibe, Dominican Republic. It has an Iconic and well-known or well-photographed Light House. I have only been once but I will definitely go back. ',
         kind: 'Beach',
         area: 'Bayahibe, Republica Dominicana',
         visits: '1',
@@ -864,7 +880,7 @@ const Places = {
       properties: {
         name: 'Playa Bahia de Las Aguilas',
         description:
-          'I have not been here yet but this area and beaches are soooo freaking beautiful.',
+          'I have not been here yet but this area and beaches are so freaking beautiful.',
         kind: 'Beach',
         area: 'Pedernales, Republica Dominicana',
         visits: '0',
@@ -1130,6 +1146,22 @@ const Places = {
     {
       type: 'Feature',
       properties: {
+        name: 'Sapporo',
+        description:
+          'I have not been here yet but I read that if you like nature and hiking you should give sapporo a try.',
+        kind: 'Town',
+        area: 'Sapporo, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.0692689, 141.3077884],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Baikonur',
         description: 'I have not been here yet.',
         kind: 'Town',
@@ -1147,7 +1179,7 @@ const Places = {
       properties: {
         name: 'Sky City',
         description:
-          'I have not been here yet. This is longest waterslide ever built at 3km.',
+          'I have not been here yet. This is the longest waterslide ever built at 3km.',
         kind: 'Travel',
         area: 'Hubei, China',
         visits: '0',
@@ -1178,7 +1210,7 @@ const Places = {
       properties: {
         name: 'Zubarah Town ruins',
         description:
-          'I have not been here yet but the reason is here is because it is an archeological site and you know i love me some history.',
+          'I have not been here yet but the reason is here is because it is an archeological site and you know I love me some history.',
         kind: 'Archaeological site',
         area: 'Al Zubarah, Qatar',
         visits: '0',
@@ -1194,7 +1226,7 @@ const Places = {
       properties: {
         name: 'Palawan',
         description:
-          'I have not been here yet but Unspoiled, white-sand beaches island with clear aquamarine waters, limestone cliffs and lagoons.',
+          'I have not been here yet but Unspoiled, white-sand beaches island with clear aquamarine waters, limestone cliffs, and lagoons.',
         kind: 'Travel',
         area: 'Palawan, Philippines',
         visits: '0',
@@ -1210,7 +1242,7 @@ const Places = {
       properties: {
         name: 'Coron',
         description:
-          'I have not been here yet but this place was reccomended by a friend of mine from the philippines.',
+          'I have not been here yet but this place was recommended by a friend of mine from the Philippines.',
         kind: 'Travel',
         area: 'Coron Palawan, Philippines',
         visits: '0',
@@ -1226,7 +1258,7 @@ const Places = {
       properties: {
         name: 'Boracay',
         description:
-          'I have not been here yet but this place was reccomended by a friend of mine from the philippines.',
+          'I have not been here yet but this place was recommended by a friend of mine from the Philippines.',
         kind: 'Travel',
         area: 'Malay, Philippines',
         visits: '0',
@@ -1454,7 +1486,7 @@ const Places = {
       properties: {
         name: 'Caesarea National Park',
         description:
-          'I have not been here yet but this place has an Ancient Roman ruins, including aqueduct & amphitheater.',
+          'I have not been here yet but this place has Ancient Roman ruins, including an aqueduct & amphitheater.',
         kind: 'Landmark',
         area: 'Caesarea, Israel',
         visits: '0',
@@ -1478,6 +1510,70 @@ const Places = {
       geometry: {
         type: 'Point',
         coordinates: [22.3001785, 114.1728747],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Siargao',
+        description:
+          'I have not been here yet but this island has the best beaches in the Philippines, and the way to get there is a one-in-a-lifetime experience as you`d have to fly there on a small charter plane and land on a rural airstrip.',
+        kind: 'Travel',
+        area: 'Siargao, Philippines',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [9.8958669, 126.0412143],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Baguio',
+        description:
+          'I have not been here yet but this is a great hiking location and lots of nature in the Philippines.',
+        kind: 'Travel',
+        area: 'Baguio, Philippines',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [16.391656, 120.5927024],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tagaytay',
+        description:
+          'I have not been here yet but this is a great hiking location to experience and see a volcano.',
+        kind: 'Travel',
+        area: 'Tagaytay, Philippines',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [14.1289941, 120.9482317],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Intramuros',
+        description:
+          'I have not been here yet but this is an old Spanish colonial town of the Philippines full of museums and other cultural things of the time.',
+        kind: 'Town',
+        area: 'Manila, Philippines',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [14.5898086, 120.9751704],
       },
     },
     {
@@ -1528,6 +1624,23 @@ const Places = {
       geometry: {
         type: 'Point',
         coordinates: [40.2831012, 24.1960786],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Spijkenisse',
+        description:
+          'I have not been here yet but this town recreated the bridges portrayed on the euro bills.',
+        kind: 'Town',
+        area: 'Spijkenisse, Netherlands',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [51.8373101, 4.3327883],
       },
     },
 
@@ -1730,7 +1843,7 @@ const Places = {
       properties: {
         name: 'Tourist Information, Uri Tourismus',
         description:
-          'I have not been here yet but at this tourist place you can go to a high speed train tunnel under the alps and see the train go pass you at over 320km/h on the base of the mountain ain`t that cool!! Link: https://www.uri.swiss/de/erleben/seilbahn-eldorado-uri/eisenbahn/gotthard-tunnel-erlebnis/',
+          'I have not been here yet but at this tourist place, you can go to a high-speed train tunnel under the Alps and see the train go past you at over 320km/h on the base of the mountain ain`t that cool!! Link: https://www.uri.swiss/de/erleben/seilbahn-eldorado-uri/eisenbahn/gotthard-tunnel-erlebnis/',
         kind: 'Tourist',
         area: 'Altdorf, Switzerland',
         visits: '0',
@@ -1747,9 +1860,9 @@ const Places = {
       properties: {
         name: '',
         description:
-          'This is a historical landmark of naples that houses galleries, restaurants, cafes, and museums. One of those restaurant is the acclaimed "sustanza napoli" - www.sustanzanapoli.com. ',
+          'This is a historical landmark of Naples that houses galleries, restaurants, cafes, and museums. One of those restaurants is the acclaimed "sustanza napoli" - www.sustanzanapoli.com. ',
         kind: 'Historical landmark',
-        area: 'Naples ,Italy',
+        area: 'Naples, Italy',
         visits: '0',
         visited: false,
       },
@@ -1762,9 +1875,26 @@ const Places = {
     {
       type: 'Feature',
       properties: {
+        name: 'Montaigne Hut Menaggio',
+        description:
+          'This hostel / Restaurant is at the peak of a mountain with an awesome view of valleys, and other hills. Link: http://rifugiomenaggio.eu',
+        kind: 'Hotel',
+        area: 'Province of Como, Italy',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [46.0602974, 9.2186532],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
         name: 'Miataland',
         description:
-          'This is a hotel in italy were you can rent a room and that room is name and theme on anything and everything miata plus you also get a borrowed Miata. Pretty cool!',
+          'This is a hotel in Italy where you can rent a room and that room is a name and theme on anything and everything miata plus you also get a borrowed Miata. Pretty cool!',
         kind: 'Hotel',
         area: 'Perugia ,Italy',
         visits: '0',

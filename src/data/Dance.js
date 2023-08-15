@@ -1,4 +1,4 @@
-// All the data has been collected by Ronny Coste throughtout the years.
+// All the data has been collected by Ronny Coste throughout the years.
 /// ////////////////////////////////////////////////
 /// ///////          Dance          ////////////////
 /// ////////////////////////////////////////////////
@@ -75,7 +75,7 @@ const Dance = {
         name: '205 Club',
         description: 'I have not been here yet.',
         kind: 'Club',
-        area: 'Lower East side, Manhattan',
+        area: 'Lower East Side, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -258,7 +258,7 @@ const Dance = {
         name: 'The Q NYC',
         description: 'I have not been here yet.',
         kind: 'Club',
-        area: 'Hells kitchen, Manhattan',
+        area: 'Hells Kitchen, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -273,7 +273,7 @@ const Dance = {
       properties: {
         name: 'Le Bain',
         description:
-          'Probably one of my fave clubs in Manhattan this one is in Meatpacking while most of the other are in Brooklyn, bushwick, and Willy neighborhoods.',
+          'Probably one of my fave clubs in Manhattan this one is in Meatpacking while most of the others are in Brooklyn, Bushwick, and Willy neighborhoods.',
         kind: 'Club',
         area: 'Meatpacking District, Manhattan',
         visits: '3',
@@ -290,7 +290,7 @@ const Dance = {
       properties: {
         name: 'Slate NY',
         description:
-          'is slate a bar? A club? A game bar? I don`t know but it is definitely all of them for me. It has a bowling alley, Jenga, pool tables, a big ass dance floor and more.',
+          'is slate a bar? A club? A game bar? I don`t know but it is definitely all of them for me. It has a bowling alley, Jenga, pool tables, a big ass dance floor, and more.',
         kind: 'Club',
         area: 'Chelsea, Manhattan',
         visits: '3',
@@ -306,7 +306,7 @@ const Dance = {
       properties: {
         name: 'LAVO Nightclub',
         description:
-          'LAVO host a lot of popular DJ`s and they are suppose to be one of the best clubs but i hate it because there is barely any space to dance. All the space there is dedicated for tables, and hallways which is cool for a restaurant but not for a club.',
+          'LAVO hosts a lot of popular DJs and they are supposed to be one of the best clubs but I hate it because there is barely any space to dance. All the space there is dedicated for tables, and hallways which is cool for a restaurant but not for a club.',
         kind: 'Club',
         area: 'Midtown East, Manhattan',
         visits: '1',
@@ -323,7 +323,7 @@ const Dance = {
       properties: {
         name: 'Marquee New York',
         description:
-          'Nice Club in New York City to see a lot of famous DJ`s... but not better than Mirage.',
+          'Nice Club in New York City to see a lot of famous DJs... but not better than Mirage.',
         kind: 'Club',
         area: 'Midtown East, Manhattan',
         visits: '1',
@@ -339,7 +339,7 @@ const Dance = {
       properties: {
         name: 'Gonzalez y Gonzalez',
         description:
-          'I heard the play open a dance floor in the middle of the room and play latin music all night... but I wouldn`t know I have not been here yet.',
+          'I heard the play open a dance floor in the middle of the room and play Latin music all night... but I wouldn`t know I have not been here yet.',
         kind: 'Dance - Restaurant',
         area: 'SoHo, Manhattan',
         visits: '0',
@@ -355,7 +355,7 @@ const Dance = {
       properties: {
         name: 'The Delancey',
         description:
-          'Three floor club because why not! At the cross section of Lower East Side, and Two bridges neighborhood. Cool vibes all over, Latin basement, pop first floor, and rooftop chills on the second floor.',
+          'Three-floor club because why not! At the cross-section of the Lower East Side, and Two Bridges neighborhood. Cool vibes all over, Latin basement, pop first floor, and rooftop chills on the second floor.',
         kind: 'Club',
         area: 'Lower East Side, Manhattan',
         visits: '3',
@@ -371,9 +371,9 @@ const Dance = {
       properties: {
         name: 'The Pyramid Club',
         description:
-          'Heard good things about this club, as well for berlin but i have never been to either.',
+          'Heard good things about this club, as well for Berlin but I have never been to either.',
         kind: 'Club',
-        area: 'East village, Manhattan',
+        area: 'East Village, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -387,8 +387,8 @@ const Dance = {
       properties: {
         name: 'Yuca Bar',
         description:
-          'Cool Bar at night, Cool Dance after 11pm, cool restaurant any other time. Yuca have it all for my peeps in the east village.',
-        kind: 'Resturant - Bar - Dance Venue',
+          'Cool Bar at night, Cool Dance after 11 pm, cool restaurant any other time. Yuca has it all for my peeps in the east village.',
+        kind: 'Restaurant - Bar - Dance Venue',
         area: 'East Village, Manhattan',
         visits: '3',
         visited: true,
@@ -438,9 +438,9 @@ const Dance = {
       properties: {
         name: 'Schimanski',
         description:
-          'One of my fave club in Manhattan. Always a vibe, good music.',
+          'One of my fave clubs in Manhattan. Always a vibe, good music.',
         kind: 'Club',
-        area: 'Williamburg, Brooklyn',
+        area: 'Williamsburg, Brooklyn',
         visits: '3',
         visited: true,
       },
@@ -454,7 +454,7 @@ const Dance = {
       properties: {
         name: 'House of Yes',
         description:
-          'House of yes is the club that introduced me to bushwick. Awesome club, the peeps are nice, the dance floor is better, and the show that they put it is another level. Go there even if you hate Brooklyn.',
+          'House of Yes is the club that introduced me to Bushwick. Awesome club, the peeps are nice, the dance floor is better, and the show that they put it is another level. Go there even if you hate Brooklyn.',
         kind: 'Club',
         area: 'Bushwick, Brooklyn',
         visits: '3',
@@ -470,7 +470,7 @@ const Dance = {
       properties: {
         name: 'Nowadays',
         description:
-          'Awesome club in bushwick, brooklyn it is one of my faves but i do not go often because it is so far.',
+          'Awesome club in Bushwick, Brooklyn it is one of my faves but I do not go often because it is so far.',
         kind: 'Club',
         area: 'Bushwick, Brooklyn',
         visits: '3',
@@ -487,7 +487,7 @@ const Dance = {
         name: 'Black Flamingo',
         description: 'I have not been here yet.',
         kind: 'Club',
-        area: 'Williamburg, Brooklyn',
+        area: 'Williamsburg, Brooklyn',
         visits: '1',
         visited: true,
       },
@@ -517,7 +517,7 @@ const Dance = {
       properties: {
         name: '3 Dollar Bill',
         description:
-          'This place during the summer is a vibe, please go and experience it because it is definetely worth it.',
+          'This place during the summer is a vibe, please go and experience it because it is worth it.',
         kind: 'Club',
         area: 'East Williamsburg, Brooklyn',
         visits: '1',
@@ -552,7 +552,7 @@ const Dance = {
       properties: {
         name: 'La Boom',
         description:
-          'Latin Music club in queens. I want to go here to dance a bit.',
+          'Latin Music club in Queens. I want to go here to dance a bit.',
         kind: 'Club',
         area: 'Woodside, Queens',
         visits: '0',
@@ -631,7 +631,7 @@ const Dance = {
       properties: {
         name: 'Safe Zone Bar & Lounge',
         description:
-          'The place to go if you like dembow latest and greatest hits.',
+          'The place to go if you like dembow`s latest and greatest hits.',
         kind: 'Club',
         area: 'Zona Colonial, Santo Domingo',
         visits: '1',
@@ -647,7 +647,7 @@ const Dance = {
       properties: {
         name: 'Garabato Lounge',
         description:
-          'Awesome club of La Zona the music is vibe, usually Deephouse. They have a garden were the Dj is and some seating but go ready to sweat because this place is hot, at least the times that i visited. Otherwise I loved it.',
+          'Awesome club of La Zona the music is vibe, usually Deephouse. They have a garden where the Dj is and some seating but go ready to sweat because this place is hot, at least the times that I visited. Otherwise, I loved it.',
         kind: 'Club',
         area: 'Zona Colonial, Santo Domingo',
         visits: '2',
@@ -743,7 +743,7 @@ const Dance = {
       properties: {
         name: 'Boom Boom Room',
         description:
-          'Club with Live Music perfomances and others in San Francisco. I have not been here yet.',
+          'Club with Live Music performances and others in San Francisco. I have not been here yet.',
         kind: 'Club',
         area: 'Downtown, San Francisco',
         visits: '0',
@@ -759,7 +759,7 @@ const Dance = {
       properties: {
         name: 'Mahogany Jazz Hall',
         description:
-          'Great music! The atmostphere is cool the drinks are okay... maybe i should have not gotten absthine but other than that 10/10 I would definetely go back. ',
+          'Great music! The atmosphere is cool the drinks are okay... maybe I should have not gotten absthine but other than that 10/10 I would definitely go back. ',
         kind: 'Jazz Club',
         area: 'New Orleans, LA',
         visits: '1',
@@ -828,7 +828,7 @@ const Dance = {
       properties: {
         name: 'Berghain | Panorama Bar',
         description:
-          'I have not been here yet but this cool club was on a documentary about the times after the fall of the wall and how this nightclub was build in a former power plant because of how cheap it was being sold.',
+          'I have not been here yet but this cool club was on a documentary about the times after the fall of the wall and how this nightclub was built in a former power plant because of how cheap it was being sold.',
         kind: 'Club',
         area: 'Berlin, Germany',
         visits: '0',

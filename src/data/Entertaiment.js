@@ -1,4 +1,4 @@
-// All the data has been collected by Ronny Coste throughtout the years.
+// All the data has been collected by Ronny Coste throughout the years.
 /// ////////////////////////////////////////////////
 /// ///////      Entertaiment       ///////////////
 /// ////////////////////////////////////////////////
@@ -169,7 +169,7 @@ const Entertaiment = {
       properties: {
         name: 'Diggerland USA',
         description:
-          'I have not been here yet but Diggerland USA and Diggerland XL seems like a cool Theme park! This theme parks allow you to drive contruction trucks!!',
+          'I have not been here yet but Diggerland USA and Diggerland XL seem like a cool Theme park! These theme parks allow you to drive construction trucks!!',
         kind: 'Theme Park',
         area: 'West Berlin, New Jersey',
         visits: '0',
@@ -255,7 +255,7 @@ const Entertaiment = {
       properties: {
         name: 'Voler en Aéroplume',
         description:
-          'I have not been here yet but for 60 Dollars you can get on a helium ballon and fly!.',
+          'I have not been here yet but for 60 Dollars you can get on a helium balloon and fly!.',
         kind: 'Amusement center',
         area: 'Écausseville, France',
         visits: '0',

@@ -1,4 +1,4 @@
-// All the data has been collected by Ronny Coste throughtout the years.
+// All the data has been collected by Ronny Coste throughout the years.
 /// ////////////////////////////////////////////////
 /// ///////   Museum & Galleries    ////////////////
 /// ////////////////////////////////////////////////
@@ -13,7 +13,7 @@ const cultural = {
       properties: {
         name: 'The New York Earth Room',
         description:
-          'I have been to this room many times and everytime I find it amazing that they actually keep that dirt in it... it is pretty surreal to see because why would you do this? lol',
+          'I have been to this room many times and every time I find it amazing that they keep that dirt in it... it is pretty surreal to see because why would you do this? lol',
         kind: 'Art gallery',
         area: 'SoHo, Manhattan',
         visits: '3',
@@ -29,7 +29,7 @@ const cultural = {
       properties: {
         name: 'David Zwirner',
         description:
-          'Gallery in Chelsea were some prominent artist has shown their work. Such as, Yayoi Kusama.',
+          'Gallery in Chelsea where some prominent artist has shown their work. Such as, Yayoi Kusama.',
         kind: 'Gallery',
         area: 'Chelsea, Manhattan',
         visits: '3',
@@ -61,7 +61,7 @@ const cultural = {
       properties: {
         name: 'Pace Gallery',
         description:
-          'Huge New York gallery. They are the most popular and have the most galleries in the city. They show mostly popular artist, at least when I visited.',
+          'Huge New York gallery. They are the most popular and have the most galleries in the city. They show mostly popular artists, at least when I visited.',
         kind: 'Gallery',
         area: 'Chelsea, Manhattan',
         visits: '1',
@@ -92,8 +92,8 @@ const cultural = {
       properties: {
         name: 'Cooper Hewitt Smithsonian Design Museum',
         description:
-          'Pretty cool modern art museum with experimentales and interactive exhibits.',
-        kind: 'Musuem',
+          'Pretty cool modern art museum with experimental and interactive exhibits.',
+        kind: 'Museum',
         area: 'Upper East Side, Manhattan',
         visits: '1',
         visited: true,
@@ -169,7 +169,7 @@ const cultural = {
       properties: {
         name: 'International Center of Photography Museum',
         description:
-          'I have not been here yet. But it is in my list of must go! Maybe because I am a photographer.',
+          'I have not been here yet. But it is on my list of must-go! Maybe because I am a photographer.',
         kind: 'Museum',
         area: 'Lower East Side, Manhattan',
         visits: '0',
@@ -200,7 +200,7 @@ const cultural = {
       properties: {
         name: 'New Museum',
         description:
-          'This museum cover contemporary issues and has artist from our day and age... Artist that are alive. It is a must visit for people visiting the city.',
+          'This museum covers contemporary issues and has artists from our day and age... Artists that are alive. It is a must-visit for people visiting the city.',
         kind: 'Museum',
         area: 'Lower East Side, Manhattan',
         visits: '2',
@@ -216,7 +216,7 @@ const cultural = {
       properties: {
         name: 'The Noguchi Museum',
         description:
-          'Cool small museum in Astoria, Queens. It has lots of sculptures and for some reason it gave me interior designs inspirations. I would continue going as I am fairly interested in Japanese design, and culture.',
+          'Cool small museum in Astoria, Queens. It has lots of sculptures and for some reason, it gave me interior design inspiration. I would continue going as I am fairly interested in Japanese design, and culture.',
         kind: 'Museum',
         area: 'Astoria, Queens',
         visits: '2',
@@ -232,7 +232,7 @@ const cultural = {
       properties: {
         name: 'Museum of the Moving Image',
         description:
-          'If you love photography, films, and camera gear this museum is a must go! It has exhibits for a lot of different movies, and shows. They also have a lot of first... ie. First camera, first video camera, first, animated shows, first set, and on and on.',
+          'If you love photography, films, and camera gear this museum is a must go! It has exhibits for a lot of different movies and shows. They also have a lot of first... ie. First camera, first video camera, first, animated shows, first set, and on and on.',
         kind: 'Museum',
         area: 'Astoria, Queens',
         visits: '1',
@@ -326,7 +326,7 @@ const cultural = {
       properties: {
         name: 'The Museum of Modern Art',
         description:
-          'MoMA is a must go museum on Manhattan, The terrace cafe is also worth going because of the views and on a summer day it is breezy and nice. Exhibits wise MoMA has some of my faves paintings and i try to go there to get inspire for my photography.',
+          'MoMA is a must-go museum in Manhattan, The terrace cafe is also worth going to because of the views and on a summer day it is breezy and nice. Exhibits wise MoMA has some of my faves paintings and I try to go there to get inspired for my photography.',
         kind: 'Museum',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -342,7 +342,7 @@ const cultural = {
       properties: {
         name: 'Fotografiska Museum',
         description:
-          'My favorite photography museum in the city, and anywhere honestly! I love fotografiska, I have been there many times and i try to go every three to six months for new exhibits, and see what others photographers photograph.',
+          'My favorite photography museum in the city, and anywhere honestly! I love Fotografiska, I have been there many times and I try to go every three to six months for new exhibits, and see what other photographers photograph.',
         kind: 'Museum',
         area: 'Grammercy, Manhattan',
         visits: '3',
@@ -433,7 +433,7 @@ const cultural = {
       properties: {
         name: 'El Museo del Barrio',
         description:
-          'An awesome museum about latin american heritage. It focuses mostly on upper east side / East harlem.',
+          'An awesome museum about latin american heritage. It focuses mostly on the Upper East Side / East Harlem.',
         kind: 'Museum',
         area: 'East Harlem, Manhattan',
         visits: '2',
@@ -449,7 +449,7 @@ const cultural = {
       properties: {
         name: 'Museum of the City of New York',
         description:
-          'A must go museum for people that would like to learn more about the history of the city of new york. It goes from the beggining beggining to the future and were it is heading.',
+          'A must-go museum for people that would like to learn more about the history of the city of new york. It goes from the beginning to the future and where it is heading.',
         kind: 'Museum',
         area: 'East Harlem, Manhattan',
         visits: '3',
@@ -580,7 +580,7 @@ const cultural = {
       properties: {
         name: 'Storm King Art Center',
         description:
-          'A stonehenge but for new yorkers. I have not been here yet.',
+          'A Stonehenge but for new yorkers. I have not been here yet.',
         kind: 'Art Center',
         area: 'Storm King, NY',
         visits: '0',
@@ -643,7 +643,7 @@ const cultural = {
       properties: {
         name: 'New Orleans Jazz Museum',
         description:
-          'This museum while the exhibits are small the you learn quite a bit about jazz and they have a lot of live jazz music going on so make sure you go before one of those sessions start! Great jazz players in a space that is sound treated is a deligh.',
+          'This museum while the exhibits are small you learn quite a bit about jazz and they have a lot of live jazz music going on so make sure you go before one of those sessions starts! Great jazz players in a space that is sound treated is a delight.',
         kind: 'Museum',
         area: 'New Orleans, LA',
         visits: '1',
@@ -659,7 +659,7 @@ const cultural = {
       properties: {
         name: 'Museum Of Trade Finance And The Fed',
         description:
-          'Really, Really small museum that I do not understand its purpose because the main FED is in New York and the one that takes care of new orleans region is based out of Atlanta but they do not have a Museum... So why is this here?? IDK and never will but go while you can to prove your knowledge.',
+          'A really small museum that I do not understand its purpose because the main FED is in New York and the one that takes care of the New Orleans region is based out of Atlanta but they do not have a Museum... So why is this here?? IDK and never will but go while you can to prove your knowledge.',
         kind: 'Museum',
         area: 'New Orleans, LA',
         visits: '1',
@@ -668,6 +668,38 @@ const cultural = {
       geometry: {
         type: 'Point',
         coordinates: [29.9489706, -90.0710666],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Computer History Museum',
+        description:
+          'I have not been here yet but the computer science museum has plenty of history, and new technologies showcase in the museum.',
+        kind: 'Museum',
+        area: 'San Francisco, CA',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [37.4142192, -122.0774169],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'USS Midway Museum',
+        description:
+          'I have not been here yet but this museum is sort of like the intrepid museum in New York but for the west coast.',
+        kind: 'Museum',
+        area: 'San Diego, CA',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [32.713801, -117.175269],
       },
     },
 
@@ -694,7 +726,7 @@ const cultural = {
       properties: {
         name: 'Museum of Rum',
         description:
-          'Cool museum to learn about the history of dominican rum, also during the night the museum becomes a bar / club / dance venue. Wednesday night it turn into a merengue, bachata dance hall with plenty of rum to go around. Awesome atmosphere, and cool to learn the history and what goes down to make rum a thing. ',
+          'Cool museum to learn about the history of Dominican rum, also during the night the museum becomes a bar/club/dance venue. Wednesday night it turn into a merengue, bachata dance hall with plenty of rum to go around. Awesome atmosphere, and cool to learn the history and what goes down to make rum a thing. ',
         kind: 'Museum',
         area: 'Santo Domingo, Republica dominicana',
         visits: '1',
@@ -743,6 +775,37 @@ const cultural = {
       geometry: {
         type: 'Point',
         coordinates: [31.7734662, 35.2029821],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Tokyo National Museum',
+        description: 'I have not been here yet.',
+        kind: 'Museum',
+        area: 'Tokyo, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [35.7186388, 139.775492],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sensō-ji',
+        description: 'I have not been here yet.',
+        kind: 'Buddhist temple',
+        area: 'Tokyo, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [35.7147022, 139.7967889],
       },
     },
   ],

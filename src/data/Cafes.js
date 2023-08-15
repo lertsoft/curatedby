@@ -1,4 +1,4 @@
-// All the data has been collected by Ronny Coste throughtout the years.
+// All the data has been collected by Ronny Coste throughout the years.
 /// ////////////////////////////////////////////////
 /// ///////           Cafes         ////////////////
 /// ////////////////////////////////////////////////
@@ -14,7 +14,7 @@ const cafes = {
       properties: {
         name: 'noa, a café',
         description:
-          'Small, and cute coffee with okay coffee and a great photo wall. The croissant and coffee is just okay not bad better than the benchmark of starbucks which I guess is not hard to beat but not the best or close to it.s',
+          'Small, and cute coffee with okay coffee and a great photo wall. The croissant and coffee are just okay not bad better than the benchmark of Starbucks which I guess is not hard to beat but not the best or close to it.s',
         kind: 'Cafe',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -30,7 +30,7 @@ const cafes = {
       properties: {
         name: 'Intelligentsia Coffee Highline Coffeebar',
         description:
-          'Beautiful cafe with really good coffee... perhabs the blend is just different to what im used to as I can taste maybe colombian, ethiopia and maybe brazilian beams in the mix... I tried the Intelligentsia cold brew worth it!.',
+          'Beautiful cafe with really good coffee... perhaps the blend is just different to what I am used to as I can taste maybe Colombian, Ethiopia and maybe Brazilian beams in the mix... I tried the Intelligentsia cold brew worth it!.',
         kind: 'Cafe',
         area: 'Chelsea, Manhattan',
         visits: '1',
@@ -46,7 +46,7 @@ const cafes = {
       properties: {
         name: 'Urbana Cafe and Gallery',
         description:
-          'Coffee is source by devocion so you better expect that the coffee is at least decent! It was defenetelly better thant decent, coffee was sweet, fruity, and passed the test for me but again that is expected from a devocion source. The gallery park of the cafe is interesting, pretty small and it honestly just is paintings hanging in which case I guess my room is a gallery too.',
+          'Coffee is sourced by Devocion so you better expect that the coffee is at least decent! It was better than decent, coffee was sweet, fruity, and passed the test for me but again that is expected from a devocion source. The gallery park of the cafe is interesting, pretty small and it honestly just is paintings hanging in which case I guess my room is a gallery too.',
         kind: 'Cafe',
         area: 'Chelsea, Manhattan',
         visits: '1',
@@ -62,7 +62,7 @@ const cafes = {
       properties: {
         name: 'Sorella Coffee & Wine',
         description:
-          'Coffee is okay. Shop is really small but they have a wine happy hour from 4 to 7? I guess that is unique.',
+          'Coffee is okay. The shop is really small but they have a wine happy hour from 4 to 7? I guess that is unique.',
         kind: 'Cafe',
         area: 'Grammercy, Manhattan',
         visits: '1',
@@ -78,7 +78,7 @@ const cafes = {
       properties: {
         name: 'Café-Flor',
         description:
-          'Third time is the charn... Sort of the cafe part of the shop was close but the juice bar part was open so I got an Acai bowl instead that was really good so at least that is a great positive going for this place. I have been wanting to come here for while so now at least I can crossed and come back another time or maybe I should just find some other place...',
+          'Third time is the charm... So the cafe part of the shop was closed but the juice bar part was open so I got an Acai bowl instead that was really good so at least that is a great positive going for this place. I have been wanting to come here for a while so now at least I can cross and come back another time or maybe I should just find some other place...',
         kind: 'Cafe',
         area: 'Chelsea, Manhattan',
         visits: '1',
@@ -94,7 +94,7 @@ const cafes = {
       properties: {
         name: 'Voyager Espresso',
         description:
-          'I have not been here yet. Somewhat hidden coffee shop that I would love to try!',
+          'I have not been here yet. A somewhat hidden coffee shop that I would love to try!',
         kind: 'Cafe',
         area: 'FiDi, Manhattan',
         visits: '0',
@@ -110,7 +110,7 @@ const cafes = {
       properties: {
         name: 'Postcrypt Coffeehouse',
         description:
-          'I have not been here yet. Coffee shop hidden inside a church because ofcourse it had to be this is new york city people go to coffee shops not churches!',
+          'I have not been here yet. Coffee shop hidden inside a church because, of course, it had to be this is new york city people go to coffee shops, not churches!',
         kind: 'Cafe',
         area: 'West Harlem, Manhattan',
         visits: '0',
@@ -126,7 +126,7 @@ const cafes = {
       properties: {
         name: 'Church of Sweden',
         description:
-          'I have not been here yet. Coffee shop hidden inside a church because ofcourse it had to be this is new york city people go to coffee shops not churches!',
+          'I have not been here yet. Coffee shop hidden inside a church because, of course, it had to be this is new york city people go to coffee shops, not churches!',
         kind: 'Cafe',
         area: 'Midtown, Manhattan',
         visits: '0',
@@ -142,7 +142,7 @@ const cafes = {
       properties: {
         name: 'The Norwegian Seamen`s Church in New York',
         description:
-          'I have not been here yet. Coffee shop hidden inside a church because ofcourse it had to be this is new york city people go to coffee shops not churches!',
+          'I have not been here yet. Coffee shop hidden inside a church because, of course, it had to be this is new york city people go to coffee shops, not churches!',
         kind: 'Cafe',
         area: 'Midtown, Manhattan',
         visits: '0',
@@ -158,7 +158,7 @@ const cafes = {
       properties: {
         name: 'Peaky Barista',
         description:
-          'I tried a coffee which was good but it was not my style of coffee so I ended up trowing most of it... should have gotten my usual. the decor is cool it is based on the show "Peaky blinders" which that is based in manchester, UK in the early 1900`s after the first world war.',
+          'I tried a coffee which was good but it was not my style of coffee so I ended up throwing most of it... should have gotten my usual. the decor is cool it is based on the show "Peaky Blinders" which is based in Manchester, UK in the early 1900s after the first world war.',
         kind: 'cafe',
         area: 'Upper East Side, Manhattan',
         visits: '1',
@@ -189,7 +189,7 @@ const cafes = {
       properties: {
         name: 'Sant Ambroeus',
         description:
-          'Cool cafe inside Sotheby`s New York building. Cool place to grab coffee, tea, or hot chocolate and then go to the three floors of galleries that Sothebys has in their building free for everyone to see!',
+          'Cool cafe inside Sotheby`s New York building. Cool place to grab a coffee, tea, or hot chocolate and then go to the three floors of galleries that Sotheby`s has in their building free for everyone to see!',
         kind: 'Cafe',
         area: 'Upper East Side, Manhattan',
         visits: '2',
@@ -220,7 +220,7 @@ const cafes = {
       properties: {
         name: 'Felix Roasting Co.',
         description:
-          '** CLOSED :( ** This awesome coffee shop of SoHo will be remember as A big coffee shop in soho, beautiful design on the inside, and that design reminds me of the look Wes Anderson has on his movies. Which always brings inspires me to go back.',
+          '** CLOSED :( ** This awesome coffee shop in SoHo will be remembered as A big coffee shop in SoHo, with a beautiful design on the inside, and that design reminds me of the look Wes Anderson has on his movies. Which always brings inspires me to go back.',
         kind: 'Cafe',
         area: 'SoHo, Manhattan',
         visits: '3',
@@ -252,9 +252,9 @@ const cafes = {
       properties: {
         name: 'Hex & Company (UES)',
         description:
-          '1 out of 3 Gaming cafe, that I know of, this one is in Upper East Side. Coffee shop and Gaming cafe is awesome for meeting with friends or dates, and play games. The variety of games available here will definitely overwhelm you haha',
+          '1 out of 3 Gaming cafes, that I know of, this one is in Upper East Side. The coffee shop and Gaming cafe are awesome for meeting with friends or dates and playing games. The variety of games available here will overwhelm you haha',
         kind: 'Cafe',
-        area: 'Upper East side, Manhattan',
+        area: 'Upper East Side, Manhattan',
         visits: '3',
         visited: true,
       },
@@ -268,7 +268,7 @@ const cafes = {
       properties: {
         name: 'Charlotte Cafe',
         description:
-          'Okay cafe with okay coffee. My cold brew tasted burn so yeah not great. Great place to work from tho plenty of sitting space with a limit of 90 minutes not enforced.',
+          'Okay, cafe with okay coffee. My cold brew tasted burn so yeah not great. Great place to work from tho plenty of sitting space with a limit of 90 minutes not enforced.',
         kind: 'Cafe',
         area: 'Upper West Side, Manhattan',
         visits: '1',
@@ -284,7 +284,7 @@ const cafes = {
       properties: {
         name: 'Hex & Company (UWS)',
         description:
-          '1 out of 3 Gaming cafe, that I know of, This one is in Upper West Side by Columbia University. Coffee shop and Gaming cafe is awesome for meeting with friends or dates, and play games. The variety of games available here will definitely overwhelm you haha',
+          '1 out of 3 Gaming cafes, that I know of, This one is in Upper West Side by Columbia University. The coffee shop and Gaming cafe are awesome for meeting with friends or dates, and playing games. The variety of games available here will overwhelm you haha',
         kind: 'Cafe',
         area: 'Upper West Side, Manhattan',
         visits: '3',
@@ -300,7 +300,7 @@ const cafes = {
       properties: {
         name: 'The Uncommons',
         description:
-          '1 out of 3 Gaming cafe, that I know of, this one is in Greenwich Village? Soho? Well under Washington Sq Park close to all the NYU buildings. Coffee shop and Gaming cafe is awesome for meeting with friends or dates, and play games. The variety of games available here will definitely overwhelm you haha',
+          '1 out of 3 Gaming cafes, that I know of, this one is in Greenwich Village? Soho? Well under Washington Sq Park close to all the NYU buildings. The coffee shop and Gaming cafe are awesome for meeting with friends or dates and playing games. The variety of games available here will overwhelm you haha',
         kind: 'Cafe',
         area: 'NoHo, Manhattan',
         visits: '3',
@@ -316,7 +316,7 @@ const cafes = {
       properties: {
         name: 'Patent Coffee',
         description:
-          'Coffee in midtown were the barista (Lorenzo and Jonathan) make some fire ass coffee. Go visit them!! Also behind the coffee shop there is a speakeasy after 5pm.',
+          'Coffee in midtown where the barista (Lorenzo and Jonathan) make some fire-ass coffee. Go visit them!! Also behind the coffee shop, there is a speakeasy after 5 pm.',
         kind: 'Cafe',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -363,7 +363,7 @@ const cafes = {
       properties: {
         name: 'Terrace Cafe',
         description:
-          'MoMA terrace cafe is definitely one of my faves in the city buttt you need a ticket for the museum if you would like to go, or hold a MoMA membership card.',
+          'MoMA Terrace cafe is one of my faves in the city buttt you need a ticket for the museum if you would like to go or hold a MoMA membership card.',
         kind: 'Cafe',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -377,11 +377,27 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: '11th Street Cafe',
+        description:
+          'This is a small and cozy coffee shop with some good food options! the cafe cubano sandwich is awesome! The Cold brew Coffee is sweet and not as strongly flavored. Probably Colombian beans as it is fruity and nutty. Not chocolaty or acidic. Would definitely come back again.',
+        kind: 'Cafe',
+        area: 'Greenwich, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7358128, -74.0075215],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Rosecrans',
         description:
           'This is my first flower shop and cafe, and loved it. The flower smell was unparalled.',
         kind: 'Cafe',
-        area: 'greenwich, Manhattan',
+        area: 'Greenwich, Manhattan',
         visits: '2',
         visited: true,
       },
@@ -395,7 +411,7 @@ const cafes = {
       properties: {
         name: 'Devoción',
         description:
-          'Devoción coffee is my go to. Their beans are from Colombia, their roast is nice, full of flavor coffee, and it feels like their barista always know what to do. Unlike dare i say STARBUCKS!!',
+          'Devoción coffee is my go-to. Their beans are from Colombia, their roast is nice, full of flavor coffee, and it feels like their barista always knows what to do. Unlike dare I say STARBUCKS!!',
         kind: 'Cafe',
         area: 'Flatiron, Manhattan',
         visits: '3',
@@ -427,7 +443,7 @@ const cafes = {
       properties: {
         name: 'Sammy L Coffee',
         description:
-          'There seens to be a new coffee shop in town! Their coffee is good, and they carry a lot of food too. It feels more like a little market than a coffee shop which has its downsides but this is okay. I would come back. A great place to get some snacks or breakfast that is not just a plain croissant.',
+          'There seems to be a new coffee shop in town! Their coffee is good, and they carry a lot of food too. It feels more like a little market than a coffee shop which has its downsides but this is okay. I would come back. A great place to get some snacks or breakfast that is not just a plain croissant.',
         kind: 'Cafe',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -460,7 +476,7 @@ const cafes = {
       properties: {
         name: 'Paper Coffee',
         description:
-          'Cafe inside a hotel. Cool spot to chill, grab a cup of coffee with a friend and talk. ',
+          'Cafe inside a hotel. Cool spot to chill, grab a cup of coffee with a friend, and talk. ',
         kind: 'Cafe',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -475,7 +491,7 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Double Dutch Espresso',
-        description: 'Cool cafe in harlem with a cute little garden.',
+        description: 'Cool cafe in Harlem with a cute little garden.',
         kind: 'Cafe',
         area: 'Harlem, Manhattan',
         visits: '1',
@@ -492,7 +508,7 @@ const cafes = {
         name: 'Ludlow Coffee Supply',
         description: 'Cafe in Lower East Side. One of Many.',
         kind: 'Cafe',
-        area: 'Lower East side, Manhattan',
+        area: 'Lower East Side, Manhattan',
         visits: '1',
         visited: true,
       },
@@ -520,7 +536,7 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Kobrick Coffee Co.',
-        description: 'nice cafe in meatpacking district.',
+        description: 'Nice cafe in the meatpacking district.',
         kind: 'Cafe',
         area: 'Meatpacking District, Manhattan',
         visits: '1',
@@ -535,7 +551,7 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Black Fox Coffee',
-        description: 'coffee shop in the Financial District.',
+        description: 'Coffee shop in the Financial District.',
         kind: 'Cafe',
         area: 'FiDi, Manhattan',
         visits: '1',
@@ -613,7 +629,7 @@ const cafes = {
       properties: {
         name: 'Yaya Tea GRAND',
         description:
-          'Okay bubble tea, pretty refreshing drinks. They have good food too. Been there many time and will continue to go there!',
+          'Okay, bubble tea, pretty refreshing drinks. They have good food too. Been there many times and will continue to go there!',
         kind: 'Bubble Tea',
         area: 'Chinatown, Manhattan',
         visits: '3',
@@ -646,7 +662,7 @@ const cafes = {
       properties: {
         name: 'Café Lyria',
         description:
-          'Great and awesome coffee shop. their decor is inspiring and the main barista is cool, nice and really engaging.',
+          'Great and awesome coffee shop. their decor is inspiring and the main barista is cool, nice, and engaging.',
         kind: 'cafe',
         area: 'NoHo, Manhattan',
         visits: '3',
@@ -677,7 +693,7 @@ const cafes = {
       properties: {
         name: 'The Little One',
         description:
-          'I got their Hojicha Tiramisu and Hojicha Lemonade. Their tiramisu was soooo good!! The lemonade i was not a fan of the Hojicha gave it a taste that I did not love, but I will absolutely come back to this place and you should go too!',
+          'I got their Hojicha Tiramisu and Hojicha Lemonade. Their tiramisu was soooo good!! The lemonade I was not a fan of the Hojicha gave it a taste that I did not love, but I will absolutely come back to this place and you should go too!',
         kind: 'Cafe',
         area: 'Dimes Square, Manhattan',
         visits: '1',
@@ -724,7 +740,7 @@ const cafes = {
       properties: {
         name: 'Sawada Coffee',
         description:
-          'Cozy coffee shop inside AU Cheval resturant, their coffee is good, no complains there.',
+          'Cozy coffee shop inside AU Cheval restaurant, their coffee is good, no complains there.',
         kind: 'Cafe',
         area: 'Tribeca, Manhattan',
         visits: '1',
@@ -741,7 +757,7 @@ const cafes = {
         name: 'High Tea at The PARISIAN TEA ROOM NYC',
         description: 'I have not been here yet.',
         kind: 'Cafe',
-        area: 'Midtown south, Manhattan',
+        area: 'Midtown South, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -787,7 +803,7 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'C&B',
-        description: 'Small bakery / cafe with great bread and okay coffee.',
+        description: 'Small bakery/cafe with great bread and okay coffee.',
         kind: 'Cafe',
         area: 'East Village, Manhattan',
         visits: '2',
@@ -820,7 +836,7 @@ const cafes = {
       properties: {
         name: 'Coppa Nomad',
         description:
-          'Okay coffee but go there for the vibes honestly. Vibes first, then coffee.',
+          'Okay, coffee but go there for the vibes honestly. Vibes first, then coffee.',
         kind: 'Cafe',
         area: 'Flatiron, Manhattan',
         visits: '1',
@@ -847,6 +863,21 @@ const cafes = {
         coordinates: [40.810034, -73.943292],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'semicolon cafe',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Hamilton Heights, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.8346024, -73.9452714],
+      },
+    },
 
     {
       type: 'Feature',
@@ -869,7 +900,7 @@ const cafes = {
       properties: {
         name: 'Café Blériot XI',
         description:
-          'Really small coffee shop in UES, really charming and cute. Coffee is okay nothing crazy but you would go for the vibes of a coffee shop trap in the 1900`s in this modern era full of minimalist-ism, and mordernist designs astetics.',
+          'Really small coffee shop in UES, really charming and cute. Coffee is okay nothing crazy but you would go for the vibes of a coffee shop trap in the 1900s in this modern era full of minimalist-ism, and modernist designs aesthetics.',
         kind: 'Cafe',
         area: 'Upper East Side, Manhattan',
         visits: '1',
@@ -886,7 +917,7 @@ const cafes = {
       properties: {
         name: 'Hutch and Waldo',
         description:
-          'Cool aussie cafe in the Upper East Side. During the summer this coffee shop is a vibe of the tropics during the winter is a glorified takeout window pretty much.',
+          'Cool Aussie cafe in the Upper East Side. During the summer this coffee shop is a vibe of the tropics during the winter is a glorified takeout window pretty much.',
         kind: 'Cafe',
         area: 'Upper East Side, Manhattan',
         visits: '1',
@@ -934,7 +965,7 @@ const cafes = {
       properties: {
         name: 'Mamam',
         description:
-          'awesome Mamam location, They front area is a cute bookshop and the back half is the cafe and/or restaurant which is cool!.',
+          'awesome Mamam location, The front area is a cute bookshop and the back half is the cafe and/or restaurant which is cool!.',
         kind: 'Cafe',
         area: 'Tribeca, Manhattan',
         visits: '1',
@@ -1012,7 +1043,7 @@ const cafes = {
       properties: {
         name: 'Little Collins',
         description:
-          'Great cafe with great coffee and good food! It is an australian inspired cafe and I think they have stores in australia but do not quote me on that.',
+          'Great cafe with great coffee and good food! It is an Australian-inspired cafe and I think they have stores in Australia but do not quote me on that.',
         kind: 'Cafe',
         area: 'Midtown, Manhattan',
         visits: '2',
@@ -1026,9 +1057,24 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'semicolon cafe',
+        description: 'I have not been here yet.',
+        kind: 'Cafe',
+        area: 'Midtown, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7461837, -73.978067],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Ariston Coffee Bar',
         description:
-          'Really cool cafe with a lot of space for working and sitting to with plenty of plans to breath some somewhat fresh air in the middle of this concrete jungle.',
+          'Really cool cafe with a lot of space for working and sitting to with plenty of plans to breathe some somewhat fresh air in the middle of this concrete jungle.',
         kind: 'Cafe',
         area: 'Chelsea, Manhattan',
         visits: '1',
@@ -1043,7 +1089,7 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'Miss Du`s Tea Shop',
-        description: 'good bubble tea but I think there are better ones.',
+        description: 'Good bubble tea but I think there are better ones.',
         kind: 'Bubble Tea',
         area: 'Chinatown, Manhattan',
         visits: '1',
@@ -1074,7 +1120,7 @@ const cafes = {
       properties: {
         name: 'Merriweather Coffee + Kitchen',
         description:
-          'Good coffee, and okay croissant... Would I go again? well maybe to try something from their food menu but there are better cafes not that far from here.',
+          'Good coffee, and okay croissant... Would I go again? well, maybe to try something from their food menu but there are better cafes not that far from here.',
         kind: 'Cafe',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -1090,7 +1136,7 @@ const cafes = {
       properties: {
         name: 'Do Not Feed Alligators',
         description:
-          'Great coffee shop in Greenwich Village. Definetely a place to visit for those that loves coffee.',
+          'Great coffee shop in Greenwich Village. A place to visit for those that love coffee.',
         kind: 'Cafe',
         area: 'Greenwich Village, Manhattan',
         visits: '3',
@@ -1138,7 +1184,7 @@ const cafes = {
       properties: {
         name: 'The Lost Draft',
         description:
-          'Cool cafe, really trandy and ready for tiktok if that is your Jam as they have plenty of shitty coffee mixes that I stupidly tried... Need to go again to try my go to "Cold brew with milk on the side" and see if the coffee is actually good or this is just a tourist, social media trap.',
+          'Cool cafe, really trendy and ready for Tiktok if that is your Jam as they have plenty of shitty coffee mixes that I stupidly tried... Need to go again to try my go-to "Cold brew with milk on the side" and see if the coffee is actually good or this is just a tourist, social media trap.',
         kind: 'Cafe',
         area: 'SoHo, Manhattan',
         visits: '1',
@@ -1186,7 +1232,7 @@ const cafes = {
       properties: {
         name: 'Taiyaki NYC',
         description:
-          'Their fluffy pancakes are sooo goood! This is a must try for sure!.',
+          'Their fluffy pancakes are sooo good! This is a must-try for sure!.',
         kind: 'Japanese ice cream shop',
         area: 'Chinatown, Manhattan',
         visits: '1',
@@ -1202,7 +1248,7 @@ const cafes = {
       properties: {
         name: 'Hungry Ghost Coffee',
         description:
-          'Nice cafe with pretty good matcha latte! It is definetely worth it to come back here and try their coffee.',
+          'Nice cafe with a pretty good matcha latte! It is worth it to come back here and try their coffee.',
         kind: 'Cafe',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -1222,7 +1268,7 @@ const cafes = {
       properties: {
         name: '% Arabica',
         description:
-          'This coffee shop coffee is a must try if you are a coffee aficionado like I am! Their beans are from the middle east mostly hence the name. But their blend of arabica coffee with colimbian and brazilian coffee is really good!',
+          'This coffee shop coffee is a must-try if you are a coffee aficionado like I am! Their beans are from the middle east mostly hence the name. But their blend of arabica coffee with Colombian and Brazilian coffee is really good!',
         kind: 'Cafe',
         area: 'Dumbo, Brooklyn',
         visits: '2',
@@ -1251,9 +1297,9 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
-        name: 'designers collab coffee',
+        name: 'Designers collab coffee',
         description:
-          'I have never heard of this place before but now that I do know of it`s existance I am exicted to go again. It is a beautiful shop that looks like a furniture store ( Maybe because it is! ). Their  rose refresher it is really good and taste amazing and it does it`s job which is refresh you in those hot summer days.',
+          'I have never heard of this place before but now that I do know of its existence I am excited to go again. It is a beautiful shop that looks like a furniture store ( Maybe because it is! ). Their rose refresher is really good and tastes amazing and it does its job which is refreshing you on those hot summer days.',
         kind: 'Cafe',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -1284,7 +1330,7 @@ const cafes = {
       properties: {
         name: 'KIJITORA',
         description:
-          'Try their Iced Matcha Latte, and / or the Tiramisu Chai Latte Those two are "chef kiss" of the best I have had in New York City.',
+          'Try their Iced Matcha Latte, and/or the Tiramisu Chai Latte Those two are "chef kiss" of the best I have had in New York City.',
         kind: 'Cafe',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -1315,7 +1361,7 @@ const cafes = {
       properties: {
         name: 'Nook',
         description:
-          'Awesome coffee shop big, with places to sit inside or out, good matcha lattes and it is just comfy place. ',
+          'Awesome coffee shop big, with places to sit inside or out, good matcha lattes and it is just a comfy place. ',
         kind: 'Cafe',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -1346,7 +1392,7 @@ const cafes = {
       properties: {
         name: 'Choice Market',
         description:
-          'Fire ass breakfast food in the coffee shop in Clinton hill.',
+          'Fire ass breakfast food in the coffee shop in Clinton Hill.',
         kind: 'Cafe',
         area: 'Clinton Hill, Brooklyn',
         visits: '2',
@@ -1362,7 +1408,7 @@ const cafes = {
       properties: {
         name: 'Pasa Pasa',
         description:
-          'I have not being here yet but walking by seem like it is a cool spot.',
+          'I have not been here yet but walking by seems like it is a cool spot.',
         kind: 'Cafe',
         area: 'Crown Heights, Brooklyn',
         visits: '0',
@@ -1378,7 +1424,7 @@ const cafes = {
       properties: {
         name: 'PLG Coffee House and Tavern',
         description:
-          'I have not being here yet but walking by seem like it is a cool spot.',
+          'I have not been here yet but walking by seems like it is a cool spot.',
         kind: 'Cafe',
         area: 'Crown Heights, Brooklyn',
         visits: '0',
@@ -1410,7 +1456,7 @@ const cafes = {
       properties: {
         name: 'Devoción - Williamsburg',
         description:
-          'Devoción coffee is my go to. Their beans are from Colombia, their roast is nice, full of flavor coffee, and it feels like their barista always know what to do. Unlike dare i say STARBUCKS!!',
+          'Devoción coffee is my go-to. Their beans are from Colombia, their roast is nice, full of flavor coffee, and it feels like their barista always knows what to do. Unlike dare I say STARBUCKS!!',
         kind: 'Cafe',
         area: 'Williamsburg, Brooklyn',
         visits: '3',
@@ -1426,7 +1472,7 @@ const cafes = {
       properties: {
         name: 'SEY COFFEE',
         description:
-          'Cool cafe in bushwick, Brooklyn. Great coffee, and cool atmosphere.',
+          'Cool cafe in Bushwick, Brooklyn. Great coffee, and cool atmosphere.',
         kind: 'Cafe',
         area: 'Bushwick, Brooklyn',
         visits: '2',
@@ -1442,7 +1488,7 @@ const cafes = {
       properties: {
         name: 'Poetica Coffee',
         description:
-          'Awesome looking coffee shop with cool garden, cool color scheme. Would reccomend if you are in the park slope area of brooklyn.',
+          'Awesome looking coffee shop with cool garden, cool color scheme. Would recommend it if you are in the park slope area of Brooklyn.',
         kind: 'Cafe',
         area: 'Park Slope, Brooklyn',
         visits: '1',
@@ -1458,7 +1504,7 @@ const cafes = {
       properties: {
         name: 'Bakeri',
         description:
-          'Really cute cafe / bakery in greenpoint. It kind of looks like something that could be in a Wes Anderson movie. Their croissants are really good! ',
+          'Really cute cafe/bakery in Greenpoint. It kind of looks like something that could be in a Wes Anderson movie. Their croissants are really good! ',
         kind: 'Cafe',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -1474,7 +1520,7 @@ const cafes = {
       properties: {
         name: 'Poetica Coffee',
         description:
-          'Small but cute looking coffee shop with cool color scheme. Coffee is not the greatest the roast is a little bit burn?? Maybe I should try the cold brew`s and not a latte, the croissants are great tho.',
+          'Small but cute looking coffee shop with a cool color scheme. Coffee is not the greatest the roast is a little bit burn?? Maybe I should try the cold brews and not a latte, the croissants are great tho.',
         kind: 'Cafe',
         area: 'Greenpoint, Brooklyn',
         visits: '1',
@@ -1490,7 +1536,7 @@ const cafes = {
       properties: {
         name: 'Pueblo Querido',
         description:
-          'The coffee in this shop is really good but no wonder their beans is sourcd from colombia roasted in house! Coffee is great if you enjoy colombian coffee beans and pastires are good too! Also a lot of machinary to look at in the store which is cool beacause I say so.',
+          'The coffee in this shop is really good but no wonder their beans are sourced from Colombia roasted in-house! Coffee is great if you enjoy Colombian coffee beans and pastries are good too! Also, a lot of machinery to look at in the store which is cool because I say so.',
         kind: 'Cafe',
         area: 'Greenpoint, Brooklyn',
         visits: '1',
@@ -1506,7 +1552,7 @@ const cafes = {
       properties: {
         name: 'For The Record',
         description:
-          'I have not been here yet but this is a cool looking spot, coffee plus vynils only in greenpoint.',
+          'I have not been here yet but this is a cool looking spot, coffee plus vynils only in Greenpoint.',
         kind: 'Cafe',
         area: 'Greenpoint, Brooklyn',
         visits: '0',
@@ -1522,7 +1568,7 @@ const cafes = {
       properties: {
         name: 'Sweetleaf Coffee Roasters',
         description:
-          'I have not been here yet but this is a cool looking spot.',
+          'I have not been here yet but this is a cool-looking spot.',
         kind: 'Cafe',
         area: 'Greenpoint, Brooklyn',
         visits: '0',
@@ -1554,7 +1600,7 @@ const cafes = {
       properties: {
         name: 'Botbar Coffee',
         description:
-          'The most gimmiky or perhabs futuristic cafe in the city... The barista is a Robot! Hopefully the coffee beams are decent because...',
+          'The most gimmicky or perhaps futuristic cafe in the city... The barista is a Robot! Hopefully, the coffee beans are decent because...',
         kind: 'Cafe',
         area: 'Williamsburg, Brooklyn',
         visits: '0',
@@ -1616,7 +1662,7 @@ const cafes = {
       properties: {
         name: 'Textbook',
         description:
-          'Cool looking coffee shop in fort greene! With good coffee and better burgers! Their chicken sandwich is a must try, and their fries are *Chef Kiss*.',
+          'Cool looking coffee shop in fort greene! With good coffee and better burgers! Their chicken sandwich is a must-try, and their fries are *Chef Kiss*.',
         kind: 'Cafe',
         area: 'Fort Greene, Brooklyn',
         visits: '1',
@@ -1632,7 +1678,7 @@ const cafes = {
       properties: {
         name: 'Cafe Calaca',
         description:
-          'Nice Coffee shop with cute and nice garden! Their coffee is good as I am used to for New York City and they have some nice bites and snacks like interested tasting empanadas... interesting because I have never had empanadas like those and I grew up eating empanadas lol. Would definetely come back if I am in the area.',
+          'Nice Coffee shop with a cute and nice garden! Their coffee is good as I am used to for New York City and they have some nice bites and snacks like interested tasting empanadas... interesting because I have never had empanadas like those and I grew up eating empanadas lol. Would definitely come back if I am in the area.',
         kind: 'Cafe',
         area: 'Bed-stuy, Brooklyn',
         visits: '1',
@@ -1665,7 +1711,7 @@ const cafes = {
       properties: {
         name: 'The Black Flamingo',
         description:
-          'I have not been here yet but a friend told me that this coffee shop is good and they even have a bar / club on friday nights.',
+          'I have not been here yet but a friend told me that this coffee shop is good and they even have a bar/club on Friday nights.',
         kind: 'Cafe',
         area: 'Williamsburg, Brooklyn',
         visits: '0',
@@ -1701,7 +1747,7 @@ const cafes = {
       properties: {
         name: 'Château le Woof',
         description:
-          'This cafe is awesome!! you can look at puppies while drinking your coffee and/or working! what else do you need in life?',
+          'This cafe is awesome!! you can look at puppies while drinking your coffee and/or work! what else do you need in life?',
         kind: 'Cafe',
         area: 'Astoria, Queens',
         visits: '1',
@@ -1732,7 +1778,7 @@ const cafes = {
       properties: {
         name: 'Under Pressure',
         description:
-          'The coffee is really good, and the have a good coffee blend plus a bunch of greek fusion of things which I liked.',
+          'The coffee is really good, and they have a good coffee blend plus a bunch of Greek fusion of things which I liked.',
         kind: 'Cafe',
         area: 'Astoria, Queens',
         visits: '1',
@@ -1748,7 +1794,7 @@ const cafes = {
       properties: {
         name: 'Xing Fu Tang Flushing Main St',
         description:
-          'Best Bubble tea in NYC hands down. They also opened a new shop in the East Village in case you don`t want to go on a trip to flushing, Queens lol.',
+          'Best Bubble tea in NYC hands down. They also opened a new shop in the East Village in case you don`t want to go on a trip to Flushing, Queens lol.',
         kind: 'Bubble Tea',
         area: 'Flushing, Queens',
         visits: '3',
@@ -1764,7 +1810,7 @@ const cafes = {
       properties: {
         name: 'Gossip Coffee',
         description:
-          'Cool greek coffee shop in astoria. Coffee is strong and the spot is cool to hang or do some work sesh.',
+          'Cool Greek coffee shop in Astoria. Coffee is strong and the spot is cool to hang or do some work sesh.',
         kind: 'Cafe',
         area: 'Astoria, Queens',
         visits: '1',
@@ -1799,7 +1845,7 @@ const cafes = {
       properties: {
         name: 'Cafecito Del Parque',
         description:
-          'A cute little coffee shop in the middle of the park with a small library on it`s side and plenty of outdoor sitting. Getting some juice from here, sit and relax. Coffee is not their forte as it is instant coffee. ',
+          'A cute little coffee shop in the middle of the park with a small library on its side and plenty of outdoor sitting. Getting some juice from here, sit, and relax. Coffee is not their forte as it is instant coffee. ',
         kind: 'Cafe',
         area: 'La Esperilla, Santo Domingo',
         visits: '1',
@@ -1815,7 +1861,7 @@ const cafes = {
       properties: {
         name: 'MiuMiu Tea',
         description:
-          'If you need a fix of bubble in the dominican republic this will do. Not great but its gotta do. They also serve a lot of food.',
+          'If you need a fix of bubble tea in the dominican republic this will do. Not great but it`s gotta do. They also serve a lot of food.',
         kind: 'Bubble Tea',
         area: 'Naco, Santo Domingo',
         visits: '1',
@@ -1831,7 +1877,7 @@ const cafes = {
       properties: {
         name: 'Casa Barista & Co.',
         description:
-          'The best coffee shop in the Dominican Republic where you can get really good coffee. This is probably the first coffee shop outside of a mall too that I have ever visited in the Dominican Republic. All their roast and beans are source from the Dominican Republic, and there coffee is really good, they have a variaty from different regions of the Dominican Republic with different roasts. Go visit them if you are in the DR.',
+          'The best coffee shop in the Dominican Republic where you can get really good coffee. This is probably the first coffee shop outside of a mall too that I have ever visited in the Dominican Republic. All their roast and beans are sourced from the Dominican Republic, and their coffee is really good, they have a variety from different regions of the Dominican Republic with different roasts. Go visit them if you are in the DR.',
         kind: 'Cafe',
         area: 'Piantini, Santo Domingo, DR',
         visits: '2',
@@ -1847,7 +1893,7 @@ const cafes = {
       properties: {
         name: 'Cafe SBG',
         description:
-          'Okayish cafe / restaurant inside blue mall, because it is inside the mall so if you are going shopping you could do that and then sit and get some coffee. ',
+          'Okayish cafe/restaurant inside Blue Mall, because it is inside the mall so if you are going shopping you could do that and then sit and get some coffee. ',
         kind: 'Cafe',
         area: 'Piantini, Dominican Republic',
         visits: '2',
@@ -1867,7 +1913,7 @@ const cafes = {
       properties: {
         name: 'Hidden Grounds Coffee',
         description:
-          'The New Orleans iced coffee and the lavander infused iced coffee are really good! The might not be for the coffee purist but the mixture of taste was awesome and refreshing.',
+          'The New Orleans iced coffee and the lavender-infused iced coffee are really good! The might not be for the coffee purist but the mixture of taste was awesome and refreshing.',
         kind: 'Cafe',
         area: 'Hoboken, New Jersey',
         visits: '2',
@@ -1916,7 +1962,7 @@ const cafes = {
       properties: {
         name: 'Rincon Argentino',
         description:
-          'Get your mate (mah-teh) while in cold spring please!! Support the owner she is really sweet and nice.',
+          'Get your mate (mah-teh) while in cold spring, please!! Support the owner she is really sweet and nice.',
         kind: 'Cafe',
         area: 'Cold Spring, NY',
         visits: '2',
@@ -1932,7 +1978,7 @@ const cafes = {
       properties: {
         name: 'Prince Coffee House',
         description:
-          'Cool coffee shop in the bronx, close to the Zoo, the New York Botanic Garden, and Forham University.',
+          'Cool coffee shop in the Bronx, close to the Zoo, the New York Botanic Garden, and Fordham University.',
         kind: 'Cafe',
         area: 'Forham, Bronx',
         visits: '2',
@@ -2011,7 +2057,7 @@ const cafes = {
       properties: {
         name: 'Cafe Du Monde French Market',
         description:
-          'Great hot chocolate and awesome beignets. This is definetely a must try in while in NOLA pretty touristy but pretty worth it.',
+          'Great hot chocolate and awesome beignets. This is a must-try in while in NOLA pretty touristy but pretty worth it.',
         kind: 'Cafe',
         area: 'New Orleans, LA',
         visits: '1',
@@ -2043,7 +2089,7 @@ const cafes = {
       properties: {
         name: 'Revelator Coffee Company',
         description:
-          'Really great pour over coffee! The flavors and texture of the coffee were of the best! I want to go back again! Also the space asthetic was a minimalist delight.',
+          'Great pour-over coffee! The flavors and texture of the coffee were of the best! I want to go back again! Also, the space aesthetic was a minimalist delight.',
         kind: 'Cafe',
         area: 'New Orleans, LA',
         visits: '1',
@@ -2083,7 +2129,7 @@ const cafes = {
       properties: {
         name: 'Café Marlette',
         description:
-          'I have not been here yet but SouSou reccomended me this place.',
+          'I have not been here yet but SouSou recommended me this place.',
         kind: 'Cafe',
         area: 'Paris, France',
         visits: '0',
@@ -2134,7 +2180,7 @@ const cafes = {
       properties: {
         name: 'Qūentin Café',
         description:
-          'Awesome looking cafe in DF for whenever I visit mexico but I have not been here yet :(',
+          'Awesome looking cafe in DF for whenever I visit Mexico but I have not been here yet :(',
         kind: 'Cafe',
         area: 'Mexico DF, Mexico',
         visits: '0',

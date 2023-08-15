@@ -1,4 +1,4 @@
-// All the data has been collected by Ronny Coste throughtout the years.
+// All the data has been collected by Ronny Coste throughout the years.
 /// ////////////////////////////////////////////////
 /// ///////           Bars          ////////////////
 /// ////////////////////////////////////////////////
@@ -14,7 +14,7 @@ const Bars = {
       properties: {
         name: 'LOULOU',
         description:
-          'So LouLou has a "speakeasy" they say on the basement of the restaurant but this place is really a club. It has tropical vibes and the trendy Coca-Cola door so that all the influencers enter this place with glamour. I was not fan of mostly because i felt ',
+          'So LouLou has a "speakeasy" they say in the basement of the restaurant but this place is really a club. It has tropical vibes and a trendy Coca-Cola door so that all the influencers enter this place with glamour. I was not a fan of it mostly because I felt ',
         kind: 'Club',
         area: 'Chelsea, Manhattan',
         visits: '1',
@@ -46,7 +46,7 @@ const Bars = {
       properties: {
         name: 'Saint Tuesday',
         description:
-          'This is a Awesome bar with live music, deep underneath the streets of manhattan. The cocktails are good but not appetizers so go with a full tommy do not repeat my mistake.',
+          'This is an Awesome bar with live music, deep underneath the streets of Manhattan. The cocktails are good but not appetizers so go with a full tummy do not repeat my mistake.',
         kind: 'Speakeasy',
         area: 'Tribeca, Manhattan',
         visits: '1',
@@ -78,7 +78,7 @@ const Bars = {
       properties: {
         name: 'The Folly',
         description:
-          'I did not know that this place had such a great Rum menu but it really was great. I tried the "Wits End" which is done with Brugal extra viejo. It was really good, and amazing it even included a sugar cane for you to enjoy. That sugar was not that good but I mean this is new york city they are not fresh like they would in the dominican republic. ',
+          'I did not know that this place had such a great Rum menu but it was great. I tried the "Wits End" which is done with Brugal Extra Viejo. It was really good, and amazing it even included a sugar cane for you to enjoy. That sugar was not that good but I mean this is new york city they are not fresh like they would be in the Dominican Republic. ',
         kind: 'Bar',
         area: 'NoHo, Manhattan',
         visits: '1',
@@ -109,7 +109,7 @@ const Bars = {
       properties: {
         name: 'Jolene ',
         description:
-          'This place is supposed to be an American Restaurant but I will classified as a bar because the food menu is tiny and only available at some times during the night/day. For drinks it was really good! The vibe and decor is nice and cool, and their is some outdoors tents, that is were we sat it was really cozy and intimate. ',
+          'This place is supposed to be an American Restaurant but I will classify it as a bar because the food menu is tiny and only available at some times during the night/day. For drinks, it was really good! The vibe and decor are nice and cool, and there are some outdoor tents, that is where we sat it was cozy and intimate. ',
         kind: 'Bar',
         area: 'NOHO, Manhattan',
         visits: '1',
@@ -156,7 +156,7 @@ const Bars = {
       properties: {
         name: 'AWOL Bar & Grill',
         description:
-          'The Center stage karoke and the decor is a 70`s lover paradise haha.',
+          'The Center stage karaoke and the decor is a 70`s lover paradise haha.',
         kind: 'Bar',
         area: 'Kips Bay, Manhattan',
         visits: '1',
@@ -172,7 +172,7 @@ const Bars = {
       properties: {
         name: 'The Ivory Peacock',
         description:
-          'The new bar in town. Now open in Flatiron District. This is supposed to be a bar that specializes on Gin and one of the servers told us that they are planning on having at least 1000 different Gin bottles... Now I do not know if there that many Gins in the world but it would be awesome to go again another time when their menu is final to try some of those gins. For now their drinks are good just what I would expect from a nice bar in new york, it did not become my fave but it is good enough that I would go again. ',
+          'The new bar in town. Now open in Flatiron District. This is supposed to be a bar that specializes in Gin and one of the servers told us that they are planning on having at least 1000 different Gin bottles... Now I do not know if there are that many Gins in the world but it would be awesome to go again another time when their menu is final to try some of those gins. For now, their drinks are good just what I would expect from a nice bar in new york, it did not become my fave but it is good enough that I would go again. ',
         kind: 'Cocktail Bar',
         area: 'Flatiron, Manhattan',
         visits: '1',
@@ -189,7 +189,7 @@ const Bars = {
       properties: {
         name: 'Pebble Bar',
         description:
-          'Really nice atmosphere, Cool staff, small space ( If you care about that ), great drinks, not so great food options in case you do not like sea food. I love their framed photos and decor I will definetely go back. Also it was founded by Nicholas Braun "Greg from Succession".',
+          'Really nice atmosphere, Cool staff, small space ( If you care about that ), great drinks, not so great food options in case you do not like seafood. I love their framed photos and decor I will definitely go back. Also, it was founded by Nicholas Braun "Greg from Succession".',
         kind: 'Cocktail Bar',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -221,7 +221,7 @@ const Bars = {
       properties: {
         name: 'SNS Bar',
         description:
-          'Cool, cozy bar. This bar is part of the SNS store that is on 12st.',
+          'Cool, cozy bar. This bar is part of the SNS store that is on 12hh.',
         kind: 'Bar',
         area: 'Meatpacking District, Manhattan',
         visits: '1',
@@ -421,6 +421,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Ear Inn',
+        description:
+          'I have not been here yet but this bar opened in 1817! It is one of the oldest places in the City.',
+        kind: 'Bar',
+        area: 'SoHo, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7258758, -74.0095352],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Good Behavior',
         description: 'I have not been here yet.',
         kind: 'Cocktail bar',
@@ -492,6 +508,22 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.7193813, -74.0047809],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'McSorley’s Old Ale House (1854)',
+        description:
+          'I have not been here yet but this pub that opened in 1854 is standing inconspicuously at 15 E. 7th Street, it offers two drinks: McSorley’s Dark Ale and McSorley’s Light Ale. Despite the lack of variety, or perhaps because of it, the bar has thrived throughout the years, managing to keep fairly low prices. Collectibles line the walls, some of them there since 1910. Wishbones hang from above placed there by neighborhood boys who went to war and did not make it back.',
+        kind: 'Pub',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7288116, -73.9897357],
       },
     },
     {
@@ -576,7 +608,7 @@ const Bars = {
       properties: {
         name: 'Fat Cat (Cellar Dog)',
         description:
-          'I have been here many, many times. I love it. Live jazz with pool tables, and many other games. Close to stonewall in Greenwich Village.',
+          'I have been here many, many times. I love it. Live jazz with pool tables, and many other games. Close to Stonewall in Greenwich Village.',
         kind: 'Jazz Bar',
         area: 'Greenwich, Manhattan',
         visits: '3',
@@ -593,7 +625,7 @@ const Bars = {
       properties: {
         name: 'Dante NYC',
         description:
-          'After a long time of wnating to go there, I went with my friend that so highly rated this place and I gotta say... it is not bad, now I had a negroni bianco because negronis is what they are known for but I do not love negronis at all! So with that in mind it was good I enjoy the negroni it smelled delicious and tasted good. Would say it is definetely a must try and I will probably try a different thing next time.',
+          'After a long time of waiting to go there, I went with my friend that so highly rated this place and I gotta say... it is not bad, now I had a negroni bianco because negronis are what they are known for but I do not love negronis at all! So with that in mind it was good I enjoy the Negroni it smelled delicious and tasted good. Would say it is definitely a must-try and I will probably try a different thing next time.',
         kind: 'Bar',
         area: 'NoHo, Manhattan',
         visits: '1',
@@ -723,7 +755,7 @@ const Bars = {
       properties: {
         name: 'The Red Lion',
         description:
-          'Bar for NYU Student`s they do not card all the time so that is the only positive... That only applies for kiddos from NYU and surroundings.',
+          'Bar for NYU Students they do not card all the time so that is the only positive... That only applies to kiddos from NYU and surroundings.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -771,7 +803,7 @@ const Bars = {
       properties: {
         name: 'Mr. Purple',
         description:
-          'Cool rooftop bar in Lower East Side. I feel like everyone in Manhattan knows about this rooftop bar, I guess that means they are doing something right. During the summer they open their pool up until 10pm if you are feeling dangerous.',
+          'Cool rooftop bar in Lower East Side. I feel like everyone in Manhattan knows about this rooftop bar, I guess that means they are doing something right. During the summer they open their pool up until 10 pm if you are feeling dangerous.',
         kind: 'Rooftop Bar',
         area: 'Lower East Side, Manhattan',
         visits: '3',
@@ -787,7 +819,7 @@ const Bars = {
       properties: {
         name: 'Panorama Room',
         description:
-          'Cool rooftop bar in Roosevelt Island, cool views of mostly 59st and the United Nations. Good drinks and cool vibes.',
+          'Cool rooftop bar in Roosevelt Island, cool views of mostly 59th St and the United Nations. Good drinks and cool vibes.',
         kind: 'Rooftop Bar',
         area: 'Roosevelt Island, Manhattan',
         visits: '3',
@@ -819,7 +851,7 @@ const Bars = {
       properties: {
         name: 'Dear Irving on Hudson Rooftop',
         description:
-          'Cool rooftop bar in 34st with Views of the Empire State, and Hudson Yards.',
+          'Cool rooftop bar in 34th St with Views of the Empire State, and Hudson Yards.',
         kind: 'Rooftop Bar',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -868,7 +900,7 @@ const Bars = {
       properties: {
         name: 'Refinery Rooftop',
         description:
-          'Rooftop bar in midtown with views of buildings in 39st and 37st... I went there once and probably will stay that way.',
+          'Rooftop bar in midtown with views of buildings in 39th St and 37th St... I went there once and probably will stay that way.',
         kind: 'Rooftop Bar',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -885,7 +917,7 @@ const Bars = {
       properties: {
         name: 'Magic Hour Rooftop Bar & Lounge',
         description:
-          'Instagram Worthy Rooftop in midtown, I guess if you want to go to take photos go there... just know that everyone is going there for those reasons. Great view of the Empire State tho.',
+          'Instagram Worthy Rooftop in midtown, I guess if you want to go to take photos to go there... just know that everyone is going there for those reasons. Great view of the Empire State tho.',
         kind: 'Rooftop Bar',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -920,7 +952,7 @@ const Bars = {
         description:
           'My favorite speakeasy in New York City, great drinks, Awesome atmosphere, Great bartenders. Awesome menu, full of surprises :)',
         kind: 'Speakeasy',
-        area: 'Lower East side, Manhattan',
+        area: 'Lower East Side, Manhattan',
         visits: '3',
         visited: true,
       },
@@ -935,7 +967,7 @@ const Bars = {
         name: 'The Back Room',
         description: 'I have not been here yet. I want to go tho.',
         kind: 'Speakeasy',
-        area: 'Lower East side, Manhattan',
+        area: 'Lower East Side, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -965,7 +997,7 @@ const Bars = {
       properties: {
         name: 'The Garret',
         description:
-          'I have not been here yet. But I have always wanted to go there because it is on top of a five guys restaurant.',
+          'I have not been here yet. But I have always wanted to go there because it is on top of a five-guys restaurant.',
         kind: 'Speakeasy',
         area: 'Greenwich Village, Manhattan',
         visits: '0',
@@ -1028,7 +1060,7 @@ const Bars = {
       properties: {
         name: 'The Cauldron',
         description:
-          'Bar with drinks inspire by Harry Potter in the Financial District, don`t ask questions about the location.',
+          'Bar with drinks inspired by Harry Potter in the Financial District, don`t ask questions about the location.',
         kind: 'Bar',
         area: 'Financial District, Manhattan',
         visits: '1',
@@ -1059,7 +1091,7 @@ const Bars = {
       properties: {
         name: 'The Jane Ballroom',
         description:
-          'Cool venue, only been there once but that is because only one event that i have been interested in or invited was there.',
+          'Cool venue, only been there once but that is because only one event that I have been interested in or invited was there.',
         kind: 'Live Music Venue',
         area: 'Meatpacking District, Manhattan',
         visits: '1',
@@ -1091,7 +1123,7 @@ const Bars = {
       properties: {
         name: 'Mezzrow',
         description:
-          'Awesome jazz provided in this small or should i say cozy bar in Greenwich village.',
+          'Awesome jazz provided in this small or should I say cozy bar in Greenwich Village.',
         kind: 'Jazz Bar',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -1140,7 +1172,7 @@ const Bars = {
       properties: {
         name: 'Iguana New York',
         description:
-          'Mexican Restaurant that has a huge basement that host latin music parties. I have been unlucky tho everytime that i have visited it is pretty dead... maybe is because i show up at 10pm and that is too early.',
+          'Mexican Restaurant that has a huge basement that hosts Latin music parties. I have been unlucky tho every time that I have visited it is pretty dead... maybe is because I show up at 10 pm and that is too early.',
         kind: 'Dance',
         area: 'Midtown, Manhattan',
         visits: '2',
@@ -1166,13 +1198,45 @@ const Bars = {
         coordinates: [40.744002, -73.9880767],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Pete’s Tavern (1864)',
+        description:
+          'I have not been here yet but this pub also known as “the tavern that O. Henry made famous,” is a vestige of the Civil War era. The building itself dates back to 1829, though it was not operated as a bar until 1864. Its large signs claiming to be the oldest bar in the city have been greatly disputed by McSorley’s.',
+        kind: 'Pub',
+        area: 'Grammercy, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7365052, -73.9868097],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Old Town Bar (1892)',
+        description:
+          'I have not been here yet but this pub joined the Union Square neighborhood in 1882 as Viemeister’s. Like many of the other oldest bars in NYC, it survived Prohibition by becoming a speakeasy under the name Craig’s Restaurant. During this stage in the bar’s history, patrons could hide their alcohol in a compartment underneath their seats.',
+        kind: 'Pub',
+        area: 'Grammercy, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7375054, -73.9892421],
+      },
+    },
 
     {
       type: 'Feature',
       properties: {
         name: 'Karaoke Boho Orchard',
         description:
-          'Karaoke bar in chinatown which i think it is the cheapest one in the entire city at $10 dollars per person.',
+          'Karaoke bar in Chinatown which I think is the cheapest one in the entire city at 10 dollars per person.',
         kind: 'Karaoke Bar',
         area: 'Chinatown, Manhattan',
         visits: '1',
@@ -1188,7 +1252,7 @@ const Bars = {
       properties: {
         name: 'The Dead Rabbit Manhattan',
         description:
-          'Nice bar in FiDi, their drinks are good but i have only been here once... it is supppse to be a really popular bar for whatever that`s worth.',
+          'Nice bar in FiDi, their drinks are good but I have only been here once... it is supposed to be a really popular bar for whatever that`s worth.',
         kind: 'Bar',
         area: 'Financial District, Manhattan',
         visits: '1',
@@ -1202,9 +1266,25 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'The Paris Café (1873)',
+        description:
+          'I have not been here yet but this bar was established in 1873 when the South Street Seaport was a working port, the Paris Café (https://www.pariscafenyc.com/) was originally part of Meyers Hotel and Bar across the street from the Fulton Fish Market. It was frequented by luminaries like Teddy Roosevelt, Thomas Edison, Butch Cassidy, and Lauren Bacall.',
+        kind: 'Bar',
+        area: 'Financial District, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7073069, -74.0016406],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '169 Bar',
         description:
-          'Dimes Square bar were you can find and interact with so many different personalities. Find creative peeps, and peeps that will either make you night, or not, your year, or not. Maybe that only applies for my friends.',
+          'Dimes Square bar where you can find and interact with so many different personalities. Find creative peeps and peeps that will either make you night, or not, your year, or not. Maybe that only applies to my friends.',
         kind: 'Bar',
         area: 'Dimes Square, Manhattan',
         visits: '1',
@@ -1219,7 +1299,7 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Pilsener Haus & Biergarten',
-        description: 'Beer Garden in hoboken, great sausages, and pretzels.',
+        description: 'Beer Garden in Hoboken, great sausages, and pretzels.',
         kind: 'Beer Hall',
         area: 'Hoboken, Manhattan',
         visits: '1',
@@ -1267,7 +1347,7 @@ const Bars = {
       properties: {
         name: 'Beauty Bar',
         description:
-          'Salon and Bar mixed into one on 14st. Want to do your hair and get drunk this might be your spot.',
+          'Salon and Bar mixed into one on 14th St. Want to do your hair and get drunk this might be your spot.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -1283,7 +1363,7 @@ const Bars = {
       properties: {
         name: 'The Penrose',
         description:
-          'Bar with good food, I think this two are only achivable on the Upper East ide.',
+          'Bar with good food, I think these two are only achievable on the Upper East Side.',
         kind: 'Bar',
         area: 'Upper East Side, Manhattan',
         visits: '1',
@@ -1299,7 +1379,7 @@ const Bars = {
       properties: {
         name: 'Jungle Bird',
         description:
-          'I did not love this place the first time now I would say definetely check this place out it has a second floor and a first floor bars with separed entrances.',
+          'I did not love this place the first time now I would say definitely check this place out it has a second floor and a first floor bars with separate entrances.',
         kind: 'Bar',
         area: 'Chelsea, Manhattan',
         visits: '2',
@@ -1394,7 +1474,7 @@ const Bars = {
         name: 'Jake`s Dilemma',
         description: 'I have not been here yet.',
         kind: 'Bar',
-        area: 'Upper West side, Manhattan',
+        area: 'Upper West Side, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -1518,6 +1598,23 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Mulberry Street Bar (1908)',
+        description:
+          'I have not been here yet but this Little Italy haunt was established over a hundred years ago, as a small bar called Mare Chiaro. Its rich history as one of the oldest bars in NYC remains in its original subway tile floor, wooden bar, and pressed-tin ceiling. The bar stayed in the same family for a couple of generations, before being purchased in 2003 by current owner Ed Welsh. His updates have made the bar good for sports fans and karaoke lovers alike, but nothing beats the jukebox stocked with Connie Francis, Frank Sinatra, and Four Tops. It has been the site of many films, including Donnie Brasco, Men of Honor, and The Godfather Part III. They only take cash.',
+        kind: 'Bar',
+        area: 'Little Italy, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7202471, -73.9968467],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
         name: 'The Headless Widow',
         description: 'I have not been here yet.',
         kind: 'Cocktail Bar',
@@ -1553,7 +1650,7 @@ const Bars = {
         name: 'Skin Contact',
         description: 'I have not been here yet.',
         kind: 'Wine Bar',
-        area: 'Lower East side, Manhattan',
+        area: 'Lower East Side, Manhattan',
         visits: '0',
         visited: false,
       },
@@ -1567,7 +1664,7 @@ const Bars = {
       properties: {
         name: 'Temple Court',
         description:
-          'This bar / restaurant is one of the coolest places i have visited in New York  city. It is definetely a must visit while in NYC. It is a bit pricey but the look, service, and flavors of the foods and drinks makes it 1000% worth it. ',
+          'This bar/restaurant is one of the coolest places I have visited in New York City. It is definitely a must-visit while in NYC. It is a bit pricey but the look, service, and flavors of the foods and drinks make it 1000% worth it. ',
         kind: 'Bar',
         area: 'FiDi, Manhattan',
         visits: '1',
@@ -1584,7 +1681,7 @@ const Bars = {
       properties: {
         name: 'Bathtub Gin',
         description:
-          'okay speakeasy behind a coffee shop. The drinks were okay butttt they bring out pole dancers and performers from time to time.',
+          'Okay, speakeasy behind a coffee shop. The drinks were okay butttt they bring out pole dancers and performers from time to time.',
         kind: 'Speakeasy',
         area: 'Chelsea, Manhattan',
         visits: '1',
@@ -1601,7 +1698,7 @@ const Bars = {
       properties: {
         name: 'Katana Kitten',
         description:
-          'A friend of mine that is obsessed with ranking took me here because of this page https://www.worlds50bestbars.com/the-list/katana-kitten.html and to be honest I do not know but i did not love it... It was okay but I have been to better bars. If you care about rankings this is number 9 of the world best bars so definetely try it out. Their food tho it is quite tasty and good.',
+          'A friend of mine that is obsessed with ranking took me here because of this page https://www.worlds50bestbars.com/the-list/katana-kitten.html and to be honest, I do not know but I did not love it... It was okay but I have been to better bars. If you care about rankings this is number 9 of the world`s best bars so definitely try it out. Their food tho is quite tasty and good.',
         kind: 'Bar',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -1617,7 +1714,7 @@ const Bars = {
       properties: {
         name: 'Employees Only',
         description:
-          'This is suppose to be one of the 50 best bars in the world. This especifically is rank 47 here https://www.worlds50bestbars.com/the-list/employees-only.html Their drinks are good, the look and feel of the place is nice and cool. The bartenders are nice and explains the drinks to you if you ask. It is quite loud tho so be mindful of that. But I liked it, just do not get seasonal drinks if you would like to try their specialties. ',
+          'This is supposed to be one of the 50 best bars in the world. This specifically is ranked 47 here https://www.worlds50bestbars.com/the-list/employees-only.html Their drinks are good, and the look and feel of the place are nice and cool. The bartenders are nice and explain the drinks to you if you ask. It is quite loud tho so be mindful of that. But I liked it, just do not get seasonal drinks if you would like to try their specialties. ',
         kind: 'Bar',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -1633,7 +1730,7 @@ const Bars = {
       properties: {
         name: 'Thyme Bar',
         description:
-          'I do not know if this place could count as a speak easy as it is inside a bakery / cafe basement... with that out of the way the drinks and the presentation of those drinks is on another level. One of the best drinks I have had, and the best presentation of it of any bar period! It is a bit pricey butttt it is worth it at least once but I will be going more than once for sure.',
+          'I do not know if this place could count as a speakeasy as it is inside a bakery/cafe basement... with that out of the way the drinks and the presentation of those drinks is on another level. One of the best drinks I have had, and the best presentation of it of any bar period! It is a bit pricey butttt it is worth it at least once I will be going more than once for sure.',
         kind: 'Cocktail Bar',
         area: 'Flatiron District, Manhattan',
         visits: '1',
@@ -1649,7 +1746,7 @@ const Bars = {
       properties: {
         name: 'Amor Y Amargo',
         description:
-          'I have not been here yet but this place it is a whiskey and cigar tasting and smoking speak easy or bar situation. I must try!',
+          'I have not been here yet but this place is a whiskey and cigar tasting and smoking speakeasy or bar situation. I must try!',
         kind: 'Cocktail Bar',
         area: 'East Village, Manhattan',
         visits: '0',
@@ -1681,7 +1778,7 @@ const Bars = {
       properties: {
         name: 'The Campbell',
         description:
-          'I have not been here yet but this place looks really cool, it is a bar in grand central.',
+          'I have not been here yet but this place looks cool, it is a bar in grand central.',
         kind: 'Bar',
         area: 'Midtown, Manhattan',
         visits: '0',
@@ -1840,7 +1937,7 @@ const Bars = {
       properties: {
         name: 'The Whiskey on Grand',
         description:
-          'Cool bar with a Great burger, and some games on the basement.',
+          'Cool bar with a Great burger, and some games in the basement.',
         kind: 'Bar',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -1948,7 +2045,7 @@ const Bars = {
       properties: {
         name: 'Mika',
         description:
-          'Awesome beer hall in bushwick, Brooklyn. It opened in the middle of the pandemic... literally the owner was going to open in march 2020 but it had to delay for obvious reason.',
+          'Awesome beer hall in Bushwick, Brooklyn. It opened in the middle of the pandemic... literally, the owner was going to open in March 2020 but it had to be delayed for obvious reasons.',
         kind: 'Bar',
         area: 'Bushwick, Brooklyn',
         visits: '3',
@@ -1964,9 +2061,9 @@ const Bars = {
       properties: {
         name: 'Rocka Rolla',
         description:
-          'Bar in Williamsburg, brooklyn. Nothing much to say about it.',
+          'Bar in Williamsburg, Brooklyn. Nothing much to say about it.',
         kind: 'Bar',
-        area: 'Williamsburg, brooklyn',
+        area: 'Williamsburg, Brooklyn',
         visits: '1',
         visited: true,
       },
@@ -1980,7 +2077,7 @@ const Bars = {
       properties: {
         name: 'The Gutter',
         description:
-          'Cool bar in greenpoint with a full on bowling alley, and other games.',
+          'Cool bar in Greenpoint with a full-on bowling alley, and other games.',
         kind: 'Bar',
         area: 'Green Point, Brooklyn',
         visits: '1',
@@ -1996,7 +2093,7 @@ const Bars = {
       properties: {
         name: 'Jupiter Disco',
         description:
-          'Small bar in bushwick, Brooklyn where you can dance yourself to death if you`d like. ',
+          'Small bar in Bushwick, Brooklyn where you can dance yourself to death if you`d like. ',
         kind: 'Bar - Dance',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -2012,7 +2109,7 @@ const Bars = {
       properties: {
         name: 'Happyfun Hideaway',
         description:
-          'Happyfun Hideaway is happy as long as you are happy in deep bushwick, it is fun as long as you are also fun, you can definitely hide and also make way because you will hide and make way while dancing.',
+          'Happyfun Hideaway is happy as long as you are happy in deep Bushwick, it is fun as long as you are also fun, you can hide and make way while dancing.',
         kind: 'Bar',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -2030,7 +2127,7 @@ const Bars = {
         description:
           'This place is just a bar, no pool tables here. Check for other places.',
         kind: 'Bar',
-        area: 'Williamburg, Brooklyn',
+        area: 'Williamsburg, Brooklyn',
         visits: '1',
         visited: true,
       },
@@ -2044,7 +2141,7 @@ const Bars = {
       properties: {
         name: 'Bossa Nova Civic Club',
         description:
-          'I bar hopped through a bunch bars when i visited this place.',
+          'I bar hopped through a bunch of bars when I visited this place.',
         kind: 'Bar',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -2062,7 +2159,7 @@ const Bars = {
         name: 'Tender Trap',
         description: 'I have not been here yet. And I think they are close :(',
         kind: 'Bar',
-        area: 'Williamburg, Brooklyn',
+        area: 'Williamsburg, Brooklyn',
         visits: '0',
         visited: false,
       },
@@ -2092,7 +2189,7 @@ const Bars = {
         name: 'Baby`s All Right',
         description: 'I have not been here yet.',
         kind: 'Bar',
-        area: 'Williamburg, Brooklyn',
+        area: 'Williamsburg, Brooklyn',
         visits: '0',
         visited: false,
       },
@@ -2138,7 +2235,7 @@ const Bars = {
       properties: {
         name: 'IRL',
         description:
-          'Gallery that has a speakeasy afterhours?? I have not been here yet.',
+          'Gallery that has a speakeasy after hours?? I have not been here yet.',
         kind: 'Speakeasy',
         area: 'Greenpoint, Brooklyn',
         visits: '0',
@@ -2183,7 +2280,7 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Westlight',
-        description: 'Bar / Restaurant with great views of manhattan.',
+        description: 'Bar / Restaurant with great views of Manhattan.',
         kind: 'Rooftop Bar',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -2214,7 +2311,7 @@ const Bars = {
       properties: {
         name: 'Elder Greene',
         description:
-          'This bar feels more like a restaurant because of the food menu but maybe that is the reason why this place calls itself a gastropub. The beer selection and alcohol selection is big and the food menu is just as big as long as you like burgers, and fried food.',
+          'This bar feels more like a restaurant because of the food menu but maybe that is the reason why this place calls itself a gastropub. The beer selection and alcohol selection is big and the food menu is just as big as long as you like burgers and fried food.',
         kind: 'Bar',
         area: 'Greenpoint, Brooklyn',
         visits: '2',
@@ -2230,7 +2327,7 @@ const Bars = {
       properties: {
         name: 'The Johnson`s',
         description:
-          'Cool place to chill and vibe, it has even a burger restaurant inside of it in case you are hungry. It looks really small from the outside but once you go in you realize how big it is. The drinks are cheap and the music selection is top notch. It has character and great vibe If I am in the area I will go again.',
+          'Cool place to chill and vibe, it has even a burger restaurant inside of it in case you are hungry. It looks really small from the outside but once you go in you realize how big it is. The drinks are cheap and the music selection is top-notch. It has character and a great vibe If I am in the area I will go again.',
         kind: 'Bar',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -2245,7 +2342,7 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'The Levee',
-        description: 'Small, and cozy bar in willy, with games and cool vibe.',
+        description: 'Small, and cozy bar in Willy, with games and cool vibe.',
         kind: 'Bar',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -2262,7 +2359,7 @@ const Bars = {
       properties: {
         name: 'The Turk`s Inn',
         description:
-          'This place has an interesting facade because it is suppose to be a restaurant but they have shows all the time and the time i visited it I went to their little rooftop bar and to be honest it was cool. Djs playing music upstairs while down below there was a play happening all in the middle of bushwick, brooklyn because of course this kind of place would be on bushwick.',
+          'This place has an interesting facade because it is supposed to be a restaurant but they have shows all the time and the time I visited it I went to their little rooftop bar and to be honest, it was cool. DJs playing music upstairs while down below there was a play happening all in the middle of Bushwick, Brooklyn because of course this kind of place would be on Bushwick.',
         kind: 'Bar',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -2293,7 +2390,7 @@ const Bars = {
       properties: {
         name: 'Spritzenhaus33',
         description:
-          'Huge beer hall with plenty of beer selections and an expansive place. Not a place to go and talk tho as it is pretty loud.',
+          'Huge beer hall with plenty of beer selections and an expansive place. Not a place to go and talk to as it is pretty loud.',
         kind: 'Bar',
         area: 'Williamsburg, Brooklyn',
         visits: '1',
@@ -2309,7 +2406,7 @@ const Bars = {
       properties: {
         name: 'Cool World',
         description:
-          'The martines, The Granny smith margarita, and the negroni are really good, and delicious! The asthetic of the place resembles the 70s to me. Also this place has a big food selection and technically is a restaurant not a bar but we only got drinks here and we were impressed. Definetely would go back again. ',
+          'The martinis, The Granny Smith margarita, and the negroni are really good, and delicious! The aesthetics of the place resembles the 70s to me. Also, this place has a big food selection and technically is a restaurant not, a bar but we only got drinks here and we were impressed. Definitely would go back again. ',
         kind: 'Bar',
         area: 'Greenpoint, Brooklyn',
         visits: '1',
@@ -2326,7 +2423,7 @@ const Bars = {
       properties: {
         name: 'Caribbean Social Club',
         description:
-          'I have not been here yet but this is tonnitas bar, the bar that a lot of celebrities, and writers have been seen because of the owner.',
+          'I have not been here yet but this is Tonnitas bar, the bar that a lot of celebrities, and writers go to because of the owner.',
         kind: 'Bar',
         area: 'Williamsburg, Brooklyn',
         visits: '0',
@@ -2361,7 +2458,7 @@ const Bars = {
       properties: {
         name: 'Local 3',
         description:
-          'This is the only bar where I got great cocktails in my stay in the Dominican Republic in any of the main spirits (Gin, Rum, Vodka). Rum was my favorite one of them all. Cocktails are not that cheap so be aware of that prices are just a tap cheaper than New York prices. DR = 10 to 14. NYC = 12 to 20.',
+          'This is the only bar where I got great cocktails in my stay in the Dominican Republic in any of the main spirits (Gin, Rum, Vodka). Rum was my favorite one of them all. Cocktails are not that cheap so be aware that prices are just a tap cheaper than New York prices. DR = 10 to 14. NYC = 12 to 20.',
         kind: 'Bar',
         area: 'Naco, Santo Domingo',
         visits: '1',
@@ -2408,7 +2505,7 @@ const Bars = {
       properties: {
         name: 'The Irish Pub',
         description:
-          'This bar is supposed to be the irish pub of the dominican republic. It is a interesting place with live rock music which is cool but it is too crowded. It is like the place to go for a lot of people now thus it has way to many people and it is better to go somewhere else.',
+          'This bar is supposed to be the Irish pub of the Dominican Republic. It is an interesting place with live rock music which is cool but it is too crowded. It is like the place to go for a lot of people now thus it has way too many people and it is better to go somewhere else.',
         kind: 'Irish Pub',
         area: 'Piantini, Santo Domingo',
         visits: '1',
@@ -2455,7 +2552,7 @@ const Bars = {
       properties: {
         name: 'La Resistencia',
         description:
-          'I have not been here but my friends say this is a cool place and it is putting the resistance to a new law enacted in the DR which says that bars, clubs, and others need to close at the latest at 2am but "la resistencia" is open until 6 AM or sunrise.',
+          'I have not been here but my friends say this is a cool place and it is putting the resistance to a new law enacted in the DR which says that bars, clubs, and others need to close at the latest at 2 am but "la resistencia" is open until 6 AM or sunrise.',
         kind: 'Bar',
         area: 'Zona Colonial, Santo Domingo',
         visits: '0',
@@ -2471,7 +2568,7 @@ const Bars = {
       properties: {
         name: 'Quintana Bar',
         description:
-          'Cool spot to listen to some live music with the warthm of the night breezy and in a beautiful colonial building.',
+          'Cool spot to listen to some live music with the warmth of the night breezy and in a beautiful colonial building.',
         kind: 'Bar',
         area: 'Zona Colonial, Santo Domingo',
         visits: '1',
@@ -2487,7 +2584,7 @@ const Bars = {
       properties: {
         name: 'Onno`s Zona Colonial Bar & Restaurant',
         description:
-          'Nice spot for a variaty of music from house to some merengue. It has an inside bar, and the backyard with the view of the beautiful colonial buildings.',
+          'Nice spot for a variety of music from house to some merengue. It has an inside bar and a backyard with a view of the beautiful colonial buildings.',
         kind: 'Bar',
         area: 'Zona Colonial, Santo Domingo',
         visits: '1',
@@ -2504,7 +2601,7 @@ const Bars = {
       properties: {
         name: 'Marketcito',
         description:
-          'Beer hall in the middle of santo domingo, with decent selection of beers.',
+          'Beer hall in the middle of santo domingo, with a decent selection of beers.',
         kind: 'Bar',
         area: 'Naco, Santo Domingo',
         visits: '1',
@@ -2540,7 +2637,7 @@ const Bars = {
       properties: {
         name: 'The Ditty',
         description:
-          'After a long time of wanting to go to this place I finally did it! This place is awesome. This is an insconspicious place because it looks small but then you realize it has a huge garden and all your expectations are broken. They have big collection of board games for you to play while getting hammered (what could go wrong) Monopoly and cocktails is the game in town. My fave drink is the coconut coffee rum mixed, OMG it is good for those that enjoy coffee or coconuts. I will definetely try to go again mostly because of this... They have a fricking NES at Bar ready for you to take on the world!! I am a simple person.',
+          'After a long time of wanting to go to this place, I finally did it! This place is awesome. This is an inconspicuous place because it looks small but then you realize it has a huge garden and all your expectations are broken. They have a big collection of board games for you to play while getting hammered (what could go wrong) Monopoly and cocktails is the game in town. My fave drink is the coconut coffee rum mixed, OMG it is good for those that enjoy coffee or coconuts. I will try to go again mostly because of this... They have a fricking NES at Bar ready for you to take on the world!! I am a simple person.',
         kind: 'Bar',
         area: 'Astoria, Queens',
         visits: '1',
@@ -2602,7 +2699,7 @@ const Bars = {
       properties: {
         name: 'The Last World',
         description:
-          'The vibe of the place is of a speakeasy, but this is far from one. I did like it tho pretty relax, a place to go after work or to enjoy some drinks with friends or girlfriend with. This place is girlfriend approved so that means they are doing something right. The drink menu is extensive and with plenty of wine selection too mixed with some foods.',
+          'The vibe of the place is of a speakeasy, but this is far from one. I did like it, it is pretty relaxed, a place to go after work or to enjoy some drinks with friends or girlfriend with. This place is girlfriend approved so that means they are doing something right. The drink menu is extensive and with plenty of wine selection too mixed with some foods.',
         kind: 'Cocktail Bar',
         area: 'Astoria, Queens',
         visits: '1',
@@ -2618,7 +2715,7 @@ const Bars = {
       properties: {
         name: 'The Infamous',
         description:
-          'This is suppose to be a speakeasy. It is next to MoMA PS1 and it is behind the extra butter clothing store in LIC, but to get in is not through the store but on the back door that is street facing... is that a speakeasy? for me no but their pizza was good and the drinks were okay. If you want an attempt of an speakeasy in LIC this is your spot I guess.',
+          'This is supposed to be a speakeasy. It is next to MoMA PS1 and it is behind the extra butter clothing store in LIC, but to get in is not through the store but through the back door that is street facing... is that a speakeasy? for me, no but their pizza was good and the drinks were okay. If you want an attempt at a speakeasy in LIC this is your spot I guess.',
         kind: 'Speakeasy',
         area: 'LIC, Queens',
         visits: '1',
@@ -2747,7 +2844,7 @@ const Bars = {
       properties: {
         name: 'Bent Run Brewing Company',
         description:
-          'Cool brewery with live music, games, and awesome selection of beers, and my favorite root beer to this day! If you are in Warren, PA give them a visit.',
+          'Cool brewery with live music, games, an awesome selection of beers, and my favorite root beer to this day! If you are in Warren, PA give them a visit.',
         kind: 'Brewery',
         area: 'Scandia, PA',
         visits: '2',
@@ -2793,7 +2890,7 @@ const Bars = {
       properties: {
         name: 'Marilou',
         description:
-          'I have not been here yet but their drinks and cocktails looks delish.',
+          'I have not been here yet but their drinks and cocktails look delish.',
         kind: 'Cocktail Bar',
         area: 'New Orleans, LA',
         visits: '0',
@@ -2809,7 +2906,7 @@ const Bars = {
       properties: {
         name: 'Cane and Table',
         description:
-          'Almost all the drinks are made with some type of rum and I am here for it! Love the vibe, loved the drinks, and they have a huge garden in the back to chill get some drinks, eat some food and have a good time. I loved this place.',
+          'Almost all the drinks are made with some type of rum and I am here for it! Love the vibe, loved the drinks, and they have a huge garden in the back to chill get some drinks, eat some food, and have a good time. I loved this place.',
         kind: 'Carribeam Bar',
         area: 'New Orleans, LA',
         visits: '1',
@@ -2853,6 +2950,22 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [34.6715367, 135.5045825],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cask Strength',
+        description:
+          'I have not been here yet but this is supposed to be a sophisticated and great bar with an expansive selection of spirits.',
+        kind: 'Bar',
+        area: 'Tokyo, Japan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [35.663836, 139.7340318],
       },
     },
 
@@ -2927,7 +3040,7 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Ice Kube Bar',
-        description: 'I need to go here when in paris!',
+        description: 'I need to go here when in Paris!',
         kind: 'Bar',
         area: 'Paris, France',
         visits: '0',
@@ -2946,7 +3059,7 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'La Chagra',
-        description: 'I have not been to this bar in Medillin, Colombia yet.',
+        description: 'I have not been to this bar in Medellin, Colombia yet.',
         kind: 'Bar',
         area: 'Medellin, Colombia',
         visits: '0',
@@ -2962,7 +3075,7 @@ const Bars = {
       type: 'Feature',
       properties: {
         name: 'Vintrash',
-        description: 'I have not been to this medillin bar yet.',
+        description: 'I have not been to this Medellin bar yet.',
         kind: 'bar',
         area: 'Medellin, Colombia',
         visits: '0',

@@ -1,4 +1,4 @@
-// All the data has been collected by Ronny Coste throughtout the years.
+// All the data has been collected by Ronny Coste throughout the years.
 /// ////////////////////////////////////////////////
 /// ///////       Parks | Hiking       /////////////
 /// ////////////////////////////////////////////////
@@ -108,9 +108,9 @@ const Parks = {
       properties: {
         name: 'WNYC Transmitter Park',
         description:
-          'A beautiful and big park with some hills in Greenpoint, brooklyn.',
+          'A beautiful and big park with some hills in Greenpoint, Brooklyn.',
         kind: 'Park',
-        area: 'Greenpoint, brooklyn',
+        area: 'Greenpoint, Brooklyn',
         visits: '1',
         visited: true,
       },
@@ -125,9 +125,9 @@ const Parks = {
       properties: {
         name: 'Greenpoint Beach',
         description:
-          'Small Park in Greenpoint, Brooklyn, get on the water at your own cost also something to note is that this park has a kaws sculture sitting there waiting to be admire.',
+          'Small Park in Greenpoint, Brooklyn, get on the water at your own cost also something to note is that this park has a kaws sculpture sitting there waiting to be admired.',
         kind: 'Park',
-        area: 'Greenpoint, brooklyn',
+        area: 'Greenpoint, Brooklyn',
         visits: '3',
         visited: true,
       },
@@ -141,7 +141,7 @@ const Parks = {
       properties: {
         name: 'Worlds Fair Playground',
         description:
-          'Huge park in corona / flushing, queens that has the citi field, a museum and a bunch of other activities. ',
+          'Huge park in Corona/Flushing, Queens that has the Citi field, a museum, and a bunch of other activities. ',
         kind: 'Park',
         area: 'Corona, Queens',
         visits: '3',
@@ -157,7 +157,7 @@ const Parks = {
       properties: {
         name: 'Margaret Pace Park',
         description:
-          'My fave park in Miami, it has a view of Miami Beach, the island that is, not Miami propel, and it is pretty quiet and nice to relax. At least when i visited.',
+          'My fave park in Miami, it has a view of Miami Beach, the island that is, not Miami propel, and it is pretty quiet and nice to relax. At least when I visited.',
         kind: 'Park',
         area: 'Midtown, Miami',
         visits: '2',
@@ -173,7 +173,7 @@ const Parks = {
       properties: {
         name: 'Fort Tryon Park',
         description:
-          'Beautiful park with a beautiful view of Jersey. Go during sunset, One of the best sunsets i have seen was from that high up vantage point that the park offers. This is in Washington Heights, Manhattan.',
+          'Beautiful park with a beautiful view of Jersey. Go during sunset, One of the best sunsets I have seen was from that high-up vantage point that the park offers. This is in Washington Heights, Manhattan.',
         kind: 'Park',
         area: 'Inwood, Manhattan',
         visits: '2',
@@ -189,7 +189,7 @@ const Parks = {
       properties: {
         name: 'Rimrock Trailhead',
         description:
-          'Awesome trail in PA / Upsate NY, it has cool view of the reservoir, it is so so peaceful up there. That peacefulness comes out with the price of being in bear country so plan accordingly lmao ',
+          'Awesome trail in PA / Upstate NY, it has a cool view of the reservoir, it is so so peaceful up there. That peacefulness comes out with the price of being in bear country so plan accordingly lmao ',
         kind: 'Hiking',
         area: 'Scandia, PA',
         visits: '1',
@@ -205,7 +205,7 @@ const Parks = {
       properties: {
         name: 'Beacon Overlook',
         description:
-          'Cool Park, Trail, Hike. Not that hard if you are somewhat athletic. Place were everyone in New York City goes hiking so it is crowded in the weekends, Go on a weekday if you`d like to be outside of the city with not a lot of city people.',
+          'Cool Park, Trail, Hike. Not that hard if you are somewhat athletic. The place where everyone in New York City goes hiking so it is crowded on the weekends, Go on a weekday if you`d like to be outside of the city with not a lot of city people.',
         kind: 'Hiking',
         area: 'Beacon, NY',
         visits: '3',
@@ -237,7 +237,7 @@ const Parks = {
       properties: {
         name: 'Hunters Point South Park',
         description:
-          'I am going to start with... I saw Cold play perform here for free!! Huge park in hunts point, Queens were they hold concerts, and have beach volleyball set up for us. The sunset are beautiful here with an awesome and unique view of manhattan with the United Nations building being the center of it.',
+          'I am going to start with... I saw Cold Play perform here for free!! Huge park in hunts point, Queens where they hold concerts, and have beach volleyball set up for us. The sunset is beautiful here with an awesome and unique view of Manhattan with the United Nations building being the center of it.',
         kind: 'Park',
         area: 'Long Island City, Queens',
         visits: '3',
@@ -282,7 +282,7 @@ const Parks = {
       type: 'Feature',
       properties: {
         name: 'Hudson Highlands State Park',
-        description: 'Chill trail in beacon NY.',
+        description: 'Chill trail in Beacon NY.',
         kind: 'Hiking',
         area: 'Beacon, NY',
         visits: '3',
@@ -298,7 +298,7 @@ const Parks = {
       properties: {
         name: 'Beacon Mountain',
         description:
-          'Beacon is an cool hike. Mostly based of aa staircase that goes all the way to the top. It has rails, and other mining, telecom equipment from the 1960? 1970? I forgot but it is cool to see.',
+          'Beacon is a cool hike. Mostly based on a staircase that goes all the way to the top. It has rails, and other mining, and telecom equipment from the 1960. 1970? I forgot but it is cool to see.',
         kind: 'Hiking',
         area: 'Beacon, NY',
         visits: '1',
@@ -329,7 +329,7 @@ const Parks = {
       properties: {
         name: 'Bear Mountain State Park',
         description:
-          'Bear mountain is another easy to get New York City hike for peeps that like and enjoy nature, and hiking. So plan accordingly if you plan on going on the weekends... it might not matter as much here because it is pretty big.',
+          'Bear Mountain is another easy to get New York City hike for peeps that like and enjoy nature, and hiking. So plan accordingly if you plan on going on the weekends... it might not matter as much here because it is pretty big.',
         kind: 'Hiking',
         area: 'Bear Mountain State Park, NY',
         visits: '3',
@@ -375,7 +375,7 @@ const Parks = {
       properties: {
         name: 'Sleeping Giant State Park',
         description:
-          'Interesting park in Connecticut with a overlook of Iona University. Pretty Easy hike, Beginners friendly.',
+          'Interesting park in Connecticut with an overlook of Iona University. Pretty Easy hike, Beginners friendly.',
         kind: 'hiking',
         area: 'Sleeping Giant State Park, CT',
         visits: '2',
@@ -422,7 +422,7 @@ const Parks = {
       properties: {
         name: 'Little Island',
         description:
-          'Small concrete island in the waters next to Chelsea / Meatpacking build by an rich architect ',
+          'Small concrete island in the waters next to Chelsea / Meatpacking built by a rich architect ',
         kind: 'Park',
         area: 'Meatpacking District, Manhattan',
         visits: '3',
@@ -438,7 +438,7 @@ const Parks = {
       properties: {
         name: 'Hudson River Park',
         description:
-          'I love how manhattan have so many parks by the water. This is one of my favorites. This park goes from battery park to 42st unofficially.',
+          'I love how Manhattan has so many parks by the water. This is one of my favorites. This park goes from battery park to 42st unofficially.',
         kind: 'Park',
         area: 'Manhattan, NY',
         visits: '3',
@@ -515,7 +515,7 @@ const Parks = {
       properties: {
         name: '40°34`06.3"N 73°51`53.0"W',
         description:
-          'I have not been here yet. Abandoned warehouse / fort in far rockaway.',
+          'I have not been here yet. Abandoned warehouse/fort in far rockaway.',
         kind: 'Park',
         area: 'Far Rockaway, NY',
         visits: '0',
@@ -531,7 +531,7 @@ const Parks = {
       properties: {
         name: 'Windsor State Forest',
         description:
-          'I have not been here yet. During fall or spring this intersection looks pretty from all the change of colors.',
+          'I have not been here yet. During fall or spring, this intersection looks pretty from all the change of colors.',
         kind: 'Park',
         area: 'Windsor, MA',
         visits: '0',
@@ -639,7 +639,7 @@ const Parks = {
       properties: {
         name: 'Belgrade Lakes',
         description:
-          'I have not been here yet but this lake offers awesome sunset / sunrise photos.',
+          'I have not been here yet but this lake offers awesome sunset/sunrise photos.',
         kind: 'Lakes',
         area: 'Belgrade, Maine',
         visits: '0',
@@ -670,7 +670,7 @@ const Parks = {
       properties: {
         name: 'Lake George',
         description:
-          'I have not been here yet but the photos that i have seen of this lake from this town are making me want to go so bad.',
+          'I have not been here yet but the photos that I have seen of this lake from this town are making me want to go so bad.',
         kind: 'Small Town',
         area: 'Lake George, New York',
         visits: '0',
@@ -746,7 +746,7 @@ const Parks = {
       properties: {
         name: 'Montezuma Castle National Monument',
         description:
-          'I have not been here yet but this momument is in a native american reservation.',
+          'I have not been here yet but this momument is on a native american reservation.',
         kind: 'Monument',
         area: 'Camp Verde, Arizona',
         visits: '0',
@@ -800,6 +800,54 @@ const Parks = {
       geometry: {
         type: 'Point',
         coordinates: [37.7474364, -119.5330114],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Torrey Pines State Natural Reserve',
+        description:
+          'I have not been here yet but California hikes look like a great time.',
+        kind: 'Hiking',
+        area: 'San Diego, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [32.9268576, -117.2593912],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Mt. Soledad National Veterans Memorial',
+        description:
+          'I have not been here yet but at the peak of the hill you can have an overlook of the entirety of San Diego which is cool.',
+        kind: 'Park',
+        area: 'San Diego, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [32.8399984, -117.2453039],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Flat Rock Beach Trailhead',
+        description:
+          'I have not been here yet but California hikes looks like a great time.',
+        kind: 'Hiking',
+        area: 'San Diego, California',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [32.9197745, -117.2536116],
       },
     },
 
@@ -994,7 +1042,7 @@ const Parks = {
       properties: {
         name: 'Flathead Lake',
         description:
-          'I have not been here yet but this is one of the clearest water lakes in the world! One of the other is in sweeden.',
+          'I have not been here yet but this is one of the clearest water lakes in the world! One of the other is in Sweeden.',
         kind: 'Lake',
         area: 'Flathead Lake, Montana',
         visits: '0',
@@ -1124,7 +1172,7 @@ const Parks = {
       properties: {
         name: 'La Peñita',
         description:
-          'Awesome place to cliff jump! There are two different cliff a big one that is about 3 stories high and a small one which is about 1 story high. The small one you could feel the floor of the coral depending on were you jump. Also be careful of thiefs as the area has gotten popular it has gotten their attention. Other than that pretty cool spot to jump into the ocean and have some adventure fun.',
+          'Awesome place to cliff jump! There are two different cliffs a big one which is about 3 stories high and a small one which is about 1 story high. In the small one, you could feel the floor of the coral depending on where you jumped. Also, be careful of thieves as the area has gotten popular it has gotten their attention. Other than that pretty cool spot to jump into the ocean and have some adventure fun.',
         kind: 'Cliff',
         area: 'Boca Chica, Republica Dominicana',
         visits: '2',
@@ -1214,6 +1262,22 @@ const Parks = {
         coordinates: [52.6816899, -118.0408537],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Mount Royal',
+        description:
+          'I have not been here yet but this mountain has an awesome view of Montreal!',
+        kind: 'Hiking',
+        area: 'Montreal, Canada',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [45.5071367, -73.5875069],
+      },
+    },
     /// ////////////////////////////////////////////////
     /// //////////         Europe       /////////////
     /// ////////////////////////////////////////////////
@@ -1240,7 +1304,7 @@ const Parks = {
       properties: {
         name: 'Sulak Canyon',
         description:
-          'I have not been here yet but this is suppose to be the deepest canyon in the entire world.',
+          'I have not been here yet but this is supposed to be the deepest canyon in the entire world.',
         kind: 'Park',
         area: 'Republic of Dagestan, Russia',
         visits: '0',
@@ -1291,11 +1355,11 @@ const Parks = {
     {
       type: 'Feature',
       properties: {
-        name: '"45°57`53.3""N 63°18`18.4""E"S',
+        name: '"45°57`53.3"" N 63°18`18.4" E" S',
         description:
-          'I have not been here yet. This is supposed to be an abandoned soviet town that has some of the nuclear test perfom on.',
+          'I have not been here yet. This is supposed to be an abandoned Soviet town that has some of the nuclear tests performed on.',
         kind: 'Park',
-        area: 'Ayteke Bi District, Kazakhstan',
+        area: 'Ayteke Bi-District, Kazakhstan',
         visits: '0',
         visited: false,
       },
@@ -1341,7 +1405,7 @@ const Parks = {
       properties: {
         name: 'Batangas',
         description:
-          'I have not been here yet but this place was reccomended by a friend of mine from the philippines.',
+          'I have not been here yet but this place was recommended by a friend of mine from the Philippines.',
         kind: 'Hiking',
         area: 'Batangas, Philippines',
         visits: '0',

@@ -1,4 +1,4 @@
-// All the data has been collected by Ronny Coste throughtout the years.
+// All the data has been collected by Ronny Coste throughout the years.
 /// ////////////////////////////////////////////////
 /// ///////    Japanese Restaurants       //////////
 /// ////////////////////////////////////////////////
@@ -14,7 +14,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Nishida Sho-ten',
         description:
-          'One of the best Ramen places in the city in my opinion! It just as good as Okiboru House of Tsukemen if not better while also being low key, and cheaper. This is my fave ramen shop now.',
+          'One of the best Ramen places in the city in my opinion! It is just as good as Okiboru House of Tsukemen if not better while also being low-key, and cheaper. This is my fave ramen shop now.',
         kind: 'Ramen - Japanese Resturant',
         area: 'Midtown, Manhattan',
         visits: '1',
@@ -61,7 +61,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Ramen Danbo',
         description:
-          'I have been to so many Japanese restaurants that if it is not one of my faves i will put something generic. If you are in the area try it out but there are better.',
+          'I have been to so many Japanese restaurants that if it is not one of my faves I will put something generic. If you are in the area try it out but there are better.',
         kind: 'Ramen - Japanese Resturant',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -75,7 +75,7 @@ const JapaneseRestaurant = {
     {
       type: 'Feature',
       properties: {
-        name: 'noodlelove',
+        name: 'Noodlelove',
         description: 'I have not been here yet.',
         kind: 'Ramen - Japanese Resturant',
         area: 'SoHo, Manhattan',
@@ -108,7 +108,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Fuji East Japanese Bistro',
         description:
-          'Their bento boxes are really good, and they are the only japanese restaurant in Roosevelt Island.',
+          'Their bento boxes are really good, and they are the only Japanese restaurant in Roosevelt Island.',
         kind: 'Japanese Restaurant',
         area: 'Roosevelt Island, Manhattan',
         visits: '1',
@@ -125,7 +125,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'TabeTomo',
         description:
-          'I have been to so many Japanese restaurants that if it is not one of my faves i will put something generic. If you are in the area try it out but there are better.',
+          'I have been to so many Japanese restaurants that if it is not one of my faves I will put something generic. If you are in the area try it out but there are better.',
         kind: 'Japanese Resturant',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -141,7 +141,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Mikaku Sushi',
         description:
-          'Their bento boxes and sushi are really good, or it might be because i have been here a lot... anyways I like it.',
+          'Their bento boxes and sushi are really good, or it might be because I have been here a lot... anyways I like it.',
         kind: 'Sushi - Japanese',
         area: 'SoHo, Manhattan',
         visits: '3',
@@ -157,7 +157,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Mamasushi',
         description:
-          'Interesting combination of flavors, it has a lot of dominican related cuisine integrated into a sushi. Big portions of food, cool atmosphere, nice servers, and lots of options.',
+          'Interesting combination of flavors, it has a lot of Dominican-related cuisines integrated into sushi. Big portions of food, cool atmosphere, nice servers, and lots of options.',
         kind: 'Dominican-Japanese Resturant',
         area: 'Washington Heights, Manhattan',
         visits: '2',
@@ -189,7 +189,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Ippudo Westside',
         description:
-          'My favorite ramen restaurant in the entire city! Their broth taste really good, the service is good, the decor and design has a lot of japanese cues. I think Ippudo westside ramen is number 1 ramen spot in the city followed really closely by ichiran.',
+          'My favorite ramen restaurant in the entire city! Their broth taste really good, the service is good, and the decor and design have a lot of Japanese cues. I think Ippudo westside ramen is the number 1 ramen spot in the city followed closely by Ichiran.',
         kind: 'Ramen - Japanese Resturant',
         area: 'Hells Kitchen, Manhattan',
         visits: '3',
@@ -221,7 +221,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Fuji Hibachi',
         description:
-          'I love this place, they offer japanese food that I think is really good in the midst of timesquare.',
+          'I love this place, they offer Japanese food that I think is really good amid being in Timesquare.',
         kind: 'Japanese Resturant',
         area: 'Hells Kitchen, Manhattan',
         visits: '3',
@@ -237,7 +237,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Ichiran Times Square',
         description:
-          'Best ramen spot in the city? I think they are close to it but ichiran is number 2 for me. Great tho.',
+          'Best ramen spot in the city? I think they are close to it but Ichiran is number 2 for me. Great tho.',
         kind: 'Ramen - Japanese Resturant',
         area: 'Midtown, Manhattan',
         visits: '3',
@@ -298,7 +298,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Okiboru House of Tsukemen',
         description:
-          'One of the best ramen places in the city hands down! As for the Tsukemen it is really really good too. Would definetely come back to place because I love it!',
+          'One of the best ramen places in the city hands down! As for the Tsukemen, it is really really good too. I would come back to this place because I love it!',
         kind: 'Ramen - Japnese Restaurant',
         area: 'Lower East Side, Manhattan',
         visits: '1',
@@ -314,7 +314,7 @@ const JapaneseRestaurant = {
       type: 'Feature',
       properties: {
         name: 'Sobaya',
-        description: 'Their udon and cold noodles were a deligt.',
+        description: 'Their udon and cold noodles were a delight.',
         kind: 'Ramen - Japanese Resturant',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -346,7 +346,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Nami Nori West Village',
         description:
-          'Their sushi and presentation is top nocth but i would expect that for the price that you pay.',
+          'Their sushi and presentation is top notch but I would expect that for the price that you pay.',
         kind: 'Sushi - Japanese Resturant',
         area: 'Greenwich Village, Manhattan',
         visits: '1',
@@ -407,7 +407,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Cocoron',
         description:
-          'I got the cocoron ramen and beware the broth is really spicy. I thought it would not be so spicy but it really is with that out of the way the ramen was okay I was feeling all the spices on the broth which I do not love and that made it kind of hard to eat because it would just bother my throat.',
+          'I got the Cocoron ramen and beware the broth is spicy. I thought it would not be so spicy but it is with that out of the way the ramen was okay I was feeling all the spices on the broth which I do not love and that made it kind of hard to eat because it would just bother my throat.',
         kind: 'Ramen - Japanese Restaurant',
         area: 'Lower East Side, Manhattan',
         visits: '1',
@@ -483,7 +483,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Sushumai',
         description:
-          'I liked their sushi it was okay, but i also think it is pretty hard to mess up sushi? what do you think?',
+          'I liked their sushi it was okay, but I also think it is pretty hard to mess up sushi? what do you think?',
         kind: 'Sushi - Japanese Resturant',
         area: 'Lower East Side, Manhattan',
         visits: '2',
@@ -531,7 +531,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Tomo21 Sushi',
         description:
-          'The sushi in the place is great! It is fresh and tasty. The Quality of the fish you get here feels as if this place would be more expensive than what you actually payed for it. Would definetely go again!!',
+          'The sushi in the place is great! It is fresh and tasty. The Quality of the fish you get here feels as if this place would be more expensive than what you actually paid for it. Would definitely go again!!',
         kind: 'Sushi - Japanese Restaurant',
         area: 'NoHo, Manhattan',
         visits: '1',
@@ -548,7 +548,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Dokodemo',
         description:
-          'This is a casual dining japanese restaurant. I liked it but again it is fast casual food. East Village.',
+          'This is a casual dining Japanese restaurant. I liked it but again it is fast casual food. East Village.',
         kind: 'Japanese restaurant',
         area: 'East Village, Manhattan',
         visits: '3',
@@ -586,7 +586,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Tsuta Dumbo',
         description:
-          'This place is a franchise of a Michilin Star restaurant that is located in Tokyo, Japan! The ramen is really good and the prices are just regular like other ramen places. Is it worth the hype and waiting in line for 1 hour? If you have time to spare yeah otherwise it didn`t taste so revolutionary than any other ramen spot.',
+          'This place is a franchise of a Michelin Star restaurant that is located in Tokyo, Japan! The ramen is really good and the prices are just regular like other ramen places. Is it worth the hype and waiting in line for 1 hour? If you have time to spare yeah otherwise it didn`t taste so revolutionary than any other ramen spot.',
         kind: 'Ramen - Japanese Resturant',
         area: 'Dumbo, Brooklyn',
         visits: '1',
@@ -617,7 +617,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Dock Asian Eatery',
         description:
-          'This is a restaurant that serves two different types of asian cusines Thai, and Japanese. I had the ramen and my friend had a pad thai and both good! Their thai tea is good and the atmosphere and vibe of the place it is really cool too. Definetely go if you are in the area.',
+          'This is a restaurant that serves two different types of Asian cuisines Thai, and Japanese. I had the ramen and my friend had a pad thai and both were good! Their Thai tea is good and the atmosphere and vibe of the place it is really cool too. Go if you are in the area.',
         kind: 'Asian restaurant',
         area: 'Bushwick, Brooklyn',
         visits: '1',
@@ -633,9 +633,9 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Setagaya',
         description:
-          'I have been to so many Japanese restaurants that if it is not one of my faves i will put something generic. If you are in the area try it out but there are better.',
+          'I have been to so many Japanese restaurants that if it is not one of my faves I will put something generic. If you are in the area try it out but there are better.',
         kind: 'Ramen - Japanese Resturant',
-        area: 'Williamburg, Brooklyn',
+        area: 'Williamsburg, Brooklyn',
         visits: '3',
         visited: true,
       },
@@ -649,7 +649,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Ichiran',
         description:
-          'Best ramen spot in the city? I think they are close to it but ichiran is number 2 for me. Great tho.',
+          'Best ramen spot in the city? I think they are close to it but Ichiran is number 2 for me. Great tho.',
         kind: 'Ramen - Japanese Resturant',
         area: 'Bushwick, Brooklyn',
         visits: '3',
@@ -668,7 +668,7 @@ const JapaneseRestaurant = {
       properties: {
         name: 'Kiraku Japanese Restaurant',
         description:
-          'There are not that many japanese restaurant in the bronx that serve Ramen and this one is one of the only ones. Not the best as I have been spoiled but when this is the closest to you it is the best at the moment.',
+          'There are not that many Japanese restaurants in the Bronx that serve Ramen and this one is one of the only ones. Not the best as I have been spoiled but when this is the closest to you it is the best at the moment.',
         kind: 'Japanese Resturant',
         area: 'Morris Park, Bronx',
         visits: '3',
