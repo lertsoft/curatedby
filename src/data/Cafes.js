@@ -250,6 +250,23 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Pennylane Coffee',
+        description:
+          'Coffee shop with a garage-style door that opens the entire space to the outside and brings the fresh air of summer to the cafe. Depending on the person that might be a good thing or a bad thing for me it is whatever it does not matter. I did not get coffee here but I got matcha and it was okay, nothing to complain about, nothing to be excited about. The wifi network tho sucks. I did not use it personally but my friend did and it was a nightmare lol',
+        kind: 'Cafe',
+        area: 'Midtown East, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7516215, -73.9702057],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
         name: 'Hex & Company (UES)',
         description:
           '1 out of 3 Gaming cafes, that I know of, this one is in Upper East Side. The coffee shop and Gaming cafe are awesome for meeting with friends or dates and playing games. The variety of games available here will overwhelm you haha',
@@ -284,7 +301,7 @@ const cafes = {
       properties: {
         name: 'Hex & Company (UWS)',
         description:
-          '1 out of 3 Gaming cafes, that I know of, This one is in Upper West Side by Columbia University. The coffee shop and Gaming cafe are awesome for meeting with friends or dates, and playing games. The variety of games available here will overwhelm you haha',
+          '1 out of 3 Gaming cafes, that I know of, This one is in Upper West Side by Columbia University. The coffee shop and Gaming cafe are awesome for meeting with friends or dates and playing games. The variety of games available here will overwhelm you haha',
         kind: 'Cafe',
         area: 'Upper West Side, Manhattan',
         visits: '3',
@@ -1058,11 +1075,12 @@ const cafes = {
       type: 'Feature',
       properties: {
         name: 'semicolon cafe',
-        description: 'I have not been here yet.',
+        description:
+          'Really cool cafe, the coffee was okay. Cold brew was watered down not from my ice but it just was that way. Maybe I was unlucky and I need to try going again to try the coffee but for now, the coffee review is on hold as it was really hard for me to tell the coffee taste as it was watered down. They have plenty of space for sitting down and chilling.',
         kind: 'Cafe',
         area: 'Midtown, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',

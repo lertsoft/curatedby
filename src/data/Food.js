@@ -188,6 +188,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Cibo e Vino',
+        description:
+          'Nice Italian restaurant with an Italian ambiance (No AC during the summer months of NYC), a nice place to go on a date, and for a date I did go there. My girlfriend and I liked it. We had 3 courses plus some non-alcoholic beverages. Plates are massive because this is America, not Italy so if you decide to do a 3-course meal be prepared. The appetizers were "Chef Kiss", both Entrees were really good the vodka penne pasta was better than the bolognese pasta but that it for individuals to decide and the tiramisu was, repeat after me "Chef Kiss" Delicious.',
+        kind: 'Italian restaurant',
+        area: 'Upper West Side, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7899988, -73.9748407],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'The Ellington',
         description:
           'I have not been here yet but walking past it looks like a nice spot for lunch or dinner.',
@@ -498,6 +514,22 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.7297118, -74.0041959],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Southern Charm',
+        description:
+          'This place has the best biscuits of all of the tri-state area! NO JOKE. And my girlfriend who is from Florida and knows a thing or two about biscuits loved them too. They also have a plethora of Butters for your heart`s desires. They got Chicken skin butter, bloody mary butter, regular butter, bacon butter, and much much more. It is really good, try this place out because I do not want the owner to close the shop because of lack of interest :(',
+        kind: 'Southern Cafe',
+        area: 'Greenwich Village, Manhattan',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7339859, -74.006448],
       },
     },
     {
@@ -3574,7 +3606,7 @@ const Food = {
       properties: {
         name: 'Cantina La Veinte',
         description:
-          'Fine Dining? With mexican Food on the waterfront of Miami.',
+          'Fine Dining? With Mexican Food on the waterfront of Miami.',
         kind: 'Mexican restaurant',
         area: 'Brickel, Miami',
         visits: '1',
@@ -4038,7 +4070,7 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Verti Marte',
-        description: 'Po Boys townsquare.',
+        description: 'Po Boys Townsquare.',
         kind: 'Deli',
         area: 'New Orleans, LA',
         visits: '1',
@@ -4374,7 +4406,7 @@ const Food = {
       properties: {
         name: 'Adrian Tropical',
         description:
-          'Great restaurant with views of the Caribbean Sea and great food, this restaurant is kind of like a starter pack to Dominican cuisine, it is a must go.',
+          'Great restaurant with views of the Caribbean Sea and great food, this restaurant is kind of like a starter pack to Dominican cuisine, it is a must-go.',
         kind: 'Dominican Restaurant',
         area: 'Santo Domingo, Republica Dominicana',
         visits: '2',
