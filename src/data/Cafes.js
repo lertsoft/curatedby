@@ -250,6 +250,54 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Le Cafe Coffee',
+        description:
+          'Another cafe that is just like Blank Street, better than Starbucks but not the best just okay.',
+        kind: 'Cafe',
+        area: 'Hells Kitchen, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7592982, -73.9960688],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'St Kilda Coffee',
+        description:
+          'Small coffee shop in Hells Kitchen, if you are not looking for it you might miss it as it is on a lower level/basement. The coffee is good no complaints.',
+        kind: 'Cafe',
+        area: 'Hells Kitchen, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7589816, -73.990188],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'GRIND THE NYC COFFEE SHOP & BAGEL HOUSE',
+        description:
+          'Nice cafe with really good coffee. I did not expect it to be as good as it was as this place looks to be more of a diner, bodega food focus type of place. But I did like it and enjoyed it.',
+        kind: 'Cafe',
+        area: 'Hells Kitchen, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7591032, -73.9917974],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Pennylane Coffee',
         description:
           'Coffee shop with a garage-style door that opens the entire space to the outside and brings the fresh air of summer to the cafe. Depending on the person that might be a good thing or a bad thing for me it is whatever it does not matter. I did not get coffee here but I got matcha and it was okay, nothing to complain about, nothing to be excited about. The wifi network tho sucks. I did not use it personally but my friend did and it was a nightmare lol',
@@ -294,6 +342,21 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7941674, -73.97246],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Hawa Smoothies & Bubble Tea',
+        description: 'Delish drinks and smoothies.',
+        kind: 'Bubble tea store',
+        area: 'Upper West Side, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7861288, -73.9757943],
       },
     },
     {
@@ -396,7 +459,7 @@ const cafes = {
       properties: {
         name: '11th Street Cafe',
         description:
-          'This is a small and cozy coffee shop with some good food options! the cafe cubano sandwich is awesome! The Cold brew Coffee is sweet and not as strongly flavored. Probably Colombian beans as it is fruity and nutty. Not chocolaty or acidic. Would definitely come back again.',
+          'This is a small and cozy coffee shop with some good food options! The Cafe Cubano sandwich is awesome! The Cold brew Coffee is sweet and not as strongly flavored. Probably Colombian beans as it is fruity and nutty. Not chocolaty or acidic. Would definitely come back again.',
         kind: 'Cafe',
         area: 'Greenwich, Manhattan',
         visits: '1',
@@ -437,6 +500,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.739111, -73.989113],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: ':3Coffee | Flatiron',
+        description:
+          'Really small coffee shop. it was okay, average coffee better than starbucks but startbuck is the base and the average new york cafe is better than sstarbucks.',
+        kind: 'Cafe',
+        area: 'Flatiron, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7410955, -73.9919942],
       },
     },
     {
@@ -1101,6 +1180,38 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7357229, -73.9940437],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Cafe by the Girls Colombian Coffee',
+        description:
+          'Really nice cafe with bangers sandwiches! I enjoyed my chicken sandwich and also enjoyed my cold brew while there. Coffee beans are from colombia which... made sense because of their name.',
+        kind: 'Cafe',
+        area: 'Chelsea, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.748558, -74.0055776],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Kilogram Cafe',
+        description:
+          'Nice and cool looking coffee shop. Coffee was above average to me. I forgat where the beans where from tho. Would definetely go there again.',
+        kind: 'Cafe',
+        area: 'Chelsea, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7484205, -73.9937306],
       },
     },
     {
@@ -1779,6 +1890,22 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'The Oasis Cafe',
+        description:
+          'Really good croissants and refreshments drinks. Their regular tea and coconut milk-based drinks were really good! Me and my girlfriend enjoyed it a lot both drinks.',
+        kind: 'Bakery',
+        area: 'Astoria, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7647484, -73.923534],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Kua Bori Coffee Lounge',
         description: 'Cool looking cafe but I have not been here yet.',
         kind: 'Cafe',
@@ -1821,6 +1948,22 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [40.7582153, -73.8296787],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Spot Dessert Bar',
+        description:
+          'good desserts but I don`t know if I would go again just because i do not like and consume that much sugar really.',
+        kind: 'Dessert Bar',
+        area: 'Flushing, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7590908, -73.8323257],
       },
     },
     {
@@ -2191,6 +2334,54 @@ const cafes = {
       geometry: {
         type: 'Point',
         coordinates: [45.5023132, -73.5593176],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'A-OK CAFE',
+        description:
+          'Aritzia coffee shop. Interesting, cool, I am glad I visited it but probably not again unless it was on my way to someplace else.',
+        kind: 'Cafe',
+        area: 'Toronto, Canada',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6702268, -79.3877266],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Piedmont Coffee Bar',
+        description:
+          'Really good cafe in Toronto. I think I tried their entire menu while i was there (Cold Brew, Capuccino, Latte, Mocha, and Matcha Latte) and honestly I enjoyed all of it, it was not the best coffee I have ever had but I enjoyed it.',
+        kind: 'Cafe',
+        area: 'Toronto, Canada',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6683339, -79.3824232],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Church Street Espresso',
+        description:
+          'Nice and cozy coffee shop, I only visited once and it was a quick visit but I enjoyed it.',
+        kind: 'Cafe',
+        area: 'Toronto, Canada',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6682443, -79.3818819],
       },
     },
     {

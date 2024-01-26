@@ -679,6 +679,22 @@ const JapaneseRestaurant = {
         coordinates: [40.8533996, -73.8535656],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Susuru Ramen',
+        description:
+          'I loved their appetizers but the ramen was not the best. I would go again for the appetizers for sure and maybe try a different entree.',
+        kind: 'Japanese restaurant - Ramen',
+        area: 'Astoria, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7556052, -73.9274322],
+      },
+    },
 
     {
       type: 'Feature',
@@ -714,6 +730,28 @@ const JapaneseRestaurant = {
         coordinates: [36.1818581, -86.7847957],
       },
     },
+
+    /// ////////////////////////////////////////////////
+    /// ////////       North America      /////////////
+    /// ///////////////////////////////////////////////
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ikkousha Ramen Toronto',
+        description:
+          'Really good ramen! I would say that it is definitely better than Ichiran New York but does the compare to the best ramen places in New York? I don`t think so.',
+        kind: 'Japanese restaurant - Ramen',
+        area: 'Toronto, Canada',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6502679, -79.3888226],
+      },
+    },
+
     /// ////////////////////////////////////////////////
     /// /////////////         Japan      ///////////////
     /// ////////////////////////////////////////////////

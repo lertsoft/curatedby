@@ -1125,6 +1125,22 @@ const Places = {
         coordinates: [-33.4764377, -70.5116725],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sign Post Forest',
+        description:
+          'I have not been here yet but I want to visit this place and see what this place is all about.',
+        kind: 'Historical place',
+        area: 'Yukon, Canada',
+        visits: '0',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [60.0633355, -128.7141263],
+      },
+    },
     /// ////////////////////////////////////////////////
     /// ////////////////       Asia       //////////////
     /// ////////////////////////////////////////////////

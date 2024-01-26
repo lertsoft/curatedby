@@ -3,6 +3,13 @@
 /// ///////           Bars          ////////////////
 /// ////////////////////////////////////////////////
 
+/**
+ * Object containing a list of bars in Manhattan.
+ * @typedef {Object} Bars
+ * @property {string} type - The type of feature collection.
+ * @property {Array} features - An array of bar features.
+ */
+
 const Bars = {
   type: 'FeatureCollection',
   features: [
@@ -78,7 +85,7 @@ const Bars = {
       properties: {
         name: 'The Folly',
         description:
-          'I did not know that this place had such a great Rum menu but it was great. I tried the "Wits End" which is done with Brugal Extra Viejo. It was really good, and amazing it even included a sugar cane for you to enjoy. That sugar was not that good but I mean this is new york city they are not fresh like they would be in the Dominican Republic. ',
+          'I did not know that this place had such a great Rum menu but it was great. I tried the "Wits End" which is done with Brugal Extra Viejo. It was really good, and amazing it even included a sugar cane for you to enjoy. That sugar was not that good but I mean this is New York City they are not fresh like they would be in the Dominican Republic. ',
         kind: 'Bar',
         area: 'NoHo, Manhattan',
         visits: '1',
@@ -135,6 +142,22 @@ const Bars = {
         coordinates: [40.7359736, -74.0016172],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Joyface',
+        description:
+          'Really cool bar known for their water bed but cool because of the atmosphere. This place I think encapsulate what the east village is all about. I would put Joyface on my top 10 spots really.',
+        kind: 'Bar',
+        area: 'East Village, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7239149, -73.9788176],
+      },
+    },
 
     {
       type: 'Feature',
@@ -172,7 +195,7 @@ const Bars = {
       properties: {
         name: 'The Ivory Peacock',
         description:
-          'The new bar in town. Now open in Flatiron District. This is supposed to be a bar that specializes in Gin and one of the servers told us that they are planning on having at least 1000 different Gin bottles... Now I do not know if there are that many Gins in the world but it would be awesome to go again another time when their menu is final to try some of those gins. For now, their drinks are good just what I would expect from a nice bar in new york, it did not become my fave but it is good enough that I would go again. ',
+          'The new bar in town. Now open in Flatiron District. This is supposed to be a bar that specializes in Gin and one of the servers told us that they are planning on having at least 1000 different Gin bottles... Now I do not know if there are that many Gins in the world but it would be awesome to go again another time when their menu is final to try some of those gins. For now, their drinks are good just what I would expect from a nice bar in New York, it did not become my fave but it is good enough that I would go again. ',
         kind: 'Cocktail Bar',
         area: 'Flatiron, Manhattan',
         visits: '1',
@@ -625,7 +648,7 @@ const Bars = {
       properties: {
         name: 'Dante NYC',
         description:
-          'After a long time of waiting to go there, I went with my friend that so highly rated this place and I gotta say... it is not bad, now I had a negroni bianco because negronis are what they are known for but I do not love negronis at all! So with that in mind it was good I enjoy the Negroni it smelled delicious and tasted good. Would say it is definitely a must-try and I will probably try a different thing next time.',
+          'After a long time of waiting to go there, I went with my friend that so highly rated this place and I gotta say... it is not bad, now I had a negroni bianco because negronis are what they are known for but I do not love negronis at all! So with that in mind it was good I enjoyed the Negroni it smelled delicious and tasted good. Would say it is definitely a must-try and I will probably try a different thing next time.',
         kind: 'Bar',
         area: 'NoHo, Manhattan',
         visits: '1',
@@ -691,7 +714,7 @@ const Bars = {
       properties: {
         name: 'The Garret Coctelería',
         description:
-          'I have been here a lot! Mostly because my friend is a Dj Gig with them. Go support Him, and the bartenders there every Friday. Cool Latin sounds every, and tropical drinks.',
+          'I have been here a lot! Mostly because my friend has a DJ Gig with them. Go support Him, and the bartenders there every Friday. Cool Latin sounds every, and tropical drinks.',
         kind: 'Bar',
         area: 'Nolita, Manhattan',
         visits: '3',
@@ -722,7 +745,7 @@ const Bars = {
       properties: {
         name: 'Bowery Electric',
         description:
-          'Cool bar / Venue with bands playing on the basement in your fave neighborhood the east village.',
+          'Cool bar / Venue with bands playing on the basement in your fave neighborhood the East Village.',
         kind: 'Bar',
         area: 'East Village, Manhattan',
         visits: '1',
@@ -1888,6 +1911,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Beer Street',
+        description:
+          'Really cool bar, beer garden. They have a decent beer selection for those who are beer enjoyeers.',
+        kind: 'Bar',
+        area: 'Williamsburg, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7172355, -73.9450311],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Friends and Lovers',
         description: 'I have not been here yet.',
         kind: 'Bar',
@@ -2646,6 +2685,38 @@ const Bars = {
       geometry: {
         type: 'Point',
         coordinates: [40.7748385, -73.9086568],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Jack Jones Gastropub',
+        description: 'Irish Pub',
+        kind: 'Really good Irish pub with one of the best Fish and Chips that I have had in NYC so far. Would probably go back there again at another point. If you are in Astoria and want some food and drinks this might be your spot.',
+        area: 'Astoria, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7734208, -73.9066178],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Rivercrest',
+        description:
+          'Cool Sports bar with food that is not bad at all. I expected it to be worse than it was, so I was pleasantly surprised. I would go back there again at another point.',
+        kind: 'Sports Bar',
+        area: 'Astoria, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7751558, -73.9090193],
       },
     },
 

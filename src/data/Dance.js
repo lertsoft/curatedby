@@ -42,6 +42,22 @@ const Dance = {
     {
       type: 'Feature',
       properties: {
+        name: 'Blue',
+        description:
+          'Lounge/club in Hells Kitchen supposedly a cool spot but I have never been so I would not know.',
+        kind: 'Lounge',
+        area: 'Hells Kitchen, New York',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7577397, -73.9871143],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Georgia Room',
         description: 'I have not been here yet.',
         kind: 'Club',
@@ -647,7 +663,7 @@ const Dance = {
       properties: {
         name: 'Garabato Lounge',
         description:
-          'Awesome club of La Zona the music is vibe, usually Deephouse. They have a garden where the Dj is and some seating but go ready to sweat because this place is hot, at least the times that I visited. Otherwise, I loved it.',
+          'Awesome club of La Zona the music is vibe, usually Deephouse. They have a garden where the DJ is and some seating but go ready to sweat because this place is hot, at least the times that I visited. Otherwise, I loved it.',
         kind: 'Club',
         area: 'Zona Colonial, Santo Domingo',
         visits: '2',
@@ -759,7 +775,7 @@ const Dance = {
       properties: {
         name: 'Mahogany Jazz Hall',
         description:
-          'Great music! The atmosphere is cool the drinks are okay... maybe I should have not gotten absthine but other than that 10/10 I would definitely go back. ',
+          'Great music! The atmosphere is cool the drinks are okay... maybe I should have not gotten Absthine but other than that 10/10 I would definitely go back. ',
         kind: 'Jazz Club',
         area: 'New Orleans, LA',
         visits: '1',

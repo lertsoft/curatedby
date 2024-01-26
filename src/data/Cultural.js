@@ -538,6 +538,22 @@ const cultural = {
         coordinates: [40.75251, -73.968287],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'MoMA PS1',
+        description:
+          'Really cool Museum, it has a huge open space ie. yard and the museum has some cool exhibits and different art pieces. Not as sprawling as the MoMA but cool and chill spot that is more relaxed than MoMA would ever be.',
+        kind: 'Museum',
+        area: 'LIC, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7455989, -73.9471325],
+      },
+    },
 
     /// ////////////////////////////////////////////////
     /// ///////         United States      /////////////
@@ -703,19 +719,40 @@ const cultural = {
       },
     },
 
+    /// ////////////////////////////////////////////////
+    /// ////////       North America      /////////////
+    /// ///////////////////////////////////////////////
+
     {
       type: 'Feature',
       properties: {
         name: 'Royal Ontario Museum',
-        description: 'I have not been here yet.',
-        kind: 'Museum',
+        description:
+          'Beautiful museum and more beautiful when you have a view of it from your hotel room.',
+        kind: 'Musuem',
         area: 'Toronto, Canada',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
-        coordinates: [43.6677097, -79.3947771],
+        coordinates: [43.6677599, -79.3949945],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'CN Tower',
+        description:
+          'Really beautiful landmark with an awesome view of the entirety of toronto, and its suburds. I would definetely recommend visit there and I would probably go back there at another point. Also the food in their cafeteria is good!',
+        kind: 'Landmark',
+        area: 'Toronto, Canada',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6425626, -79.3871838],
       },
     },
     /// ////////////////////////////////////////////////

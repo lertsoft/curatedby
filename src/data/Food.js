@@ -188,6 +188,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Ci Siamo',
+        description:
+          'Really good Italian restaurant! The pasta, appetizers and desserts were all delish. The gelato is pretty good, the Rigatoni, the stracci, the Cavatelli, The foccaccia. Honestly everything that I tried was delish. The waiter was amazing, he explained the menu amazingly and also became our sommelier, and recommended a really good wine. My negroni was amazing. I enjoyed and loved everything from this restaurant. I would definetely go back there again.',
+        kind: 'Italian Restaurant',
+        area: 'Hudson Yards, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7525767, -73.9989945],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Cibo e Vino',
         description:
           'Nice Italian restaurant with an Italian ambiance (No AC during the summer months of NYC), a nice place to go on a date, and for a date I did go there. My girlfriend and I liked it. We had 3 courses plus some non-alcoholic beverages. Plates are massive because this is America, not Italy so if you decide to do a 3-course meal be prepared. The appetizers were "Chef Kiss", both Entrees were really good the vodka penne pasta was better than the bolognese pasta but that it for individuals to decide and the tiramisu was, repeat after me "Chef Kiss" Delicious.',
@@ -818,6 +834,21 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.769951, -73.9578638],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Café Sabarsky',
+        description: 'I have not been to this cafe but it looks really nice,',
+        kind: 'Austrian restaurant',
+        area: 'Upper East Side, New York',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7812494, -73.96035],
       },
     },
     {
@@ -2607,6 +2638,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'PappaRich',
+        description:
+          'Good malay food, I like it. I even took a friend of mine who is malay and have been to PappaRich in Malaysia and when he compared it to the ones he has gone to in Malaysia where better. I enjoyed but he said it`s not as good as he rememeber it from back home. Two reviews one of the ignorant who has tried malay food like three times and the expert who grew up eating malay food. ',
+        kind: 'Malaysian restaurant',
+        area: 'Flushing, New York',
+        visits: '2',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7594204, -73.8324759],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Bel Aire Diner',
         description:
           'Cool diner with plenty of options for every single person on earth.',
@@ -2828,10 +2875,11 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Sal, Kris & Charlie`s Deli',
-        description: 'I have not been here yet.',
+        description:
+          'The bomb and the Italian Sub are crazy, deliacious, and just out of this world. Go there you will not be dissappointed.',
         kind: 'Fast Food',
         area: 'Astoria, Queens',
-        visits: '0',
+        visits: '2',
         visited: false,
       },
       geometry: {
@@ -2874,6 +2922,86 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Arepa Lady Astoria',
+        description:
+          'Really good restaurant for some latin food. The patacones with mixed meats (Chicken, Beef, Sausage) were really, really good. Exquisit and delish. The arepa was good too. This is an easy recommend for peeps that enjoy latin food. ',
+        kind: 'Colombian Restaurant',
+        area: 'Astoria, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7585183, -73.9279156],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Avenue Restobar',
+        description:
+          'Cool and modern looking greek restaurant. I enjoyed the food and the drinks. But I should go back at another time because we had brunch food and not greek food as it was brunch menu.',
+        kind: 'Greek Restaurant',
+        area: 'Astoria, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7651941, -73.9174586],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Gregory`s 26 Corner Taverna',
+        description:
+          'Really homie, and cozy restaurant the owner or family member is the hostess and some of the other family members seem to work the kitchen the food was really good, and it seems to be popular with the senior folks of the area so that must mean something good. At least it does for me and I would definetely recommend it to anyone who wants to try some greek food.',
+        kind: 'Greek Restaurant',
+        area: 'Astoria, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7762871, -73.9160005],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'VIA VAI',
+        description:
+          'I have not been here yet but they say this is a Michelin guide... And I could not find that information anywhere other than their website to know for sure if that is true or not **I assume is not true** just like all the self congratulatory stuff people say like "Best [insert something] of New York City" but I still want to try it lol.',
+        kind: 'Italian Restaurant',
+        area: 'Astoria, New York',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7742528, -73.9125003],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Seva Indian Cuisine',
+        description:
+          'Really good Indian restaurant. This restaurant have the best Indian food that I have eaten so far. It was that good!',
+        kind: 'Indian Restaurant',
+        area: 'Astoria, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7657097, -73.9184825],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'District Saigon',
         description: 'I have not been here yet.',
         kind: 'Vietnamese Restaurant',
@@ -2904,6 +3032,22 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.6980306, -73.991806],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'La Locanda',
+        description:
+          'I have not been here yet, but I want to go because there is a restaurant with the same name in Santo Domingo lol.',
+        kind: 'Italian Restaurant',
+        area: 'Williamsburg, New York',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7178057, -73.9447998],
       },
     },
     {
@@ -4082,21 +4226,6 @@ const Food = {
       },
     },
 
-    {
-      type: 'Feature',
-      properties: {
-        name: 'Juicy Dumpling in Chinatown',
-        description: 'I have not been here yet.',
-        kind: 'Dumpling Restaurant',
-        area: 'Toronto, Canada',
-        visits: '0',
-        visited: false,
-      },
-      geometry: {
-        type: 'Point',
-        coordinates: [43.6526034, -79.3988045],
-      },
-    },
     /// ////////////////////////////////////////////////
     /// ////////        Dominican Republic      //////////
     /// ////////////////////////////////////////////////
@@ -4538,6 +4667,39 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Jacobs & Co. Steakhouse',
+        description:
+          'One of the best steak houses in Toronto. The service is impeccable and the food is delicious. The steaks are cooked to perfection.',
+        kind: 'Steakhouse',
+        area: 'Toronto, Canada',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6453635, -79.3979993],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Aloette Restaurant',
+        description:
+          'I went there for the food ie. burgers and stay for the drinks. I tried some of there house brand cocktails and the french 76, and a negroni and everything was really good! I mean it has to be good it is suppose to be michelin guide, and the chef that opened this restaurant has a michelin star restaurant next door to this restaurant.',
+        kind: 'Canadian restaurant',
+        area: 'Toronto, Canada',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6484963, -79.3959536],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
         name: 'e11even',
         description: 'I have not been here yet.',
         kind: 'Restaurant',
@@ -4548,6 +4710,21 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [43.6427748, -79.3811295],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Juicy Dumpling in Chinatown',
+        description: 'I have not been here yet.',
+        kind: 'Dumpling Restaurant',
+        area: 'Toronto, Canada',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [43.6526034, -79.3988045],
       },
     },
 

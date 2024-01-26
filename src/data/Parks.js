@@ -1348,6 +1348,88 @@ const Parks = {
       },
     },
 
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Thingvellir National Park',
+        description:
+          'I have not been here yet but I need to visit all of iceland beautiful parks.',
+        kind: 'National park',
+        area: 'Thingvellir National Park, Iceland',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [64.2822599, -21.0771347],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Kerid Crater',
+        description:
+          'I have not been here yet but I need to visit all of iceland beautiful parks.',
+        kind: 'National Park',
+        area: 'Klausturholar, Iceland',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [64.0412068, -20.886098],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Secret Lagoon Iceland',
+        description:
+          'I have not been here yet but I need to visit all of iceland beautiful lagoons.',
+        kind: 'Thermal Bath',
+        area: 'Flúðir, Iceland',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [64.137432, -20.3096504],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Gullfoss Falls',
+        description:
+          'I have not been here yet but I need to visit all of iceland beautiful waterfalls.',
+        kind: 'Waterfall',
+        area: 'Iceland',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [64.327095, -20.1200789],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Hrunalaug Hot Spring',
+        description:
+          'I have not been here yet but I need to visit all of iceland beautiful hot springs.',
+        kind: 'Hot Spring',
+        area: 'Flúðir, Iceland',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [64.1328478, -20.2555964],
+      },
+    },
+
     /// ////////////////////////////////////////////////
     /// //////////         Asia       /////////////
     /// ////////////////////////////////////////////////
