@@ -5,7 +5,7 @@ const About = () => (
   <Main
     meta={
       <Meta
-        title="Curated By"
+        title="Something To Do"
         description="What is this project about? Why Did I build this for? Here is all the info you need 😄"
       />
     }

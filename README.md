@@ -1,4 +1,4 @@
-# Curated By
+# Something To Do
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=28ADE7&center=true&lines=Modern+Template;Production+ready;Built+your+next+project)](https://git.io/typing-svg)
 

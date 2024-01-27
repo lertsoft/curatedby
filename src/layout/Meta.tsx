@@ -14,7 +14,7 @@ const Meta = (props: IMetaProps, customMeta) => {
   const router = useRouter();
 
   const meta = {
-    title: 'Curated By',
+    title: 'Something To Do',
     description: 'An idea to better use my data starting with Google Maps.',
     image: '/icon-512x512.png',
     type: 'website',
@@ -29,15 +29,15 @@ const Meta = (props: IMetaProps, customMeta) => {
         <meta name="description" content={meta.description} />
         <meta
           property="og:url"
-          content={`https://ronnycoste.com${router.asPath}`}
+          content={`https://somethingto.do${router.asPath}`}
         />
-        <link rel="canonical" href={`https://ronnycoste.com${router.asPath}`} />
+        <link rel="canonical" href={`https://somethingto.do${router.asPath}`} />
         <meta property="og:type" content={meta.type} />
         <meta property="og:site_name" content="Ronny Coste" />
         <meta property="og:description" content={meta.description} />
         <meta property="og:title" content={meta.title} />
         <meta property="og:image" content={meta.image} />
-        <meta name="twitter:card" content="Curated By Ronny Coste" />
+        <meta name="twitter:card" content="Something To Do by Ronny Coste" />
         <meta name="twitter:site" content="@costeronny" />
         <meta name="twitter:title" content={meta.title} />
         <meta name="twitter:description" content={meta.description} />
