@@ -3653,6 +3653,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Moscato',
+        description:
+          'Really good Italian restaurant in Scarsdale, Upstate New York. It is next to the station so it is pretty easy to go to and get some food to later go to the town and do whatever in the town. The Pappardelle Bolognese was delicious, The Cappuccino was good, and the staff was pretty friendly and nice. I am going to say that I am impressed about the food from this restaurant and if I ever find myself again in the town I would probably try to go again ;)',
+        kind: 'Italian Restaurant',
+        area: 'Scarsdale, NY',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.9881773, -73.8082958],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: '지뇽이네 태능갈비 Tae Neung Korean BBQ',
         description:
           'One of the best Korean BBQs that I have had so far! It was sooo good definitely worth a try and for me to come back.',
