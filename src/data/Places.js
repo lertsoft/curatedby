@@ -91,6 +91,22 @@ const Places = {
     {
       type: 'Feature',
       properties: {
+        name: 'Rue Canusa',
+        description:
+          'I have not been here yet but this looks like an intesring road because the rooad is divided in the middle by the US Canada border.',
+        kind: 'travel',
+        area: 'Standstead, Quebec',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [45.006015, -72.1361044],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Aztec Ruins National Monument',
         description:
           'I have not been here yet but it would be awesome to go here and see some Aztec buildings all within the US!',
@@ -1919,6 +1935,25 @@ const Places = {
       geometry: {
         type: 'Point',
         coordinates: [42.8894965, 12.4050221],
+      },
+    },
+    /// ////////////////////////////////////////////////
+    /// ///  Oceania - Australia & New Zealand     /////
+    /// ////////////////////////////////////////////////
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Mt. Taranaki',
+        description:
+          'I have not been here yet but this volcano / park has the perfect circle park layout that looks out of this world from planes and space.',
+        kind: 'Volcano',
+        area: 'Taranaki, New Zealand',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [-39.296769, 174.0633993],
       },
     },
     /// ////////////////////////////////////////////////
