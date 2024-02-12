@@ -532,6 +532,23 @@ const Food = {
         coordinates: [40.7297118, -74.0041959],
       },
     },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Flip Sigi West Village',
+        description:
+          'Really interesting Filipino-Mexicon restaurant. I had the Flip Sigi Longaniza Tacos and they were really good. I would go back to try the rest of the menu. The only thing is that this food taste kind of like regular mexican food and it was hard for me to tell what made the tacos filipino.',
+        kind: 'Filipino-Mexicon Restaurant',
+        area: 'Greenwich Village, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.73448021202546, -74.00212104888719],
+      },
+    },
     {
       type: 'Feature',
       properties: {
@@ -3664,6 +3681,22 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.9881773, -73.8082958],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Buddy`JC',
+        description:
+          'Really nice and cozy brunch restaurant in Jersey City, They had a really good pomegranate mimosa and the an extensivee menu. I tried their hangover burger and it was delish! It is a coffee rubbed burger and while it sounds crazy the taste honestlyy works, the coffee taste is really suttle and the rest of the inredients are really good and works seemlessly. If in jersey city this place is now on my fave list of places. ',
+        kind: 'American Restaurant',
+        area: 'Jersey City, New Jersey',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.71614158471566, -74.03768677284933],
       },
     },
     {

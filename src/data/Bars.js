@@ -35,6 +35,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Moonflower',
+        description:
+          'Really small and cozy wine-bar, it feels really intimate and the appetizers were good for what we had. I enjoyed the time there and it`s atmosphere was really cute. The bathroom is a must-check! Definetely a try.',
+        kind: 'Wine Bar',
+        area: 'West Village, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.73667225967262, -74.00137733013773],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Anotheroom',
         description:
           'Small cute bar with a decent beer selection, and some nice cocktails. Would I go again? Probably if anything else is not the vibe. but the vibe is a small, intimate place that is also somewhat cheap.',

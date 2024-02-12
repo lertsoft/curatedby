@@ -27,6 +27,22 @@ const Entertaiment = {
     {
       type: 'Feature',
       properties: {
+        name: 'Olfactory NYC',
+        description:
+          'Awesome experience to get your personal scent in a cologne that lasts a long time. I think this kind of activity is definetely worth it for the price. 90 per bottle for something that is almost unique to you it is pretty neat and cool. Also it is a great day idea, prep a scent for your gf.',
+        kind: 'Experiences',
+        area: 'West Village, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.73435950663032, -74.00453150220171],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Shipwrecked',
         description: 'I have not been here yet.',
         kind: 'Amusement center',
