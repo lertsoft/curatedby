@@ -1890,6 +1890,22 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'Tap - Brazilian Cafe',
+        description:
+          'Awesome cafe with brazilean beans, brazilean appetizers and treats. Everything 100% gluten-free. Honestly all of it was good in my opinion, and my girlfriend agrees with that assestment. Any of their sandwiches in the mini-panini form those are **Chef Kiss**. For coffee just be mindful that brazilean beans are sweeter than arabica or asian beans in case you love the sourness or acidity of them. Other than that this place was really good ten out of ten.',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.7752525805115, -73.90920996360293],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'The Oasis Cafe',
         description:
           'Really good croissants and refreshments drinks. Their regular tea and coconut milk-based drinks were really good! Me and my girlfriend enjoyed it a lot both drinks.',

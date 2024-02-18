@@ -391,6 +391,22 @@ const Food = {
         coordinates: [40.7732183, -73.989629],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'PHO Amsterdan',
+        description:
+          'The service was really really quick, I did not expect for everything to be ready so qucik! I am a customer! I guess not so much I can appreciate fast service and slow service the same. The PHO was really good but mostly after putting some soy sauce on it. The spring rolls were really good! If I am by columbia U again i would definetely go again, if am in the mood for PHO that is.',
+        kind: 'Vietnamese Restaurant',
+        area: 'Harlem, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.810947719811544, -73.95843740469459],
+      },
+    },
 
     {
       type: 'Feature',
@@ -2682,6 +2698,23 @@ const Food = {
       geometry: {
         type: 'Point',
         coordinates: [40.7652393, -73.9313814],
+      },
+    },
+
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Ayy Chihuahua',
+        description:
+          'New mexican restaurant in ditmars their enchiladas and nachos were delicious. Nachos with grilled chicken is the mood for sure. is this the mexican spot of ditmars I do not know yet.  ',
+        kind: 'Mexican Restaurant',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.77384528740553, -73.90784288057284],
       },
     },
 
