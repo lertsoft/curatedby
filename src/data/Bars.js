@@ -3055,6 +3055,70 @@ const Bars = {
         coordinates: [35.663836, 139.7340318],
       },
     },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Atlas',
+        description:
+          'I have not been here yet, I saw an article of the times mentioning this bar but a friend of mine that have been there said that their cocktails selection is really god and the ambiance is quite nice. .',
+        kind: 'Cocktail Bar',
+        area: 'Singapore, Singapore',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [1.3001500004979256, 103.85786659514875],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Fura',
+        description:
+          'I have not been here yet but according to the times you can choose between ice cream, sad-corn, or jellyfish on your cocktail... Interesting. .',
+        kind: 'Cocktail Bar',
+        area: 'Singapore, Singapore',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [1.2803933677070167, 103.84675291534485],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Jungle Ballroom',
+        description:
+          'I have not been here yet but this bars takes a lot inspirations on the ingredients and flavors coming from cambodia. .',
+        kind: 'Cocktail Bar',
+        area: 'Singapore, Singapore',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [1.278769703377418, 103.8424069780429],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sago House',
+        description:
+          'I have not been here yet but this bars ambiance is trying to replicate the feeling of being in a friends apartments according to a times article. .',
+        kind: 'Bar',
+        area: 'Singapore, Singapore',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [1.2785811724006653, 103.84298439021556],
+      },
+    },
 
     /// //////////////////////////////////////////////
     /// ///////////     Europe     /////////////////////
