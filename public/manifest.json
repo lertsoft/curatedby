@@ -3,7 +3,7 @@
   "background_color": "#ffffff",
   "display": "standalone",
   "start_url": "/index",
-  "name": "Somwthing To Do",
+  "name": "Something To Do",
   "short_name": "Something To Do",
   "icons": [
     {
