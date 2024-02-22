@@ -1,11 +1,13 @@
 {
-  "name": "curated-by",
+  "name": "something_to_do",
   "description": "This website was created with the purpose of better organizing all my saved places on google maps, and so that I can more easily find the places that i want to go or have been.",
   "version": "1.0.0",
   "private": true,
   "author": "Ronny Coste <contact@ronnycoste.com> (@costeronny)",
   "keywords": [
     "nextjs",
+    "Places to visit",
+    "Personal Reviews",
     "google-maps-api",
     "react",
     "personal-tools",
