@@ -4,8 +4,8 @@
     "display": "browser",
     "scope": "/",
     "start_url": "/",
-    "name": "Curated By",
-    "short_name": "Curated By",
+    "name": "Something To Do",
+    "short_name": "Something To Do",
     "description": "An idea to better use my data starting with Google Maps.",
     "icons": [
         {
