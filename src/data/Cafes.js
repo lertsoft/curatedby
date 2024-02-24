@@ -1890,6 +1890,38 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'OK Cafe',
+        description:
+          'Their sandwiches are delish! I tried the croissant baked ham and cheese and it was really good. The green tea lemonade is also good and the chai latte too. Honestly a cool spot to get going, or maybe chill this place can do both.',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.775285356609785, -73.90990893713001],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Sunshine Cafe',
+        description:
+          'Really interesting cafe with a huge menu collection of drinks it includes boba, smoothies, juices, coffee, tea and delicious fresh Portokalopita. The smoothies and freshly squeezed juices are good.',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.78077532069499, -73.9167879034015],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Tap - Brazilian Cafe',
         description:
           'Awesome cafe with brazilean beans, brazilean appetizers and treats. Everything 100% gluten-free. Honestly all of it was good in my opinion, and my girlfriend agrees with that assestment. Any of their sandwiches in the mini-panini form those are **Chef Kiss**. For coffee just be mindful that brazilean beans are sweeter than arabica or asian beans in case you love the sourness or acidity of them. Other than that this place was really good ten out of ten.',
