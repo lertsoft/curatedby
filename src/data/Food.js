@@ -1044,11 +1044,12 @@ const Food = {
       type: 'Feature',
       properties: {
         name: 'Cathédrale Restaurant',
-        description: 'I have not been here yet.',
+        description:
+          'This is a great restaurant! I loved the interior design / architecture. The ambiance is nice, chill a perfect place to catch up, go on a date or celebrate a special one. The cocktails were really good, I would say a bit above average to what New York bars offer, the food was amazing I tried the Lobster Rigatoni, and the Rotisserie Chicken both were delish, The Creme Brulee was really good too. I love this place and it somewhat changed my perception on TAO Group restaurant as this blew my expectations off. After finding this place because of an event that hu.ma.ne trew in the patio of the restaurant I would say I would definetely recommended it and go back if I am feeling french that day. LOVE IT! .',
         kind: 'French restaurant',
         area: 'East Village, Manhattan',
-        visits: '0',
-        visited: false,
+        visits: '2',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -3089,11 +3090,11 @@ const Food = {
       properties: {
         name: 'La Locanda',
         description:
-          'I have not been here yet, but I want to go because there is a restaurant with the same name in Santo Domingo lol.',
+          'Their lasagna and penne a la vodka was delish! While the lasagna was not as good as I Sodi or Lanterna di Vittorio but I would say it was really good still. I wanted to go because there is a restaurant with the same name in Santo Domingo lol and after having visited I can safely say that the New York restaurant is way better than it`s domican counterparts.',
         kind: 'Italian Restaurant',
         area: 'Williamsburg, New York',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
