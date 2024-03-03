@@ -1890,6 +1890,22 @@ const cafes = {
     {
       type: 'Feature',
       properties: {
+        name: 'MOKA & CO',
+        description:
+          'Yemini coffee shop in Astoria, Queens. Their blends, coffee, and Tea specialties are fairly interesting for someone who has never had traditional yemeni coffee. All their specielty coffee have cardamom which I learn it was not for me... Their shai Tea with Cardamom tho was a lot better for my taste. I am used to drinking south american beans (Brazilian, Costa rica and colombians) which are sweeter so maybe thats why the spiced up coffee was a bit much. The strawberry croissant is delish! TRY IT out. I am glad I try the coffee traditional specialty as it is fairly different and new to me, I would definetely go back and try a more traditional / regular coffee to actually taste the beans and find out the flavors of thee yemeni beans as I could not tell the coffee notes from this first experience. Loved the place the staff is really friendly and I would recommend going there and sitting down and enjoy the drink there as that would ensure you are getting the drinks as they are intended to be drank.',
+        kind: 'Cafe',
+        area: 'Astoria, Queens',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.764340086066596, -73.91485254876854],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'OK Cafe',
         description:
           'Their sandwiches are delish! I tried the croissant baked ham and cheese and it was really good. The green tea lemonade is also good and the chai latte too. Honestly a cool spot to get going, or maybe chill this place can do both.',

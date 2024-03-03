@@ -695,7 +695,22 @@ const JapaneseRestaurant = {
         coordinates: [40.7556052, -73.9274322],
       },
     },
-
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Watawa Sushi',
+        description:
+          'Really beautiful restaurant! Their Water fountain with a buddist statue in the middle of the second room. Their sushi was really good! The fish in the sushi tasted really good and fresh and the new york roll was delish. The bento box was good and the service nice and quick, with an chill ambiance. Would definitely go again.',
+        kind: 'Japanese restaurant - Sushi',
+        area: 'Astoria, New York',
+        visits: '1',
+        visited: true,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.775041933836086, -73.90942287269294],
+      },
+    },
     {
       type: 'Feature',
       properties: {
