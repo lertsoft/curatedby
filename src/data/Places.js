@@ -1022,11 +1022,12 @@ const Places = {
       type: 'Feature',
       properties: {
         name: 'CN Tower',
-        description: 'I have not been here yet.',
+        description:
+          'Beautiful landmark with 360 views of toronto`s skyline and a great cafeteria, and restaurant for you to enjoy the views while eating some great fish and chips :) .',
         kind: 'Landmark',
         area: 'Toronto, Canada',
-        visits: '0',
-        visited: false,
+        visits: '1',
+        visited: true,
       },
       geometry: {
         type: 'Point',
@@ -1109,7 +1110,22 @@ const Places = {
         coordinates: [-16.018132, -69.17796],
       },
     },
-
+    {
+      type: 'Feature',
+      properties: {
+        name: 'Caño Cristales',
+        description:
+          'I have not been here yet but this river and its colors makes me want to go really bad over there and experience it.',
+        kind: 'Travel',
+        area: 'La Macarena, Colombia',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [2.2643027861638956, -73.79415340426607],
+      },
+    },
     {
       type: 'Feature',
       properties: {

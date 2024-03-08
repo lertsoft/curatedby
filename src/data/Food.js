@@ -1043,6 +1043,22 @@ const Food = {
     {
       type: 'Feature',
       properties: {
+        name: 'Dhom',
+        description:
+          'I have not been here yet but the owner Nick told me that this is a sister restaurant of Khe-Yo which I have been to and really like! I will go there and update this with my thoughts and contrasted to what khe-yo is and offers..',
+        kind: 'South East Asian restaurant',
+        area: 'East Village, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.729068772114296, -73.98089256482498],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'Cathédrale Restaurant',
         description:
           'This is a great restaurant! I loved the interior design / architecture. The ambiance is nice, chill a perfect place to catch up, go on a date or celebrate a special one. The cocktails were really good, I would say a bit above average to what New York bars offer, the food was amazing I tried the Lobster Rigatoni, and the Rotisserie Chicken both were delish, The Creme Brulee was really good too. I love this place and it somewhat changed my perception on TAO Group restaurant as this blew my expectations off. After finding this place because of an event that hu.ma.ne trew in the patio of the restaurant I would say I would definetely recommended it and go back if I am feeling french that day. LOVE IT! .',

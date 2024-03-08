@@ -1815,6 +1815,22 @@ const Bars = {
     {
       type: 'Feature',
       properties: {
+        name: 'Cafe Carlyle',
+        description:
+          'I have not been here yet but this place looks awesome, it is a restaurant, bar, live music venue all at once. Found it through an article from the New York Times and my girlfriend knew that this place is cool so now I want to go and expierence it myself!',
+        kind: 'Bar',
+        area: 'Upper East Side, Manhattan',
+        visits: '0',
+        visited: false,
+      },
+      geometry: {
+        type: 'Point',
+        coordinates: [40.77431641890557, -73.96304749426973],
+      },
+    },
+    {
+      type: 'Feature',
+      properties: {
         name: 'The Campbell',
         description:
           'I have not been here yet but this place looks cool, it is a bar in grand central.',
