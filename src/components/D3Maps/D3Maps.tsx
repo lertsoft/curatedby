@@ -1,44 +1,94 @@
+/* eslint-disable func-names */
+/* eslint-disable unused-imports/no-unused-vars */
+/* eslint-disable prefer-const */
+import React, { useEffect, useRef } from 'react';
+
 import * as d3 from 'd3';
 
-import { useMapTools } from '@/hooks/useMapTools';
+// import { handleMouseOver, handleMouseOut } from './helpers/handleToolTip';
 
-import { setMapProjection } from './helpers/setMapProtection';
-import MapsRegion from './MapsRegion';
-import '@/styles/D3Maps.module.css';
+const AllPlacesVisualization = ({ data }) => {
+  const svgRef = useRef<SVGSVGElement | null>(null);
 
-export default function D3Maps(_props: any) {
-  // load geoJSON and create tooltip
-  const { mapData } = useMapTools();
+  useEffect(() => {
+    const width = 800;
+    const height = 600;
 
-  // render map only when map data is fully loaded
-  if (!mapData.loading) {
-    // render the regions
-    // compute a path function based on correct projections that we will use later
-    const path = d3.geoPath().projection(setMapProjection(mapData.data));
-    // for each geoJSON coordinate, compute and pass in the equivalent svg path
-    const mapsRegions = mapData.data.features.map((data: any) => {
-      const regionName = data.properties.name;
-      return (
-        <MapsRegion
-          key={data.properties.geoid}
-          path={path(data)}
-          tooltipData={regionName}
-        />
-      );
-    });
+    const svg = d3
+      .select(svgRef.current)
+      .attr('width', width)
+      .attr('height', height);
 
-    return (
-      <>
-        <h1>New York State Counties</h1>
-        {/* <div className="relative flex"> */}
-        <div className="flex justify-center">
-          <svg className="map-canvas absolute">
-            <g className="">{mapsRegions}</g>
-          </svg>
-        </div>
-        {/* </div> */}
-      </>
-    );
-  }
-  return <h1>Loading...</h1>;
-}
+    const tooltip = d3
+      .select('body')
+      .append('div')
+      .attr('class', 'tooltip')
+      .style('opacity', 0);
+
+    function handleMouseOver(event, d) {
+      tooltip.transition().duration(200).style('opacity', 0.9);
+      tooltip
+        .html(
+          `<strong>${d.properties.name}</strong></br>Visited: ${
+            d.properties.Visited ? 'Yes' : 'No'
+          }`
+        )
+        .style('left', `${event.pageX + 10}px`)
+        .style('top', `${event.pageY - 28}px`);
+    }
+
+    function handleMouseOut() {
+      tooltip.transition().duration(500).style('opacity', 0);
+    }
+
+    const projection = d3
+      .geoMercator()
+      .center([0, 0])
+      .scale(100)
+      .translate([width / 2, height / 2]);
+
+    // eslint-disable-next-line unused-imports/no-unused-vars
+    (function () {
+      const circles: any = svg
+        .selectAll('circle')
+        .data(data.features)
+        .enter()
+        .append('circle')
+        .attr(
+          'cx',
+          (d) => projection([d.geometry.coordinates, d.geometry.coordinates])[0]
+        )
+        .attr(
+          'cy',
+          (d) => projection([d.geometry.coordinates, d.geometry.coordinates])[1]
+        )
+        .attr('r', 8)
+        .style('fill', 'purple')
+        .on('mouseover', handleMouseOver)
+        .on('mouseout', handleMouseOut);
+
+      const labels: any = svg
+        .selectAll('text')
+        .data(data.features)
+        .enter()
+        .append('text')
+        .attr(
+          'x',
+          (d) =>
+            projection([d.geometry.coordinates, d.geometry.coordinates])[0] + 10
+        )
+        .attr(
+          'y',
+          (d) =>
+            projection([d.geometry.coordinates, d.geometry.coordinates])[1] - 5
+        )
+        .text((d) => d.properties.name)
+        .attr('font-size', '12px')
+        .attr('fill', 'black');
+    })();
+  }, [data]);
+
+  return <svg ref={svgRef}></svg>;
+};
+
+export default AllPlacesVisualization;

@@ -3,6 +3,7 @@ import React from 'react';
 // import List from '@/components/List';
 import D3Maps from '@/components/D3Maps/D3Maps';
 import Draw from '@/components/Draw';
+import data from '@/data/everything.json';
 import { Meta } from '@/layout/Meta';
 import { Main } from '@/templates/Main';
 
@@ -18,7 +19,8 @@ const Locations = () => {
     >
       {/* <React.StrictMode> */}
       <div className="App">
-        <D3Maps />
+        <h1>My Places</h1>
+        <D3Maps data={data} />
       </div>
       <Draw />
 
